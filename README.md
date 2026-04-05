@@ -147,12 +147,12 @@ See **[INSTALL.md](./INSTALL.md)** for the full setup guide. The short version:
 
 ## For Case Interview & Competition Prep
 
-This skill is built for active practice — not just passive reading.
+This skill is built for active practice ;not just passive reading.
 
 **For case interview prep:**
 - Ask Claude to run you through a case as an interviewer (McKinsey-led, BCG candidate-led, Bain collaborative)
 - Get scored on structure, hypothesis, quant, synthesis, and recommendation
-- Practice market sizing, profitability, market entry, M&A, pricing — all formats
+- Practice market sizing, profitability, market entry, M&A, pricing ;all formats
 - Drill behavioral / PEI stories with real-time STAR coaching
 
 **For case competitions:**
@@ -163,7 +163,7 @@ This skill is built for active practice — not just passive reading.
 
 **For self-study and groundwork:**
 - Work through the 3 case studies in [CASE-STUDIES.md](./CASE-STUDIES.md) before attempting live cases
-- Use [FRAMEWORKS.md](./FRAMEWORKS.md) as your active reference — not just a read-once guide
+- Use [FRAMEWORKS.md](./FRAMEWORKS.md) as your active reference ;not just a read-once guide
 - Build the habit of structuring every problem MECE before answering
 
 ```
@@ -238,7 +238,7 @@ Please open an issue or submit a PR. All contributions will be reviewed for qual
 
 ## If This Helped You
 
-If this skill helped you prep for an interview, win a case comp, solve a real business problem, or just think more clearly — consider:
+If this skill helped you prep for an interview, win a case comp, solve a real business problem, or just think more clearly; consider:
 
 - ⭐ **Starring the repo** so others can find it
 - 🔁 **Sharing it** with someone preparing for consulting interviews or working through a hard problem
@@ -262,7 +262,7 @@ management consulting · McKinsey · Bain · BCG · MBB · consulting frameworks
 
 ---
 
-*This is an offering to the pursuit of knowledge — may it reach whoever is searching.*
+*This is an offering to the pursuit of knowledge; may it reach whoever is searching.*
 
 ---
 
