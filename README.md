@@ -1,6 +1,6 @@
 # 🧠 MBB Management Consultant AI Skill for Claude
 
-> **A free, open-source AI skill that turns Claude into a McKinsey / Bain / BCG-caliber management consultant** — for students, MBA candidates, working consultants, business professionals, and anyone who wants to think and communicate at the highest level.
+> **A free, open-source AI skill that turns Claude into a McKinsey / Bain / BCG-caliber management consultant** ;for students, MBA candidates, working consultants, business professionals, and anyone who wants to think and communicate at the highest level.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Claude Compatible](https://img.shields.io/badge/Claude-Compatible-blueviolet)](https://claude.ai)
@@ -11,9 +11,9 @@
 
 ## What This Is
 
-This repository contains a **complete, production-grade consulting skill** for [Claude](https://claude.ai) — Anthropic's AI assistant. When installed, it transforms Claude into a senior-level MBB consultant (McKinsey / Bain / BCG) operating at the Principal/Director level, with 9–13 years of cross-industry experience baked in.
+This repository contains a **complete, production-grade consulting skill** for [Claude](https://claude.ai) ;Anthropic's AI assistant. When installed, it transforms Claude into a senior-level MBB consultant (McKinsey / Bain / BCG) operating at the Principal/Director level, with 9–13 years of cross-industry experience baked in.
 
-This is not a simple prompt. It is a **structured knowledge system** with 80+ reference files covering every dimension of high-performance consulting work — from MECE issue trees and Pyramid Principle communication to due diligence, post-merger integration, GenAI enterprise strategy, and case interview coaching.
+This is not a simple prompt. It is a **structured knowledge system** with 80+ reference files covering every dimension of high-performance consulting work ;from MECE issue trees and Pyramid Principle communication to due diligence, post-merger integration, GenAI enterprise strategy, and case interview coaching.
 
 **It is completely free. Spread the light of knowledge.**
 
@@ -24,7 +24,7 @@ This is not a simple prompt. It is a **structured knowledge system** with 80+ re
 | Audience | How You Benefit |
 |----------|----------------|
 | **MBA students & candidates** | Practice case interviews, learn consulting frameworks, build structured thinking from scratch |
-| **MBB / Big 4 consultants** | Supercharge your workflow — faster decks, sharper issue trees, better synthesis |
+| **MBB / Big 4 consultants** | Supercharge your workflow ;faster decks, sharper issue trees, better synthesis |
 | **Business professionals** | Apply consulting-grade thinking to your real problems without hiring a firm |
 | **Founders & operators** | Structure strategy, diagnose profitability issues, build board-ready narratives |
 | **AI / Claude enthusiasts** | Fork, extend, and build your own specialist skills on top of this architecture |
@@ -65,10 +65,10 @@ management-consultant-claude-skill/
 Once installed, Claude can assist you with:
 
 ### Strategic Problem-Solving
-- **MECE issue trees** — decompose any problem into mutually exclusive, collectively exhaustive branches
-- **Hypothesis-driven analysis** — start with a point of view, test it with evidence
-- **80/20 prioritization** — focus on the 20% of drivers that create 80% of impact
-- **First-principles thinking** — break assumptions, reason from fundamentals
+- **MECE issue trees** ;decompose any problem into mutually exclusive, collectively exhaustive branches
+- **Hypothesis-driven analysis** ;start with a point of view, test it with evidence
+- **80/20 prioritization** ;focus on the 20% of drivers that create 80% of impact
+- **First-principles thinking** ;break assumptions, reason from fundamentals
 
 ### Consulting Frameworks (Full Toolkit)
 - Porter's Five Forces, 3C's, McKinsey 7-S, Ansoff Matrix, BCG Growth-Share
@@ -85,10 +85,10 @@ Once installed, Claude can assist you with:
 - Math and estimation drills
 
 ### Communication & Deliverables
-- **Pyramid Principle** — lead with the answer, support with evidence
-- **SCR structure** — Situation → Complication → Resolution
+- **Pyramid Principle** ;lead with the answer, support with evidence
+- **SCR structure** ;Situation → Complication → Resolution
 - Executive-grade slide action titles, memos, one-pagers
-- Storylining — from 200 facts to 5 messages with a red thread
+- Storylining ;from 200 facts to 5 messages with a red thread
 - Communication under pressure, hostile Q&A, executive presence
 
 ### Industry Deep-Dives (Partner-Level Knowledge)
@@ -119,7 +119,7 @@ Once installed, Claude can assist you with:
 ## Quick Start
 
 ### 1. Get Claude
-You need access to [Claude](https://claude.ai) — free tier works, Pro recommended for heavy use.
+You need access to [Claude](https://claude.ai) ;free tier works, Pro recommended for heavy use.
 
 ### 2. Install the Skill
 See **[INSTALL.md](./INSTALL.md)** for the full setup guide. The short version:
@@ -147,17 +147,17 @@ See **[INSTALL.md](./INSTALL.md)** for the full setup guide. The short version:
 
 ## The Consulting Mindset (Why This Matters)
 
-The world's highest-paid problem-solvers — McKinsey, Bain, BCG consultants — aren't just smart. They operate with a **specific cognitive architecture** that most people never learn:
+The world's highest-paid problem-solvers ;McKinsey, Bain, BCG consultants ;aren't just smart. They operate with a **specific cognitive architecture** that most people never learn:
 
 - They **lead with the answer**, not the analysis
 - They think in **structures**, not lists
 - They form **hypotheses** before gathering data, not after
-- They apply **80/20 thinking** ruthlessly — most analysis is waste
-- They communicate in **pyramids** — governing thought, then evidence
-- They quantify **everything** — insight without numbers is opinion
-- They think in **second-order effects** — what happens after the first move?
+- They apply **80/20 thinking** ruthlessly ;most analysis is waste
+- They communicate in **pyramids** ;governing thought, then evidence
+- They quantify **everything** ;insight without numbers is opinion
+- They think in **second-order effects** ;what happens after the first move?
 
-This skill encodes that architecture. It's not a chatbot that knows about consulting. It IS a consultant — one you can access 24/7 for free.
+This skill encodes that architecture. It's not a chatbot that knows about consulting. It IS a consultant ;one you can access 24/7 for free.
 
 ---
 
@@ -182,9 +182,9 @@ See **[FRAMEWORKS.md](./FRAMEWORKS.md)** for the complete reference. Highlights:
 
 See **[CASE-STUDIES.md](./CASE-STUDIES.md)** for 3 fully worked cases with prompts, structures, analysis, and recommendations:
 
-1. **The Falling Star** — Profitability decline at a $800M specialty beverage company
-2. **New Frontier** — Market entry strategy for a European athletic apparel brand entering the US
-3. **The Big Question** — Market sizing for the US pet insurance market (PE due diligence)
+1. **The Falling Star** ;Profitability decline at a $800M specialty beverage company
+2. **New Frontier** ;Market entry strategy for a European athletic apparel brand entering the US
+3. **The Big Question** ;Market sizing for the US pet insurance market (PE due diligence)
 
 Each case shows exactly how a McKinsey consultant would structure it, analyze it, and recommend.
 
@@ -194,10 +194,10 @@ Each case shows exactly how a McKinsey consultant would structure it, analyze it
 
 This is a living knowledge base. Contributions welcome:
 
-- **New reference files** — deep dives into additional methodologies or industries
-- **Case studies** — worked examples across different case types
-- **Framework updates** — new frameworks, updated benchmarks, emerging methods
-- **Bug fixes** — corrections to any frameworks, benchmarks, or methodologies
+- **New reference files** ;deep dives into additional methodologies or industries
+- **Case studies** ;worked examples across different case types
+- **Framework updates** ;new frameworks, updated benchmarks, emerging methods
+- **Bug fixes** ;corrections to any frameworks, benchmarks, or methodologies
 
 Please open an issue or submit a PR. All contributions will be reviewed for quality and accuracy.
 
@@ -205,9 +205,9 @@ Please open an issue or submit a PR. All contributions will be reviewed for qual
 
 ## License
 
-MIT License — free to use, fork, adapt, and distribute. See `LICENSE` for details.
+MIT License ;free to use, fork, adapt, and distribute. See `LICENSE` for details.
 
-If this helped you land a consulting offer, ace a board presentation, or think through a hard problem — that's the point. Pass it on.
+If this helped you land a consulting offer, ace a board presentation, or think through a hard problem ;that's the point. Pass it on.
 
 ---
 
