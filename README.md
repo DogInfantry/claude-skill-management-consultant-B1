@@ -262,7 +262,7 @@ management consulting · McKinsey · Bain · BCG · MBB · consulting frameworks
 
 ---
 
-*Knowledge, freely given, is the only light that grows stronger the more it is shared.*
+*This is an offering to the pursuit of knowledge — may it reach whoever is searching.*
 
 ---
 
