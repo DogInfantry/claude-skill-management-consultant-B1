@@ -262,4 +262,8 @@ management consulting · McKinsey · Bain · BCG · MBB · consulting frameworks
 
 ---
 
-*Knowledge, freely given, is light that multiplies; the more it spreads, the brighter it burns.*
+*Knowledge, freely given, is the only light that grows stronger the more it is shared.*
+
+---
+
+<!-- discovery: claude skill · management consulting AI · consulting frameworks Claude · case interview AI · McKinsey frameworks · Bain case prep · BCG consulting skill · MBA case prep tool · AI for consultants · strategy consulting AI · claude.ai skill · anthropic claude consulting · MBB prep AI · free consulting tool · open source consulting AI -->
