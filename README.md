@@ -217,4 +217,4 @@ management consulting · McKinsey · Bain · BCG · MBB · consulting frameworks
 
 ---
 
-*Knowledge, freely given, is light that multiplies — the more it spreads, the brighter it burns.*
+*Knowledge, freely given, is light that multiplies; the more it spreads, the brighter it burns.*
