@@ -217,5 +217,4 @@ management consulting · McKinsey · Bain · BCG · MBB · consulting frameworks
 
 ---
 
-*Built with 💡 to democratize the knowledge that has historically cost $500/hour.*
-*The light of structured thinking belongs to everyone.*
+*Knowledge, freely given, is light that multiplies — the more it spreads, the brighter it burns.*
