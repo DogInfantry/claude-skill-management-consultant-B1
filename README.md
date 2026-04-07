@@ -215,13 +215,15 @@ See **[FRAMEWORKS.md](./FRAMEWORKS.md)** for the complete reference. Highlights:
 
 ## Case Studies
 
-See **[CASE-STUDIES.md](./CASE-STUDIES.md)** for 3 fully worked cases with prompts, structures, analysis, and recommendations:
+See **[CASE-STUDIES.md](./CASE-STUDIES.md)** for 3 fully worked cases. Each includes: full interviewer prompt → candidate structure → key analyses → final recommendation.
 
-1. **The Falling Star**: Profitability decline at a $800M specialty beverage company
-2. **New Frontier**: Market entry strategy for a European athletic apparel brand entering the US
-3. **The Big Question**: Market sizing for the US pet insurance market (PE due diligence)
+| Case | Type | Setup | What You’ll Practice |
+|------|------|-------|----------------------|
+| **The Falling Star** | Profitability | $800M specialty beverage company, margins declining 3 years running | Issue tree, cost/revenue disaggregation, root cause identification |
+| **New Frontier** | Market Entry | European athletic apparel brand evaluating US expansion | Market sizing, 3C’s, entry mode selection, go/no-go recommendation |
+| **The Big Question** | Market Sizing | PE fund sizing the US pet insurance market for acquisition due diligence | Bottom-up sizing, TAM/SAM/SOM, assumption stress-testing |
 
-Each case shows how a senior consultant would structure it, analyze it, and recommend.
+*A PE / LBO case is in progress — see [Issue #6](https://github.com/DogInfantry/claude-skill-management-consultant-B1/issues/6) if you’d like to contribute it.*
 
 ---
 
