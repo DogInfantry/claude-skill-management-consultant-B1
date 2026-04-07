@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Claude Compatible](https://img.shields.io/badge/Claude-Compatible-blueviolet)](https://claude.ai)
 [![Skill Type](https://img.shields.io/badge/Type-Management%20Consulting-blue)]()
-[![Audience](https://img.shields.io/badge/Audience-MBA%20%7C%20Consultants%20%7C%20Business%20Professionals-green)]()
+[![Audience](https://img.shields.io/badge/Audience-MBA%20%7C%20Consultants%20%7C%20Business%20Professionals%20%7C%20Students-green)]()
 
 ---
 
