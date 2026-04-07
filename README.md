@@ -15,7 +15,7 @@
 
 ## What This Is
 
-This repository contains a consulting knowledge base for [Claude](https://claude.ai), Anthropic's AI assistant. When installed, it gives Claude a structured senior-consultant workflow, built around MBB-style problem-solving and communication patterns developed over 9-13 years of cross-industry consulting practice.
+This repository contains a consulting knowledge base for [Claude](https://claude.ai), Anthropic's AI assistant. When installed, it gives Claude a structured senior-consultant workflow, built around MBB-style problem-solving and communication patterns built by distilling publicly available MBB frameworks, case prep resources, and consulting methodology into a single knowledge base.
 
 This is not a simple prompt. It is a structured knowledge system with 80+ reference files covering every dimension of consulting work, from MECE issue trees and Pyramid Principle communication to due diligence, post-merger integration, GenAI enterprise strategy, and case interview coaching.
 
