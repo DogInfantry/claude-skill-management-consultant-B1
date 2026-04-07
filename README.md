@@ -223,13 +223,13 @@ See **[CASE-STUDIES.md](./CASE-STUDIES.md)** for 3 fully worked cases. Each incl
 | **New Frontier** | Market Entry | European athletic apparel brand evaluating US expansion | Market sizing, 3C’s, entry mode selection, go/no-go recommendation |
 | **The Big Question** | Market Sizing | PE fund sizing the US pet insurance market for acquisition due diligence | Bottom-up sizing, TAM/SAM/SOM, assumption stress-testing |
 
-*A PE / LBO case is in progress — see [Issue #6](https://github.com/DogInfantry/claude-skill-management-consultant-B1/issues/6) if you’d like to contribute it.*
+*A PE / LBO case is in progress ;see [Issue #6](https://github.com/DogInfantry/claude-skill-management-consultant-B1/issues/6) if you’d like to contribute it.*
 
 ---
 
 ## Contributing
 
-This is a living knowledge base — the more industries, benchmarks, and cases it covers, the more useful it becomes for everyone.
+This is a living knowledge base ;the more industries, benchmarks, and cases it covers, the more useful it becomes for everyone.
 
 **See [CONTRIBUTING.md](./CONTRIBUTING.md)** for the full guide: file structure, quality bar, and how to submit a PR.
 
