@@ -227,14 +227,18 @@ Each case shows how a senior consultant would structure it, analyze it, and reco
 
 ## Contributing
 
-This is a living knowledge base. Contributions welcome:
+This is a living knowledge base — the more industries, benchmarks, and cases it covers, the more useful it becomes for everyone.
 
-- **New reference files**: deep dives into additional methodologies or industries
-- **Case studies**: worked examples across different case types
-- **Framework updates**: new frameworks, updated benchmarks, emerging methods
-- **Bug fixes**: corrections to any frameworks, benchmarks, or methodologies
+**See [CONTRIBUTING.md](./CONTRIBUTING.md)** for the full guide: file structure, quality bar, and how to submit a PR.
 
-Please open an issue or submit a PR. All contributions will be reviewed for quality and accuracy.
+**Open issues (good places to start):**
+- [Add reference file: Cybersecurity Consulting](https://github.com/DogInfantry/claude-skill-management-consultant-B1/issues/3)
+- [Add reference file: Education & EdTech](https://github.com/DogInfantry/claude-skill-management-consultant-B1/issues/4)
+- [Update benchmarks: genai-enterprise-strategy.md](https://github.com/DogInfantry/claude-skill-management-consultant-B1/issues/5)
+- [Add case study: PE / LBO case](https://github.com/DogInfantry/claude-skill-management-consultant-B1/issues/6)
+- [Add reference file: Semiconductor & Hardware](https://github.com/DogInfantry/claude-skill-management-consultant-B1/issues/7)
+
+You don't need to be ex-MBB to contribute. If you've worked in any industry, finance role, or ops team, you have something concrete to add.
 
 ---
 
