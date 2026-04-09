@@ -1,209 +1,215 @@
-# Managing Up: The EM Relationship, Senior Navigation & Career Acceleration
+# Managing Up: Making the EM Relationship Work
 
-In consulting, formal hierarchy (Analyst → Associate → EM → Principal/AD → Partner) is only part of the story. The real operating hierarchy is: **your Engagement Manager (EM) determines the lived experience of every engagement**. Partners set vision and client relationships. EMs determine daily workload, feedback quality, staffing decisions, and whether you reach flow or burn out. Managing up is not politics — it is operational competence.
+In consulting, managing up is not a soft skill — it is a core operational competency. The formal hierarchy (Analyst → Associate → EM → Partner) tells you the org chart. The real operating reality is: **your EM determines the lived experience of every engagement**. Partners set direction. EMs determine whether you get good work, useful feedback, reasonable hours, and a strong performance review. Managing this relationship is as important as the quality of your analysis.
 
----
-
-## The Partner-EM-Analyst Triangle
-
-Understanding the power dynamics before managing them:
-
-**What Partners control:**
-- Engagement direction and client relationship
-- Your performance review narrative (they write or co-write your review)
-- Promotion decision (with significant EM input at junior levels)
-- Which engagements you're staffed on
-
-**What EMs control:**
-- Daily work distribution and task clarity
-- Feedback frequency and quality
-- Your actual work hours (scope buffering or amplifying)
-- Whether you get "stretch" opportunities or safe busy-work
-- The stories they tell partners about your performance
-
-**The implication**: A junior consultant who manages upward well with their EM will be promoted ahead of a slightly more technically skilled peer who doesn't. This is not unfair — managing up is itself a consulting skill that signals leadership potential.
+This file is for helping consultants navigate their EM relationship, understand how to work with senior stakeholders, and accelerate their careers — from first-year analysts to experienced hires.
 
 ---
 
-## The First Two Weeks: Orientation Protocol
+## Reading the Situation
 
-When you start with a new EM on a new engagement, the first two weeks are a data-collection exercise. Your job is not to impress — it is to understand.
+Different problems require different responses. Before giving advice, identify what's actually going on:
 
-### What to Learn About Your EM in Week 1
+**Scenario 1: New to an engagement, wants to start well**
+→ Go to: The First Two Weeks
 
-**Work style:**
-- Do they prefer updates via Slack/Teams or in-person check-ins?
-- Do they want to see work-in-progress or finished drafts?
-- Are they a morning person or an afternoon person for substantive conversations?
-- Do they prefer bullet-point summaries or narrative?
+**Scenario 2: Work keeps coming back heavily revised / EM seems unhappy with outputs**
+→ Go to: The Standards Misalignment Problem
 
-**Feedback style:**
-- Do they give feedback in real-time or in structured sessions?
-- Do they frame feedback as "here's what to fix" or "here's what good looks like"?
-- Are they comfortable with direct "how am I doing?" questions, or do they prefer indirect signals?
-- How do they handle errors — correction-focused or explanation-seeking?
+**Scenario 3: Not getting feedback / doesn't know where they stand**
+→ Go to: Extracting Feedback When It Isn't Given
 
-**Stress indicators:**
-- What happens to their communication style when the engagement is under pressure? (Shorter messages, slower response, sharper tone)
-- When stressed, do they want you to solve it independently or loop them in more frequently?
+**Scenario 4: EM is inaccessible, unavailable, or chaotic**
+→ Go to: The Unavailable EM
 
-**Quality bar:**
-- What does "good enough" mean to them? Some EMs are perfectionists; others prioritize speed.
-- What has previously made them re-do junior work? (Learn this by asking directly in week 2: "Is there anything about the way work gets done that would be helpful for me to know upfront?")
+**Scenario 5: Experienced hire, first 90 days at a new firm**
+→ Go to: The Experienced Hire Trap
 
-### How to Ask
-The best way to get this information is a direct 30-minute "working style" conversation in week 1. Frame it:
+**Scenario 6: Promotion — when, how, what to do**
+→ Go to: The Promotion Conversation
 
-*"I want to make sure I'm working in a way that's most useful to you and the engagement. Would it be helpful to spend 30 minutes on how you like to work and what's worked well with juniors you've managed?"*
-
-Most EMs appreciate this — it signals self-awareness and saves them from reactive corrections later.
+**Scenario 7: Wants visibility with a Partner without going over the EM**
+→ Go to: Navigating the Partner Relationship
 
 ---
 
-## Pre-Wiring: The Art of No-Surprises Delivery
+## The First Two Weeks: Building the Operating Contract
 
-The single most career-accelerating habit in consulting. **Pre-wiring** means that by the time you formally present work, the key stakeholders have already seen it, reacted to it, and implicitly endorsed it.
+The first two weeks on a new engagement are not about impressing anyone. They're about building an explicit working contract with your EM before the engagement demands it.
 
-### The Pre-Wire Ladder
+**What to learn about your EM:**
+- Do they want to see work-in-progress, or finished drafts only?
+- What does "good" look like to them? (Ask directly — "Can you show me a slide from a past project that hit the bar you're looking for?")
+- When they're under pressure, do they want more check-ins or fewer? (Some EMs want to know everything when stressed; others want you to solve it independently.)
+- Do they prefer quick Slack/Teams updates or structured sessions?
 
+**The 30-minute working style conversation:**
+In week 1, ask for it explicitly: *"I want to make sure I'm working in a way that's useful to you — would it be helpful to spend 30 minutes on how you like to work?"* Most EMs appreciate this. It signals self-awareness and prevents the reactive corrections that come when you've spent 10 hours on something in the wrong direction.
+
+**The ghost structure check-in:**
+Before starting any significant analysis workstream, align on the output structure first. Not the content — the structure. A 15-minute *"here's the skeleton of what this will say — does this direction make sense?"* conversation saves 6-8 hours of rework. This is not insecurity; it is correct process.
+
+---
+
+## The Standards Misalignment Problem
+
+The most common EM-junior relationship breakdown: the junior thinks they're delivering quality work; the EM keeps revising it. This is almost never about talent — it is about misaligned standards.
+
+**What's actually happening:**
+The EM has an internal picture of what "good" looks like on this engagement for this client. The junior doesn't. No one has explicitly articulated it. Both sides think the other is the problem.
+
+**How to fix it:**
+
+Don't wait for the cycle to repeat. After the next revision, ask directly:
+*"I want to understand your bar better so I can hit it the first time. Can you walk me through what you changed and what you were looking for?"*
+
+Then, on the next deliverable, before you send a draft:
+*"I want to sense-check the direction before I build this out fully. Here's my approach — does this match what you have in mind?"*
+
+**What not to do:**
+- Don't defensively explain why your original was correct
+- Don't absorb feedback without extracting the principle ("this slide got changed" is useless; "the title should carry the insight, not describe the content" is a transferable rule)
+- Don't assume the problem will self-correct — it compounds
+
+**The worked example (bad vs. good):**
+
+*Bad response to revision:*
+"Okay, I'll fix it." [Fixes the specific slide. Same problem reappears two days later on a different slide.]
+
+*Good response to revision:*
+"Got it — can I ask, is the issue that the insight should be in the title rather than the body? I want to make sure I apply this to the rest of the deck, not just this slide."
+
+The difference: the second response extracts a principle, not just a fix. One conversation prevents six more corrections.
+
+---
+
+## Pre-Wiring: The No-Surprises Operating Model
+
+The senior consulting skill that is most under-taught and most career-defining: **making sure nothing is news by the time it's formally presented**.
+
+By the time you stand up in front of the full client room or a partner review, every key stakeholder should already have seen the direction and implicitly endorsed it. If the partner is surprised by your recommendation in the review, something failed.
+
+**The pre-wire ladder:**
 ```
-Formal Presentation (Steering Committee, Partner Review)
-        ↑
-EM review + incorporate feedback (Day Before)
-        ↑
-Informal "sanity check" with EM (2 days before: "here's my current direction, does this feel right?")
-        ↑
-Aligned on structure before analysis starts (Week 1 of workstream)
-        ↑
-Problem framing agreed upfront (Day 1)
+Formal presentation
+    ↑
+EM review (day before) — incorporate feedback
+    ↑  
+Informal direction check (2-3 days before) — "here's where I'm heading, does this feel right?"
+    ↑
+Ghost structure alignment (before analysis starts) — structure, not content
+    ↑
+Problem framing agreed (Day 1 of workstream)
 ```
 
-If the partner is surprised by your recommendation in the formal presentation, you failed the pre-wire. If the EM is surprised, you failed even earlier.
+Work flows up this ladder. If you skip a rung, the one above it becomes unpredictable.
 
-### How to Pre-Wire Without Undermining Your Own Work
-
-New consultants worry that showing work-in-progress makes them look uncertain. The opposite is true. Pre-wiring signals:
-- "I know this will need your judgment on the direction before I invest 20 more hours"
-- "I'm aware enough of the client context to know what will land and what won't"
-- "I'm not going to surprise you with a deliverable you have to substantially re-do"
-
-The practical approach: before any analysis workstream, align on the "ghost structure" — the skeleton of what the output will say — before building the content. A 15-minute "does this structure make sense?" conversation saves 6 hours of rework.
+**Why consultants skip pre-wiring:**
+"I don't want to show unfinished work." This is backwards. Pre-wiring unfinished work is a signal of seniority — it says "I know this will need your judgment before I invest 20 more hours." Showing only finished work that's been built in the wrong direction signals the opposite.
 
 ---
 
-## Feedback: How to Extract It When It Isn't Volunteered
+## Extracting Feedback When It Isn't Given
 
-Consulting culture varies in how proactively feedback is given. Some EMs give real-time, direct feedback. Others rarely volunteer it until the formal review cycle — by which point it is too late to course-correct.
+Some EMs give real-time, direct feedback. Others don't volunteer it until the formal review cycle — too late to course-correct. If you're not getting feedback, you have to create the conditions for it.
 
-### The Weekly Self-Assessment Request
-At the end of each week, send a brief message:
-*"Quick check-in: what's one thing I did well this week and one thing I should improve for next week?"*
+**End-of-week check-in message (send every Friday):**
+*"Quick check-in: what's one thing I did well this week and one thing to improve for next week?"*
 
-This is not annoying — it is a signal of professional maturity. EMs who find this excessive are outliers.
+This is not annoying. It is professional. EMs who find this excessive are outliers.
 
-### The Debrief After High-Stakes Moments
-After every major presentation, workshop, or client interaction, debrief with your EM within 24 hours:
+**After any major presentation or client interaction:**
 *"I thought [X] landed well but I wasn't sure about [Y]. What did you observe?"*
 
-This does two things: it shows you're self-aware, and it creates a hook for the EM to give you targeted feedback rather than generic feedback.
+This creates a hook — instead of asking for generic feedback (which produces generic feedback), you're offering a specific observation for the EM to react to.
 
-### The "What Would Better Look Like?" Question
-When you receive critical feedback, don't just accept it — probe for specificity:
-*"That's helpful. What would a slide/analysis/communication that fully met the bar look like in this situation?"*
+**When feedback is vague:**
+*"That's helpful. What would a slide/analysis/output that fully hit the bar look like in this situation?"*
 
-This converts vague feedback ("this wasn't sharp enough") into actionable instruction ("the insight should be in the title, not in the third bullet").
+Convert vague feedback ("this wasn't sharp enough") into actionable instruction ("the insight should be in the title, not buried in the third bullet"). One level of specificity is always available if you ask for it.
+
+---
+
+## The Unavailable EM
+
+An EM who is constantly in client meetings, traveling, or simply non-responsive is a real operational problem — especially for junior consultants who need direction and review cycles.
+
+**The diagnosis first:** Is the EM unavailable because they're overwhelmed (temporary, fixable) or because they don't prioritize team development (structural, requiring a different approach)?
+
+**If overwhelmed:**
+Make it easy for them to help you. Instead of: *"I need to talk to you about the cost analysis"* — send: *"Quick question on the cost analysis: I'm choosing between approach A [one-liner] and approach B [one-liner]. My lean is A because [reason]. Just need a thumbs-up or a redirect."*
+
+Bury no decision in a conversation that can live in a message. Make every interaction the shortest possible version of itself.
+
+**If structurally unavailable:**
+Identify the other senior person you can use as a backstop. Another EM on the team, a Principal who has context, a previous EM who knows your work. You are not going around your EM by doing this — you are managing the engagement's delivery needs.
+
+Also: flag it to your EM directly and constructively: *"I want to make sure I'm making good decisions on [workstream] — I've been working off our conversation from last week. Can we find 20 minutes this week to realign?"*
 
 ---
 
 ## Navigating the Partner Relationship
 
-Partners have less time and more context than EMs. The rules of engagement are different:
+Partners have less time and more context than EMs. The rules are different.
 
-### What Partners Want From Junior Consultants
-- **Confidence, not hedging**: Partners are managing client uncertainty all day. They want their juniors to bring clarity, not add more uncertainty. If you don't know something, say "I'll confirm that and get back to you by X" — not "I'm not sure."
-- **Pre-synthesized updates**: When you brief a partner, lead with the conclusion. "The pricing analysis shows we should raise by 8%. Here's why." Not a journey through your methodology.
-- **One ask per interaction**: Partners respond better to "I need your view on X" than "I have several questions." Prioritize ruthlessly.
-- **Written confirmation of verbal direction**: After any partner-directed change to your work, send a brief email: "Following up on our conversation — confirming that the recommendation section will now focus on [X] rather than [Y]. Let me know if that's not right." This protects you and creates shared accountability.
+**What partners want from junior consultants:**
 
-### What Partners Notice (That Most Juniors Don't Realize)
-- **Who speaks in meetings**: Partners remember the people who contribute substantively in client meetings, not just the people who sit quietly and do excellent solo work. Aim for one high-quality contribution per meeting, not multiple.
-- **How you handle ambiguity in front of clients**: The consultant who says "That's an interesting question — let me think through that" and then structures an answer on the spot reads as senior. The one who says "I'll have to check" reads as junior.
-- **Your relationship with the client team**: Partners watch whether junior consultants can build trust with their client counterparts independently. If client team members ask for you specifically, that is a career-defining signal.
+- **Conclusions first, always.** Never brief a partner with methodology. *"The pricing analysis says raise by 8%. Here's why."* Not: *"So first we looked at the cost floor, then we compared to competitors..."*
+- **One ask per interaction.** *"I need your view on X."* Not: *"I have a few questions..."*
+- **Written confirmation of verbal direction.** After any partner redirect: *"Following up on our conversation — confirming you want us to focus on [X] rather than [Y]. Let me know if that's not right."* This protects you and creates shared accountability.
+- **Confidence, not hedging.** Partners are managing client uncertainty all day. They need junior consultants to bring clarity, not add more ambiguity. If you don't know something: *"I'll confirm that and get back to you by [time]"* — not *"I'm not sure."*
 
----
+**What partners notice (that most juniors don't):**
+- Who speaks in client meetings. One substantive contribution per meeting > sitting quietly through six meetings. The consultants who get staffed on good projects are the ones partners can remember.
+- How you handle ambiguity in front of the client. Saying *"That's an interesting question — let me think through that"* and structuring an answer on the spot reads as senior. Saying *"I'll have to check"* reads as junior.
+- Whether client-side counterparts ask for you by name. This is a career-defining signal that partners notice and remember at promotion time.
 
-## Managing Laterally: Client-Side Relationships
-
-For consultants 2+ years in, managing the client team becomes as important as managing internal hierarchy.
-
-### The Client PoC Relationship
-Identify your client point of contact (typically the VP or Director who works alongside your team day-to-day). Invest in this relationship with the same intentionality as your EM relationship:
-- Weekly 15-minute "alignment" check-in — not about deliverables, about how the engagement is landing internally
-- Share early drafts with them before EM review when appropriate — they often have context about internal politics that changes your recommendations
-- Acknowledge their expertise explicitly in meetings — "As [Name] flagged to us last week..." creates goodwill and signals collaborative rather than extractive consulting
-
-### Navigating Client Resistance
-When a client pushes back on your analysis or recommendation:
-- Do not defend the work — explore the objection: "That's a fair point. Can you help me understand what's driving that concern?"
-- Distinguish between data disputes (resolvable) and political disputes (need EM/partner involvement)
-- Never argue facts in a client meeting. Acknowledge the disagreement, commit to follow-up, and resolve it bilaterally before the next group session.
+**The line you should not cross until you've earned it:**
+Going directly to a partner with a problem you haven't brought to your EM first. This is not wrong in principle — but it should be rare and flagged to the EM after: *"I ran into [Partner] and updated her on [X] — wanted to make sure you knew that."* Surprise partner conversations that the EM hears about second-hand damage the relationship.
 
 ---
 
-## Experienced Hire Transition: The First 90 Days
+## The Experienced Hire Trap
 
-For consultants joining from Big 4, corporate, or industry roles — this section is critical. The failure mode is arriving as a "senior person forced to learn the McKinsey way without humility."
+For consultants joining from Big 4, corporate, or industry roles — the failure mode is predictable and avoidable.
 
-### The Humility Paradox
-You were hired because of your experience. But your experience is from a different system. The first 90 days require you to simultaneously:
-- Signal confidence in your domain expertise (why they hired you)
-- Signal openness to the firm's way of working (why they keep you)
+You were hired because of your experience. You now have to demonstrate that experience while learning a different operating model. These two things create tension that most experienced hires handle badly.
 
-The way to do both: be vocal about your domain knowledge in client and analytical conversations; be silent and observant about internal process and culture for the first 90 days.
+**The common failure modes:**
 
-### Specific Failure Modes for Experienced Hires
+| Failure mode | Why it happens | What it looks like | How to avoid |
+|---|---|---|---|
+| "At my old firm we did it like this" | Identity protection | Said in team meetings, often in front of juniors | Use past experience as a resource, not a reference point. Frame as: *"One approach that's worked before is X — I don't know if it fits here, but worth considering."* |
+| Bypassing the EM to go direct to the partner | Peer-level habit from prior role | Sends direct messages to the partner without EM loop | Respect hierarchy for 90 days. Earn the bypass privilege. |
+| Critiquing before understanding | Smart people do this instinctively | "This deck has no clear narrative" — said before asking what the intent was | Ask *"what was the goal here?"* before offering a view |
+| Treating analysts as subordinates | Management habit from corporate | Delegating tone, not asking/collaborating | Treat them as colleagues with different skills. The team will notice and report upward. |
+| Overdelivering on relationships, underdelivering on craft | Prioritizing integration | Lots of coffee chats; average work product | MBB culture rewards craft first. Relationship without craft does not sustain at the 3-month mark. |
 
-| Failure Mode | Why It Happens | How to Avoid |
-|---|---|---|
-| "At my old firm, we did it like this" | Defending prior identity | Use it sparingly and only when genuinely valuable; frame as "one option to consider" |
-| Bypassing the EM to go direct to the partner | Peer-level habit from previous role | Respect the hierarchy explicitly for 90 days; earn the bypass privilege |
-| Critiquing work without understanding context | Smart people critique before they understand | Ask "what was the intent here?" before "here's what's wrong" |
-| Treating the analyst team as subordinates | Management habit | Treat them as colleagues with different skills; the team notices and will report upward |
-| Underdelivering technically while overdelivering politically | Prioritizing relationship-building over craft | MBB culture rewards craft first; relationship without craft does not sustain |
-
-### The 90-Day Credibility Build
-
-- **Days 1–30**: Listen more than you speak. Map the informal power structure. Deliver one small thing with exceptional quality.
-- **Days 31–60**: Identify one area where your prior experience genuinely adds value that the team doesn't have. Introduce it as a contribution, not a correction.
-- **Days 61–90**: Seek explicit feedback from your EM on how the transition is going. Adjust based on what you hear.
+**The 90-day protocol:**
+- **Days 1-30**: Listen more than you speak. Deliver one small thing with exceptional quality. Map the informal power structure before acting in it.
+- **Days 31-60**: Identify one area where your prior experience genuinely adds something the team doesn't have. Introduce it as a contribution, not a correction.
+- **Days 61-90**: Seek explicit feedback from your EM. Ask directly: *"How is the transition going from your perspective? Is there anything I should do differently?"* Act on what you hear.
 
 ---
 
-## The Promotion Conversation: How to Accelerate It
+## The Promotion Conversation
 
-Promotions in consulting are decided by partners with significant EM input. The path is not automatic — it is advocated for.
+Promotions in consulting are not automatic at tenure. They are advocacy decisions made by partners, with significant EM input. The path is built, not waited for.
 
-### Who Advocates for You?
-Promotions require at least two partners who know your work well enough to make the case in the promotion committee. Build these relationships intentionally:
-- Seek staffing on at least two engagements per year where you work directly with different partners
-- Follow up with past partners even after the engagement ends — a brief email with a relevant article or market observation keeps you in their mind
-- In performance reviews, explicitly ask your EM: "Who are the partners who have seen my work most directly? What's their view of my trajectory?"
+**Who advocates for you?**
+You need at least two partners who know your work well enough to make a case in the promotion committee. One partner who knows you well is not enough — one can be a champion; one can be the skeptic-deflector.
 
-### The Promotion Committee Narrative
-When your EM presents your case, they need to answer three questions:
-1. Is this person ready for the next level technically? (Can they do the work?)
-2. Is this person ready for the next level commercially? (Can they manage a client relationship and contribute to BD?)
-3. What is the risk of waiting another cycle? (Will they leave? Will they be frustrated?)
+Build these relationships intentionally: seek staffing on engagements with at least two different partners per year. Follow up with past partners even after the engagement ends — a short message about something relevant to their work keeps you in their mind.
 
-You can influence all three by making them explicit in your own behavior: demonstrate the next-level skills now, show commercial awareness, and have the "where am I in the promotion cycle?" conversation directly with your EM at least once per year.
+**The three questions the promotion committee will ask:**
+1. Is this person ready technically? (Can they do the work at the next level?)
+2. Are they ready commercially? (Can they manage a client relationship? Do they contribute to BD?)
+3. What's the cost of waiting another cycle? (Will they leave? Will they be frustrated and it shows?)
 
----
+You can influence all three. Demonstrate next-level skills now. Show commercial awareness in client interactions (ask about the broader business context, not just the task). Have the direct conversation with your EM about timeline: *"I want to be promoted in [cycle]. What do I need to demonstrate between now and then?"* Most EMs will tell you if you ask.
 
-## When to Read This File
+**When the EM doesn't proactively manage your promotion:**
+Some EMs are excellent at the work and terrible at career advocacy. If yours is like this, you need to make the case yourself through visible output and partner relationships — you cannot rely on the EM to carry the story. Be honest with yourself about which type of EM you have.
 
-- User is an analyst or associate preparing to join a new engagement or new firm
-- User is an experienced hire navigating the first 90 days
-- User is struggling with a difficult EM or partner relationship
-- User is preparing for a promotion conversation and needs to think through the advocacy structure
-- User is coaching a junior and wants a framework for the managing-up conversation
-- User asks about consulting career acceleration, internal politics, or how to build visibility with senior stakeholders
+**The timing conversation:**
+Have it once per year, directly: *"Where am I in the promotion cycle, and what's the one most important thing I should demonstrate in the next six months?"* This is not aggressive — it is professional. EMs who react badly to this question are the exception.
