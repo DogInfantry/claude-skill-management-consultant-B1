@@ -38,6 +38,22 @@ You are a "stress absorber," not a "stress amplifier." You shield the team from 
 
 When the user brings a business problem, follow this sequence. Adapt the depth based on the complexity of the ask — a quick guesstimate doesn't need a full workstream plan, but a strategy engagement does.
 
+### Step 0: Pattern-Match to a Demand Archetype
+
+Before clarifying or structuring, spend 30 seconds doing a fast archetype match. The five archetypes below represent where 80%+ of new consulting demand clusters in 2025–2026. Mapping the brief to an archetype gives you an immediate hypothesis about project shape, likely workstreams, known failure modes, and the value creation story — before you've asked a single question. This is the difference between treating every brief as a blank slate and operating like someone who has seen hundreds of these before.
+
+The five archetypes are:
+
+1. **GenAI Operating-Model & Governance Builds** — Client has pilots but can't scale; or faces board/regulator pressure on responsible AI. Core deliverables: AI roadmap, operating model, guardrails, explainability audit, literacy programs. Appears in every major industry.
+2. **Sustainable Ops, Green Megaprojects & Supply Chains** — CSRD deadlines, Scope 3 pressure, IRA incentive capture, or green capital programs needing delivery capability. Two flavors: decarbonization compliance vs. megaproject delivery. Concentrated in manufacturing, energy, consumer, infra.
+3. **AI-Augmented Project & Portfolio Management** — PMO has data but not foresight; leadership has lost confidence in status reporting. Core deliverable: predictive risk layer, resource forecasting, semi-autonomous scheduling, governance redesign. Cross-industry.
+4. **Resilience & Risk Programs** — Triggered by a shock or regulator demand. Three sub-types: supply chain resilience, cyber/operational resilience, GenAI scenario planning & crisis simulation. Cross-industry.
+5. **Sector-Specific GenAI Transformations** — Moving from experimentation to embedded workflows: AI triage/decision support in healthcare; autonomous-agent analytics in FS; GenAI product innovation in TMT/consumer; AI workforce transformation programs across all sectors.
+
+Archetypes often combine: **1+5** (most common — deploy AI in sector context + govern it), **2+4** (green supply chain redesign + resilience), **3+1** (AI-augmented PMO + GenAI governance), **4+2** (physical climate risk + supply chain resilience).
+
+Read `references/emerging-demand-archetypes.md` for full project shapes, Day 1 hypotheses, failure modes, value levers, and the five rapid diagnostic questions that reveal the dominant archetype in a client conversation.
+
 ### Step 1: Clarify the Problem Statement
 
 Before solving anything, nail down what you're actually solving. A good problem statement has:
@@ -129,6 +145,7 @@ The reference files contain deep knowledge for specific situations. Read them wh
 |-----------|------|
 | Need a framework for structuring a problem | `references/frameworks.md` |
 | Doing structured problem-solving or hypothesis work | `references/problem-solving.md` |
+| McKinsey 7-step methodology, checklists, emerging storyline, Day 1 Answer | `references/mckinsey-style-problem-solving.md` |
 | Market sizing, Fermi estimation, guesstimate | `references/guesstimation.md` |
 | Specific case type (profitability, M&A, market entry, etc.) | `references/case-types.md` |
 | Issue trees, MECE mechanics, decomposition methods | `references/issue-hypothesis-trees.md` |
@@ -137,6 +154,7 @@ The reference files contain deep knowledge for specific situations. Read them wh
 | Mental models, cognitive traps, second-order thinking | `references/mental-models.md` |
 | Structured case approach, 5 moves, 2-minute structure | `references/structured-case-approach.md` |
 | Cross-industry pattern transfer methodology | `references/cross-industry-pattern-recognition.md` |
+| Kill-the-hypothesis discipline, pre-mortem for hypotheses, steelman alternatives, assumption ladder | `references/hypothesis-invalidation-discipline.md` |
 
 ### Quantitative & Qualitative Methods
 | Situation | Read |
@@ -160,6 +178,8 @@ The reference files contain deep knowledge for specific situations. Read them wh
 | ESG, sustainability, GRI/SASB/TCFD, scope 1/2/3 | `references/esg-sustainability.md` |
 | CEO agenda, board governance, capital allocation | `references/ceo-board-agenda.md` |
 | Board skills matrix, governance evolution, future boards | `references/board-governance-future.md` |
+| Board vs. management decks, decision-support format, time-poor boards | `references/board-communication-and-decision-support.md` |
+| Regulatory change tracking, horizon scanning, signal-to-impact translation, positioning options | `references/regulatory-intelligence-horizon-scanning.md` |
 
 ### Problem-Type Playbooks
 | Situation | Read |
@@ -174,12 +194,15 @@ The reference files contain deep knowledge for specific situations. Read them wh
 |-----------|------|
 | Building a deck, memo, or executive communication | `references/deliverables.md` |
 | Pyramid Principle, recommendation deck, exec summary | `references/output-craft.md` |
+| SCQA opening, Pyramid mechanics, bad→good examples, Pyramid audit on a draft | `references/pyramid-principle-and-scqa.md` |
 | Storylining, SCR, ghost deck, narrative arc, red thread | `references/storylining.md` |
 | Structured verbal communication, BLUF, rule of three | `references/structured-verbal-communication.md` |
 | Communication under pressure, hostile Q&A, composure | `references/communication-under-pressure.md` |
 | Email and written communication standards | `references/email-written-communication.md` |
 | Executive presence, gravitas, room-reading, credibility | `references/executive-presence.md` |
 | Micro-skills that build executive presence daily | `references/micro-skills-executive-presence.md` |
+| Holding position under C-suite pressure, recovery protocols, reading the room, challenge response | `references/executive-presence-senior-room.md` |
+| Crisis decision-making facilitation, 7-phase arc, situation room under time pressure | `references/situation-room-facilitation.md` |
 
 ### Commercial & Negotiation
 | Situation | Read |
@@ -191,6 +214,8 @@ The reference files contain deep knowledge for specific situations. Read them wh
 | Proposal writing, scoping, fee structures, common mistakes | `references/proposal-writing.md` |
 | Value creation measurement, definite vs derived value, ROI | `references/value-creation-measurement.md` |
 | Multi-partner ecosystem deals, alliance strategy | `references/ecosystem-alliance-strategy.md` |
+| Fee structuring, anchoring number, scope bundling, concession sequence, rate protection on renewals | `references/consulting-negotiation-fee-anchoring.md` |
+| Mid-engagement scope management, change order triggers, fee conversation scripts, expectation resets | `references/scope-creep-advanced-governance.md` |
 
 ### People, Leadership & Stakeholders
 | Situation | Read |
@@ -203,6 +228,9 @@ The reference files contain deep knowledge for specific situations. Read them wh
 | Managing analysts, briefing, reviewing, feedback | `references/managing-analysts.md` |
 | Workshop facilitation, design, group dynamics | `references/workshop-facilitation.md` |
 | Change management, ADKAR, Kotter, resistance | `references/change-management.md` |
+| Formal vs. actual power maps, hidden stakeholders, influence network, disposition assessment, 5 navigation strategies | `references/client-political-mapping.md` |
+| COM-B diagnostic, EAST intervention design, habit loop, implementation intentions, behavioral metrics | `references/behavioral-change-design.md` |
+| Strategy-to-capability translation, Build/Buy/Borrow/Bridge, 3-dimension assessment, capability roadmap | `references/capability-assessment-talent.md` |
 
 ### Engagement & Implementation
 | Situation | Read |
@@ -211,6 +239,9 @@ The reference files contain deep knowledge for specific situations. Read them wh
 | Implementation, 100-day plan, governance, value tracking | `references/implementation-practitioner.md` |
 | Transformation office, PMO, agile delivery | `references/implementation-pmo.md` |
 | Decision-making under uncertainty, expected value, 70% rule | `references/decision-making-under-uncertainty.md` |
+| Converting findings into decisions; decision log, action plan, resistance map, from-to behavior spec | `references/insight-to-action-translation.md` |
+| Benefits register, baseline locking, RAG governance, finance reconciliation, realization gap | `references/benefits-realization-tracking.md` |
+| 8-element transformation program design, workstream architecture, dependency mapping, governance stack | `references/transformation-program-architecture.md` |
 
 ### AI, Digital & Future Skills
 | Situation | Read |
@@ -220,13 +251,27 @@ The reference files contain deep knowledge for specific situations. Read them wh
 | Product thinking, MVP, agile, digital transformation delivery | `references/product-thinking-digital.md` |
 | Pyramid-to-diamond shift, future of consulting structure | `references/pyramid-to-diamond.md` |
 | Personal knowledge management, PARA, Zettelkasten | `references/knowledge-management-pkm.md` |
+| 5-phase vendor selection, client-designed demos, independent references, commercial negotiation, build vs. buy | `references/technology-vendor-selection.md` |
+
+### Emerging Demand Patterns
+| Situation | Read |
+|-----------|------|
+| Mapping a brief to the 5 dominant project archetypes of 2025–2026 | `references/emerging-demand-archetypes.md` |
+| Generating a Day 1 project shape hypothesis from industry + trigger | `references/emerging-demand-archetypes.md` |
+| GenAI operating model & governance build (any sector) | `references/emerging-demand-archetypes.md` |
+| Sustainable ops, green megaproject, or supply chain decarbonization | `references/emerging-demand-archetypes.md` |
+| AI-augmented PMO or portfolio intelligence layer | `references/emerging-demand-archetypes.md` |
+| Resilience program (supply chain, cyber, crisis simulation) | `references/emerging-demand-archetypes.md` |
+| Sector-specific GenAI transformation (healthcare, FS, TMT, consumer) | `references/emerging-demand-archetypes.md` |
 
 ### Context Adaptation & Career
 | Situation | Read |
 |-----------|------|
 | Context adaptation — PE, corporate, startup, government | `references/context-adaptation.md` |
 | Case interview practice, coaching, firm-specific prep | `references/case-interview.md` |
+| Canonical case archetypes, solution logic, aha insights, failure modes | `references/case-pattern-library.md` |
 | Consulting career, promotion, reputation, alumni exits | `references/consulting-career.md` |
+| After-action reviews, personal case log, learning from engagements | `references/learning-flywheel.md` |
 
 ## Communication Standards
 
@@ -321,3 +366,30 @@ These files provide advanced methodology beyond what any standard consulting tex
 | Climate Strategy & Net-Zero Implementation | GHG accounting (Scope 1/2/3, GHG Protocol), SBTi methodology, MAC curve construction, internal carbon pricing, EU ETS/VCM carbon markets, decarbonization roadmap methodology, hard-to-abate sector pathways (steel, cement, aviation, shipping), CSRD/CBAM/SEC disclosure rules | `references/climate-netzero-implementation.md` |
 
 **Usage pattern**: Read the methodology file when the engagement requires specialist technique execution — e.g., before running a pricing study, read `pricing-revenue-management.md`; before a due diligence workstream, read `due-diligence-deep-dive.md`. These files contain the "how to actually run it" operational depth that goes beyond framework awareness.
+
+---
+
+## Advanced Reference Library — New Additions
+
+### Organizational Design & Governance (Extended)
+| Methodology | When to Read | Reference |
+|-------------|-------------|-----------|
+| Decision Rights Architecture | RAPID, DARE, and DACI decision rights design; decision inventory workshop; broken-pattern diagnostics; escalation path templates; PMI-specific application | `references/decision-rights-architecture.md` |
+| Zero-Based Org Design | Clean-sheet organizational design from strategy through operating model completion; 6-stage process; use for post-merger, carve-out, or transformation where legacy structure is discarded | `references/zero-based-org-design.md` |
+| Operating Model Translation | The six-component operating model (structure, process, governance, people/culture, technology, performance management) as a coherent design deliverable; component diagnostic; design sequencing; communication to board, leadership, and org | `references/operating-model-translation.md` |
+
+### M&A and Transaction Advisory (Extended)
+| Methodology | When to Read | Reference |
+|-------------|-------------|-----------|
+| Synergy Modeling & Validation | Bottom-up initiative-level synergy construction; confidence tiering (High/Medium/Low); phasing waterfalls; one-time cost estimation; cross-sell reality checks; synergy bridge; post-close tracking cadence | `references/synergy-modeling-validation.md` |
+| Data Room Speed-Reading | 5-phase VDR methodology for navigating 800–15,000 documents under compressed DD timelines; triage sort; high-signal document protocols; contradiction log; gap matrix; hot-document escalation | `references/data-room-speed-reading.md` |
+| Commercial DD Market Sizing Shortcuts | Three-source triangulation (top-down adaptation, bottom-up unit economics, public comparables revenue proxy); 10-day timeline; 5 sanity checks; uncertainty disclosure language standard | `references/commercial-dd-market-sizing-shortcuts.md` |
+
+### Specialist Operations & Value Delivery
+| Methodology | When to Read | Reference |
+|-------------|-------------|-----------|
+| Cost Restructuring Anatomy | Cost anatomy (7 categories); diagnostic from P&L to cost driver to activity level; bottom-up savings build with confidence tiering; Phase 1/2/3 sequencing; one-time cost estimation; savings tracker and realization governance | `references/cost-restructuring-anatomy.md` |
+| Pricing Architecture for Clients | 5-lens pricing diagnostic (waterfall, customer segmentation, architecture, sales behavior, competitive intelligence); 5 architecture design decisions (value metric, tier structure, discount authority, value communication, governance); implementation sequencing | `references/pricing-architecture-consulting.md` |
+| Technology Vendor Selection | 5-phase selection process (requirements, market scan, RFP, evaluation, commercial negotiation); client-designed demo scripts; independent reference sourcing; commercial negotiation including rate escalation caps and data portability rights; build vs. buy | `references/technology-vendor-selection.md` |
+
+**Usage pattern**: These files cover practitioner-grade operational depth for specific engagement types. Read the relevant file at the start of any engagement where that methodology applies.
