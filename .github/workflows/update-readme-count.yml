@@ -1,0 +1,35 @@
+name: Update README reference count
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'skill/references/**.md'
+
+jobs:
+  update-count:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Count reference files and update README
+        run: |
+          COUNT=$(ls skill/references/*.md | wc -l | tr -d ' ')
+          ROUNDED=$(( (COUNT / 10) * 10 ))
+          DISPLAY="${ROUNDED}+"
+          echo "Reference file count: $COUNT (displaying as ${DISPLAY})"
+          sed -i "s/[0-9]\++\( deep-knowledge\)\? reference files/${DISPLAY}\1 reference files/g" README.md
+          sed -i "s/[0-9]\++ more/${DISPLAY} more/g" README.md
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet README.md || (
+            git add README.md &&
+            git commit -m "chore: update reference file count in README [skip ci]"
+          )
+          git push

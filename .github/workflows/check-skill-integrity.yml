@@ -1,0 +1,50 @@
+name: Check SKILL.md reference integrity
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'skill/SKILL.md'
+      - 'skill/references/**.md'
+  pull_request:
+    paths:
+      - 'skill/SKILL.md'
+      - 'skill/references/**.md'
+
+jobs:
+  integrity-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check all SKILL.md references exist on disk
+        run: |
+          FAILED=0
+          REFERENCED=$(grep -o '`references/[^`]*\.md`' skill/SKILL.md | tr -d '`' | sort -u)
+          echo "=== Checking SKILL.md references exist on disk ==="
+          while IFS= read -r ref; do
+            path="skill/$ref"
+            if [ ! -f "$path" ]; then
+              echo "MISSING FILE: $path is referenced in SKILL.md but does not exist"
+              FAILED=1
+            fi
+          done <<< "$REFERENCED"
+          [ $FAILED -eq 0 ] && echo "All references in SKILL.md exist on disk."
+          exit $FAILED
+
+      - name: Check all reference files are listed in SKILL.md
+        run: |
+          FAILED=0
+          REFERENCED=$(grep -o '`references/[^`]*\.md`' skill/SKILL.md | tr -d '`' | sort -u)
+          echo "=== Checking all reference files appear in SKILL.md ==="
+          for filepath in skill/references/*.md; do
+            filename=$(basename "$filepath")
+            ref="references/$filename"
+            if ! echo "$REFERENCED" | grep -qx "$ref"; then
+              echo "UNLISTED FILE: $filepath exists but is not referenced in SKILL.md"
+              FAILED=1
+            fi
+          done
+          [ $FAILED -eq 0 ] && echo "All reference files are listed in SKILL.md."
+          exit $FAILED
