@@ -17,7 +17,7 @@
 
 This repository contains a consulting knowledge base for [Claude](https://claude.ai), Anthropic's AI assistant. When installed, it gives Claude a structured senior-consultant workflow, built around MBB-style problem-solving and communication patterns built by distilling publicly available MBB frameworks, case prep resources, and consulting methodology into a single knowledge base.
 
-This is not a simple prompt. It is a structured knowledge system with 80+ reference files covering every dimension of consulting work, from MECE issue trees and Pyramid Principle communication to due diligence, post-merger integration, GenAI enterprise strategy, and case interview coaching.
+This is not a simple prompt. It is a structured knowledge system with 110+ reference files covering every dimension of consulting work, from MECE issue trees and Pyramid Principle communication to due diligence, post-merger integration, GenAI enterprise strategy, and case interview coaching.
 
 **It is completely free.**
 
@@ -47,7 +47,7 @@ management-consultant-claude-skill/
 │
 └── skill/
     ├── SKILL.md                 <- The main skill definition (install this)
-    └── references/              <- 80+ deep-knowledge reference files
+    └── references/              <- 110+ deep-knowledge reference files
         ├── frameworks.md
         ├── case-interview.md
         ├── guesstimation.md
@@ -59,7 +59,7 @@ management-consultant-claude-skill/
         ├── genai-enterprise-strategy.md
         ├── post-merger-integration.md
         ├── corporate-restructuring-financial-distress.md
-        └── ... 70+ more
+        └── ... 100+ more
 ```
 
 ---
@@ -117,6 +117,15 @@ Once installed, Claude can assist you with:
 - Climate strategy and net-zero (SBTi, MAC curves, CSRD, CBAM)
 - Process mining (Celonis, Signavio, conformance checking)
 - Sales force effectiveness (quota setting, coverage models, CRM analytics)
+- McKinsey 7-step problem-solving methodology and day-one answer discipline
+- Hypothesis invalidation and structured pre-mortem thinking
+- Cost restructuring anatomy (zero-based, complexity reduction, shared services)
+- Transformation program architecture (wave planning, governance, benefits tracking)
+- Executive presence in senior rooms, board communication and decision-support
+- Technology vendor selection and evaluation frameworks
+- Synergy modeling and validation (revenue, cost, financial)
+- Behavioral change design and insight-to-action translation
+- Client political mapping, scope creep governance, and consulting negotiation
 
 ---
 
