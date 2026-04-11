@@ -363,6 +363,33 @@ This represents a ~15x growth from today — one of the most compelling growth r
 
 ---
 
+## Case 4: The Compounder's Dilemma ⭐ *Real Engagement*
+
+> **Client:** Apollo Hospitals Enterprise Ltd (NSE: APOLLOHOSP, ~₹1.05 L Cr mcap)
+> **Engagement:** APEX-2026-01 | April 2026 | 6 weeks
+> **Methodology:** MBB hypothesis-driven (SCQA → Issue Tree → Recommendation)
+> **Full deliverables:** [case-studies/apollo-hospitals-FY27/](case-studies/apollo-hospitals-FY27/)
+
+**Problem:** Apollo is at peak operating leverage (PAT +35% YoY, 58–71x P/E) but faces a classic capital allocation trilemma heading into FY27: it cannot simultaneously maximise ₹8,300 Cr bed expansion, Apollo 24|7 digital burn, and shareholder returns. The market is paying for execution certainty — any of three failures (capex overrun, 24|7 bleed, HealthCo delay) breaks the multiple.
+
+**Original Framework — The APEX Trilemma™:** Maps every capital allocation decision as tension between three vertices: Growth Capex, Digital Optionality, and Shareholder Returns. The winning position is not at any vertex but at a calibrated point that matches the company's lifecycle stage. Apollo at FY27 inflection belongs at Growth + Returns — using the HealthCo demerger to harvest digital optionality without burning cash.
+
+**Issue Tree with Kill Criteria:** Three paths modelled (Accelerate Growth / Disciplined Compounder / Return Capital) with explicit kill criteria: if bed expansion ROIC < WACC+300bps → rebalance; if 24|7 cannot show path to ₹100 Cr EBITDA by FY28 → divest; if HealthCo demerger value < ₹20,000 Cr → reconsider structure. All three pass in the base case.
+
+**Recommendation — APEX Capital Allocation Waterfall:** ₹14,000 Cr of FY27–30 FCF allocated in strict priority: maintenance capex → committed beds (₹5,000 Cr) → 24|7 burn cap (≤₹450 Cr, hard gate Q2 FY27) → HealthCo demerger (Q3 FY27) → shareholder returns (25–30% residual FCF) → brownfield M&A (18% IRR hurdle). Projected TSR CAGR: **17%** vs 8–10% for alternatives.
+
+**Apollo 24|7 Deep Dive:** Reverse-engineered unit economics (Apollo does not disclose CAC or cohort data) showed CAC collapsed ₹360 → ₹95 (73%), LTV/CAC improved <1x → 9x, payback 240 → 27 months. Recommended a 2-of-3 binding gate (contribution margin/user ≥₹65, EBITDA ≥₹0, private label ≥15%) with pre-committed Plan B (reverse-merge into HealthCo NewCo, implied value ₹3,000–4,000 Cr).
+
+**Key Numbers:**
+- Base case equity value: ₹9,760/share (~32% upside vs ₹7,400)
+- HealthCo unlock: ₹25,000–35,000 Cr
+- Downside (capped): ₹450 Cr burn + ₹500–800 Cr residual assets
+- 70% of valuation sensitivity sits in two variables: hospital margin trajectory and HealthCo multiple
+
+**Skills demonstrated:** SCQA structuring · Original framework development · Capital allocation strategy · SOTP valuation · Unit economics reverse-engineering · Scenario modelling · Board-level communication · CEO decision memo
+
+---
+
 ## Practice with Claude
 
 Install the management consultant skill and try these prompts:
