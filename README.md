@@ -6,6 +6,7 @@
 [![Claude Compatible](https://img.shields.io/badge/Claude-Compatible-blueviolet)](https://claude.ai)
 [![Skill Type](https://img.shields.io/badge/Type-Management%20Consulting-blue)]()
 [![Audience](https://img.shields.io/badge/Audience-MBA%20%7C%20Consultants%20%7C%20Business%20Professionals%20%7C%20Students-green)]()
+[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-red?logo=github-sponsors)](https://github.com/sponsors/DogInfantry)
 
 ---
 
@@ -226,19 +227,19 @@ See **[FRAMEWORKS.md](./FRAMEWORKS.md)** for the complete reference. Highlights:
 
 See **[CASE-STUDIES.md](./CASE-STUDIES.md)** for 3 fully worked cases. Each includes: full interviewer prompt → candidate structure → key analyses → final recommendation.
 
-| Case | Type | Setup | What You’ll Practice |
+| Case | Type | Setup | What You'll Practice |
 |------|------|-------|----------------------|
 | **The Falling Star** | Profitability | $800M specialty beverage company, margins declining 3 years running | Issue tree, cost/revenue disaggregation, root cause identification |
-| **New Frontier** | Market Entry | European athletic apparel brand evaluating US expansion | Market sizing, 3C’s, entry mode selection, go/no-go recommendation |
+| **New Frontier** | Market Entry | European athletic apparel brand evaluating US expansion | Market sizing, 3C's, entry mode selection, go/no-go recommendation |
 | **The Big Question** | Market Sizing | PE fund sizing the US pet insurance market for acquisition due diligence | Bottom-up sizing, TAM/SAM/SOM, assumption stress-testing |
 
-*A PE / LBO case is in progress ;see [Issue #6](https://github.com/DogInfantry/claude-skill-management-consultant-B1/issues/6) if you’d like to contribute it.*
+*A PE / LBO case is in progress — see [Issue #6](https://github.com/DogInfantry/claude-skill-management-consultant-B1/issues/6) if you'd like to contribute it.*
 
 ---
 
 ## Contributing
 
-This is a living knowledge base ;the more industries, benchmarks, and cases it covers, the more useful it becomes for everyone.
+This is a living knowledge base — the more industries, benchmarks, and cases it covers, the more useful it becomes for everyone.
 
 **See [CONTRIBUTING.md](./CONTRIBUTING.md)** for the full guide: file structure, quality bar, and how to submit a PR.
 
@@ -253,15 +254,17 @@ You don't need to be ex-MBB to contribute. If you've worked in any industry, fin
 
 ---
 
-## If This Helped You
+## Support This Project
 
-If this skill helped you prep for an interview, win a case comp, solve a real business problem, or just think more clearly, consider:
+This skill is free and always will be. If it helped you land an interview, ace a case, or think more clearly about a hard problem, here are a few ways to give back:
 
-- ⭐ **Starring the repo** so others can find it
-- 🔁 **Sharing it** with someone preparing for consulting interviews or working through a hard problem
-- 🛠️ **Contributing** a case study, framework, or industry reference
+- ⭐ **[Star the repo](https://github.com/DogInfantry/claude-skill-management-consultant-B1)** — helps others find it
+- 💖 **[Sponsor on GitHub](https://github.com/sponsors/DogInfantry)** — directly support ongoing development
+- ☕ **Buy me a coffee** — [ko-fi.com/doginfantry](https://ko-fi.com/doginfantry) *(set this up at ko-fi.com if you haven't yet)*
+- 🔁 **Share it** with someone preparing for consulting interviews or working through a strategy problem
+- 🛠️ **[Contribute](./CONTRIBUTING.md)** a case study, framework, or industry reference file
 
-Built for free, meant to stay free.
+> Built for free, meant to stay free. Any support goes directly toward keeping this knowledge base current and growing.
 
 ---
 
