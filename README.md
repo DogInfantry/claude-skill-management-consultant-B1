@@ -24,6 +24,33 @@ This is not a simple prompt. It is a structured knowledge system with 110+ refer
 
 ---
 
+## Knowledge Sources & IP Notice
+
+This project contains **no proprietary, confidential, or insider material** from any consulting firm or client engagement. Everything here is derived from publicly available sources only.
+
+**What this knowledge base is built from:**
+
+- 📚 **Published books** — *The McKinsey Way*, *Bulletproof Problem Solving*, *The Pyramid Principle* (Barbara Minto), *Case in Point*, *Competitive Strategy* (Porter), *Good Strategy Bad Strategy*, and other widely available texts
+- 🌐 **Firms' own public content** — McKinsey Insights, BCG Henderson Institute, Bain & Company articles, Deloitte Insights, PwC Strategy& reports — all publicly accessible
+- 🎓 **Case prep platforms** — Victor Cheng's *Case Interview Secrets*, PrepLounge, CaseCoach, IGotAnOffer, and MBB-published practice case books
+- 📊 **Public industry data** — SEC filings, World Bank, IMF, IEA, CMS, FDA, Bloomberg public datasets, and industry association benchmarks
+- 🏫 **Academic and business school material** — HBS, Wharton, INSEAD case abstracts and publicly released teaching notes
+- 🔓 **Open-source consulting frameworks** — Porter's Five Forces, BCG Growth-Share Matrix, McKinsey 7-S, Ansoff Matrix, and others that have been in the public domain for decades
+
+**What this knowledge base does NOT contain:**
+
+- ❌ No client names, engagement details, or project-specific data
+- ❌ No internal firm templates, proprietary scoring rubrics, or methodology documents obtained under NDA
+- ❌ No unpublished research, pre-release reports, or confidential benchmarks
+- ❌ No content obtained through employment at or breach of agreement with any firm
+- ❌ No leaked internal documents of any kind
+
+Use of terms like "McKinsey-style" or "MBB" throughout this repo is purely descriptive — referring to a publicly understood standard of consulting practice, not a claim of affiliation or endorsement by any firm.
+
+If you are a current or former consultant and wish to contribute, please ensure any additions follow these same standards: public sources only, no client data, no confidential firm IP.
+
+---
+
 ## Who This Is For
 
 | Audience | How You Benefit |
