@@ -14,6 +14,14 @@
 
 ---
 
+## How It Works
+
+![Skill Architecture — 5-step consulting OS powered by 110+ reference modules](./assets/skill_architecture.png)
+
+> **Frame → Structure → Analyse → Synthesise → Deliver.** Every problem flows through the same consulting operating system, drawing from 5 knowledge pillars and 110+ reference modules.
+
+---
+
 ## What This Is
 
 This repository contains a consulting knowledge base for [Claude](https://claude.ai), Anthropic's AI assistant. When installed, it gives Claude a structured senior-consultant workflow, built around MBB-style problem-solving and communication patterns built by distilling publicly available MBB frameworks, case prep resources, and consulting methodology into a single knowledge base.
@@ -21,86 +29,6 @@ This repository contains a consulting knowledge base for [Claude](https://claude
 This is not a simple prompt. It is a structured knowledge system with 110+ reference files covering every dimension of consulting work, from MECE issue trees and Pyramid Principle communication to due diligence, post-merger integration, GenAI enterprise strategy, and case interview coaching.
 
 **It is completely free.**
-
----
-
-## How It Works
-
-Every problem flows through the same consulting operating system — structured, hypothesis-driven, and board-ready at the end.
-
-```mermaid
-flowchart TD
-    A(["🧩 Messy Business Problem"]) --> B
-
-    B["**Frame the Problem**\nClarify question · Set scope · Align on decision"] --> C
-
-    C["**Build the Issue Tree**\nMECE decomposition · Hypothesis formation · 80/20 prioritisation"] --> D
-
-    D{"Which knowledge\nmodule applies?"}
-
-    D --> E1["📐 Frameworks\nPorter · 3C's · 7S · BCG · Ansoff"]
-    D --> E2["🏭 Industry Intelligence\n9 sector reference files"]
-    D --> E3["⚙️ Specialist Methods\nDD · PMI · Restructuring · Pricing"]
-    D --> E4["💬 Communication Craft\nPyramid · SCR · Storylining"]
-
-    E1 --> F
-    E2 --> F
-    E3 --> F
-    E4 --> F
-
-    F["**Analyse & Synthesise**\nQuantitative · Qualitative · So-what discipline"] --> G
-
-    G["**Structure the Recommendation**\nGoverning thought → Evidence → Implication"] --> H
-
-    H(["✅ Board-Ready Output\nDeck · Memo · One-pager · Case answer"])
-
-    style A fill:#1a1a2e,color:#e0e0e0,stroke:#4a9eca
-    style H fill:#1a3a2e,color:#e0e0e0,stroke:#4aca8a
-    style B fill:#2a2a3e,color:#e0e0e0,stroke:#555
-    style C fill:#2a2a3e,color:#e0e0e0,stroke:#555
-    style D fill:#3a2a1e,color:#e0e0e0,stroke:#ca8a4a
-    style F fill:#2a2a3e,color:#e0e0e0,stroke:#555
-    style G fill:#2a2a3e,color:#e0e0e0,stroke:#555
-    style E1 fill:#1e2a3a,color:#c0d8f0,stroke:#4a9eca
-    style E2 fill:#1e2a3a,color:#c0d8f0,stroke:#4a9eca
-    style E3 fill:#1e2a3a,color:#c0d8f0,stroke:#4a9eca
-    style E4 fill:#1e2a3a,color:#c0d8f0,stroke:#4a9eca
-```
-
----
-
-## Knowledge Architecture
-
-The skill draws from 110+ reference files organised across five layers.
-
-```mermaid
-flowchart LR
-    SKILL(["skill/SKILL.md\n— Consulting OS —"])
-
-    SKILL --> PS["🧠 Problem Solving\n& Thinking"]
-    SKILL --> CC["📋 Consulting\nCraft"]
-    SKILL --> IND["🏭 Industry\nVerticals"]
-    SKILL --> SPEC["⚙️ Specialist\nMethods"]
-    SKILL --> PPL["🤝 Client &\nPeople Skills"]
-
-    PS --> PS1["First-principles · Mental models\nDecision-making · Hypothesis trees\nCross-industry patterns"]
-    CC --> CC1["Case interview · Pyramid Principle\nGuesstimation · Storylining\nOutput craft · SCQA"]
-    IND --> IND1["Healthcare · Financial Services\nEnergy · TMT · Consumer\nIndustrial · Public Sector\nReal Estate · Hospitality"]
-    SPEC --> SPEC1["Due diligence · PMI\nRestructuring · GenAI strategy\nPricing · Org design\nChange management · Climate"]
-    PPL --> PPL1["Client management · Exec presence\nStakeholder mapping · Negotiations\nManaging up · Engagement delivery"]
-
-    style SKILL fill:#1a1a2e,color:#ffffff,stroke:#4a9eca,stroke-width:2px
-    style PS fill:#1e2635,color:#c8d8e8,stroke:#4a7a9e
-    style CC fill:#1e2635,color:#c8d8e8,stroke:#4a7a9e
-    style IND fill:#1e2635,color:#c8d8e8,stroke:#4a7a9e
-    style SPEC fill:#1e2635,color:#c8d8e8,stroke:#4a7a9e
-    style PPL fill:#1e2635,color:#c8d8e8,stroke:#4a7a9e
-    style PS1 fill:#12181f,color:#a0b8c8,stroke:#2a4a5e
-    style CC1 fill:#12181f,color:#a0b8c8,stroke:#2a4a5e
-    style IND1 fill:#12181f,color:#a0b8c8,stroke:#2a4a5e
-    style SPEC1 fill:#12181f,color:#a0b8c8,stroke:#2a4a5e
-    style PPL1 fill:#12181f,color:#a0b8c8,stroke:#2a4a5e
-```
 
 ---
 
