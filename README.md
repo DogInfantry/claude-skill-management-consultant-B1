@@ -16,7 +16,20 @@
 
 ## How It Works
 
-![Skill Architecture — 5-step consulting OS powered by 110+ reference modules](./assets/skill_architecture.png)
+```mermaid
+flowchart LR
+    A["🔍 Problem Brief"] --> B["1. Frame"]
+    B --> C["2. Structure"]
+    C --> D["3. Analyse"]
+    D --> E["4. Synthesise"]
+    E --> F["5. Deliver"]
+
+    B -.->|reads| G[("111 Reference Files")]
+    C -.-> G
+    D -.-> G
+    E -.-> G
+    F -.->|"Board-ready output"| H["✅ Client Value"]
+```
 
 > **Frame → Structure → Analyse → Synthesise → Deliver.** Every problem flows through the same consulting operating system, drawing from 5 knowledge pillars and 110+ reference modules.
 
