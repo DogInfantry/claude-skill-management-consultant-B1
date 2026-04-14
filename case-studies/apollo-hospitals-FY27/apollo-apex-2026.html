@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Apollo Hospitals — APEX-2026 Strategic Advisory</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..400&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root,[data-theme="light"]{
+  --color-bg:#f7f6f2;--color-surface:#f9f8f5;--color-surface-2:#fbfbf9;--color-surface-offset:#f3f0ec;--color-surface-offset-2:#edeae5;--color-surface-dynamic:#e6e4df;--color-divider:#dcd9d5;--color-border:#d4d1ca;
+  --color-text:#28251d;--color-text-muted:#7a7974;--color-text-faint:#bab9b4;--color-text-inverse:#f9f8f4;
+  --color-primary:#01696f;--color-primary-hover:#0c4e54;--color-primary-active:#0f3638;--color-primary-highlight:#cedcd8;
+  --color-gold:#d19900;--color-gold-highlight:#e9e0c6;
+  --color-success:#437a22;--color-success-highlight:#d4dfcc;
+  --color-error:#a12c7b;--color-error-highlight:#e0ced7;
+  --color-orange:#da7101;--color-orange-highlight:#e7d7c4;
+  --color-blue:#006494;--color-blue-highlight:#c6d8e4;
+  --shadow-sm:0 1px 2px oklch(0.2 0.01 80/0.06);--shadow-md:0 4px 12px oklch(0.2 0.01 80/0.08);--shadow-lg:0 12px 32px oklch(0.2 0.01 80/0.12);
+  --radius-sm:0.375rem;--radius-md:0.5rem;--radius-lg:0.75rem;--radius-xl:1rem;--radius-full:9999px;
+  --transition-interactive:180ms cubic-bezier(0.16,1,0.3,1);
+  --text-xs:clamp(0.75rem,0.7rem + 0.25vw,0.875rem);--text-sm:clamp(0.875rem,0.8rem + 0.35vw,1rem);--text-base:clamp(1rem,0.95rem + 0.25vw,1.125rem);--text-lg:clamp(1.125rem,1rem + 0.75vw,1.5rem);--text-xl:clamp(1.5rem,1.2rem + 1.25vw,2.25rem);
+  --space-1:0.25rem;--space-2:0.5rem;--space-3:0.75rem;--space-4:1rem;--space-5:1.25rem;--space-6:1.5rem;--space-8:2rem;--space-10:2.5rem;--space-12:3rem;--space-16:4rem;
+  --font-body:'DM Sans',system-ui,sans-serif;--font-mono:'DM Mono',monospace;
+}
+[data-theme="dark"]{
+  --color-bg:#0f0e0d;--color-surface:#141312;--color-surface-2:#181715;--color-surface-offset:#1a1917;--color-surface-offset-2:#1e1d1b;--color-surface-dynamic:#242320;--color-divider:#202019;--color-border:#2c2b29;
+  --color-text:#cdccca;--color-text-muted:#797876;--color-text-faint:#5a5957;--color-text-inverse:#2b2a28;
+  --color-primary:#4f98a3;--color-primary-hover:#227f8b;--color-primary-active:#1a626b;--color-primary-highlight:#1e2e30;
+  --color-gold:#e8af34;--color-gold-highlight:#2e2510;
+  --color-success:#6daa45;--color-success-highlight:#1a2a10;
+  --color-error:#d163a7;--color-error-highlight:#2a1220;
+  --color-orange:#fdab43;--color-orange-highlight:#2a1e0a;
+  --color-blue:#5591c7;--color-blue-highlight:#0e1f2e;
+  --shadow-sm:0 1px 2px oklch(0 0 0/0.3);--shadow-md:0 4px 12px oklch(0 0 0/0.4);--shadow-lg:0 12px 32px oklch(0 0 0/0.5);
+}
+@media(prefers-color-scheme:light){:root:not([data-theme]){
+  --color-bg:#f7f6f2;--color-surface:#f9f8f5;--color-surface-2:#fbfbf9;--color-surface-offset:#f3f0ec;--color-surface-offset-2:#edeae5;--color-surface-dynamic:#e6e4df;--color-divider:#dcd9d5;--color-border:#d4d1ca;
+  --color-text:#28251d;--color-text-muted:#7a7974;--color-text-faint:#bab9b4;
+  --color-primary:#01696f;--color-primary-hover:#0c4e54;--color-primary-highlight:#cedcd8;
+  --color-gold:#d19900;--color-success:#437a22;--color-error:#a12c7b;--color-orange:#da7101;--color-blue:#006494;
+  --shadow-sm:0 1px 2px oklch(0.2 0.01 80/0.06);--shadow-md:0 4px 12px oklch(0.2 0.01 80/0.08);
+}}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;scroll-behavior:smooth;scroll-padding-top:4rem}
+body{min-height:100dvh;font-family:var(--font-body);font-size:var(--text-base);color:var(--color-text);background:var(--color-bg);line-height:1.6}
+img,svg{display:block;max-width:100%}
+button{cursor:pointer;background:none;border:none;font:inherit;color:inherit}
+a,button,[role="button"]{transition:color var(--transition-interactive),background var(--transition-interactive),border-color var(--transition-interactive),box-shadow var(--transition-interactive)}
+:focus-visible{outline:2px solid var(--color-primary);outline-offset:3px;border-radius:var(--radius-sm)}
+::selection{background:oklch(from var(--color-primary) l c h/0.25);color:var(--color-text)}
+h1,h2,h3,h4{text-wrap:balance;line-height:1.2}
+p{text-wrap:pretty}
+
+/* LAYOUT */
+.layout{display:grid;grid-template-columns:240px 1fr;grid-template-rows:auto 1fr;min-height:100dvh}
+.topbar{grid-column:1/-1;position:sticky;top:0;z-index:100;display:flex;align-items:center;gap:var(--space-4);padding:0 var(--space-6);height:56px;background:var(--color-surface);border-bottom:1px solid var(--color-border)}
+.sidebar{position:sticky;top:56px;height:calc(100dvh - 56px);overflow-y:auto;background:var(--color-surface);border-right:1px solid var(--color-border);padding:var(--space-4) 0}
+.main{overflow:auto;padding:var(--space-8) var(--space-8) var(--space-16)}
+
+/* TOPBAR */
+.logo{display:flex;align-items:center;gap:var(--space-3);text-decoration:none;color:var(--color-text)}
+.logo svg{flex-shrink:0}
+.logo-text{font-size:var(--text-sm);font-weight:600;letter-spacing:-0.01em}
+.topbar-divider{width:1px;height:20px;background:var(--color-border);margin:0 var(--space-2)}
+.engagement-badge{font-size:var(--text-xs);color:var(--color-text-muted);font-family:var(--font-mono)}
+.topbar-right{margin-left:auto;display:flex;align-items:center;gap:var(--space-3)}
+.theme-toggle{width:32px;height:32px;display:flex;align-items:center;justify-content:center;border-radius:var(--radius-md);color:var(--color-text-muted)}
+.theme-toggle:hover{background:var(--color-surface-dynamic);color:var(--color-text)}
+.status-pill{display:flex;align-items:center;gap:var(--space-2);padding:var(--space-1) var(--space-3);background:var(--color-success-highlight);border-radius:var(--radius-full);font-size:var(--text-xs);color:var(--color-success);font-weight:500}
+.status-dot{width:6px;height:6px;border-radius:50%;background:var(--color-success);animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.4}}
+
+/* SIDEBAR NAV */
+.nav-section{padding:0 var(--space-3) var(--space-4)}
+.nav-label{font-size:var(--text-xs);font-weight:600;color:var(--color-text-faint);text-transform:uppercase;letter-spacing:0.08em;padding:0 var(--space-3) var(--space-2)}
+.nav-item{display:flex;align-items:center;gap:var(--space-3);padding:var(--space-2) var(--space-3);border-radius:var(--radius-md);text-decoration:none;color:var(--color-text-muted);font-size:var(--text-sm);cursor:pointer;transition:all var(--transition-interactive)}
+.nav-item:hover{background:var(--color-surface-dynamic);color:var(--color-text)}
+.nav-item.active{background:var(--color-primary-highlight);color:var(--color-primary);font-weight:500}
+.nav-item svg{flex-shrink:0;opacity:0.7}
+.nav-item.active svg{opacity:1}
+.nav-divider{height:1px;background:var(--color-border);margin:var(--space-3) var(--space-3)}
+
+/* MAIN CONTENT */
+.page-header{margin-bottom:var(--space-8)}
+.page-eyebrow{font-size:var(--text-xs);font-family:var(--font-mono);color:var(--color-primary);font-weight:500;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:var(--space-2)}
+.page-title{font-size:var(--text-xl);font-weight:700;letter-spacing:-0.02em;margin-bottom:var(--space-3)}
+.page-subtitle{font-size:var(--text-sm);color:var(--color-text-muted);max-width:64ch}
+.page-meta{display:flex;align-items:center;gap:var(--space-4);margin-top:var(--space-4);flex-wrap:wrap}
+.meta-tag{display:flex;align-items:center;gap:var(--space-2);font-size:var(--text-xs);color:var(--color-text-faint);font-family:var(--font-mono)}
+.meta-tag span{color:var(--color-text-muted)}
+
+/* SECTION */
+.section{margin-bottom:var(--space-12)}
+.section-header{margin-bottom:var(--space-6);padding-bottom:var(--space-4);border-bottom:1px solid var(--color-border);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:var(--space-3)}
+.section-title{font-size:var(--text-lg);font-weight:600;letter-spacing:-0.01em}
+.section-tag{font-size:var(--text-xs);font-family:var(--font-mono);padding:var(--space-1) var(--space-3);border-radius:var(--radius-full);background:var(--color-surface-offset-2);color:var(--color-text-muted)}
+
+/* KPI GRID */
+.kpi-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(200px,100%),1fr));gap:var(--space-4);margin-bottom:var(--space-8)}
+.kpi-card{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:var(--space-5);box-shadow:var(--shadow-sm);transition:box-shadow var(--transition-interactive)}
+.kpi-card:hover{box-shadow:var(--shadow-md)}
+.kpi-label{font-size:var(--text-xs);color:var(--color-text-muted);font-weight:500;margin-bottom:var(--space-2);text-transform:uppercase;letter-spacing:0.05em}
+.kpi-value{font-size:clamp(1.4rem,1rem+1.2vw,2rem);font-weight:700;letter-spacing:-0.03em;font-variant-numeric:tabular-nums lining-nums;margin-bottom:var(--space-1)}
+.kpi-delta{font-size:var(--text-xs);display:flex;align-items:center;gap:var(--space-1);font-weight:500}
+.kpi-delta.up{color:var(--color-success)}
+.kpi-delta.down{color:var(--color-error)}
+.kpi-delta.neutral{color:var(--color-text-muted)}
+.kpi-value.primary-color{color:var(--color-primary)}
+.kpi-value.gold-color{color:var(--color-gold)}
+.kpi-value.success-color{color:var(--color-success)}
+.kpi-value.orange-color{color:var(--color-orange)}
+
+/* CARD */
+.card{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:var(--space-6);box-shadow:var(--shadow-sm);margin-bottom:var(--space-4)}
+.card-title{font-size:var(--text-sm);font-weight:600;margin-bottom:var(--space-4);color:var(--color-text)}
+.card-2col{display:grid;grid-template-columns:1fr 1fr;gap:var(--space-4)}
+.card-3col{display:grid;grid-template-columns:1fr 1fr 1fr;gap:var(--space-4)}
+
+/* TRILEMMA VISUAL */
+.trilemma-container{display:flex;flex-direction:column;align-items:center;padding:var(--space-8) var(--space-4)}
+.trilemma-title{font-size:var(--text-sm);font-weight:600;color:var(--color-text-muted);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:var(--space-6);font-family:var(--font-mono)}
+.triangle-wrap{position:relative;width:320px;height:280px;margin-bottom:var(--space-6)}
+.triangle-svg{width:100%;height:100%}
+.apex-label{font-size:var(--text-xs);font-family:var(--font-mono);color:var(--color-text-muted);line-height:1.4}
+.apex-label strong{display:block;color:var(--color-text);font-size:var(--text-sm);font-weight:600}
+.trilemma-legend{display:flex;gap:var(--space-6);font-size:var(--text-xs);color:var(--color-text-muted)}
+.legend-item{display:flex;align-items:center;gap:var(--space-2)}
+.legend-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+
+/* ISSUE TREE */
+.tree-root{font-size:var(--text-sm);font-family:var(--font-mono);line-height:1.8}
+.tree-node{padding:var(--space-1) 0}
+.tree-branch{padding-left:var(--space-6);border-left:1px solid var(--color-border);margin-left:var(--space-3)}
+.tree-label{display:inline-flex;align-items:center;gap:var(--space-2);padding:var(--space-1) var(--space-3);border-radius:var(--radius-sm);font-size:var(--text-xs);background:var(--color-surface-offset);color:var(--color-text-muted);margin-bottom:var(--space-1)}
+.tree-label.root{background:var(--color-primary-highlight);color:var(--color-primary);font-weight:600}
+.tree-label.kill{background:var(--color-error-highlight);color:var(--color-error)}
+.tree-label.pass{background:var(--color-success-highlight);color:var(--color-success)}
+
+/* WATERFALL CHART */
+.waterfall{display:flex;flex-direction:column;gap:var(--space-2);padding:var(--space-4) 0}
+.waterfall-row{display:grid;grid-template-columns:200px 1fr auto;align-items:center;gap:var(--space-4)}
+.waterfall-label{font-size:var(--text-xs);color:var(--color-text-muted);font-family:var(--font-mono);text-align:right}
+.waterfall-bar-wrap{height:24px;background:var(--color-surface-dynamic);border-radius:var(--radius-sm);overflow:hidden;position:relative}
+.waterfall-bar{height:100%;border-radius:var(--radius-sm);transition:width 1s cubic-bezier(0.16,1,0.3,1)}
+.waterfall-val{font-size:var(--text-xs);font-family:var(--font-mono);font-weight:600;color:var(--color-text);white-space:nowrap}
+
+/* TABLE */
+.data-table{width:100%;border-collapse:collapse;font-size:var(--text-xs)}
+.data-table th{text-align:left;padding:var(--space-2) var(--space-3);font-size:var(--text-xs);font-weight:600;text-transform:uppercase;letter-spacing:0.06em;color:var(--color-text-faint);border-bottom:1px solid var(--color-border)}
+.data-table td{padding:var(--space-3);border-bottom:1px solid oklch(from var(--color-border) l c h/0.5);color:var(--color-text-muted);font-variant-numeric:tabular-nums lining-nums;vertical-align:top}
+.data-table td:first-child{color:var(--color-text);font-weight:500}
+.data-table tr:last-child td{border-bottom:none}
+.data-table tr:hover td{background:var(--color-surface-dynamic)}
+.badge{display:inline-flex;align-items:center;padding:2px 8px;border-radius:var(--radius-full);font-size:0.68rem;font-weight:600;letter-spacing:0.03em;white-space:nowrap}
+.badge-green{background:var(--color-success-highlight);color:var(--color-success)}
+.badge-red{background:var(--color-error-highlight);color:var(--color-error)}
+.badge-gold{background:var(--color-gold-highlight);color:var(--color-gold)}
+.badge-blue{background:var(--color-blue-highlight);color:var(--color-blue)}
+.badge-orange{background:var(--color-orange-highlight);color:var(--color-orange)}
+
+/* PHASE TIMELINE */
+.timeline{display:flex;flex-direction:column;gap:0}
+.timeline-item{display:grid;grid-template-columns:120px auto 1fr;gap:var(--space-4);align-items:start}
+.timeline-period{font-size:var(--text-xs);font-family:var(--font-mono);color:var(--color-text-faint);padding-top:4px;text-align:right}
+.timeline-spine{display:flex;flex-direction:column;align-items:center;gap:0}
+.timeline-dot{width:12px;height:12px;border-radius:50%;border:2px solid var(--color-primary);background:var(--color-primary-highlight);flex-shrink:0}
+.timeline-dot.active{background:var(--color-primary);box-shadow:0 0 0 3px oklch(from var(--color-primary) l c h/0.2)}
+.timeline-line{width:2px;flex:1;background:var(--color-border);min-height:40px}
+.timeline-content{padding-bottom:var(--space-8)}
+.timeline-content h4{font-size:var(--text-sm);font-weight:600;margin-bottom:var(--space-2)}
+.timeline-content p{font-size:var(--text-xs);color:var(--color-text-muted);margin-bottom:var(--space-3);max-width:none}
+.timeline-metrics{display:flex;gap:var(--space-3);flex-wrap:wrap;margin-top:var(--space-2)}
+.metric-chip{padding:var(--space-1) var(--space-3);background:var(--color-surface-offset);border-radius:var(--radius-full);font-size:var(--text-xs);font-family:var(--font-mono);color:var(--color-text-muted)}
+.metric-chip strong{color:var(--color-text)}
+
+/* SCENARIO TABLE */
+.scenario-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:var(--space-4)}
+.scenario-card{background:var(--color-surface-offset);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:var(--space-5)}
+.scenario-card.recommended{border-color:var(--color-primary);background:var(--color-primary-highlight)}
+.scenario-card.recommended .scenario-name{color:var(--color-primary)}
+.scenario-name{font-size:var(--text-sm);font-weight:600;margin-bottom:var(--space-2)}
+.scenario-desc{font-size:var(--text-xs);color:var(--color-text-muted);margin-bottom:var(--space-4)}
+.scenario-tsr{font-size:var(--text-xl);font-weight:700;letter-spacing:-0.03em;margin-bottom:var(--space-1)}
+.scenario-label{font-size:var(--text-xs);color:var(--color-text-faint)}
+.scenario-flag{display:inline-flex;align-items:center;gap:var(--space-1);font-size:var(--text-xs);font-weight:600;padding:var(--space-1) var(--space-2);border-radius:var(--radius-sm);margin-top:var(--space-3)}
+.scenario-flag.rec{background:var(--color-primary-highlight);color:var(--color-primary)}
+
+/* UNIT ECONOMICS */
+.ue-row{display:grid;grid-template-columns:160px 1fr 1fr;gap:var(--space-4);align-items:center;padding:var(--space-3) 0;border-bottom:1px solid oklch(from var(--color-border) l c h/0.5)}
+.ue-row:last-child{border-bottom:none}
+.ue-metric{font-size:var(--text-xs);color:var(--color-text-muted);font-family:var(--font-mono)}
+.ue-before,.ue-after{font-size:var(--text-sm);font-weight:600;font-variant-numeric:tabular-nums;display:flex;align-items:center;gap:var(--space-2)}
+.ue-before{color:var(--color-text-faint)}
+.ue-after{color:var(--color-success)}
+.ue-arrow{color:var(--color-text-faint);font-size:0.8rem}
+
+/* GOVERNING THOUGHT */
+.governing-thought{background:var(--color-surface);border:1px solid var(--color-primary);border-left:3px solid var(--color-primary);border-radius:var(--radius-lg);padding:var(--space-6);margin-bottom:var(--space-6)}
+.gt-eyebrow{font-size:var(--text-xs);font-family:var(--font-mono);color:var(--color-primary);text-transform:uppercase;letter-spacing:0.1em;margin-bottom:var(--space-3)}
+.gt-text{font-size:var(--text-base);font-weight:500;line-height:1.7;color:var(--color-text)}
+
+/* VALUATION */
+.val-row{display:flex;justify-content:space-between;align-items:center;padding:var(--space-3) 0;border-bottom:1px solid oklch(from var(--color-border) l c h/0.5)}
+.val-row:last-child{border-bottom:none;padding-top:var(--space-4)}
+.val-row.total{font-weight:700;font-size:var(--text-base)}
+.val-label{font-size:var(--text-xs);color:var(--color-text-muted)}
+.val-value{font-size:var(--text-sm);font-family:var(--font-mono);font-weight:600;color:var(--color-text)}
+
+/* RISK TABLE */
+.risk-row{display:grid;grid-template-columns:160px 60px 1fr;gap:var(--space-3);align-items:start;padding:var(--space-3) 0;border-bottom:1px solid oklch(from var(--color-border) l c h/0.5)}
+.risk-row:last-child{border-bottom:none}
+.risk-item{font-size:var(--text-xs);font-weight:500;color:var(--color-text)}
+.risk-level{padding:2px 8px;border-radius:var(--radius-full);font-size:0.65rem;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;text-align:center}
+.risk-high{background:var(--color-error-highlight);color:var(--color-error)}
+.risk-medium{background:var(--color-gold-highlight);color:var(--color-gold)}
+.risk-low{background:var(--color-success-highlight);color:var(--color-success)}
+.risk-mitigation{font-size:var(--text-xs);color:var(--color-text-muted)}
+
+/* SCROLLBAR */
+::-webkit-scrollbar{width:6px;height:6px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:var(--color-border);border-radius:3px}
+::-webkit-scrollbar-thumb:hover{background:var(--color-text-faint)}
+
+/* RESPONSIVE */
+@media(max-width:900px){
+  .layout{grid-template-columns:1fr}
+  .sidebar{display:none}
+  .main{padding:var(--space-6) var(--space-4) var(--space-12)}
+  .card-2col,.card-3col,.scenario-grid{grid-template-columns:1fr}
+  .waterfall-row{grid-template-columns:120px 1fr auto}
+}
+@media(max-width:600px){
+  .kpi-grid{grid-template-columns:1fr 1fr}
+  .timeline-item{grid-template-columns:72px auto 1fr}
+  .ue-row{grid-template-columns:1fr 1fr}
+}
+</style>
+</head>
+<body>
+<div class="layout">
+
+<!-- TOPBAR -->
+<header class="topbar">
+  <a class="logo" href="#">
+    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-label="APEX logo">
+      <rect x="2" y="2" width="24" height="24" rx="6" fill="var(--color-primary)" opacity="0.15"/>
+      <path d="M14 6L20 20H8L14 6Z" fill="none" stroke="var(--color-primary)" stroke-width="1.5" stroke-linejoin="round"/>
+      <circle cx="14" cy="14" r="2" fill="var(--color-primary)"/>
+    </svg>
+    <span class="logo-text">APEX Advisory</span>
+  </a>
+  <div class="topbar-divider"></div>
+  <span class="engagement-badge">APEX-2026-01</span>
+  <div class="topbar-right">
+    <div class="status-pill">
+      <span class="status-dot"></span>
+      Live · April 2026
+    </div>
+    <button class="theme-toggle" data-theme-toggle aria-label="Switch to light mode">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+    </button>
+  </div>
+</header>
+
+<!-- SIDEBAR -->
+<aside class="sidebar">
+  <nav>
+    <div class="nav-section">
+      <div class="nav-label">Engagement</div>
+      <a class="nav-item active" href="#overview">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+        Overview
+      </a>
+      <a class="nav-item" href="#problem">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+        Problem Frame
+      </a>
+      <a class="nav-item" href="#trilemma">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 22 20 2 20"/></svg>
+        APEX Trilemma
+      </a>
+    </div>
+    <div class="nav-divider"></div>
+    <div class="nav-section">
+      <div class="nav-label">Analysis</div>
+      <a class="nav-item" href="#issue-tree">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="6" y1="3" x2="6" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 01-9 9"/></svg>
+        Issue Tree
+      </a>
+      <a class="nav-item" href="#apollo24">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        Apollo 24|7 Deep Dive
+      </a>
+      <a class="nav-item" href="#scenarios">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+        Scenario Modelling
+      </a>
+    </div>
+    <div class="nav-divider"></div>
+    <div class="nav-section">
+      <div class="nav-label">Output</div>
+      <a class="nav-item" href="#waterfall">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+        Capital Waterfall
+      </a>
+      <a class="nav-item" href="#valuation">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+        Valuation
+      </a>
+      <a class="nav-item" href="#risks">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+        Risk Register
+      </a>
+    </div>
+  </nav>
+</aside>
+
+<!-- MAIN -->
+<main class="main">
+
+  <!-- PAGE HEADER -->
+  <div class="page-header" id="overview">
+    <div class="page-eyebrow">Strategic Advisory · Healthcare</div>
+    <h1 class="page-title">Apollo Hospitals — The Compounder's Dilemma</h1>
+    <p class="page-subtitle">Capital allocation strategy at FY27 inflection: balancing ₹8,300 Cr bed expansion, Apollo 24|7 digital burn, and shareholder return within a market paying 58–71× P/E for execution certainty.</p>
+    <div class="page-meta">
+      <span class="meta-tag"><span>Client</span> Apollo Hospitals Enterprise Ltd (NSE: APOLLOHOSP)</span>
+      <span class="meta-tag"><span>MCap</span> ~₹1.05 L Cr</span>
+      <span class="meta-tag"><span>Engagement</span> APEX-2026-01</span>
+      <span class="meta-tag"><span>Timeline</span> April 2026 · 6 weeks</span>
+      <span class="meta-tag"><span>Method</span> MBB Hypothesis-Driven</span>
+    </div>
+  </div>
+
+  <!-- KPIs -->
+  <div class="kpi-grid">
+    <div class="kpi-card">
+      <div class="kpi-label">Base Case Share Price</div>
+      <div class="kpi-value primary-color">₹9,760</div>
+      <div class="kpi-delta up">↑ 32% upside vs ₹7,400 CMP</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Projected TSR CAGR</div>
+      <div class="kpi-value gold-color">17%</div>
+      <div class="kpi-delta up">↑ vs 8–10% alternatives</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">HealthCo Unlock</div>
+      <div class="kpi-value success-color">₹35,000 Cr</div>
+      <div class="kpi-delta neutral">Demerger · Q3 FY27</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">24|7 Burn Cap</div>
+      <div class="kpi-value orange-color">₹450 Cr</div>
+      <div class="kpi-delta neutral">Hard gate · Q2 FY27</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">FY27–30 FCF Pool</div>
+      <div class="kpi-value">₹14,000 Cr</div>
+      <div class="kpi-delta neutral">Available for allocation</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Bed Expansion Capex</div>
+      <div class="kpi-value">₹5,000 Cr</div>
+      <div class="kpi-delta neutral">Committed · ROIC hurdle 15%+</div>
+    </div>
+  </div>
+
+  <!-- GOVERNING THOUGHT -->
+  <div class="governing-thought" id="problem">
+    <div class="gt-eyebrow">Governing Thought · SCQA Resolution</div>
+    <p class="gt-text">Apollo cannot simultaneously maximise bed expansion, digital burn, and shareholder returns — the market is paying for execution certainty, not optionality. The winning position is Growth + Returns: use the HealthCo demerger to harvest digital optionality without burning cash, cap 24|7 at ₹450 Cr with binding 2-of-3 gates, and allocate 25–30% of residual FCF to shareholders. Projected TSR CAGR: <strong>17%</strong> vs 8–10% for all alternatives.</p>
+  </div>
+
+  <!-- TRILEMMA -->
+  <div class="section" id="trilemma">
+    <div class="section-header">
+      <h2 class="section-title">The APEX Trilemma™ — Original Framework</h2>
+      <span class="section-tag">Proprietary</span>
+    </div>
+    <div class="card">
+      <p style="font-size:var(--text-xs);color:var(--color-text-muted);margin-bottom:var(--space-6);max-width:72ch">Maps every capital allocation decision as tension between three vertices. The winning position is not at any vertex but at a calibrated point that matches the company's lifecycle stage. Apollo at FY27 inflection belongs at Growth + Returns — not Growth + Digital.</p>
+      <div class="trilemma-container">
+        <div class="trilemma-title">APEX Capital Trilemma — Apollo FY27</div>
+        <div class="triangle-wrap">
+          <svg class="triangle-svg" viewBox="0 0 320 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Background triangle -->
+            <polygon points="160,20 300,250 20,250" fill="var(--color-surface-offset)" stroke="var(--color-border)" stroke-width="1.5"/>
+            <!-- Inner highlight zone (Growth+Returns) -->
+            <polygon points="160,20 300,250 160,250" fill="var(--color-primary)" opacity="0.08"/>
+            <!-- Optimal point -->
+            <circle cx="220" cy="175" r="8" fill="var(--color-primary)" opacity="0.9"/>
+            <circle cx="220" cy="175" r="14" fill="var(--color-primary)" opacity="0.2"/>
+            <!-- Vertex labels -->
+            <text x="160" y="14" text-anchor="middle" fill="var(--color-text)" font-size="11" font-family="DM Sans,sans-serif" font-weight="600">Growth Capex</text>
+            <text x="160" y="25" text-anchor="middle" fill="var(--color-text-muted)" font-size="9" font-family="DM Mono,monospace">₹5,000 Cr beds</text>
+            <text x="304" y="256" text-anchor="start" fill="var(--color-text)" font-size="11" font-family="DM Sans,sans-serif" font-weight="600">Shareholder Returns</text>
+            <text x="304" y="267" text-anchor="start" fill="var(--color-text-muted)" font-size="9" font-family="DM Mono,monospace">25–30% residual FCF</text>
+            <text x="16" y="256" text-anchor="start" fill="var(--color-text)" font-size="11" font-family="DM Sans,sans-serif" font-weight="600">Digital Optionality</text>
+            <text x="16" y="267" text-anchor="start" fill="var(--color-text-muted)" font-size="9" font-family="DM Mono,monospace">24|7 / HealthCo</text>
+            <!-- Apollo position label -->
+            <text x="228" y="171" fill="var(--color-primary)" font-size="9" font-family="DM Mono,monospace" font-weight="600">Apollo FY27</text>
+            <text x="228" y="181" fill="var(--color-primary)" font-size="8" font-family="DM Mono,monospace">Optimal zone</text>
+            <!-- Tension arrows -->
+            <line x1="160" y1="30" x2="290" y2="245" stroke="var(--color-border)" stroke-width="1" stroke-dasharray="4 4"/>
+            <line x1="160" y1="30" x2="30" y2="245" stroke="var(--color-border)" stroke-width="1" stroke-dasharray="4 4"/>
+          </svg>
+        </div>
+        <div class="trilemma-legend">
+          <div class="legend-item"><div class="legend-dot" style="background:var(--color-primary)"></div>Apollo FY27 optimal position</div>
+          <div class="legend-item"><div class="legend-dot" style="background:var(--color-primary);opacity:0.3"></div>Growth+Returns zone</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ISSUE TREE -->
+  <div class="section" id="issue-tree">
+    <div class="section-header">
+      <h2 class="section-title">Issue Tree with Kill Criteria</h2>
+      <span class="section-tag">MECE · 3 paths modelled</span>
+    </div>
+    <div class="card">
+      <div class="tree-root">
+        <div class="tree-node"><span class="tree-label root">Can Apollo sustain 17%+ TSR CAGR through FY30?</span></div>
+        <div class="tree-branch">
+          <div class="tree-node"><span class="tree-label">1. Hospital core execution</span></div>
+          <div class="tree-branch">
+            <div class="tree-node"><span class="tree-label">Bed ROIC ≥ WACC + 300bps?</span> <span class="tree-label pass">PASS — base case ROIC 18%</span></div>
+            <div class="tree-node"><span class="tree-label">Kill criterion</span> <span class="tree-label kill">If ROIC &lt; WACC+300bps → rebalance capex to brownfield</span></div>
+          </div>
+          <div class="tree-node"><span class="tree-label">2. Apollo 24|7 digital burn</span></div>
+          <div class="tree-branch">
+            <div class="tree-node"><span class="tree-label">Path to ₹100 Cr EBITDA by FY28?</span> <span class="tree-label pass">PASS — gate-dependent</span></div>
+            <div class="tree-node"><span class="tree-label">Kill criterion</span> <span class="tree-label kill">2-of-3 gate miss in Q2 FY27 → reverse-merge into HealthCo NewCo</span></div>
+            <div class="tree-node"><span class="tree-label">Kill criterion</span> <span class="tree-label kill">If contribution margin/user &lt; ₹65 → divest or restructure</span></div>
+          </div>
+          <div class="tree-node"><span class="tree-label">3. HealthCo demerger value</span></div>
+          <div class="tree-branch">
+            <div class="tree-node"><span class="tree-label">Demerger value ≥ ₹20,000 Cr?</span> <span class="tree-label pass">PASS — base case ₹25,000–35,000 Cr</span></div>
+            <div class="tree-node"><span class="tree-label">Kill criterion</span> <span class="tree-label kill">If market value &lt; ₹20,000 Cr → reconsider structure; delay Q3 FY27</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- APOLLO 24|7 DEEP DIVE -->
+  <div class="section" id="apollo24">
+    <div class="section-header">
+      <h2 class="section-title">Apollo 24|7 — Unit Economics Deep Dive</h2>
+      <span class="section-tag">Reverse-engineered · undisclosed data</span>
+    </div>
+    <div class="card">
+      <p style="font-size:var(--text-xs);color:var(--color-text-muted);margin-bottom:var(--space-5);max-width:72ch">Apollo does not disclose CAC or cohort data. Unit economics reverse-engineered from public disclosures, app store metrics, and channel mix analysis. Dramatic improvement in LTV/CAC signals digital flywheel is activating.</p>
+      <div class="ue-row" style="font-weight:600;font-size:var(--text-xs);color:var(--color-text-faint);padding-bottom:var(--space-2)">
+        <div>Metric</div><div>FY22 (then)</div><div>FY25 (now)</div>
+      </div>
+      <div class="ue-row">
+        <div class="ue-metric">CAC</div>
+        <div class="ue-before">₹360</div>
+        <div class="ue-after">₹95 <span style="font-size:0.68rem;font-weight:400;color:var(--color-success)">(−73%)</span></div>
+      </div>
+      <div class="ue-row">
+        <div class="ue-metric">LTV/CAC ratio</div>
+        <div class="ue-before">&lt;1×</div>
+        <div class="ue-after">9× <span style="font-size:0.68rem;font-weight:400;color:var(--color-success)">(+8× improvement)</span></div>
+      </div>
+      <div class="ue-row">
+        <div class="ue-metric">Payback period</div>
+        <div class="ue-before">240 months</div>
+        <div class="ue-after">27 months <span style="font-size:0.68rem;font-weight:400;color:var(--color-success)">(−89%)</span></div>
+      </div>
+      <div class="ue-row">
+        <div class="ue-metric">Contribution margin/user</div>
+        <div class="ue-before">Negative</div>
+        <div class="ue-after">₹62 <span style="font-size:0.68rem;font-weight:400;color:var(--color-gold)">(gate: ₹65 target)</span></div>
+      </div>
+      <div class="ue-row">
+        <div class="ue-metric">Private label mix</div>
+        <div class="ue-before">2%</div>
+        <div class="ue-after">11% <span style="font-size:0.68rem;font-weight:400;color:var(--color-gold)">(gate: 15% target)</span></div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-title">2-of-3 Binding Gate — Q2 FY27 Decision Point</div>
+      <table class="data-table">
+        <thead><tr><th>Gate Metric</th><th>Target</th><th>Current Track</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td>Contribution margin / user</td><td>≥ ₹65</td><td>₹62 (+₹3 needed)</td><td><span class="badge badge-gold">AT RISK</span></td></tr>
+          <tr><td>24|7 EBITDA</td><td>≥ ₹0</td><td>On track Q4 FY26</td><td><span class="badge badge-green">ON TRACK</span></td></tr>
+          <tr><td>Private label revenue mix</td><td>≥ 15%</td><td>11% (Q1 FY26)</td><td><span class="badge badge-orange">STRETCH</span></td></tr>
+        </tbody>
+      </table>
+      <div style="margin-top:var(--space-4);padding:var(--space-4);background:var(--color-surface-offset);border-radius:var(--radius-md)">
+        <div style="font-size:var(--text-xs);font-weight:600;color:var(--color-text);margin-bottom:var(--space-2)">Plan B (pre-committed)</div>
+        <div style="font-size:var(--text-xs);color:var(--color-text-muted)">If 2-of-3 gates missed in Q2 FY27: reverse-merge Apollo 24|7 into HealthCo NewCo. Implied residual value ₹3,000–4,000 Cr. Downside is capped — digital assets don't disappear, they get re-housed in a vehicle better suited to independent funding.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCENARIOS -->
+  <div class="section" id="scenarios">
+    <div class="section-header">
+      <h2 class="section-title">Three-Path Scenario Modelling</h2>
+      <span class="section-tag">FY27–30 · 70% of sensitivity in 2 variables</span>
+    </div>
+    <div class="scenario-grid">
+      <div class="scenario-card">
+        <div class="scenario-name">Path A: Accelerate Growth</div>
+        <div class="scenario-desc">Max bed capex + full 24|7 funding + defer returns. Assumes execution perfection.</div>
+        <div class="scenario-tsr" style="color:var(--color-text-faint)">11%</div>
+        <div class="scenario-label">TSR CAGR FY27–30</div>
+        <div style="margin-top:var(--space-3);font-size:var(--text-xs);color:var(--color-error)">Risk: ₹8,300 Cr capex + uncapped digital burn = multiple compression if either stumbles</div>
+      </div>
+      <div class="scenario-card recommended">
+        <div class="scenario-name">Path B: Disciplined Compounder ★</div>
+        <div class="scenario-desc">Committed beds + capped 24|7 burn + HealthCo demerger + 25–30% FCF returns.</div>
+        <div class="scenario-tsr" style="color:var(--color-primary)">17%</div>
+        <div class="scenario-label">TSR CAGR FY27–30</div>
+        <div class="scenario-flag rec">★ RECOMMENDED</div>
+        <div style="margin-top:var(--space-3);font-size:var(--text-xs);color:var(--color-text-muted)">Valuation: ₹9,760/share base case · HealthCo unlocks ₹25–35K Cr separately</div>
+      </div>
+      <div class="scenario-card">
+        <div class="scenario-name">Path C: Return Capital</div>
+        <div class="scenario-desc">Slow capex, exit 24|7, maximise buybacks and dividends. Harvest mode.</div>
+        <div class="scenario-tsr" style="color:var(--color-text-faint)">8%</div>
+        <div class="scenario-label">TSR CAGR FY27–30</div>
+        <div style="margin-top:var(--space-3);font-size:var(--text-xs);color:var(--color-error)">Risk: De-rating as market loses growth premium. Market pays 58–71× for growth, not yield.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CAPITAL WATERFALL -->
+  <div class="section" id="waterfall">
+    <div class="section-header">
+      <h2 class="section-title">APEX Capital Allocation Waterfall</h2>
+      <span class="section-tag">₹14,000 Cr FY27–30 FCF · Strict priority</span>
+    </div>
+    <div class="card">
+      <p style="font-size:var(--text-xs);color:var(--color-text-muted);margin-bottom:var(--space-5)">Capital deployed in strict waterfall priority. Each tranche has an explicit IRR or gate hurdle. No downstream allocation proceeds if upstream hurdle fails.</p>
+      <div class="waterfall">
+        <div class="waterfall-row">
+          <div class="waterfall-label">Maintenance Capex</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar" style="width:25%;background:var(--color-text-faint)"></div></div>
+          <div class="waterfall-val">₹1,500 Cr</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-label">Committed Beds</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar" style="width:60%;background:var(--color-primary)"></div></div>
+          <div class="waterfall-val">₹5,000 Cr</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-label">24|7 Burn Cap</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar" style="width:18%;background:var(--color-orange)"></div></div>
+          <div class="waterfall-val">≤₹450 Cr</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-label">HealthCo Demerger</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar" style="width:12%;background:var(--color-gold)"></div></div>
+          <div class="waterfall-val">₹200 Cr costs</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-label">Shareholder Returns</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar" style="width:42%;background:var(--color-success)"></div></div>
+          <div class="waterfall-val">25–30% residual</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-label">Brownfield M&amp;A</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar" style="width:20%;background:var(--color-blue)"></div></div>
+          <div class="waterfall-val">≥18% IRR hurdle</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Phase timeline -->
+    <div class="card">
+      <div class="card-title">Implementation Timeline</div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-period">Q2 FY27<br/>Jun 2026</div>
+          <div class="timeline-spine"><div class="timeline-dot active"></div><div class="timeline-line"></div></div>
+          <div class="timeline-content">
+            <h4>24|7 Gate Decision</h4>
+            <p>Evaluate 2-of-3 performance gates. If pass → continue with ₹450 Cr cap. If fail → activate Plan B reverse-merge into HealthCo NewCo.</p>
+            <div class="timeline-metrics">
+              <div class="metric-chip">Gate: <strong>Contribution ≥ ₹65</strong></div>
+              <div class="metric-chip">Gate: <strong>EBITDA ≥ ₹0</strong></div>
+              <div class="metric-chip">Gate: <strong>Private label ≥ 15%</strong></div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-period">Q3 FY27<br/>Sep 2026</div>
+          <div class="timeline-spine"><div class="timeline-dot"></div><div class="timeline-line"></div></div>
+          <div class="timeline-content">
+            <h4>HealthCo Demerger</h4>
+            <p>Execute demerger of Apollo HealthCo into separately listed NewCo. Unlocks ₹25,000–35,000 Cr for shareholders. Digital assets optionally housed here if Plan B triggered.</p>
+            <div class="timeline-metrics">
+              <div class="metric-chip">Target: <strong>₹25–35K Cr</strong></div>
+              <div class="metric-chip">Kill: <strong>&lt;₹20,000 Cr → delay</strong></div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-period">FY28<br/>Mar 2027</div>
+          <div class="timeline-spine"><div class="timeline-dot"></div><div class="timeline-line"></div></div>
+          <div class="timeline-content">
+            <h4>Bed Expansion Phase 1 Completion</h4>
+            <p>First 1,800 of 3,000 committed beds come online. ROIC validation checkpoint — if &lt;WACC+300bps on first cohort, rebalance remaining ₹2,200 Cr to brownfield acquisitions.</p>
+            <div class="timeline-metrics">
+              <div class="metric-chip">Target ROIC: <strong>18%+</strong></div>
+              <div class="metric-chip">Beds: <strong>1,800 online</strong></div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-period">FY30<br/>Exit</div>
+          <div class="timeline-spine"><div class="timeline-dot"></div></div>
+          <div class="timeline-content">
+            <h4>Value Realisation</h4>
+            <p>Full waterfall executed. Projected TSR CAGR 17% from base, shareholder returns distributed, HealthCo independently valued, 24|7 EBITDA positive.</p>
+            <div class="timeline-metrics">
+              <div class="metric-chip">Share: <strong>₹9,760 base</strong></div>
+              <div class="metric-chip">TSR: <strong>17% CAGR</strong></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- VALUATION -->
+  <div class="section" id="valuation">
+    <div class="section-header">
+      <h2 class="section-title">SOTP Valuation — Base Case</h2>
+      <span class="section-tag">Sum-of-the-parts · April 2026</span>
+    </div>
+    <div class="card-2col">
+      <div class="card">
+        <div class="card-title">Equity Value Build-up</div>
+        <div class="val-row"><div class="val-label">Hospital OpCo (beds + brand)</div><div class="val-value">₹6,200 Cr</div></div>
+        <div class="val-row"><div class="val-label">HealthCo NewCo (demerger)</div><div class="val-value">₹25,000–35,000 Cr</div></div>
+        <div class="val-row"><div class="val-label">Apollo 24|7 (going concern)</div><div class="val-value">₹3,000–4,000 Cr</div></div>
+        <div class="val-row"><div class="val-label">Pharmacy + diagnostics</div><div class="val-value">₹4,200 Cr</div></div>
+        <div class="val-row"><div class="val-label">Net debt adjustment</div><div class="val-value" style="color:var(--color-error)">−₹2,800 Cr</div></div>
+        <div class="val-row total"><div class="val-label">Implied equity value</div><div class="val-value" style="color:var(--color-primary)">₹9,760/share</div></div>
+      </div>
+      <div class="card">
+        <div class="card-title">Key Sensitivity Variables</div>
+        <p style="font-size:var(--text-xs);color:var(--color-text-muted);margin-bottom:var(--space-4)">70% of valuation sensitivity sits in two variables. All other assumptions have marginal impact on terminal value.</p>
+        <table class="data-table">
+          <thead><tr><th>Variable</th><th>Weight</th><th>Sensitivity</th></tr></thead>
+          <tbody>
+            <tr><td>Hospital EBITDA margin trajectory</td><td>42%</td><td>±1pp margin = ₹420 Cr EV impact</td></tr>
+            <tr><td>HealthCo market multiple</td><td>28%</td><td>±1× multiple = ₹3,500 Cr swing</td></tr>
+            <tr><td>24|7 EBITDA realisation</td><td>14%</td><td>Limited downside (capped ₹450 Cr)</td></tr>
+            <tr><td>Bed expansion ROIC</td><td>10%</td><td>±1pp ROIC = ₹85 Cr NPV</td></tr>
+            <tr><td>Cost of capital / macro</td><td>6%</td><td>±50bps WACC = ₹310 Cr EV</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- RISK REGISTER -->
+  <div class="section" id="risks">
+    <div class="section-header">
+      <h2 class="section-title">Risk Register</h2>
+      <span class="section-tag">4 critical risks · 2 high · 2 medium</span>
+    </div>
+    <div class="card">
+      <div class="risk-row" style="font-size:var(--text-xs);font-weight:600;color:var(--color-text-faint);padding-bottom:var(--space-2)">
+        <div>Risk</div><div>Level</div><div>Mitigation</div>
+      </div>
+      <div class="risk-row">
+        <div class="risk-item">24|7 loss ratio deterioration — CAC creep if platform GMV mix tilts back to marketplace vs. owned</div>
+        <div><span class="risk-level risk-high">HIGH</span></div>
+        <div class="risk-mitigation">Enforce hard ₹450 Cr burn cap with board-level gate. Pre-committed Plan B reverse-merge into HealthCo NewCo at ₹3,000–4,000 Cr residual.</div>
+      </div>
+      <div class="risk-row">
+        <div class="risk-item">HealthCo demerger market reception — comparable listed healthcare cos trade at wide valuation range (12–35× EBITDA)</div>
+        <div><span class="risk-level risk-high">HIGH</span></div>
+        <div class="risk-mitigation">Kill criterion: if indicative value &lt;₹20,000 Cr, delay demerger to Q1 FY28 and reassess structure. Appoint independent financial adviser 6 months prior.</div>
+      </div>
+      <div class="risk-row">
+        <div class="risk-item">Vet cost inflation exceeding price recovery — vet/nurse wage growth 8–12% p.a. vs. hospital price increases ~6%</div>
+        <div><span class="risk-level risk-medium">MED</span></div>
+        <div class="risk-mitigation">Model 150bps EBITDA margin compression in downside case. Offset via tech-enabled staffing (AI triage, remote monitoring). Monitor quarterly vs. ROIC waterfall hurdle.</div>
+      </div>
+      <div class="risk-row">
+        <div class="risk-item">Brownfield M&amp;A discipline — pipeline of ₹1,200 Cr+ targets creates pressure to deploy at sub-18% IRR</div>
+        <div><span class="risk-level risk-medium">MED</span></div>
+        <div class="risk-mitigation">Strict 18% IRR hurdle embedded in waterfall. Finance committee veto required for any deviation. Return unused M&amp;A budget to shareholders if no qualifying deal in 18 months.</div>
+      </div>
+    </div>
+
+    <!-- Skills Demonstrated -->
+    <div class="card" style="margin-top:var(--space-4)">
+      <div class="card-title">Skills Demonstrated in This Engagement</div>
+      <div style="display:flex;flex-wrap:wrap;gap:var(--space-2);margin-top:var(--space-2)">
+        <span class="badge badge-blue">SCQA Structuring</span>
+        <span class="badge badge-blue">Original Framework Dev</span>
+        <span class="badge badge-blue">Capital Allocation Strategy</span>
+        <span class="badge badge-blue">SOTP Valuation</span>
+        <span class="badge badge-blue">Unit Economics Reverse-Engineering</span>
+        <span class="badge badge-green">Scenario Modelling</span>
+        <span class="badge badge-green">Board-Level Communication</span>
+        <span class="badge badge-green">CEO Decision Memo</span>
+        <span class="badge badge-green">Real Company · Real Data</span>
+        <span class="badge badge-gold">MBB Hypothesis-Driven</span>
+        <span class="badge badge-gold">Kill Criteria Framework</span>
+        <span class="badge badge-gold">Pyramid Principle Synthesis</span>
+      </div>
+      <div style="margin-top:var(--space-5);padding:var(--space-4);background:var(--color-surface-offset);border-radius:var(--radius-md)">
+        <div style="font-size:var(--text-xs);font-weight:600;color:var(--color-text);margin-bottom:var(--space-2)">Source Material</div>
+        <div style="font-size:var(--text-xs);color:var(--color-text-muted);line-height:1.8">
+          Apollo Hospitals annual reports FY22–FY25 · NSE filings · Apollo 24|7 app metrics (public) · Healthcare analyst consensus (Motilal Oswal, Jefferies, Nuvama) · MBB methodology from <a href="https://github.com/DogInfantry/claude-skill-management-consultant-B1" target="_blank" rel="noopener noreferrer" style="color:var(--color-primary);text-decoration:none">DogInfantry/claude-skill-management-consultant-B1</a> · All projections are independent analytical estimates, not company guidance.
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+</div>
+
+<script>
+(function(){
+  const t=document.querySelector('[data-theme-toggle]');
+  const r=document.documentElement;
+  let d=r.getAttribute('data-theme')||'dark';
+  r.setAttribute('data-theme',d);
+  function updateIcon(){
+    if(!t) return;
+    t.setAttribute('aria-label','Switch to '+(d==='dark'?'light':'dark')+' mode');
+    t.innerHTML=d==='dark'?'<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>':'<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
+  }
+  updateIcon();
+  if(t) t.addEventListener('click',()=>{d=d==='dark'?'light':'dark';r.setAttribute('data-theme',d);updateIcon()});
+
+  // Nav active state on scroll
+  const sections=document.querySelectorAll('[id]');
+  const navItems=document.querySelectorAll('.nav-item[href^="#"]');
+  const observer=new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{
+      if(e.isIntersecting){
+        navItems.forEach(n=>n.classList.remove('active'));
+        const active=document.querySelector('.nav-item[href="#'+e.target.id+'"]');
+        if(active) active.classList.add('active');
+      }
+    });
+  },{threshold:0.3,rootMargin:'-56px 0px 0px 0px'});
+  sections.forEach(s=>observer.observe(s));
+
+  // Animate waterfall bars on scroll
+  const bars=document.querySelectorAll('.waterfall-bar');
+  const barWidths=Array.from(bars).map(b=>b.style.width);
+  bars.forEach(b=>b.style.width='0');
+  const barObserver=new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{
+      if(e.isIntersecting){
+        bars.forEach((b,i)=>{setTimeout(()=>{b.style.width=barWidths[i]},i*80)});
+        barObserver.disconnect();
+      }
+    });
+  },{threshold:0.5});
+  const wf=document.querySelector('.waterfall');
+  if(wf) barObserver.observe(wf);
+})();
+</script>
+</body>
+</html>
