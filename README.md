@@ -318,7 +318,7 @@ This skill is free and always will be. If it helped you land an interview, ace a
 
 ## License
 
-MIT License. Free to use, fork, adapt, and distribute. See `LICENSE` for details.
+Free to use, fork, adapt, and distribute. See `LICENSE` for details.
 
 ---
 
