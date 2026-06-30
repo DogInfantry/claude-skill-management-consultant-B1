@@ -1,8 +1,8 @@
 # MBB Management Consultant AI Skill for Claude
 
-> A free, open-source consulting knowledge base for Claude, built to help students, MBA candidates, and early-career professionals think more clearly, prep for case interviews, and apply consulting frameworks practically.
+> **The most comprehensive open-source consulting intelligence layer for Claude.** A structured, hypothesis-driven consulting knowledge base — built for MBA students, case interview candidates, business professionals, and anyone who needs to think at McKinsey / Bain / BCG level.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Claude Compatible](https://img.shields.io/badge/Claude-Compatible-blueviolet)](https://claude.ai)
 [![Skill Type](https://img.shields.io/badge/Type-Management%20Consulting-blue)]()
 [![Audience](https://img.shields.io/badge/Audience-MBA%20%7C%20Consultants%20%7C%20Business%20Professionals%20%7C%20Students-green)]()
@@ -11,6 +11,21 @@
 ---
 
 **TL;DR:** Install this skill to give Claude a structured consulting workflow, useful for case prep, framework practice, or thinking through real business problems. Free, open-source, contributions welcome.
+
+---
+
+## What Is This?
+
+The **MBB Management Consultant AI Skill** is a structured knowledge system that installs into Claude, giving it the cognitive architecture of a senior strategy consultant. It is not a simple prompt — it is 113 reference modules, organized around 5 knowledge pillars, covering every dimension of consulting work from MECE issue trees and Pyramid Principle communication to M&A due diligence, GenAI enterprise strategy, and case interview coaching.
+
+Unlike generic AI prompts, this skill:
+- Applies **hypothesis-driven thinking** — forms a point of view before gathering data
+- Structures every problem **MECE** (Mutually Exclusive, Collectively Exhaustive)
+- Leads every output with the **governing thought** (Pyramid Principle)
+- Draws from **10+ industry reference files** and 113 deep-knowledge modules
+- Follows the **MBB operating model** — Frame → Structure → Analyse → Synthesise → Deliver
+
+**Compatible with:** Claude Free, Claude Pro, and Claude for Teams.
 
 ---
 
@@ -24,14 +39,67 @@ flowchart LR
     D --> E["4. Synthesise"]
     E --> F["5. Deliver"]
 
-    B -.->|reads| G[("111 Reference Files")]
+    B -.->|reads| G[("113 Reference Files")]
     C -.-> G
     D -.-> G
     E -.-> G
     F -.->|"Board-ready output"| H["✅ Client Value"]
 ```
 
-> **Frame → Structure → Analyse → Synthesise → Deliver.** Every problem flows through the same consulting operating system, drawing from 5 knowledge pillars and 110+ reference modules.
+> **Frame → Structure → Analyse → Synthesise → Deliver.** Every problem flows through the same consulting operating system, drawing from 5 knowledge pillars and 113 reference modules.
+
+---
+
+## Knowledge Architecture
+
+The 113 reference files are organized across five knowledge pillars:
+
+```mermaid
+mindmap
+  root((113 Reference Modules))
+    Problem-Solving
+      MECE Issue Trees
+      Hypothesis Trees
+      First Principles
+      Mental Models
+      McKinsey 7-Step Method
+      Decision Under Uncertainty
+    Communication
+      Pyramid Principle
+      Storylining
+      Slide Craft
+      Executive Presence
+      Structured Verbal
+      Board Decks
+    Case Coaching
+      All MBB Case Formats
+      Market Sizing
+      Case Pattern Library
+      PEI STAR Coaching
+      Scoring Rubrics
+    Industry Intelligence
+      Healthcare & Life Sciences
+      Financial Services
+      Energy & Utilities
+      Technology & TMT
+      Consumer & CPG
+      Industrial & Mfg
+      Public Sector
+      Real Estate
+      Hospitality & Travel
+      Emerging Markets
+    Specialist Methods
+      M&A and Due Diligence
+      Post-Merger Integration
+      Corporate Restructuring
+      GenAI Enterprise Strategy
+      Pricing Architecture
+      Org Design
+      Climate Strategy
+      Transformation PMO
+      Sales Force Effectiveness
+      Process Mining
+```
 
 ---
 
@@ -39,9 +107,72 @@ flowchart LR
 
 This repository contains a consulting knowledge base for [Claude](https://claude.ai), Anthropic's AI assistant. When installed, it gives Claude a structured senior-consultant workflow, built around MBB-style problem-solving and communication patterns built by distilling publicly available MBB frameworks, case prep resources, and consulting methodology into a single knowledge base.
 
-This is not a simple prompt. It is a structured knowledge system with 110+ reference files covering every dimension of consulting work, from MECE issue trees and Pyramid Principle communication to due diligence, post-merger integration, GenAI enterprise strategy, and case interview coaching.
+This is not a simple prompt. It is a structured knowledge system with 113 reference files covering every dimension of consulting work, from MECE issue trees and Pyramid Principle communication to due diligence, post-merger integration, GenAI enterprise strategy, and case interview coaching.
 
 **It is completely free.**
+
+---
+
+## The Core Problem-Solving System
+
+Every consulting engagement — and every case interview — runs on the same two tools. This skill makes Claude fluent in both.
+
+### MECE Issue Trees: Diagnosing Any Business Problem
+
+The MECE issue tree is the workhorse of consulting analysis. It decomposes a business problem into branches that are **M**utually **E**xclusive (no overlaps) and **C**ollectively **E**xhaustive (no gaps), so every potential root cause is surfaced and tested.
+
+```mermaid
+flowchart TD
+    P["🔴 Why is EBITDA Margin Declining?"]:::root --> R["📉 Revenue Side"]
+    P --> C["📈 Cost Side"]
+
+    R --> RV["Volume declining?"]
+    R --> RP["Price eroding?"]
+    R --> RM["Mix shifting?"]
+
+    C --> CG["COGS increasing?"]
+    C --> CS["SG&A bloating?"]
+    C --> CO["Other costs?"]
+
+    RV --> RV1["Fewer new customers"]
+    RV --> RV2["Higher churn rate"]
+    RP --> RP1["Discounting depth"]
+    RP --> RP2["Competitor pricing pressure"]
+
+    CG --> CG1["Raw material inflation"]
+    CG --> CG2["Labour cost increases"]
+    CS --> CS1["Headcount growth"]
+    CS --> CS2["Marketing spend"]
+
+    classDef root fill:#dc2626,color:#fff,stroke:#991b1b
+```
+
+> Ask Claude to build an issue tree for any business problem. It will always structure branches MECE and prioritize the highest-impact paths for analysis.
+
+### The Pyramid Principle: Structuring Every Output
+
+Every deliverable — memo, deck, verbal update, email — follows the Pyramid Principle (Barbara Minto, McKinsey). Lead with the answer. Support with structured reasoning. Evidence comes last.
+
+```mermaid
+flowchart TD
+    GT["💡 GOVERNING THOUGHT\nState the answer first"]:::top --> W1["Reason 1"]:::mid
+    GT --> W2["Reason 2"]:::mid
+    GT --> W3["Reason 3"]:::mid
+
+    W1 --> D1["Evidence"]:::base
+    W1 --> D2["Evidence"]:::base
+    W2 --> D3["Evidence"]:::base
+    W2 --> D4["Evidence"]:::base
+    W3 --> D5["Evidence"]:::base
+    W3 --> D6["Evidence"]:::base
+
+    classDef top fill:#1d4ed8,color:#fff,stroke:#1e3a8a
+    classDef mid fill:#2563eb,color:#fff,stroke:#1d4ed8,opacity:0.85
+    classDef base fill:#93c5fd,color:#1e3a8a,stroke:#2563eb
+```
+
+> The wrong pattern: describe context → walk through analysis → arrive at the answer.
+> The consulting pattern: state the answer → group your reasons → back each with evidence.
 
 ---
 
@@ -96,7 +227,7 @@ management-consultant-claude-skill/
 │
 └── skill/
     ├── SKILL.md                 <- The main skill definition (install this)
-    └── references/              <- 110+ deep-knowledge reference files
+    └── references/              <- 113 deep-knowledge reference files
         ├── frameworks.md
         ├── case-interview.md
         ├── guesstimation.md
@@ -285,6 +416,31 @@ See **[CASE-STUDIES.md](./CASE-STUDIES.md)** for 3 fully worked cases. Each incl
 
 ---
 
+## Frequently Asked Questions
+
+**Q: Do I need a paid Claude subscription to use this?**
+No. The free tier of Claude at [claude.ai](https://claude.ai) works. Claude Pro is recommended for heavy use (longer conversations, more context), but the skill functions on the free tier.
+
+**Q: Is this an official McKinsey, Bain, or BCG product?**
+No. This is an independent, open-source project. "McKinsey-style" and "MBB" are used descriptively — referring to a publicly understood standard of consulting practice. There is no affiliation with or endorsement from any firm.
+
+**Q: What makes this different from just prompting Claude to "think like a consultant"?**
+A prompt gives Claude a behavioral instruction. This skill gives Claude a 113-file knowledge system — including specific frameworks, case interview formats, industry metrics, and analytical tools — that it actively references during problem-solving. The depth and consistency of output is qualitatively different.
+
+**Q: Can I use this for real client work?**
+Yes. The skill is designed for real problem-solving, not just practice. Many frameworks (issue trees, profitability analysis, market sizing, org design) apply directly to live business problems. That said, always exercise professional judgment — Claude's output is a thinking tool, not professional advice.
+
+**Q: How do I contribute a new reference file or case study?**
+See [CONTRIBUTING.md](./CONTRIBUTING.md). The bar is: public sources only, MECE structure, and real analytical depth. You don't need to be ex-MBB. Industry experience, finance background, and ops knowledge are all valuable.
+
+**Q: What case interview formats does this support?**
+McKinsey-led (interviewer-driven), BCG candidate-led, and Bain collaborative. It also covers market sizing, profitability, market entry, M&A, pricing, growth strategy, and operational improvement case types, along with PEI / behavioral interview coaching.
+
+**Q: Can I fork and build my own skill on top of this?**
+Yes. The Apache 2.0 license explicitly permits this. Attribution is required. See `LICENSE` for details.
+
+---
+
 ## Contributing
 
 This is a living knowledge base — the more industries, benchmarks, and cases it covers, the more useful it becomes for everyone.
@@ -318,7 +474,7 @@ This skill is free and always will be. If it helped you land an interview, ace a
 
 ## License
 
-Free to use, fork, adapt, and distribute. See `LICENSE` for details.
+Free to use, fork, adapt, and distribute under the Apache 2.0 License. See `LICENSE` for details.
 
 ---
 
