@@ -1,6 +1,6 @@
 # Worked Case Studies — MBB Management Consultant Skill
 
-> Three fully worked consulting cases — exactly how a McKinsey/Bain/BCG senior consultant would approach them. Each case includes the problem prompt, structuring approach, analysis path, and final recommendation. Use these to learn, practice, or as templates for your own problem-solving.
+> Five fully worked cases — spanning classic MBB-style structuring, a real strategic engagement, and private-equity deal mechanics, exactly how a senior consultant or deal professional would approach them. Each case includes the problem prompt, structuring approach, analysis path, and final recommendation. Use these to learn, practice, or as templates for your own problem-solving.
 
 ---
 
@@ -390,6 +390,112 @@ This represents a ~15x growth from today — one of the most compelling growth r
 
 ---
 
+## Case 5: The Leverage Ceiling (Private Equity Buyout / LBO Structuring)
+
+### The Prompt
+
+> "Alderbrook Capital Partners, a mid-market PE fund, is evaluating a buyout of Crestpoint Industrial Supply — a $175M-revenue distributor of MRO (maintenance, repair, and operating) parts to mid-size manufacturers, generating $25M of EBITDA. The fund's investment committee requires a minimum 25% gross IRR and 3.0x MOIC over a 5-year hold to clear its return hurdle. At an 8.0x entry multiple, does this deal clear the bar — and if not, what has to go right operationally to get there?"
+
+---
+
+### How a Private Equity Deal Team Structures This
+
+**Step 1 — Problem Statement Clarity**
+
+- *Complication*: This is a financial-buyer max-price question, not a strategic-synergy valuation — the deal has to work on the target's own cash flow and a fixed leverage/return framework, with no synergies to lean on
+- *Question*: Does an 8.0x entry multiple clear the fund's 25% IRR / 3.0x MOIC hurdle over a 5-year hold — and if it doesn't, which specific combination of deleveraging, EBITDA growth, and exit-multiple expansion closes the gap?
+- *Constraint*: Fixed 5-year hold, fixed IC hurdle, mid-market leverage availability (mid-market lenders typically cap senior debt around 4.0-4.5x EBITDA for a distribution business — this isn't a mega-cap deal with access to aggressive leverage)
+
+**Day 1 Hypothesis**: At typical mid-market industrial-distribution leverage and growth assumptions, an 8.0x entry multiple probably lands in the low-20s% IRR range — likely short of the 25% hurdle. The case is really about identifying which realistic combination of levers closes the gap, not about whether the base transaction unconditionally "works."
+
+**Step 2 — Build the Sources & Uses**
+
+| Uses | $M | | Sources | $M |
+|---|---|---|---|---|
+| Purchase of Enterprise Value (8.0x × $25M EBITDA) | $200.0 | | Senior Term Loan (4.0x EBITDA) | $100.0 |
+| Transaction & financing fees | $5.0 | | Sponsor Equity | $105.0 |
+| **Total Uses** | **$205.0** | | **Total Sources** | **$205.0** |
+
+The equity check is 51% of total capitalization — moderate leverage for mid-market industrial distribution, not an aggressive structure. Every dollar of that $5.0M fee line is worth flagging early: it buys no incremental enterprise value, so it's a pure drag on the sponsor's eventual return multiple.
+
+**Step 3 — Model the 5-Year Operating & Debt Paydown Plan**
+
+| Metric | Year 0 (Entry) | Year 5 (Exit) |
+|---|---|---|
+| Revenue | $175M | ~$245M (7% CAGR) |
+| EBITDA margin | 14.3% | 16.0% (procurement synergies + 3 bolt-on tuck-ins) |
+| EBITDA | $25.0M | $39.0M |
+| Senior debt outstanding | $100.0M | $40.0M |
+
+The EBITDA growth is doing real work in this plan — it isn't just organic distribution growth, it's underwritten specifically by a buy-and-build thesis (three tuck-in acquisitions funded partly by free cash flow) plus roughly 170 basis points of margin expansion from consolidating procurement across the combined platform. Debt paydown to $40M reflects mandatory amortization plus a full free-cash-flow sweep, net of the cash the platform also needs to fund those tuck-ins.
+
+**Step 4 — Compute Base-Case Returns**
+
+At a flat 8.0x exit multiple (no multiple expansion assumed):
+
+- Exit Enterprise Value = $39.0M × 8.0x = **$312.0M**
+- Exit Equity Value = $312.0M − $40.0M debt = **$272.0M**
+- **MOIC = $272.0M / $105.0M = 2.59x**
+- **IRR ≈ 21.0%** over the 5-year hold
+
+The base case falls short of the hurdle on both dimensions — about 400 basis points short on IRR and roughly 0.5 turns short on MOIC. This is the moment a weaker candidate either declares the deal dead or ignores the gap and recommends proceeding anyway; the stronger move is to decompose exactly where the value is coming from and test what closes it.
+
+**Step 5 — Decompose the Return Bridge**
+
+Using the three-lever framework (deleveraging, multiple arbitrage, EBITDA growth — see the LBO section in `references/mergers-acquisitions-fundamentals.md`), isolating each against the clean, fee-free entry equity of $100.0M ($200.0M EV − $100.0M debt):
+
+| Lever | Calculation | Value created |
+|---|---|---|
+| Deleveraging | Entry debt $100.0M − Exit debt $40.0M | $60.0M |
+| Multiple arbitrage | Entry EBITDA $25.0M × (8.0x − 8.0x) | $0.0M |
+| EBITDA growth | (Exit EBITDA $39.0M − Entry EBITDA $25.0M) × 8.0x | $112.0M |
+| **Total** | | **$172.0M** |
+
+$100.0M (clean entry equity) + $172.0M = $272.0M, which exactly reconciles to the exit equity value above. Two things worth naming out loud in the debrief: EBITDA growth is carrying 65% of total value creation in this deal — the thesis lives or dies on the buy-and-build execution, not financial engineering — and the $5.0M fee drag (actual $105.0M invested vs. the clean $100.0M base) is costing the sponsor about 0.13x of MOIC before a single operational lever is pulled.
+
+**Step 6 — Sensitize: What Closes the Gap to 25% IRR / 3.0x MOIC?**
+
+A 25% IRR over a 5-year hold implies a MOIC of 1.25⁵ ≈ 3.05x — almost exactly the fund's stated 3.0x target, so the two hurdles are really one constraint. On the actual $105.0M invested, that requires an exit equity value of roughly $320.4M. Testing each lever in isolation, holding the other two at base case:
+
+- **EBITDA alone**: at a flat 8.0x exit multiple and $40M debt, hitting $320.4M of equity value requires Exit EBITDA of ~$45.1M — about 15% above the base-case plan (a 4th or 5th tuck-in, or materially faster margin capture)
+- **Multiple alone**: at base-case $39M EBITDA and $40M debt, it requires an exit multiple of ~9.2x — a full 1.2 turns of re-rating above entry, a lot to underwrite from platform scale alone
+- **Deleveraging alone**: even a hypothetical full payoff of all $100M of acquisition debt (implausible in 5 years, but useful as an upper bound) only lifts exit equity to $312.0M — still short of the $320.4M required. **Debt paydown alone cannot close this gap, no matter how aggressive the sweep.**
+
+No single lever closes the gap on a realistic assumption. A blended case — one additional tuck-in taking EBITDA to $42M, a modest 0.5-turn platform re-rating to 8.5x exit, and $10M of extra debt paydown to $30M — produces Exit EV of $357.0M, exit equity of $327.0M, a MOIC of 3.11x, and an IRR of roughly 25.5%: comfortably over the hurdle, and built from three individually modest, individually defensible improvements rather than one heroic assumption.
+
+**Step 7 — Recommendation**
+
+*Governing Thought*: The base 8.0x-entry case falls short of Alderbrook's return hurdle by a meaningful margin, but the gap is closable through a realistic, diversified combination of continued bolt-on M&A, a plausible platform re-rating at exit, and disciplined free-cash-flow sweep — not through re-underwriting any single lever to an aggressive extreme. Proceed, but make the diligence and 100-day plan explicitly accountable to the blended case, not the base case.
+
+**Recommendation 1 — Underwrite the deal to the blended case, not the base case**
+- Set IC-approved targets at EBITDA ≥ $42M by Year 5, ≥ 4 completed tuck-ins, and debt ≤ $30M at exit
+- Build quarterly tracking against this bridge from Day 1, not just against revenue and EBITDA in aggregate
+
+**Recommendation 2 — Protect the EBITDA-growth lever specifically, since it's carrying most of the return**
+- Ring-fence a dedicated bolt-on acquisition budget and integration team separate from the core distribution business's operating management
+- Treat the procurement-synergy margin expansion (14.3% → 16.0%) as a tracked initiative with a named owner, not an assumption that happens passively
+
+**Recommendation 3 — Don't rely on multiple expansion as the primary lever**
+- The 0.5-turn re-rating assumption should be the residual, not the plan — if EBITDA growth and deleveraging underperform, do not compensate by underwriting a larger multiple expansion; that's the lever with the least operational control
+
+---
+
+### Case Debrief
+
+**What strong candidates do well:**
+- Immediately separate the "does this clear the hurdle" question from the "is this a good business" question — a good business can still be a bad LBO at the wrong price or leverage
+- Decompose the return bridge into the three levers explicitly, rather than presenting a single blended IRR number that obscures which lever is doing the work
+- Test each lever in isolation before reaching for a blended case — this is what reveals that deleveraging alone has a hard ceiling
+- Flag the fee drag on MOIC explicitly, even though it's a small number — it shows precision
+
+**Common mistakes:**
+- Treating the entry multiple as fixed and only flexing operational assumptions to "make the deal work" backward from the answer
+- Presenting the base case IRR without immediately testing whether the gap to the hurdle is closable on realistic assumptions
+- Relying on exit-multiple expansion as the primary lever to close a return gap — it's the lever the sponsor has the least control over
+- Skipping the isolation step and jumping straight to a blended sensitivity, which hides that some levers (like debt paydown here) have a hard ceiling regardless of aggressiveness
+
+---
+
 ## Practice with Claude
 
 Install the management consultant skill and try these prompts:
@@ -412,6 +518,12 @@ an acquisition of a digital health platform."
 ```
 "I need to diagnose why my company's gross margin has dropped
 8pp over 18 months despite 15% revenue growth."
+```
+
+```
+"Walk me through an LBO case: help me size the maximum price a
+PE buyer can pay for a mid-market distribution business and
+still hit a 25% IRR hurdle."
 ```
 
 ---
