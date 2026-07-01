@@ -239,7 +239,7 @@ management-consultant-claude-skill/
         ├── genai-enterprise-strategy.md
         ├── post-merger-integration.md
         ├── corporate-restructuring-financial-distress.md
-        └── ... 100+ more
+        └── ... 110+ more
 ```
 
 ---
