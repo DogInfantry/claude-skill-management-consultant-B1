@@ -289,6 +289,8 @@ The reference files contain deep knowledge for specific situations. Read them wh
 | Canonical case archetypes, solution logic, aha insights, failure modes | `references/case-pattern-library.md` |
 | Consulting career, promotion, reputation, alumni exits | `references/consulting-career.md` |
 | After-action reviews, personal case log, learning from engagements | `references/learning-flywheel.md` |
+| Managing up, EM relationship, feedback, promotion conversations, unavailable/chaotic managers | `references/managing-up.md` |
+| Burnout, sustainable performance, scope/workload overload, considering leaving | `references/wellness-resilience.md` |
 
 ## Communication Standards
 
@@ -398,9 +400,27 @@ These files provide advanced methodology beyond what any standard consulting tex
 ### M&A and Transaction Advisory (Extended)
 | Methodology | When to Read | Reference |
 |-------------|-------------|-----------|
+| M&A Fundamentals & Quantitative Toolkit | Deal-type taxonomy (merger/acquisition/asset purchase/JV/reverse merger/spin-off); 6-stage deal process; integration communication sequencing; 5 strategic-integration archetypes (vertical/horizontal/conglomerate/concentric/reverse); synergy-by-deal-type framework; DCF, LBO, and accretion-dilution primers with the accretive/dilutive P/E rule of thumb | `references/mergers-acquisitions-fundamentals.md` |
 | Synergy Modeling & Validation | Bottom-up initiative-level synergy construction; confidence tiering (High/Medium/Low); phasing waterfalls; one-time cost estimation; cross-sell reality checks; synergy bridge; post-close tracking cadence | `references/synergy-modeling-validation.md` |
 | Data Room Speed-Reading | 5-phase VDR methodology for navigating 800–15,000 documents under compressed DD timelines; triage sort; high-signal document protocols; contradiction log; gap matrix; hot-document escalation | `references/data-room-speed-reading.md` |
 | Commercial DD Market Sizing Shortcuts | Three-source triangulation (top-down adaptation, bottom-up unit economics, public comparables revenue proxy); 10-day timeline; 5 sanity checks; uncertainty disclosure language standard | `references/commercial-dd-market-sizing-shortcuts.md` |
+
+**M&A Case Study Library** — Ten fully worked real-world deal case studies live in `case-studies/`, each following Industry/Transaction Context → Deal Mechanics → Strategic Rationale → Financial Analysis → Regulatory/Cultural Dynamics → Post-Transaction Outcomes → Lessons. Read the matching file when a live engagement or case-interview scenario resembles one of these archetypes — these are worked examples to reason from, not templates to copy:
+
+| Deal | Sector | Archetype | File |
+|---|---|---|---|
+| Microsoft–Activision Blizzard | Tech/Media | Friendly mega-deal, prolonged multi-jurisdiction antitrust fight, remedy design (structural + behavioral) | `case-studies/ma-microsoft-activision-blizzard.md` |
+| Salesforce–Slack | Tech/Media | Premium-priced strategic acquisition; decomposing price into base valuation vs. strategic premium; founder/leadership-continuity risk | `case-studies/ma-salesforce-slack.md` |
+| Vodafone–Mannesmann | Telecom | Hostile cross-border takeover; bidding war; white-knight defense; political/union resistance; executive-pay governance scandal; long-run value destruction | `case-studies/ma-vodafone-mannesmann-hostile-takeover.md` |
+| Apollo–Athene | Financial Services | Affiliate consolidation of a structurally undervalued, under-owned asset; passive-ownership arbitrage; disciplined (below-precedent) premium pricing | `case-studies/ma-apollo-athene-merger.md` |
+| Bank of America–Merrill Lynch | Financial Services | Crisis-era, government-backed rescue acquisition; 48-hour negotiation; culture clash; disclosure/SEC litigation aftermath | `case-studies/ma-bofa-merrill-lynch.md` |
+| Kraft Heinz merger | Consumer/CPG | "Merger of equals" that was a takeover in practice; PE-style cost discipline (zero-based budgeting) eroding brand equity over a decade; shareholder litigation; eventual de-merger reversal | `case-studies/ma-kraft-heinz-merger.md` |
+| Mars–Kellanova | Consumer/CPG | Commodity-risk hedge executed via M&A (cocoa price shock); live/unresolved EU antitrust review; scenario-planning technique for in-progress deals | `case-studies/ma-mars-kellanova.md` |
+| InBev–Anheuser-Busch | Consumer/CPG | Hostile takeover succeeding despite ownership dilution of founding family; synergy targets beaten on paper alongside real, uncaptured cultural/brand erosion | `case-studies/ma-inbev-anheuser-busch-hostile-takeover.md` |
+| Takeda–Shire | Healthcare/Pharma | Cross-border legal structuring (Japan/UK/US); post-merger leverage spike and disciplined deleveraging; R&D pipeline transformation | `case-studies/ma-takeda-shire.md` |
+| Valeant–Allergan | Healthcare/Pharma | Hostile takeover defeated by the target; activist-investor (acquirer-activist alliance) tactics; poison pill and litigation defense; acquirer's subsequent collapse | `case-studies/ma-valeant-allergan-hostile-takeover.md` |
+
+Two additional case studies outside the M&A theme also live in `case-studies/`: `CASE-STUDY-PELOTON-FY27.md` (profitability/turnaround) and `apollo-hospitals-FY27/` (a full multi-document healthcare engagement package — CEO brief, unit-economics teardown, board strategy case, capital allocation model).
 
 ### Specialist Operations & Value Delivery
 | Methodology | When to Read | Reference |
