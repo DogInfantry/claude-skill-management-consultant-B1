@@ -314,6 +314,20 @@ CDD focuses on **top-line** sustainability and growth:
 - **Community Conflict:** Significant community opposition; license to operate at risk
 - **Supply Chain Risk:** Heavy exposure to high-ESG-risk geographies; climate-vulnerable suppliers
 
+### Governance & Fraud Red Flags
+
+- **Unverified Cash:** Bank/cash balances confirmed only via management-provided statements, never independently with the bank itself — the single most under-verified "hard" number on a balance sheet
+- **Asset-Liability Duration Mismatch:** Short-term wholesale funding backing long-tenor assets inside a lender, NBFC, or leasing counterparty — invisible from the credit rating alone
+- **Heavy Promoter/Founder Share Pledging:** Above ~30-40% of holding pledged signals personal leverage against company stock — a common precursor to forced selling or governance pressure
+- **Related-Party Webs:** Lending, leasing, or services transactions between the target and founder-controlled entities that aren't arm's-length priced
+- **Use-of-Proceeds Drift:** Loan or capital-raise proceeds not traceable to their stated purpose — the exact fact pattern regulators later classify as willful default or fund diversion
+- **Unexplained Entity-Count Growth:** Dozens of subsidiaries/JVs/SPVs with unclear commercial rationale — complexity that primarily obscures cross-obligations rather than serving genuine business need
+- **Rubber-Stamp Audit Signals:** Long auditor tenure without rotation, combined with an opinion that never queries a rapidly growing cash balance or margin profile that's smoother than peers'; an unqualified opinion is evidence of an audit process, not independent verification
+- **Evergreening:** A lender restructuring or extending credit repeatedly without a credible, independently validated turnaround plan — delays loss recognition rather than preventing the loss
+- **Trading-Pattern Correlation:** Personal or connected-party trades that consistently precede an institution's own large orders — the signature pattern of front-running, now detectable via real-time surveillance rather than only after the fact
+
+Worked end-to-end with real figures and regulatory outcomes in `case-studies/gov-satyam-accounting-fraud.md`, `case-studies/gov-ilfs-shadow-bank-collapse.md`, `case-studies/gov-kingfisher-willful-default.md`, and `case-studies/gov-insider-trading-and-front-running-india.md`.
+
 ---
 
 ## 7. PE vs. Strategic Acquirer Due Diligence

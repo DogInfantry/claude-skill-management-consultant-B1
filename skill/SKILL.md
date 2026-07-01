@@ -422,6 +422,18 @@ These files provide advanced methodology beyond what any standard consulting tex
 
 Two additional case studies outside the M&A theme also live in `case-studies/`: `CASE-STUDY-PELOTON-FY27.md` (profitability/turnaround) and `apollo-hospitals-FY27/` (a full multi-document healthcare engagement package — CEO brief, unit-economics teardown, board strategy case, capital allocation model).
 
+**Governance Failure & Market Integrity Case Library** — Five real, publicly documented governance-failure and market-abuse cases live alongside the M&A library in `case-studies/`, each following Context → Mechanism → Regulatory Response → Resolution → Lessons. Read the matching file when a diligence workstream, fraud-risk assessment, credit review, or case-interview scenario turns on trust, disclosure, or control failures rather than deal mechanics:
+
+| Case | Sector | Failure Pattern | File |
+|---|---|---|---|
+| Satyam Computer Services | IT Services | Multi-year accounting fraud; fabricated cash balance never independently verified; auditor failure | `case-studies/gov-satyam-accounting-fraud.md` |
+| IL&FS | Financial Services (NBFC) | Asset-liability duration mismatch inside a "quasi-sovereign" shadow bank; rating-agency failure; systemic contagion | `case-studies/gov-ilfs-shadow-bank-collapse.md` |
+| Kingfisher Airlines | Aviation | Leverage and governance failure; willful default; loan evergreening by lenders | `case-studies/gov-kingfisher-willful-default.md` |
+| Harshad Mehta / 1992 securities scam | Banking & Capital Markets | Systemic market manipulation via an interbank settlement loophole; became the founding shock for modern SEBI, NSE, and dematerialization | `case-studies/gov-harshad-mehta-market-manipulation.md` |
+| Insider trading & front-running (Hindustan Lever–Tata Tea 1998; Axis Mutual Fund 2022) | Capital Markets / Asset Management | Information-asymmetry abuse by a corporate insider and by a fiduciary, 24 years apart — same failure, faster detection | `case-studies/gov-insider-trading-and-front-running-india.md` |
+
+Read `references/due-diligence-deep-dive.md` → *Governance & Fraud Red Flags* for the pattern checklist distilled from these five cases.
+
 ### Specialist Operations & Value Delivery
 | Methodology | When to Read | Reference |
 |-------------|-------------|-----------|

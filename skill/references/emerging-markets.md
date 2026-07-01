@@ -235,6 +235,7 @@ US companies operating internationally are subject to the Foreign Corrupt Practi
 - Competitive landscape: Strong local conglomerates (Tata, Reliance, Adani) + domestic startups (Flipkart, Zomato, Paytm)
 - Infrastructure rapidly improving: NHAI highway buildout, dedicated freight corridors, logistics parks
 - **Key challenge**: Distribution reach (600,000+ villages), regulatory navigation, talent retention as opportunities multiply
+- **Historical anchor**: Today's openness traces to an acute shock, not gradual policy evolution. In the 1991 Balance of Payments crisis, forex reserves fell to ~$1.2B — barely two weeks of import cover — forcing RBI to airlift gold reserves to the Bank of England and the Union Bank of Switzerland as loan collateral. That crisis forced the LPG reforms (Liberalization, Privatization, Globalization), which is the reason foreign entrants could enter the Indian market at all. The transferable point for market-entry timing: today's regulatory openness in an emerging market is frequently a policy choice made under duress a generation ago, not a stable equilibrium — it can tighten again under a comparable shock, so an entry thesis built on "the market has always been open" deserves a gut-check against what forced it open in the first place.
 
 ### China
 **Why it matters**: ~1.4B people, 2nd-largest economy, manufacturing powerhouse, massive consumer market; but also increasingly challenging for Western companies
