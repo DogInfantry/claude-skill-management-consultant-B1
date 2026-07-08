@@ -207,6 +207,10 @@ The reference files contain deep knowledge for specific situations. Read them wh
 |-----------|------|
 | Running or coaching a practice case; want a worked, quantified case with issue tree + math + coaching notes | `references/practice-cases-quantified.md` |
 | Guesstimate/market-sizing with explicit step-by-step math; framework issue trees (profitability, market entry, growth, pricing, M&A, PE) | `references/guesstimates-and-frameworks-quantified.md` |
+| Interview-flavoured case bank — a curated practice menu (case universe by type) plus 14 fully worked interview classics (market entry, profitability, M&A, growth, pricing, ops, non-traditional) with vivid names + firm-style tags | `references/case-bank-interview-classics.md` |
+| Drilling the three case reflexes — fast case math (rounding, distributive, Rule of 72, margin bridges), exhibit/chart reading (6-step protocol + chart-type cheat sheet), and structuring drills with 90-second framework scaffolds | `references/case-cracking-drills.md` |
+| Running or coaching a mock — interviewer formats, end-to-end facilitation, the 5-dimension 1–4 scoring rubric, common-mistakes catalogue, deliberate-practice loop, and a case-log template | `references/case-facilitation-and-scoring.md` |
+| Fit/PEI practice — the full behavioral question universe, model story skeletons, worked “why consulting/why firm” answers, and a 1–4 self-scoring rubric (companion to behavioral-fit-interview.md) | `references/fit-pei-drill-bank.md` |
 | Product teardown, PM frameworks (JTBD, CIRCLES, RICE, HEART, AARRR), or PM/analyst interview round patterns | `references/product-management-toolkit.md` |
 | SQL for product/analyst questions — joins, GROUP BY/HAVING, PM-lens queries | `references/sql-for-pm-analysts.md` |
 | PM interview flows — CIRCLES/HEART/RICE as diagrams, product teardowns (India digital products), design/root-cause/improvement patterns | `references/india-pm-cases.md` |
@@ -292,7 +296,11 @@ The reference files contain deep knowledge for specific situations. Read them wh
 |-----------|------|
 | Context adaptation — PE, corporate, startup, government | `references/context-adaptation.md` |
 | Case interview practice, coaching, firm-specific prep | `references/case-interview.md` |
+| Running/scoring a mock case — interviewer formats, 5-dimension 1–4 rubric, common mistakes, practice loop, case log | `references/case-facilitation-and-scoring.md` |
+| Interview-classic case bank — practice menu by type + 14 worked exemplars | `references/case-bank-interview-classics.md` |
+| Case reflex drills — case math, exhibit reading, structuring drills + 90-second scaffolds | `references/case-cracking-drills.md` |
 | Fit/behavioral interview — STAR/COIN/PARADE/CARL, story bank, "why consulting/firm", failure & conflict prompts, group discussions | `references/behavioral-fit-interview.md` |
+| Fit/PEI drill bank — full question universe, model story skeletons, self-scoring rubric | `references/fit-pei-drill-bank.md` |
 | Canonical case archetypes, solution logic, aha insights, failure modes | `references/case-pattern-library.md` |
 | Consulting career, promotion, reputation, alumni exits | `references/consulting-career.md` |
 | After-action reviews, personal case log, learning from engagements | `references/learning-flywheel.md` |

@@ -16,13 +16,13 @@
 
 ## What Is This?
 
-The **MBB Management Consultant AI Skill** is a structured knowledge system that installs into Claude, giving it the cognitive architecture of a senior strategy consultant. It is not a simple prompt — it is 118 reference modules, organized around 5 knowledge pillars, covering every dimension of consulting work from MECE issue trees and Pyramid Principle communication to M&A due diligence, GenAI enterprise strategy, and case interview coaching.
+The **MBB Management Consultant AI Skill** is a structured knowledge system that installs into Claude, giving it the cognitive architecture of a senior strategy consultant. It is not a simple prompt — it is 129 reference modules, organized around 5 knowledge pillars, covering every dimension of consulting work from MECE issue trees and Pyramid Principle communication to M&A due diligence, GenAI enterprise strategy, and case interview coaching.
 
 Unlike generic AI prompts, this skill:
 - Applies **hypothesis-driven thinking** — forms a point of view before gathering data
 - Structures every problem **MECE** (Mutually Exclusive, Collectively Exhaustive)
 - Leads every output with the **governing thought** (Pyramid Principle)
-- Draws from **10+ industry reference files** and 118 deep-knowledge modules
+- Draws from **10+ industry reference files** and 129 deep-knowledge modules
 - Follows the **MBB operating model** — Frame → Structure → Analyse → Synthesise → Deliver
 
 **Compatible with:** Claude Free, Claude Pro, and Claude for Teams.
@@ -39,24 +39,24 @@ flowchart LR
     D --> E["4. Synthesise"]
     E --> F["5. Deliver"]
 
-    B -.->|reads| G[("118 Reference Files")]
+    B -.->|reads| G[("129 Reference Files")]
     C -.-> G
     D -.-> G
     E -.-> G
     F -.->|"Board-ready output"| H["✅ Client Value"]
 ```
 
-> **Frame → Structure → Analyse → Synthesise → Deliver.** Every problem flows through the same consulting operating system, drawing from 5 knowledge pillars and 118 reference modules.
+> **Frame → Structure → Analyse → Synthesise → Deliver.** Every problem flows through the same consulting operating system, drawing from 5 knowledge pillars and 129 reference modules.
 
 ---
 
 ## Knowledge Architecture
 
-The 118 reference files are organized across five knowledge pillars:
+The 129 reference files are organized across five knowledge pillars:
 
 ```mermaid
 mindmap
-  root((118 Reference Modules))
+  root((129 Reference Modules))
     Problem-Solving
       MECE Issue Trees
       Hypothesis Trees
@@ -107,7 +107,7 @@ mindmap
 
 This repository contains a consulting knowledge base for [Claude](https://claude.ai), Anthropic's AI assistant. When installed, it gives Claude a structured senior-consultant workflow, built around MBB-style problem-solving and communication patterns built by distilling publicly available MBB frameworks, case prep resources, and consulting methodology into a single knowledge base.
 
-This is not a simple prompt. It is a structured knowledge system with 118 reference files covering every dimension of consulting work, from MECE issue trees and Pyramid Principle communication to due diligence, post-merger integration, GenAI enterprise strategy, and case interview coaching.
+This is not a simple prompt. It is a structured knowledge system with 129 reference files covering every dimension of consulting work, from MECE issue trees and Pyramid Principle communication to due diligence, post-merger integration, GenAI enterprise strategy, and case interview coaching.
 
 **It is completely free.**
 
@@ -227,7 +227,7 @@ management-consultant-claude-skill/
 │
 └── skill/
     ├── SKILL.md                 <- The main skill definition (install this)
-    └── references/              <- 118 deep-knowledge reference files
+    └── references/              <- 129 deep-knowledge reference files
         ├── frameworks.md
         ├── case-interview.md
         ├── guesstimation.md
@@ -425,7 +425,7 @@ No. The free tier of Claude at [claude.ai](https://claude.ai) works. Claude Pro 
 No. This is an independent, open-source project. "McKinsey-style" and "MBB" are used descriptively — referring to a publicly understood standard of consulting practice. There is no affiliation with or endorsement from any firm.
 
 **Q: What makes this different from just prompting Claude to "think like a consultant"?**
-A prompt gives Claude a behavioral instruction. This skill gives Claude a 118-file knowledge system — including specific frameworks, case interview formats, industry metrics, and analytical tools — that it actively references during problem-solving. The depth and consistency of output is qualitatively different.
+A prompt gives Claude a behavioral instruction. This skill gives Claude a 129-file knowledge system — including specific frameworks, case interview formats, industry metrics, and analytical tools — that it actively references during problem-solving. The depth and consistency of output is qualitatively different.
 
 **Q: Can I use this for real client work?**
 Yes. The skill is designed for real problem-solving, not just practice. Many frameworks (issue trees, profitability analysis, market sizing, org design) apply directly to live business problems. That said, always exercise professional judgment — Claude's output is a thinking tool, not professional advice.
