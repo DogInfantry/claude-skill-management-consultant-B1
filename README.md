@@ -10,7 +10,7 @@
 
 ---
 
-**TL;DR:** Install this skill to give Claude a structured consulting workflow, useful for case prep, framework practice, or thinking through real business problems. Free, open-source, contributions welcome.
+**TL;DR:** Install this skill and Claude works like an MBB-grade management consultant — coaching you through case interviews, applying strategy frameworks, sizing markets, and turning messy business problems into board-ready answers. 129 reference modules distilled from public consulting knowledge. Free and open-source; contributions welcome.
 
 ---
 
