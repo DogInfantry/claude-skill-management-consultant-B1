@@ -264,6 +264,50 @@ CDD focuses on **top-line** sustainability and growth:
 
 ---
 
+## 5.5 Legal, Regulatory & Consents Due Diligence (LDD)
+
+The workstream most often under-scoped by commercially-minded teams — and the one that most often *stops a deal from closing*. CDD/FDD/ODD tell you whether the target is worth buying; LDD tells you whether you can actually acquire it, on what timeline, and what liabilities and consents travel with it. For the full execution mechanics behind this workstream, read `references/cross-border-ma-execution.md`; for the risk-allocation terms it feeds, read `references/spa-deal-terms-benchmarking.md`.
+
+### Definition & Scope
+
+LDD verifies **title, authority, and transferability**, and maps the **regulatory and consent gauntlet** between signing and closing. It runs in parallel with the other workstreams and directly shapes deal structure (share vs. asset vs. merger), the conditions precedent, the indemnity package, and the timeline.
+
+### Corporate, Title & Structure
+
+- **Title chain:** Does the seller actually own what it is selling — clean title to the shares/quotas, no undisclosed pledges, options, or pre-emption rights?
+- **Constitutional documents:** Charter/by-law transfer restrictions, pre-emption, drag/tag, consent thresholds, and any director-appointment or bond requirements that gate the mechanics.
+- **Capitalisation:** Cap table accuracy, unpaid/uncalled capital, convertibles, warrants, and option pools that dilute or create claims.
+- **Structure fit:** Whether the intended acquisition method (share/asset/statutory merger) is available and optimal given where value and liability sit.
+
+### Regulatory & Approvals Exposure (the gating items)
+
+- **Foreign-investment / national-security screening:** Does the target operate in a sensitive sector (defence, critical infrastructure, advanced tech/semiconductors, sensitive data, telecoms, energy) in *any* jurisdiction? Is the buyer's ownership sensitive? Is filing **mandatory with a standstill**, or **voluntary with call-in risk**? This can be a *kill* item, not a checklist item — see the Broadcom–Qualcomm case (`case-studies/ma-broadcom-qualcomm-national-security-block.md`).
+- **Merger control / antitrust:** In which jurisdictions are filing thresholds (turnover/asset/transaction-value) met? Where is the substantive competitive overlap? Which authority is the long pole on timing? What remedy risk (divestiture/behavioural) exists?
+- **Sector regulators:** Change-of-control approvals for banking, insurance, financial services, telecoms, energy, healthcare, aviation — independent of antitrust.
+- **Exchange control / repatriation:** Any central-bank approval or investment-registration gating consideration flow across borders.
+
+### Contracts, Consents & Continuity
+
+- **Change-of-control / anti-assignment clauses** in crown-jewel customer, supplier, financing, lease, franchise, IP-licence, and JV agreements — diligence the *top contracts by value first*; a single anchor-customer consent can be the real critical path.
+- **Financing consents and cross-default triggers** that a change of control may trip.
+- **Permits and licences** that may not survive an asset transfer or may require regulator consent even in a share deal.
+
+### People & Liabilities That Don't Move Cleanly
+
+- **Automatic-transfer employment regimes** and **works-council / union consultation** obligations that gate signing/closing and carry redundancy/harmonisation cost.
+- **Pension and benefit** deficits and unfunded liabilities (classic hidden liability — price it explicitly).
+- **Litigation, disputes, and contingent liabilities**; tax exposures (transfer pricing, withholding, historical positions); environmental legacy.
+- **Survival:** which liabilities (tax, employment, environmental, litigation) outlive close, and how they should be secured (escrow, W&I insurance, or specific indemnity) — this is the direct bridge to `spa-deal-terms-benchmarking.md`.
+
+### Typical LDD Work Plan (parallel to CDD/FDD, ~4–8 weeks)
+
+1. **Week 1:** Corporate/title and constitutional review; map the acquisition structure; open the regulatory-exposure assessment (FDI + merger control in every operating country).
+2. **Weeks 2–4:** Contract review for change-of-control/assignment triggers on top-value agreements; employment/pension/benefit review; litigation and contingent-liability review.
+3. **Weeks 3–6:** Confirm filing requirements and timelines; draft the clearance/consent critical path; identify specific-indemnity candidates from findings.
+4. **Weeks 5–8:** Feed findings into structure, conditions precedent, the indemnity/W&I package, and the integration/consents plan.
+
+---
+
 ## 6. Red Flags by Category
 
 ### Financial Red Flags

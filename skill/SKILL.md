@@ -195,6 +195,8 @@ The reference files contain deep knowledge for specific situations. Read them wh
 |-----------|------|
 | Cost transformation, growth, org design, turnaround, etc. | `references/problem-playbooks.md` |
 | PE context, CDD, investment thesis, 100-day plan, exit | `references/pe-context.md` |
+| Cross-border deal execution: structuring (share/asset/merger), FDI & antitrust clearances, signing-to-closing, tax, closing formalities | `references/cross-border-ma-execution.md` |
+| Negotiating/benchmarking SPA terms: reps & warranties, indemnity caps/baskets/survival, W&I insurance, MAC, locked box vs. completion accounts | `references/spa-deal-terms-benchmarking.md` |
 | Emerging markets, global strategy, cross-border entry | `references/emerging-markets.md` |
 | Supply chain, procurement, IT/HR transformation | `references/functional-deep-dives.md` |
 
@@ -404,8 +406,10 @@ These files provide advanced methodology beyond what any standard consulting tex
 | Synergy Modeling & Validation | Bottom-up initiative-level synergy construction; confidence tiering (High/Medium/Low); phasing waterfalls; one-time cost estimation; cross-sell reality checks; synergy bridge; post-close tracking cadence | `references/synergy-modeling-validation.md` |
 | Data Room Speed-Reading | 5-phase VDR methodology for navigating 800–15,000 documents under compressed DD timelines; triage sort; high-signal document protocols; contradiction log; gap matrix; hot-document escalation | `references/data-room-speed-reading.md` |
 | Commercial DD Market Sizing Shortcuts | Three-source triangulation (top-down adaptation, bottom-up unit economics, public comparables revenue proxy); 10-day timeline; 5 sanity checks; uncertainty disclosure language standard | `references/commercial-dd-market-sizing-shortcuts.md` |
+| Cross-Border M&A Execution | Deal structuring (share vs. asset vs. statutory merger) tied to where value/risk sit; foreign-investment/national-security screening and merger-control clearance anatomy; sector-regulator and third-party consents; LOI good-faith divergence; signing-to-closing mechanics (conditions precedent, interim covenants, gun-jumping guardrails, long-stop date); tax/consideration structuring; execution formalities; the 12-point cross-border execution diagnostic | `references/cross-border-ma-execution.md` |
+| SPA Deal-Terms Benchmarking | The purchase agreement as a quantifiable risk-allocation system; reps & warranties scope and knowledge/materiality qualifiers; indemnity limitation architecture (caps, deductible-vs-tipping baskets, de minimis, survival periods) with market ranges; materiality scrape and sandbagging; W&I insurance as market-reshaper; covenants and blue-pencil non-competes; price mechanics (locked box vs. completion accounts, earn-outs, escrows); governing law and arbitration-vs-litigation; Tier 1/2/3 negotiation-capital prioritisation grid | `references/spa-deal-terms-benchmarking.md` |
 
-**M&A Case Study Library** — Ten fully worked real-world deal case studies live in `case-studies/`, each following Industry/Transaction Context → Deal Mechanics → Strategic Rationale → Financial Analysis → Regulatory/Cultural Dynamics → Post-Transaction Outcomes → Lessons. Read the matching file when a live engagement or case-interview scenario resembles one of these archetypes — these are worked examples to reason from, not templates to copy:
+**M&A Case Study Library** — Eleven fully worked real-world deal case studies live in `case-studies/`, each following Industry/Transaction Context → Deal Mechanics → Strategic Rationale → Financial Analysis → Regulatory/Cultural Dynamics → Post-Transaction Outcomes → Lessons. Read the matching file when a live engagement or case-interview scenario resembles one of these archetypes — these are worked examples to reason from, not templates to copy:
 
 | Deal | Sector | Archetype | File |
 |---|---|---|---|
@@ -419,6 +423,7 @@ These files provide advanced methodology beyond what any standard consulting tex
 | InBev–Anheuser-Busch | Consumer/CPG | Hostile takeover succeeding despite ownership dilution of founding family; synergy targets beaten on paper alongside real, uncaptured cultural/brand erosion | `case-studies/ma-inbev-anheuser-busch-hostile-takeover.md` |
 | Takeda–Shire | Healthcare/Pharma | Cross-border legal structuring (Japan/UK/US); post-merger leverage spike and disciplined deleveraging; R&D pipeline transformation | `case-studies/ma-takeda-shire.md` |
 | Valeant–Allergan | Healthcare/Pharma | Hostile takeover defeated by the target; activist-investor (acquirer-activist alliance) tactics; poison pill and litigation defense; acquirer's subsequent collapse | `case-studies/ma-valeant-allergan-hostile-takeover.md` |
+| Broadcom–Qualcomm (blocked) | Semiconductors/Tech | Foreign-investment / national-security veto: a hostile bid (largest-ever tech deal) blocked by US Presidential order on CFIUS recommendation over 5G/Huawei concerns; target's defensive CFIUS filing; standstill on the shareholder vote; FDI screening and merger control as separate fatal gates | `case-studies/ma-broadcom-qualcomm-national-security-block.md` |
 
 Two additional case studies outside the M&A theme also live in `case-studies/`: `CASE-STUDY-PELOTON-FY27.md` (profitability/turnaround) and `apollo-hospitals-FY27/` (a full multi-document healthcare engagement package — CEO brief, unit-economics teardown, board strategy case, capital allocation model).
 
