@@ -2,14 +2,5 @@
 # Supported platforms: github, patreon, open_collective, ko_fi, tidelift,
 # community_bridge, liberapay, issuehunt, otechie, lfx_crowdfunding, polar, buy_me_a_coffee, custom
 
-# Uncomment and fill in whichever platforms you use:
-# github: DogInfantry                  # GitHub Sponsors username
-# ko_fi: your_kofi_username            # Ko-fi username
-# buy_me_a_coffee: your_bmac_username  # Buy Me a Coffee username
-# patreon: your_patreon_username       # Patreon username
-# open_collective: your_oc_slug        # Open Collective slug
-# custom:                              # Custom donation URL(s)
-#   - https://paypal.me/your_username
-
-# QUICK START: uncomment ONE of the lines above and replace with your username.
-# The Sponsor button will appear automatically on your repo once this file is saved.
+github: DogInfantry
+ko_fi: doginfantry
