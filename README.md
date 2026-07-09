@@ -180,15 +180,6 @@ flowchart TD
 
 This project contains **no proprietary, confidential, or insider material** from any consulting firm or client engagement. Everything here is derived from publicly available sources only.
 
-**What this knowledge base is built from:**
-
-- 📚 **Published books** — *The McKinsey Way*, *Bulletproof Problem Solving*, *The Pyramid Principle* (Barbara Minto), *Case in Point*, *Competitive Strategy* (Porter), *Good Strategy Bad Strategy*, and other widely available texts
-- 🌐 **Firms' own public content** — McKinsey Insights, BCG Henderson Institute, Bain & Company articles, Deloitte Insights, PwC Strategy& reports — all publicly accessible
-- 🎓 **Case prep platforms** — Victor Cheng's *Case Interview Secrets*, PrepLounge, CaseCoach, IGotAnOffer, and MBB-published practice case books
-- 📊 **Public industry data** — SEC filings, World Bank, IMF, IEA, CMS, FDA, Bloomberg public datasets, and industry association benchmarks
-- 🏫 **Academic and business school material** — HBS, Wharton, INSEAD case abstracts and publicly released teaching notes
-- 🔓 **Open-source consulting frameworks** — Porter's Five Forces, BCG Growth-Share Matrix, McKinsey 7-S, Ansoff Matrix, and others that have been in the public domain for decades
-
 **What this knowledge base does NOT contain:**
 
 - ❌ No client names, engagement details, or project-specific data
