@@ -20,10 +20,10 @@
 
 ```
 /plugin marketplace add DogInfantry/management-consulting-forge
-/plugin install management-consultant-B1
+/plugin install management-consultant
 ```
 
-Works in any other AI agent too — **Codex, Gemini, and Cursor** auto-load the skill from `AGENTS.md` / `GEMINI.md`, and any LLM can use it by attaching `skill/SKILL.md`. Full walkthrough and manual setup: [Quick Start](#quick-start) · [INSTALL.md](./INSTALL.md).
+Works in any other AI agent too — **Codex, GitHub Copilot, Gemini, Cursor, and Ollama** auto-load the skill from `AGENTS.md` / `GEMINI.md` / `.github/copilot-instructions.md` / `Modelfile`, and any LLM can use it by attaching `skill/SKILL.md`. Full walkthrough and manual setup: [Quick Start](#quick-start) · [INSTALL.md](./INSTALL.md).
 
 ---
 
@@ -325,7 +325,7 @@ See **[INSTALL.md](./INSTALL.md)** for the full setup guide. Two ways to install
 
 ```
 /plugin marketplace add DogInfantry/management-consulting-forge
-/plugin install management-consultant-B1
+/plugin install management-consultant
 ```
 
 Installs the whole skill in seconds and picks up updates when you run `/plugin marketplace update`.
