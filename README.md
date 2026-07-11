@@ -14,6 +14,19 @@
 
 ---
 
+## Install
+
+**Claude Code — one command:**
+
+```
+/plugin marketplace add DogInfantry/management-consulting-forge
+/plugin install management-consultant-B1
+```
+
+Works in any other AI agent too — **Codex, Gemini, and Cursor** auto-load the skill from `AGENTS.md` / `GEMINI.md`, and any LLM can use it by attaching `skill/SKILL.md`. Full walkthrough and manual setup: [Quick Start](#quick-start) · [INSTALL.md](./INSTALL.md).
+
+---
+
 ## What Is This?
 
 The **MBB Management Consultant AI Skill** is a structured knowledge system that installs into Claude, giving it the cognitive architecture of a senior strategy consultant. It is not a simple prompt — it is 129 reference modules, organized around 5 knowledge pillars, covering every dimension of consulting work from MECE issue trees and Pyramid Principle communication to M&A due diligence, GenAI enterprise strategy, and case interview coaching.
@@ -311,7 +324,7 @@ See **[INSTALL.md](./INSTALL.md)** for the full setup guide. Two ways to install
 **Option A — as a Claude Code plugin (recommended, one command):**
 
 ```
-/plugin marketplace add DogInfantry/claude-skill-management-consultant-B1
+/plugin marketplace add DogInfantry/management-consulting-forge
 /plugin install management-consultant-B1
 ```
 
@@ -414,7 +427,7 @@ See **[CASE-STUDIES.md](./CASE-STUDIES.md)** for 3 fully worked cases. Each incl
 | **New Frontier** | Market Entry | European athletic apparel brand evaluating US expansion | Market sizing, 3C's, entry mode selection, go/no-go recommendation |
 | **The Big Question** | Market Sizing | PE fund sizing the US pet insurance market for acquisition due diligence | Bottom-up sizing, TAM/SAM/SOM, assumption stress-testing |
 
-*A PE / LBO case is in progress — see [Issue #6](https://github.com/DogInfantry/claude-skill-management-consultant-B1/issues/6) if you'd like to contribute it.*
+*A PE / LBO case is in progress — see [Issue #6](https://github.com/DogInfantry/management-consulting-forge/issues/6) if you'd like to contribute it.*
 
 ---
 
@@ -450,11 +463,11 @@ This is a living knowledge base — the more industries, benchmarks, and cases i
 **See [CONTRIBUTING.md](./CONTRIBUTING.md)** for the full guide: file structure, quality bar, and how to submit a PR.
 
 **Open issues (good places to start):**
-- [Add reference file: Cybersecurity Consulting](https://github.com/DogInfantry/claude-skill-management-consultant-B1/issues/3)
-- [Add reference file: Education & EdTech](https://github.com/DogInfantry/claude-skill-management-consultant-B1/issues/4)
-- [Update benchmarks: genai-enterprise-strategy.md](https://github.com/DogInfantry/claude-skill-management-consultant-B1/issues/5)
-- [Add case study: PE / LBO case](https://github.com/DogInfantry/claude-skill-management-consultant-B1/issues/6)
-- [Add reference file: Semiconductor & Hardware](https://github.com/DogInfantry/claude-skill-management-consultant-B1/issues/7)
+- [Add reference file: Cybersecurity Consulting](https://github.com/DogInfantry/management-consulting-forge/issues/3)
+- [Add reference file: Education & EdTech](https://github.com/DogInfantry/management-consulting-forge/issues/4)
+- [Update benchmarks: genai-enterprise-strategy.md](https://github.com/DogInfantry/management-consulting-forge/issues/5)
+- [Add case study: PE / LBO case](https://github.com/DogInfantry/management-consulting-forge/issues/6)
+- [Add reference file: Semiconductor & Hardware](https://github.com/DogInfantry/management-consulting-forge/issues/7)
 
 You don't need to be ex-MBB to contribute. If you've worked in any industry, finance role, or ops team, you have something concrete to add.
 
@@ -464,7 +477,7 @@ You don't need to be ex-MBB to contribute. If you've worked in any industry, fin
 
 This skill is free and always will be. If it helped you land an interview, ace a case, or think more clearly about a hard problem, here are a few ways to give back:
 
-- ⭐ **[Star the repo](https://github.com/DogInfantry/claude-skill-management-consultant-B1)** — helps others find it
+- ⭐ **[Star the repo](https://github.com/DogInfantry/management-consulting-forge)** — helps others find it
 - 💖 **[Sponsor on GitHub](https://github.com/sponsors/DogInfantry)** — directly support ongoing development
 - ☕ **Buy me a coffee** — [ko-fi.com/doginfantry](https://ko-fi.com/doginfantry) *(set this up at ko-fi.com if you haven't yet)*
 - 🔁 **Share it** with someone preparing for consulting interviews or working through a strategy problem
