@@ -1,16 +1,17 @@
 # MBB Management Consultant AI Skill and Plugin for LLMs
 
-> **The most comprehensive open-source consulting intelligence layer for Claude.** A structured, hypothesis-driven consulting knowledge base — built for MBA students, case interview candidates, business professionals, and anyone who needs to think at McKinsey / Bain / BCG level.
+> **The most comprehensive open-source consulting intelligence layer for any LLM.** A structured, hypothesis-driven consulting knowledge base — works with Claude, Codex, Gemini, GitHub Copilot, Cursor, Ollama, and any other AI assistant. Built for MBA students, case interview candidates, business professionals, and anyone who needs to think at McKinsey / Bain / BCG level.
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Claude Compatible](https://img.shields.io/badge/Claude-Compatible-blueviolet)](https://claude.ai)
+[![Works with any LLM](https://img.shields.io/badge/Works%20with-Any%20LLM-blueviolet)](#install)
+[![Claude · Codex · Gemini · Copilot · Ollama](https://img.shields.io/badge/Claude%20%C2%B7%20Codex%20%C2%B7%20Gemini%20%C2%B7%20Copilot%20%C2%B7%20Ollama-supported-brightgreen)](#install)
 [![Skill Type](https://img.shields.io/badge/Type-Management%20Consulting-blue)]()
 [![Audience](https://img.shields.io/badge/Audience-MBA%20%7C%20Consultants%20%7C%20Business%20Professionals%20%7C%20Students-green)]()
 [![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-red?logo=github-sponsors)](https://github.com/sponsors/DogInfantry)
 
 ---
 
-**TL;DR:** Install this skill and Claude works like an MBB-grade management consultant — coaching you through case interviews, applying strategy frameworks, sizing markets, and turning messy business problems into board-ready answers. 129 reference modules distilled from public consulting knowledge. Free and open-source; contributions welcome.
+**TL;DR:** Install this skill and your AI assistant — Claude, Codex, Gemini, Copilot, Ollama, or any other LLM — works like an MBB-grade management consultant, coaching you through case interviews, applying strategy frameworks, sizing markets, and turning messy business problems into board-ready answers. 129 reference modules distilled from public consulting knowledge. Free and open-source; contributions welcome.
 
 ---
 
@@ -29,7 +30,7 @@ Works in any other AI agent too — **Codex, GitHub Copilot, Gemini, Cursor, and
 
 ## What Is This?
 
-The **MBB Management Consultant AI Skill** is a structured knowledge system that installs into Claude, giving it the cognitive architecture of a senior strategy consultant. It is not a simple prompt — it is 129 reference modules, organized around 5 knowledge pillars, covering every dimension of consulting work from MECE issue trees and Pyramid Principle communication to M&A due diligence, GenAI enterprise strategy, and case interview coaching.
+The **MBB Management Consultant AI Skill** is a structured knowledge system that installs into your AI assistant — Claude, Codex, Gemini, GitHub Copilot, Ollama, and more — giving it the cognitive architecture of a senior strategy consultant. It is not a simple prompt — it is 129 reference modules, organized around 5 knowledge pillars, covering every dimension of consulting work from MECE issue trees and Pyramid Principle communication to M&A due diligence, GenAI enterprise strategy, and case interview coaching.
 
 Unlike generic AI prompts, this skill:
 - Applies **hypothesis-driven thinking** — forms a point of view before gathering data
@@ -38,7 +39,7 @@ Unlike generic AI prompts, this skill:
 - Draws from **10+ industry reference files** and 129 deep-knowledge modules
 - Follows the **MBB operating model** — Frame → Structure → Analyse → Synthesise → Deliver
 
-**Compatible with:** Claude Free, Claude Pro, and Claude for Teams.
+**Compatible with:** Claude (Code, Free, Pro, Teams), OpenAI Codex, Google Gemini, GitHub Copilot, Cursor, Ollama (local models), and any other LLM you can paste context into.
 
 ---
 
@@ -118,7 +119,7 @@ mindmap
 
 ## What This Is
 
-This repository contains a consulting knowledge base for [Claude](https://claude.ai), Anthropic's AI assistant. When installed, it gives Claude a structured senior-consultant workflow, built around MBB-style problem-solving and communication patterns built by distilling publicly available MBB frameworks, case prep resources, and consulting methodology into a single knowledge base.
+This repository contains a consulting knowledge base for AI assistants — [Claude](https://claude.ai), OpenAI Codex, Google Gemini, GitHub Copilot, Ollama, and any other LLM. When installed, it gives the assistant a structured senior-consultant workflow, built around MBB-style problem-solving and communication patterns built by distilling publicly available MBB frameworks, case prep resources, and consulting methodology into a single knowledge base.
 
 This is not a simple prompt. It is a structured knowledge system with 129 reference files covering every dimension of consulting work, from MECE issue trees and Pyramid Principle communication to due diligence, post-merger integration, GenAI enterprise strategy, and case interview coaching.
 
@@ -128,7 +129,7 @@ This is not a simple prompt. It is a structured knowledge system with 129 refere
 
 ## The Core Problem-Solving System
 
-Every consulting engagement — and every case interview — runs on the same two tools. This skill makes Claude fluent in both.
+Every consulting engagement — and every case interview — runs on the same two tools. This skill makes your AI assistant fluent in both.
 
 ### MECE Issue Trees: Diagnosing Any Business Problem
 
@@ -315,8 +316,8 @@ Once installed, Claude can assist you with:
 
 ## Quick Start
 
-### 1. Get Claude
-You need access to [Claude](https://claude.ai). Free tier works; Pro is recommended for heavy use.
+### 1. Get an AI assistant
+You need access to a capable LLM. [Claude](https://claude.ai) gives the smoothest experience (one-command plugin install below), but the skill also works with OpenAI Codex, Google Gemini, GitHub Copilot, Cursor, Ollama, and any other LLM — see [INSTALL.md](./INSTALL.md). Free tiers work; paid tiers help for heavy use.
 
 ### 2. Install the Skill
 See **[INSTALL.md](./INSTALL.md)** for the full setup guide. Two ways to install:
@@ -433,17 +434,17 @@ See **[CASE-STUDIES.md](./CASE-STUDIES.md)** for 3 fully worked cases. Each incl
 
 ## Frequently Asked Questions
 
-**Q: Do I need a paid Claude subscription to use this?**
-No. The free tier of Claude at [claude.ai](https://claude.ai) works. Claude Pro is recommended for heavy use (longer conversations, more context), but the skill functions on the free tier.
+**Q: Do I need a paid subscription, or a specific LLM, to use this?**
+No on both. It's model-agnostic — Claude, Codex, Gemini, Copilot, Ollama, or any other LLM. Free tiers (e.g. [claude.ai](https://claude.ai)) work; paid tiers help for heavy use (longer conversations, more context). Ollama runs fully local and free.
 
 **Q: Is this an official McKinsey, Bain, or BCG product?**
 No. This is an independent, open-source project. "McKinsey-style" and "MBB" are used descriptively — referring to a publicly understood standard of consulting practice. There is no affiliation with or endorsement from any firm.
 
-**Q: What makes this different from just prompting Claude to "think like a consultant"?**
-A prompt gives Claude a behavioral instruction. This skill gives Claude a 129-file knowledge system — including specific frameworks, case interview formats, industry metrics, and analytical tools — that it actively references during problem-solving. The depth and consistency of output is qualitatively different.
+**Q: What makes this different from just prompting an LLM to "think like a consultant"?**
+A prompt gives the model a behavioral instruction. This skill gives it a 129-file knowledge system — including specific frameworks, case interview formats, industry metrics, and analytical tools — that it actively references during problem-solving. The depth and consistency of output is qualitatively different.
 
 **Q: Can I use this for real client work?**
-Yes. The skill is designed for real problem-solving, not just practice. Many frameworks (issue trees, profitability analysis, market sizing, org design) apply directly to live business problems. That said, always exercise professional judgment — Claude's output is a thinking tool, not professional advice.
+Yes. The skill is designed for real problem-solving, not just practice. Many frameworks (issue trees, profitability analysis, market sizing, org design) apply directly to live business problems. That said, always exercise professional judgment — the AI's output is a thinking tool, not professional advice.
 
 **Q: How do I contribute a new reference file or case study?**
 See [CONTRIBUTING.md](./CONTRIBUTING.md). The bar is: public sources only, MECE structure, and real analytical depth. You don't need to be ex-MBB. Industry experience, finance background, and ops knowledge are all valuable.
