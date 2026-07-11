@@ -9,7 +9,7 @@ This guide walks you through installing the management consultant skill on Claud
 If you use [Claude Code](https://claude.ai/code), install the whole skill as a plugin — no downloads, no file copying:
 
 ```
-/plugin marketplace add DogInfantry/claude-skill-management-consultant-B1
+/plugin marketplace add DogInfantry/management-consulting-forge
 /plugin install management-consultant-B1
 ```
 
@@ -78,14 +78,14 @@ Claude should respond as a senior MBB consultant.
 ### Step 1: Download the Skill
 
 ```bash
-git clone https://github.com/DogInfantry/claude-skill-management-consultant-B1.git
+git clone https://github.com/DogInfantry/management-consulting-forge.git
 ```
 
 ### Step 2: Move to Your Claude Skills Directory
 
 ```bash
 mkdir -p ~/.claude/skills/
-cp -r claude-skill-management-consultant-B1/skill/ ~/.claude/skills/management-consultant/
+cp -r management-consulting-forge/skill/ ~/.claude/skills/management-consultant/
 ```
 
 ### Step 3: Verify the Installation
@@ -116,6 +116,22 @@ If you just want to try this without installing anything, you can paste the cont
 4. Follow with your consulting question
 
 > **Limitation**: This method doesn't automatically load the reference files. For the full experience (especially for specialist topics like due diligence, post-merger integration, or industry verticals), use Method 1 or 2.
+
+---
+
+## Method 4: Other AI Agents (Codex, Gemini, Cursor, etc.)
+
+The skill content is model-agnostic — it works in any capable LLM, not just Claude.
+
+- **Codex, Cursor, Windsurf, Amp** (and other tools that read `AGENTS.md`): clone or open this repo in your workspace. The root `AGENTS.md` points the agent at `skill/SKILL.md`, so it loads automatically.
+- **Gemini CLI**: the root `GEMINI.md` does the same for Gemini.
+- **Any other LLM (ChatGPT, etc.)**: attach or paste `skill/SKILL.md` as context (same as Method 3), and reference the files under `skill/references/` as needed.
+
+```bash
+git clone https://github.com/DogInfantry/management-consulting-forge.git
+```
+
+Then open the folder in your agent of choice — `AGENTS.md` / `GEMINI.md` are picked up automatically.
 
 ---
 
