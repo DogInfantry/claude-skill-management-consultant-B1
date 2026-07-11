@@ -306,7 +306,18 @@ Once installed, Claude can assist you with:
 You need access to [Claude](https://claude.ai). Free tier works; Pro is recommended for heavy use.
 
 ### 2. Install the Skill
-See **[INSTALL.md](./INSTALL.md)** for the full setup guide. The short version:
+See **[INSTALL.md](./INSTALL.md)** for the full setup guide. Two ways to install:
+
+**Option A — as a Claude Code plugin (recommended, one command):**
+
+```
+/plugin marketplace add DogInfantry/claude-skill-management-consultant-B1
+/plugin install management-consultant-B1
+```
+
+Installs the whole skill in seconds and picks up updates when you run `/plugin marketplace update`.
+
+**Option B — as a plain skill (manual copy):**
 
 1. Download `skill/SKILL.md` and the entire `skill/references/` folder
 2. Follow the Cowork/Claude Code installation steps in `INSTALL.md`
