@@ -1,6 +1,19 @@
 # Installation Guide — MBB Management Consultant Skill for Claude
 
-This guide walks you through installing the management consultant skill on Claude. There are two methods depending on which Claude product you're using.
+This guide walks you through installing the management consultant skill on Claude. Three methods depending on which Claude product you're using.
+
+---
+
+## Method 0: Claude Code Plugin — Fastest (One Command)
+
+If you use [Claude Code](https://claude.ai/code), install the whole skill as a plugin — no downloads, no file copying:
+
+```
+/plugin marketplace add DogInfantry/claude-skill-management-consultant-B1
+/plugin install management-consultant-B1
+```
+
+That's it. To pick up future updates, run `/plugin marketplace update`.
 
 ---
 
@@ -65,14 +78,14 @@ Claude should respond as a senior MBB consultant.
 ### Step 1: Download the Skill
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/management-consultant-claude-skill.git
+git clone https://github.com/DogInfantry/claude-skill-management-consultant-B1.git
 ```
 
 ### Step 2: Move to Your Claude Skills Directory
 
 ```bash
 mkdir -p ~/.claude/skills/
-cp -r management-consultant-claude-skill/skill/ ~/.claude/skills/management-consultant/
+cp -r claude-skill-management-consultant-B1/skill/ ~/.claude/skills/management-consultant/
 ```
 
 ### Step 3: Verify the Installation
