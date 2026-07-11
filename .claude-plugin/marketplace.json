@@ -6,9 +6,12 @@
   },
   "plugins": [
     {
-      "name": "management-consultant-B1",
+      "name": "management-consultant",
       "source": "./",
       "description": "MBB-level management consulting skill for Claude Code. Strategic frameworks (MECE, Porter's Five Forces, McKinsey 7S, BCG Matrix), hypothesis-driven problem solving, case interview structures, consulting deliverable templates, and real-world case studies across industries."
     }
-  ]
+  ],
+  "renames": {
+    "management-consultant-B1": "management-consultant"
+  }
 }
