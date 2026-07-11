@@ -1,4 +1,4 @@
-# MBB Management Consultant AI Skill for Claude
+# MBB Management Consultant AI Skill and Plugin for LLMs
 
 > **The most comprehensive open-source consulting intelligence layer for Claude.** A structured, hypothesis-driven consulting knowledge base — built for MBA students, case interview candidates, business professionals, and anyone who needs to think at McKinsey / Bain / BCG level.
 
