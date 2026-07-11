@@ -10,7 +10,7 @@ If you use [Claude Code](https://claude.ai/code), install the whole skill as a p
 
 ```
 /plugin marketplace add DogInfantry/management-consulting-forge
-/plugin install management-consultant-B1
+/plugin install management-consultant
 ```
 
 That's it. To pick up future updates, run `/plugin marketplace update`.
@@ -121,17 +121,25 @@ If you just want to try this without installing anything, you can paste the cont
 
 ## Method 4: Other AI Agents (Codex, Gemini, Cursor, etc.)
 
-The skill content is model-agnostic — it works in any capable LLM, not just Claude.
-
-- **Codex, Cursor, Windsurf, Amp** (and other tools that read `AGENTS.md`): clone or open this repo in your workspace. The root `AGENTS.md` points the agent at `skill/SKILL.md`, so it loads automatically.
-- **Gemini CLI**: the root `GEMINI.md` does the same for Gemini.
-- **Any other LLM (ChatGPT, etc.)**: attach or paste `skill/SKILL.md` as context (same as Method 3), and reference the files under `skill/references/` as needed.
+The skill content is model-agnostic — it works in any capable LLM, not just Claude. Clone the repo first:
 
 ```bash
 git clone https://github.com/DogInfantry/management-consulting-forge.git
 ```
 
-Then open the folder in your agent of choice — `AGENTS.md` / `GEMINI.md` are picked up automatically.
+Then open the folder in your agent of choice — the matching context file is picked up automatically:
+
+- **Codex, Cursor, Windsurf, Amp, Cline** (and other tools that read `AGENTS.md`): the root `AGENTS.md` points the agent at `skill/SKILL.md`, so it loads automatically.
+- **Gemini CLI**: the root `GEMINI.md` does the same.
+- **GitHub Copilot**: `.github/copilot-instructions.md` tells Copilot to load the skill for this repo.
+- **Claude Code without the plugin**: the root `CLAUDE.md` `@`-includes the skill, so opening the repo gives Claude Code the skill in-repo (no marketplace install needed).
+- **Ollama (local models)**: build a lite consultant model from the bundled `Modelfile`:
+  ```bash
+  ollama create management-consultant -f Modelfile
+  ollama run management-consultant
+  ```
+  > **Lite scope**: the Modelfile bakes the consultant *persona and method* into a system prompt — it does **not** embed the full 129-module reference library. For deep specialist work, attach `skill/SKILL.md` and the relevant `skill/references/*` files to the conversation.
+- **Any other LLM (ChatGPT, etc.)**: attach or paste `skill/SKILL.md` as context (same as Method 3), and reference the files under `skill/references/` as needed.
 
 ---
 
