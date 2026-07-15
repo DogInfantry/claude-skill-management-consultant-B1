@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this skill or its consulting knowledge base, please cite it as below."
+title: "MBB Management Consultant AI Skill and Plugin for LLMs"
+type: software
+authors:
+  - family-names: "Manapure"
+    given-names: "Shruti"
+repository-code: "https://github.com/DogInfantry/claude-skill-management-consultant-B1"
+url: "https://github.com/DogInfantry/claude-skill-management-consultant-B1"
+license: Apache-2.0
+keywords:
+  - management-consulting
+  - claude-skill
+  - claude-plugin
+  - case-interview
+  - strategy-frameworks
+  - market-sizing
+  - llm
+abstract: "Open-source consulting knowledge base (129 reference modules) that turns any LLM into an MBB-grade management consultant: structured problem solving, strategy frameworks, market sizing, case interview coaching, and executive-grade deliverables."
+date-released: "2026-07-15"
+version: "1.1.0"

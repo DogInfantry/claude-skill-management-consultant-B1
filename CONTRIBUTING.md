@@ -1,4 +1,4 @@
-# Contributing to management-consulting-forge
+# Contributing to claude-skill-management-consultant-B1
 
 Thanks for wanting to contribute. This is a living knowledge base — the more industries, case types, and methods it covers, the more useful it becomes for everyone.
 

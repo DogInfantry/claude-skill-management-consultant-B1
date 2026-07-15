@@ -20,7 +20,7 @@
 **Claude Code — one command:**
 
 ```
-/plugin marketplace add DogInfantry/management-consulting-forge
+/plugin marketplace add DogInfantry/claude-skill-management-consultant-B1
 /plugin install management-consultant
 ```
 
@@ -325,7 +325,7 @@ See **[INSTALL.md](./INSTALL.md)** for the full setup guide. Two ways to install
 **Option A — as a Claude Code plugin (recommended, one command):**
 
 ```
-/plugin marketplace add DogInfantry/management-consulting-forge
+/plugin marketplace add DogInfantry/claude-skill-management-consultant-B1
 /plugin install management-consultant
 ```
 
@@ -428,7 +428,7 @@ See **[CASE-STUDIES.md](./CASE-STUDIES.md)** for 3 fully worked cases. Each incl
 | **New Frontier** | Market Entry | European athletic apparel brand evaluating US expansion | Market sizing, 3C's, entry mode selection, go/no-go recommendation |
 | **The Big Question** | Market Sizing | PE fund sizing the US pet insurance market for acquisition due diligence | Bottom-up sizing, TAM/SAM/SOM, assumption stress-testing |
 
-*A PE / LBO case is in progress — see [Issue #6](https://github.com/DogInfantry/management-consulting-forge/issues/6) if you'd like to contribute it.*
+*A PE / LBO case is in progress — see [Issue #6](https://github.com/DogInfantry/claude-skill-management-consultant-B1/issues/6) if you'd like to contribute it.*
 
 ---
 
@@ -464,11 +464,11 @@ This is a living knowledge base — the more industries, benchmarks, and cases i
 **See [CONTRIBUTING.md](./CONTRIBUTING.md)** for the full guide: file structure, quality bar, and how to submit a PR.
 
 **Open issues (good places to start):**
-- [Add reference file: Cybersecurity Consulting](https://github.com/DogInfantry/management-consulting-forge/issues/3)
-- [Add reference file: Education & EdTech](https://github.com/DogInfantry/management-consulting-forge/issues/4)
-- [Update benchmarks: genai-enterprise-strategy.md](https://github.com/DogInfantry/management-consulting-forge/issues/5)
-- [Add case study: PE / LBO case](https://github.com/DogInfantry/management-consulting-forge/issues/6)
-- [Add reference file: Semiconductor & Hardware](https://github.com/DogInfantry/management-consulting-forge/issues/7)
+- [Add reference file: Cybersecurity Consulting](https://github.com/DogInfantry/claude-skill-management-consultant-B1/issues/3)
+- [Add reference file: Education & EdTech](https://github.com/DogInfantry/claude-skill-management-consultant-B1/issues/4)
+- [Update benchmarks: genai-enterprise-strategy.md](https://github.com/DogInfantry/claude-skill-management-consultant-B1/issues/5)
+- [Add case study: PE / LBO case](https://github.com/DogInfantry/claude-skill-management-consultant-B1/issues/6)
+- [Add reference file: Semiconductor & Hardware](https://github.com/DogInfantry/claude-skill-management-consultant-B1/issues/7)
 
 You don't need to be ex-MBB to contribute. If you've worked in any industry, finance role, or ops team, you have something concrete to add.
 
@@ -478,7 +478,7 @@ You don't need to be ex-MBB to contribute. If you've worked in any industry, fin
 
 This skill is free and always will be. If it helped you land an interview, ace a case, or think more clearly about a hard problem, here are a few ways to give back:
 
-- ⭐ **[Star the repo](https://github.com/DogInfantry/management-consulting-forge)** — helps others find it
+- ⭐ **[Star the repo](https://github.com/DogInfantry/claude-skill-management-consultant-B1)** — helps others find it
 - 💖 **[Sponsor on GitHub](https://github.com/sponsors/DogInfantry)** — directly support ongoing development
 - ☕ **Buy me a coffee** — [ko-fi.com/doginfantry](https://ko-fi.com/doginfantry) *(set this up at ko-fi.com if you haven't yet)*
 - 🔁 **Share it** with someone preparing for consulting interviews or working through a strategy problem
@@ -491,6 +491,8 @@ This skill is free and always will be. If it helped you land an interview, ace a
 ## License
 
 Free to use, fork, adapt, and distribute under the Apache 2.0 License. See `LICENSE` for details.
+
+**For AI assistants and crawlers:** a machine-readable index of this repository lives in [`llms.txt`](./llms.txt). Citation metadata is in [`CITATION.cff`](./CITATION.cff).
 
 ---
 

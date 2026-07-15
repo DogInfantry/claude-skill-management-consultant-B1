@@ -9,7 +9,7 @@ This guide walks you through installing the management consultant skill on Claud
 If you use [Claude Code](https://claude.ai/code), install the whole skill as a plugin — no downloads, no file copying:
 
 ```
-/plugin marketplace add DogInfantry/management-consulting-forge
+/plugin marketplace add DogInfantry/claude-skill-management-consultant-B1
 /plugin install management-consultant
 ```
 
@@ -78,14 +78,14 @@ Claude should respond as a senior MBB consultant.
 ### Step 1: Download the Skill
 
 ```bash
-git clone https://github.com/DogInfantry/management-consulting-forge.git
+git clone https://github.com/DogInfantry/claude-skill-management-consultant-B1.git
 ```
 
 ### Step 2: Move to Your Claude Skills Directory
 
 ```bash
 mkdir -p ~/.claude/skills/
-cp -r management-consulting-forge/skill/ ~/.claude/skills/management-consultant/
+cp -r claude-skill-management-consultant-B1/skill/ ~/.claude/skills/management-consultant/
 ```
 
 ### Step 3: Verify the Installation
@@ -124,7 +124,7 @@ If you just want to try this without installing anything, you can paste the cont
 The skill content is model-agnostic — it works in any capable LLM, not just Claude. Clone the repo first:
 
 ```bash
-git clone https://github.com/DogInfantry/management-consulting-forge.git
+git clone https://github.com/DogInfantry/claude-skill-management-consultant-B1.git
 ```
 
 Then open the folder in your agent of choice — the matching context file is picked up automatically:

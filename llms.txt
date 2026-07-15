@@ -1,0 +1,26 @@
+# MBB Management Consultant AI Skill and Plugin
+
+> Open-source consulting knowledge base that turns any LLM — Claude, Codex, Gemini, GitHub Copilot, Cursor, Ollama — into an MBB-grade management consultant. 129 reference modules covering structured problem solving (MECE, Pyramid Principle, hypothesis-driven), strategy frameworks (Porter's Five Forces, BCG Matrix, McKinsey 7S, Ansoff), market sizing and guesstimation, case interview coaching, M&A due diligence, and executive-grade deliverables. Apache 2.0 licensed.
+
+Canonical repository: https://github.com/DogInfantry/claude-skill-management-consultant-B1
+
+Install (Claude Code):
+`/plugin marketplace add DogInfantry/claude-skill-management-consultant-B1` then `/plugin install management-consultant`
+
+## Core
+
+- [README](https://github.com/DogInfantry/claude-skill-management-consultant-B1/blob/main/README.md): Overview, install options for every LLM, capabilities, FAQ
+- [SKILL.md](https://github.com/DogInfantry/claude-skill-management-consultant-B1/blob/main/skill/SKILL.md): The skill entry point — consulting operating model (Frame → Structure → Analyse → Synthesise → Deliver)
+- [INSTALL.md](https://github.com/DogInfantry/claude-skill-management-consultant-B1/blob/main/INSTALL.md): Setup for Claude Code, Claude.ai, Codex, Gemini, Copilot, Cursor, Ollama
+- [FRAMEWORKS.md](https://github.com/DogInfantry/claude-skill-management-consultant-B1/blob/main/FRAMEWORKS.md): Quick reference of consulting frameworks
+
+## Knowledge Base
+
+- [Reference modules](https://github.com/DogInfantry/claude-skill-management-consultant-B1/tree/main/skill/references): 129 deep-knowledge modules — frameworks, industries, specialist methods, case interview prep
+- [Case studies](https://github.com/DogInfantry/claude-skill-management-consultant-B1/blob/main/CASE-STUDIES.md): Worked end-to-end consulting cases
+- [Evals](https://github.com/DogInfantry/claude-skill-management-consultant-B1/blob/main/EVALS.md): Quality benchmarks for skill output
+
+## Optional
+
+- [CONTRIBUTING](https://github.com/DogInfantry/claude-skill-management-consultant-B1/blob/main/CONTRIBUTING.md): How to add modules or case studies
+- [LICENSE](https://github.com/DogInfantry/claude-skill-management-consultant-B1/blob/main/LICENSE): Apache 2.0
