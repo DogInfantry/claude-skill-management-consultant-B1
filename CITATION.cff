@@ -3,8 +3,7 @@ message: "If you use this skill or its consulting knowledge base, please cite it
 title: "MBB Management Consultant AI Skill and Plugin for LLMs"
 type: software
 authors:
-  - family-names: "Manapure"
-    given-names: "Shruti"
+  - name: "DogInfantry"
 repository-code: "https://github.com/DogInfantry/claude-skill-management-consultant-B1"
 url: "https://github.com/DogInfantry/claude-skill-management-consultant-B1"
 license: Apache-2.0
