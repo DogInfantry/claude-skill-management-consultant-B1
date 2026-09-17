@@ -91,6 +91,23 @@ The most common case type. Three sub-patterns drive ~90% of profitability cases.
 - Candidate recommends efficiency improvements without addressing fixed cost structure
 - Candidate doesn't distinguish temporary volume decline (fix: demand stimulation) from structural (fix: restructure)
 
+### The Cross-Cutting Move: Isolate Along the Value Chain Before Theorising
+
+Across all three profitability patterns, the technique that most reliably converges the case is to **isolate the problem along the value chain before running a Customer/Competitor/Company scan.** The conventional path — find the broken metric, then immediately scan the whole business for "why" — explores the entire world of causes before narrowing *where* the cause lives. Insert one step in between.
+
+Once you know (say) *volume* is the broken metric, a volume decline can only come from three structurally distinct places:
+
+1. **Production issue** — we can't make or ship as much as before.
+2. **Distribution-push issue** — the product reaches fewer shelves or is pushed less by the trade (thinner margins vs. competitors, worse visibility/packaging, fewer outlets). *"Reaches the shop" is not the same as "reaches the customer."*
+3. **Customer-pull issue** — end demand or preference has genuinely shifted.
+
+Combine this with two other early isolators: **which segment** (geography / product / channel) carries the drop, and **is the fall company-specific or industry-wide** (market-wide → substitutes or demand shock; company-specific → share loss to rivals). Each answer *kills whole branches* of the tree, so the eventual Customer/Competitor/Company analysis is aimed at one node, not the whole business. The reward is that the answer often sits somewhere unglamorous a "customers and competitors" scan never reaches (see `references/practice-cases-quantified.md` Case 10 — a packaging change that throttled the retailer's ability to dispense a commodity toffee).
+
+Two discipline points that make this move work:
+
+- **Ask what *changed*, not what *exists*.** An outcome that moved must trace to a driver that moved. Decide how you'll *use* a segmentation before requesting it — that's what reminds you to ask "…and *has* this channel's mix or margin *changed* over the period?" rather than merely cataloguing what channels exist.
+- **Narrate the hypothesis, don't just hold it.** "Be hypothesis-driven" usually means *communicate* the logic, not that your thinking is wrong. Say the decomposition, name the branch you expect and *why*, then ask for the data that confirms or kills it — instead of firing scattered questions or asking the right questions silently.
+
 ---
 
 ## Archetype 2: Market Entry
