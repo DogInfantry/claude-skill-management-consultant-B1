@@ -89,6 +89,26 @@ This reference turns Claude into a full-spectrum case interview partner: practic
 - **Ask for data proactively**: "To test this hypothesis, I'd want to know X. Do you have that?"
 - **React to new information**: When you get a data point, explicitly update your thinking: "That's interesting — that changes my hypothesis because..."
 
+### Additional Case-Craft Moves
+- **Breadth, then depth.** Announce the whole structure first ("financial feasibility, then go-to-market"), get a nod, then open one bucket at a time ("feasibility = revenue (market size × share × lines) − costs (fixed + variable)"). The interviewer can redirect before you sink time into the wrong branch.
+- **Split company-specific vs. industry-wide early.** One question ("are competitors seeing this too?") halves the tree. Industry-wide points to regulation, demand or input costs; company-specific points to our product, price, channel or operations.
+- **Prioritise by contribution to the change, not by share.** Example: revenue falls 34%, and the remaining 20% of revenue is flat. White goods are 50% of revenue and fell 20%, contributing −10 pts. Electronics are only 30% of revenue but fell 80%, contributing **−24 pts**. Start with electronics.
+- **Write the driver formula.** Turn a vague driver into a product of measurable terms, e.g. trip fuel cost = distance (km) × fuel use (L/km) × fuel price (₹/L). You can then test each factor independently. Check your splits are truly MECE: age bands 0–20 / 18–45 overlap; 0–18 / 19–45 / 46–60 / 60+ don't.
+- **Sort recommendations by time horizon.** "Do X now, Y in 6–12 months, consider Z long-term." A ranked, time-phased list beats an unordered one.
+- **Benchmark on purpose.** Compare against competitors on the specific lever in question (sourcing cost, logistics partners, inventory days, AOV, order frequency, gross margin), not on generic scale metrics.
+- **Clarify with two buckets.** First the **objective** (unpack each keyword: what counts as "growth", since when, why it matters). Then the **company**: product and mix, value chain and stakeholders, industry structure, geography.
+
+### Closing the Interview & Building Business Acumen
+- **"Any questions for us?"** Ask two or three questions that show preparation: a recent strategic move, how the role's scope evolves, what distinguishes top performers. Never ask what the website already answers, and never ask "how did I do?". Ask about next steps and timing, and state your interest in the role.
+- **Read the room during the day.** Notice what the interviewer probes or leans into; that is what they care about. If you slip early, find a later moment to demonstrate the skill you fumbled.
+- **Build acumen deliberately (a 3–4-month habit).**
+  1. Pick one industry and its 5–6 largest companies.
+  2. Track their news and share-price moves weekly, and explain each move in one line.
+  3. Discuss with a peer group, or apply it in case competitions.
+  4. Lock it in through a project or internship.
+
+For fit-question preparation (tell-me-about-yourself, strengths and weaknesses, competency stories), see `references/behavioral-fit-interview.md` and `references/fit-pei-drill-bank.md`.
+
 ---
 
 ## Case Types and Opening Structures
