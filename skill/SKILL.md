@@ -173,6 +173,7 @@ The reference files contain deep knowledge for specific situations. Read them wh
 | Data QA protocol, Excel tools, financial diagnostics | `references/quantitative-analysis.md` |
 | Coding transcripts, theme validation, affinity mapping | `references/qualitative-analysis.md` |
 | Data visualization, chart selection, McKinsey standards | `references/data-visualization.md` |
+| Business statistics (central tendency, dispersion, distributions, hypothesis tests, z/t/χ²), reading an A/B test readout, sample size; capital budgeting (TVM, NPV, IRR, PI, payback, when they conflict), balance-sheet/cash-flow quick read | `references/stats-and-capital-budgeting-primer.md` |
 
 ### Strategy & Industry
 | Situation | Read |
@@ -181,7 +182,7 @@ The reference files contain deep knowledge for specific situations. Read them wh
 | Industry intelligence, rapid orientation for 8 sectors | `references/industry-intelligence.md` |
 | Universal business analysis, 5 decoding questions | `references/universal-business-analysis.md` |
 | Indian business houses (Tata, Reliance, Adani, Aditya Birla, Mahindra, Bajaj, Vedanta, JSW, Piramal, RPG, Bharti) — structure, economics, strategic thrust, governance watch-outs, leadership programmes | `references/india-corporate-houses.md` |
-| India sector primers (13: auto, aviation, cement, e-commerce, financial services, banking, FMCG, steel, IT/ITES, metals & mining, oil & gas, power, telecom) — market structure, leaders, value chain, KPIs, regulators, case tension | `references/india-sector-primers.md` |
+| India sector primers (17: auto, aviation, cement, e-commerce, financial services, banking, FMCG, steel, IT/ITES, metals & mining, oil & gas, power, telecom, healthcare, retail, hospitality, logistics) — market structure, leaders, value chain, KPIs with formulas, regulators, case tension | `references/india-sector-primers.md` |
 | Corporate strategy, parenting advantage, TSR, portfolio | `references/corporate-strategy.md` |
 | Pricing strategy, WTP, conjoint, price architecture | `references/pricing-strategy.md` |
 | Competitive intelligence, win/loss, positioning maps | `references/competitive-intelligence.md` |
@@ -214,7 +215,10 @@ The reference files contain deep knowledge for specific situations. Read them wh
 | Product teardown, PM frameworks (JTBD, CIRCLES, RICE, HEART, AARRR), or PM/analyst interview round patterns | `references/product-management-toolkit.md` |
 | SQL for product/analyst questions — joins, GROUP BY/HAVING, PM-lens queries | `references/sql-for-pm-analysts.md` |
 | PM interview flows — CIRCLES/HEART/RICE as diagrams, product teardowns (India digital products), design/root-cause/improvement patterns | `references/india-pm-cases.md` |
-| India-market guesstimates with pictorial segment trees, benchmark-number cheat sheet, sector snapshots, and worked case drills | `references/india-guesstimates-and-cases.md` |
+| India-market guesstimates with pictorial segment trees, benchmark-number cheat sheet (population, income, spend, age, sector splits), sector snapshots, and worked case drills A–N (incl. discount-curve profitability, household-device and E2W entry, city ride-hail launch, blockbuster ticket pricing, hospital queueing) | `references/india-guesstimates-and-cases.md` |
+| Guesstimate drill bank organised by method (top-down, ratio, supply/bottleneck, two-method reconcile) — 14 worked estimates with sanity anchors and "error fixed" callouts, plus a pre-answer error checklist | `references/guesstimate-drill-bank.md` |
+| "Metric dropped X%" / root-cause prompts — the 5-gate metric-drop protocol (real? → define → segment → date → internal/external), funnel walk, 7 worked RCA archetypes and a signature→cause cheat sheet | `references/product-rca-casebank.md` |
+| Product-sense practice — design, improvement, "favourite product" skeleton + exemplars, experiment design (with sample size), strategy/unconventional prompts, success-metric trees, and a 6-slide product case-competition deck blueprint | `references/product-sense-casebank.md` |
 
 ### Communication & Deliverables
 | Situation | Read |

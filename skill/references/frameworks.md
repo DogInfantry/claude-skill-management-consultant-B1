@@ -72,6 +72,19 @@ Don't "boil the ocean." Start with a hypothesis and test it.
 3. **Gather evidence**: Run the analyses
 4. **Confirm or pivot**: Does the evidence support the hypothesis? If not, what does it point to?
 
+### 5W1H (Problem Definition)
+A clarifying-question checklist that pins a problem down before you structure it:
+- **What** is the problem, stated as a measurable fact?
+- **Where** was it found (site, line, region, channel)?
+- **When** did it start, and is it gradual or sudden, one-off or recurring?
+- **Who** found it, and who is affected?
+- **Why** does it matter (impact, e.g. downtime or lost orders)?
+- **How** big or severe is it (₹, units, customers)?
+
+*Example.* A shaft is found oversized on one machine of one assembly line. That stopped assembly for ~2 hours and puts a large order at risk. Once each W is answered, the root-cause search (5 Whys / fishbone) has a tight scope.
+
+Use it for clarifying questions in cases, quality problems, process fixes, and scoping a product or market-entry question. It pairs with the metric-drop protocol in `references/product-rca-casebank.md`.
+
 ### The Pyramid Principle (Barbara Minto)
 Structure all communication top-down:
 - **Governing Thought**: The single most important message (the answer)
@@ -105,6 +118,13 @@ A simple but powerful strategic triangle:
 - **Competitor**: Who are they, what's their strategy, where are they vulnerable?
 
 The sweet spot is where your capabilities match customer needs and competitors can't follow.
+
+### 3C + 1P (adds the Product)
+3C's plus a **Product** lens. It is the default qualitative scan for market entry, new products, new businesses, position assessment, growth, and divest/turnaround questions. Checklist by bucket:
+- **Product.** What it is and why someone buys it. Is it a commodity or differentiable (and can differentiation be raised)? What are its complements (can it ride their growth)? Its substitutes (indirect competitors)? Its lifecycle stage (new vs. near-obsolete)?
+- **Customer.** Segments with size, growth and share; trend vs. prior years; needs vs. wants; willingness to pay, price points and elasticity; disposable income.
+- **Company.** Capabilities and technical edge, distribution channels, cost structure, brand perception and loyalty, culture and organisation, financial capacity.
+- **Competition.** Concentration (monopoly → fragmented), share distribution, entry barriers, competitor behaviour (targets, pricing, distribution), regulation, industry lifecycle.
 
 ### McKinsey 7S Framework
 Assess organizational alignment across 7 elements:
@@ -155,6 +175,18 @@ Instead of competing in existing markets (red oceans), create uncontested market
 
 ### GE-McKinsey 9-Box Matrix
 Evaluate business portfolio using Industry Attractiveness (high/medium/low) × Competitive Strength (high/medium/low). More nuanced than BCG matrix.
+
+### Internal–External (IE) Matrix
+A 9-cell portfolio tool that plots each division by two scores:
+- **Internal Factor Evaluation (IFE)** score on the x-axis: weighted strengths and weaknesses, 1–4.
+- **External Factor Evaluation (EFE)** score on the y-axis: weighted opportunities and threats, 1–4.
+
+Bubble size shows each division's revenue share; a slice shows its profit share. Each axis splits into low (1.0–1.99), medium (2.0–2.99) and high (3.0–4.0). The three diagonal zones prescribe:
+- **Grow & build** (top-left cells): intensive and integrative strategies.
+- **Hold & maintain** (the diagonal): penetration and product development.
+- **Harvest or divest** (bottom-right cells).
+
+Use it when BCG's two variables (share, growth) are too thin. The IE matrix lets you weight many internal and external factors per division, and compare against rivals' matrices.
 
 ### PESTEL Analysis
 Macro-environmental scanning:
@@ -246,6 +278,14 @@ Enterprise Value = Σ (Free Cash Flow_t / (1 + WACC)^t) + Terminal Value / (1 + 
 
 Key inputs: Revenue growth, margins, capex, working capital, WACC, terminal growth rate.
 
+### Cost–Benefit Analysis (CBA)
+Compare the present value of all benefits with the present value of all costs, including indirect and intangible ones such as disruption, training time and risk.
+- **NPV model:** NPV = PV(benefits) − PV(costs). Proceed if NPV > 0; among options, pick the highest NPV.
+- **Benefit–cost ratio:** BCR = PV(benefits) ÷ PV(costs). Proceed if BCR > 1; the usual lens for public and social projects.
+- **Use for:** project go/no-go, comparing investments, hires, change initiatives, policy appraisal, stakeholder impact.
+
+Always add a sensitivity on the one or two assumptions that flip the decision. Worked examples, including when NPV, IRR and PI disagree: `references/stats-and-capital-budgeting-primer.md`.
+
 ---
 
 ## Organization & People
@@ -302,5 +342,9 @@ Decision framework:
 | "Organizational change" | 7S + Kotter | RACI, Talent 9-box |
 | "Pricing strategy" | Value-based pricing | Price elasticity, Competitive positioning |
 | "Digital transformation" | Digital maturity | Build/Buy/Partner, Three Horizons |
+| "Should we launch/enter with this product?" | 3C + 1P | Market sizing, Porter's 5, Ansoff |
+| "Which divisions to grow, hold or exit?" | IE matrix | BCG matrix, GE-McKinsey 9-box |
+| "Is this project/policy worth it?" | Cost–benefit (NPV/BCR) | Sensitivity analysis, DCF |
+| "Pin down a vague problem fast" | 5W1H | 5 Whys, Issue tree |
 
 Remember: the best consultants combine frameworks fluidly. A profitability case might require market sizing, competitive analysis, and operational diagnostics all in one engagement. Let the problem guide your toolkit, not the other way around.

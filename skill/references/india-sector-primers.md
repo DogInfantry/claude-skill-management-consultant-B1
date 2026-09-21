@@ -1,6 +1,6 @@
 # India Sector Primers — Market Structure at a Glance
 
-Fast, partner-level orientation for thirteen Indian sectors: the market shape, who leads, the value chain, the KPIs to speak in, the regulator, and the recurring case tension. Use immediately after problem framing on any India engagement or case, alongside `references/india-corporate-houses.md` (who the incumbents are) and `references/industry-heuristics.md` / `references/industry-intelligence.md` (global sector economics). Companion to `references/industry-heuristics.md`.
+Fast, partner-level orientation for seventeen Indian sectors: the market shape, who leads, the value chain, the KPIs to speak in, the regulator, and the recurring case tension. Use immediately after problem framing on any India engagement or case, alongside `references/india-corporate-houses.md` (who the incumbents are) and `references/industry-heuristics.md` / `references/industry-intelligence.md` (global sector economics). Companion to `references/industry-heuristics.md`.
 
 **All figures are approximate, directional benchmarks** for structuring, not sourced facts — market sizes and growth rates move, so refresh before quoting to a client and label anything you extrapolate `[ILLUSTRATIVE]`.
 
@@ -21,6 +21,10 @@ Fast, partner-level orientation for thirteen Indian sectors: the market shape, w
 | Oil & gas | imports ~$120B | 3rd-largest energy consumer | PSU-heavy + Reliance | MoPNG, PNGRB |
 | Power | ~411GW capacity | 3rd-largest producer/consumer | Gen + stressed discoms | CERC, Electricity Act 2003 |
 | Telecom | ~$37B | 2nd-largest subscriber base | 3-player | TRAI, DoT |
+| Healthcare (hospitals) | large, double-digit growth | — | Fragmented; corporate chains consolidating | NMC, CDSCO, NABH (accreditation), state health depts |
+| Retail | ~$1T | top-5 globally | ~90% unorganised; organised chains + quick-commerce rising | DPIIT (FDI: 100% single-brand, 51% multi-brand) |
+| Hospitality | tourism ~5% of GDP | — | Branded chains + asset-light managers + aggregators | Ministry of Tourism, FSSAI, state excise |
+| Logistics | ~$160B+ | — | Highly fragmented trucking + organised 3PL/express | MoRTH, MoPSW, National Logistics Policy |
 
 ---
 
@@ -29,12 +33,14 @@ Fast, partner-level orientation for thirteen Indian sectors: the market shape, w
 - **Leaders.** Maruti Suzuki (car leader), Hyundai, Tata Motors, Mahindra (SUV/utility); 2W — Hero, Honda, TVS, Bajaj.
 - **Value chain.** R&D → raw material → inbound logistics → manufacturing → outbound → dealer distribution → marketing → after-sales (service + parts, a high-margin annuity).
 - **KPIs.** Volume growth, segment mix, capacity utilization, dealer inventory days, EBITDA margin, EV penetration.
+- **Formulas.** On-time shipping rate = orders shipped by the requested date ÷ total orders. Incomplete vehicles at end of line = units held for missing parts (a supply-chain health signal).
 - **Case tension.** The ICE→EV transition (capex + new competitors), rural demand cyclicality, and the after-sales profit pool. Watch localization/PLI incentives.
 
 ## Aviation
 - **Snapshot.** 3rd-largest domestic market; low-cost-carrier led and now highly consolidated (IndiGo dominant; Air India–Vistara under Tata is #2). Segments: airlines, airports, MRO & ground handling.
 - **Value chain.** Flight ops · ground ops · MRO (operational); revenue management · distribution · customer experience (commercial). Airport ownership splits AAI-managed vs. private-concession (Adani, GMR).
 - **KPIs.** RASK/CASK, load factor, ASK growth, fuel cost % of opex (~40%), fleet utilization, on-time performance.
+- **Formulas.** Seat load factor = RPK ÷ ASK (≈ passengers ÷ seats). Regularity = flights operated ÷ flights scheduled. On-time departure % = on-time departures ÷ flights operated.
 - **Case tension.** Thin margins squeezed between fuel + lease costs and price-sensitive yields; route/network economics; the airport-privatization wave. A mandate for ~1% sustainable aviation fuel is on the horizon.
 
 ## Cement
@@ -49,6 +55,7 @@ Fast, partner-level orientation for thirteen Indian sectors: the market shape, w
 - **Leaders.** Flipkart (Walmart) and Amazon at the top; Meesho on the value tier (zero-commission, social/reseller distribution); Blinkit/Instamart/Zepto in quick-commerce.
 - **Value chain.** Sourcing/selection → catalog → demand generation → fulfilment/logistics (the cost battleground) → last mile → returns.
 - **KPIs.** GMV, take rate, AOV, contribution margin per order, CAC/LTV, delivery cost per order, repeat rate.
+- **Formulas.** Cart abandonment = 1 − completed orders ÷ carts created. Inventory turnover = COGS ÷ average inventory. Operating-expense ratio = opex ÷ revenue.
 - **Case tension.** Growth vs. contribution margin. India e-commerce cases live or die on **unit economics per order**, not GMV. FDI rules constrain inventory-led models for foreign players.
 
 ## Financial services (ex-banking)
@@ -70,6 +77,7 @@ Fast, partner-level orientation for thirteen Indian sectors: the market shape, w
 - **Snapshot.** ~$110B; famed for deep rural distribution. Segments: food & beverage, home care, personal care, healthcare. E-commerce/D2C is the fastest channel (~28% CAGR).
 - **Leaders.** HUL, ITC, Nestlé India, Britannia, Dabur; a wave of D2C challengers in personal care and F&B.
 - **KPIs.** Volume vs. value growth, gross margin, A&P spend %, distribution reach (outlets), rural/urban mix, direct-reach %.
+- **Formulas.** Machine uptime = run time ÷ planned production time. New-product ROI = net profit from new products ÷ development and launch cost. Customer-service average handle time = total handling time ÷ calls.
 - **Case tension.** Premiumization and D2C disruption vs. mass rural distribution moat; input-cost (palm oil, crude derivatives) pass-through; the general-trade→modern-trade→quick-commerce channel shift.
 
 ## Iron & steel
@@ -94,6 +102,7 @@ Fast, partner-level orientation for thirteen Indian sectors: the market shape, w
 - **Snapshot.** India is the 3rd-largest energy consumer and imports ~80%+ of crude (imports ~$120B); the 4th-largest LNG importer. Chain: upstream (E&P) → midstream (storage/transport) → downstream (refining/retail).
 - **Leaders.** ONGC (#1 upstream), Indian Oil / BPCL / HPCL (downstream PSUs), Reliance (integrated, Jamnagar), GAIL (gas).
 - **KPIs.** Gross refining margin (GRM), refinery utilization, upstream reserves/production, marketing margin, import dependence.
+- **Formulas.** Reserve life (years) = remaining reserves ÷ annual production. Unit production cost = (fixed + variable costs) ÷ units produced (e.g. per barrel).
 - **Case tension.** Import-price and geopolitics exposure (crude sourcing diversified toward Russia/Guyana); refining-margin cyclicality; and the capital pivot into the energy transition (green hydrogen, biofuels).
 
 ## Power
@@ -108,6 +117,51 @@ Fast, partner-level orientation for thirteen Indian sectors: the market shape, w
 - **Leaders.** Jio (Reliance), Bharti Airtel, Vodafone Idea (financially stressed) + BSNL.
 - **KPIs.** ARPU (the key repair metric), subscriber net adds, data usage/sub, spectrum + capex intensity, churn.
 - **Case tension.** ARPU repair after tariff wars, heavy 5G/spectrum capex, and the 3-player market's stability (Vodafone Idea's viability). Monetizing 5G and the digital-services layer on top of connectivity is the growth question.
+
+## Healthcare (hospitals)
+- **Snapshot.** A large, fast-growing hospital market driven by rising chronic disease, an ageing population, insurance and government-scheme coverage, and medical tourism. Telemedicine, diagnostics and health-tech attract steady PE/VC money.
+- **Leaders.** Apollo Hospitals, Max Healthcare, Fortis, Manipal, Narayana Health, Aster DM; plus large trust/charitable and government systems.
+- **Value chain (patient journey).** Awareness/referral → OPD consult and diagnostics → admission (IPD) → surgical or medical treatment → discharge, billing and insurance claim → follow-up.
+- **KPIs.** Bed occupancy, ALOS, ARPOB, payer mix (cash / private insurance / government schemes), staff-to-patient ratio, mortality and readmission rates, drug and consumable cost per stay.
+- **Formulas.**
+  - Occupancy = occupied bed-days ÷ available bed-days.
+  - ALOS = inpatient days ÷ discharges.
+  - ARPOB = inpatient revenue ÷ occupied bed-days.
+- **Case tension.** A high-fixed-cost business that turns on **occupancy × ARPOB**. Government-scheme pricing squeezes realisation; doctor retention and brownfield bed additions drive growth. See Drills F and N in `references/india-guesstimates-and-cases.md`.
+
+## Retail
+- **Snapshot.** Roughly a trillion-dollar market that is still ~90% unorganised (kiranas). Formats span hypermarkets, value retail, specialty, fashion, omnichannel and quick-commerce. FDI allows 100% in single-brand retail and up to 51% in multi-brand retail.
+- **Leaders.** Reliance Retail, Avenue Supermarts (DMart), Trent, Aditya Birla Fashion & Retail, Shoppers Stop.
+- **Value chain.** Sourcing and private-label development → warehousing and inventory → distribution → store or online → customer and loyalty.
+- **KPIs.** Like-for-like (same-store) growth, sales per sq ft, average transaction value, gross margin, inventory turnover, GMROI, shrinkage, private-label share.
+- **Formulas.**
+  - Average transaction value = sales ÷ number of transactions.
+  - Inventory turnover = cost of goods sold ÷ average inventory.
+  - GMROI = gross margin ÷ average inventory cost.
+- **Case tension.** Store economics (rent vs. throughput), the value-retail vs. quick-commerce squeeze on high-frequency trips, and private label as the margin lever. Disposable income and store location drive demand.
+
+## Hospitality
+- **Snapshot.** Travel and tourism contribute roughly 5% of GDP and a larger share of jobs, and hospitality is a meaningful forex earner. Demand is cyclical (it collapsed in 2020–21), with weddings/MICE and domestic leisure as structural drivers.
+- **Leaders.** IHCL (Taj), EIH (Oberoi), ITC Hotels, Lemon Tree, Chalet; plus budget aggregators and midscale franchise brands.
+- **Value chain.** Procurement → rooms and housekeeping → F&B → events and recreation → sales and distribution (direct, OTA, corporate) → guest services and loyalty.
+- **KPIs.** Occupancy, ADR (ARR), RevPAR, GOPPAR, F&B share of revenue, direct-booking share, staff per room.
+- **Formulas.**
+  - Occupancy = rooms sold ÷ rooms available.
+  - ADR = room revenue ÷ rooms sold.
+  - **RevPAR = ADR × occupancy = room revenue ÷ rooms available.**
+  - Emphasis by segment: luxury protects ADR, midscale chases occupancy, economy is judged on RevPAR.
+- **Case tension.** Asset-heavy ownership vs. asset-light management contracts; utilisation × yield (see Drill F in `references/india-guesstimates-and-cases.md`); new supply in hot micro-markets. See `references/hospitality-travel-leisure.md` for global depth.
+
+## Logistics
+- **Snapshot.** A ~$160B+ sector that employs millions. Trucking is highly fragmented, while organised express, 3PL and warehousing players scale with e-commerce. Logistics cost is widely cited at ~13–14% of GDP; a 2023 government-commissioned estimate put it nearer ~8–9%. **Define the measure before quoting either.** The National Logistics Policy, GST e-way bills and dedicated freight corridors are the structural shifts.
+- **Leaders.** Delhivery, Blue Dart, TCI, Allcargo, CONCOR (rail containers), Mahindra Logistics.
+- **Value chain.** Inbound → warehousing → line-haul → sortation/hubs → last mile → reverse logistics (returns). Support activities: technology (visibility, route optimisation), workforce training, infrastructure (roads, ports, airports).
+- **KPIs.** Capacity utilisation, fill rate, on-time-in-full, perfect-order rate, cost per shipment/kg, first-attempt delivery success, e-commerce RTO rate, inventory turnover.
+- **Formulas.**
+  - Capacity utilisation = actual weight carried ÷ maximum possible weight × 100.
+  - Order accuracy = orders delivered on time without errors ÷ total orders × 100.
+  - Inventory turnover = net sales ÷ average inventory at selling price.
+- **Case tension.** Empty backhauls and fragmentation depress truck utilisation; last-mile cost dominates e-commerce unit economics; rail vs. road modal mix; integrated 3PL vs. asset-light brokerage.
 
 ---
 

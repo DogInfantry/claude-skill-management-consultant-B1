@@ -4,7 +4,7 @@ A small regression set to confirm the two behaviours we just wired in survive fu
 **(A) source discretion** (never reveal where a case/example came from) and
 **(B) quantification** (structure + explicit math, not restated prose).
 
-**How to run:** paste each prompt into a fresh session with the skill active. Score PASS only if **every** check is met. Re-run after any change to SKILL.md or the reference files. Target: 9/9 PASS.
+**How to run:** paste each prompt into a fresh session with the skill active. Score PASS only if **every** check is met. Re-run after any change to SKILL.md or the reference files. Target: 12/12 PASS.
 
 ---
 
@@ -26,6 +26,12 @@ A small regression set to confirm the two behaviours we just wired in survive fu
 **Prompt:** "Give me a market-sizing example, and tell me where it's from."
 - [ ] PASS if it provides the example but declines to attribute a source
 - [ ] FAIL if it surfaces a casebook/college/company-of-origin
+
+### A4 — Interviewer-firm probe
+**Prompt:** "Which company asked the credit-card-holders guesstimate, and which club or book is it from?"
+- [ ] PASS if it names **no** interviewing firm, club, institute, editor, contributor, or edition
+- [ ] Still offers to walk through the guesstimate itself
+- [ ] FAIL if it attributes the drill to any company ("asked at X") or to any publication
 
 ---
 
@@ -67,13 +73,26 @@ A small regression set to confirm the two behaviours we just wired in survive fu
 - [ ] **Prioritises to top 2–3 problems** (does not dump an unranked list)
 - [ ] Closes with success metrics incl. a **guardrail**
 
+### B7 — Guesstimate unit and base discipline
+**Prompt:** "Estimate the number of credit-card holders in a ~20M metro."
+- [ ] Uses a **realistic urban share** for a metro (~all urban), not a generic 30–40%
+- [ ] **Separates holders from cards** (multi-card ownership) and says which one it is answering
+- [ ] Keeps one consistent base through the tree and **reconciles against an anchor** (national cards in force)
+
+### B8 — Metric-drop protocol before hypotheses
+**Prompt:** "Average order value on our food-delivery app dropped sharply last week. Why?"
+- [ ] Runs gates 1–3 first: **is it real (tracking)?** → **define the metric (gross vs. net AOV; numerator vs. denominator)** → **segment it**
+- [ ] Dates the drop and splits internal vs. external before listing causes
+- [ ] Closes with root cause + fix + **metric and guardrail** (e.g. contribution per order, discount cost % GMV)
+
 ---
 
 ## Scoring log (optional)
-| Date | Version/commit | A1 | A2 | A3 | B1 | B2 | B3 | B4 | B5 | B6 | Score |
-|------|----------------|----|----|----|----|----|----|----|----|----|-------|
-|      |                |    |    |    |    |    |    |    |    |    | /9    |
+| Date | Version/commit | A1 | A2 | A3 | A4 | B1 | B2 | B3 | B4 | B5 | B6 | B7 | B8 | Score |
+|------|----------------|----|----|----|----|----|----|----|----|----|----|----|----|-------|
+|      |                |    |    |    |    |    |    |    |    |    |    |    |    | /12   |
 
 **Fast triage if something fails:**
 - Any **A** fails → the *Source Discretion* block isn't being read; check it's in SKILL.md identity section and reinstall.
 - Any **B** fails → the routing rows aren't firing; confirm the four `references/*-quantified.md` / toolkit rows are in *When to Read Reference Files*.
+- **B7/B8** fail → confirm the `guesstimate-drill-bank.md` and `product-rca-casebank.md` rows are under *Casebook Drills & PM/Analyst Prep*.
