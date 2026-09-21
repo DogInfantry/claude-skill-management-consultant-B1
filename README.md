@@ -370,8 +370,21 @@ This skill is built for active practice, not just passive reading.
 - Sanity-check your market sizing assumptions and financial math
 - Sharpen your slide action titles and executive narrative
 
+**Case practice suite (start with the index):**
+
+| File | Use it for |
+|------|------------|
+| [`case-practice-index.md`](./skill/references/case-practice-index.md) | Every case and drill indexed by sector, case type and difficulty, plus a four-week practice ladder. Start here. |
+| [`case-type-cheat-sheets.md`](./skill/references/case-type-cheat-sheets.md) | One-page cards for profitability, market entry, new product, pricing, M&A and growth cases |
+| [`practice-cases-quantified.md`](./skill/references/practice-cases-quantified.md) | 19 worked cases: issue tree, math shown, recommendation, coaching notes |
+| [`case-bank-worked.md`](./skill/references/case-bank-worked.md) | 47 compact drills across profitability, entry, pricing, deals and operations |
+| [`case-bank-unconventional.md`](./skill/references/case-bank-unconventional.md) | Prompts no standard framework fits (hiring funnel, OEE, chatbot savings, and more) |
+| [`guesstimate-drill-bank.md`](./skill/references/guesstimate-drill-bank.md) | 35 guesstimates by method, each with a sanity anchor |
+| [`case-cracking-drills.md`](./skill/references/case-cracking-drills.md) | Fast math, exhibit reading, 90-second structures, error hunts |
+| [`product-rca-casebank.md`](./skill/references/product-rca-casebank.md) / [`product-sense-casebank.md`](./skill/references/product-sense-casebank.md) | PM and analyst rounds: metric-drop root cause, product design, experiments |
+
 **For self-study and groundwork:**
-- Work through the 3 case studies in [CASE-STUDIES.md](./CASE-STUDIES.md) before attempting live cases
+- Work through the 5 case studies in [CASE-STUDIES.md](./CASE-STUDIES.md) before attempting live cases
 - Use [FRAMEWORKS.md](./FRAMEWORKS.md) as your active reference, not just a read-once guide
 - Build the habit of structuring every problem MECE before answering
 
@@ -420,15 +433,16 @@ See **[FRAMEWORKS.md](./FRAMEWORKS.md)** for the complete reference. Highlights:
 
 ## Case Studies
 
-See **[CASE-STUDIES.md](./CASE-STUDIES.md)** for 3 fully worked cases. Each includes: full interviewer prompt → candidate structure → key analyses → final recommendation.
+See **[CASE-STUDIES.md](./CASE-STUDIES.md)** for 5 fully worked cases. Each includes: full interviewer prompt → candidate structure → key analyses → final recommendation.
 
 | Case | Type | Setup | What You'll Practice |
 |------|------|-------|----------------------|
 | **The Falling Star** | Profitability | $800M specialty beverage company, margins declining 3 years running | Issue tree, cost/revenue disaggregation, root cause identification |
 | **New Frontier** | Market Entry | European athletic apparel brand evaluating US expansion | Market sizing, 3C's, entry mode selection, go/no-go recommendation |
 | **The Big Question** | Market Sizing | PE fund sizing the US pet insurance market for acquisition due diligence | Bottom-up sizing, TAM/SAM/SOM, assumption stress-testing |
+| **The Compounder's Dilemma** | Capital Allocation (real engagement) | Listed hospital group balancing bed expansion, digital burn and shareholder returns | SCQA, trilemma framing, board-ready recommendation |
+| **The Leverage Ceiling** | PE / LBO | Mid-market fund testing an 8.0x buyout against a 25% IRR, 3.0x MOIC hurdle | Returns math, value-creation levers, price and leverage limits |
 
-*A PE / LBO case is in progress — see [Issue #6](https://github.com/DogInfantry/claude-skill-management-consultant-B1/issues/6) if you'd like to contribute it.*
 
 ---
 
@@ -467,7 +481,6 @@ This is a living knowledge base — the more industries, benchmarks, and cases i
 - [Add reference file: Cybersecurity Consulting](https://github.com/DogInfantry/claude-skill-management-consultant-B1/issues/3)
 - [Add reference file: Education & EdTech](https://github.com/DogInfantry/claude-skill-management-consultant-B1/issues/4)
 - [Update benchmarks: genai-enterprise-strategy.md](https://github.com/DogInfantry/claude-skill-management-consultant-B1/issues/5)
-- [Add case study: PE / LBO case](https://github.com/DogInfantry/claude-skill-management-consultant-B1/issues/6)
 - [Add reference file: Semiconductor & Hardware](https://github.com/DogInfantry/claude-skill-management-consultant-B1/issues/7)
 
 You don't need to be ex-MBB to contribute. If you've worked in any industry, finance role, or ops team, you have something concrete to add.
@@ -480,7 +493,7 @@ This skill is free and always will be. If it helped you land an interview, ace a
 
 - ⭐ **[Star the repo](https://github.com/DogInfantry/claude-skill-management-consultant-B1)** — helps others find it
 - 💖 **[Sponsor on GitHub](https://github.com/sponsors/DogInfantry)** — directly support ongoing development
-- ☕ **Buy me a coffee** — [ko-fi.com/doginfantry](https://ko-fi.com/doginfantry) *(set this up at ko-fi.com if you haven't yet)*
+- ☕ **Buy me a coffee** — [ko-fi.com/doginfantry](https://ko-fi.com/doginfantry)
 - 🔁 **Share it** with someone preparing for consulting interviews or working through a strategy problem
 - 🛠️ **[Contribute](./CONTRIBUTING.md)** a case study, framework, or industry reference file
 
