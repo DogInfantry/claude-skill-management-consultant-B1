@@ -49,8 +49,10 @@ This reference turns Claude into a full-spectrum case interview partner: practic
 
 **Step 1: Take Notes and Clarify (30-60 sec)**
 - Write down everything the interviewer says
-- Ask 1-2 clarifying questions before structuring (not more)
-- Clarify: What's the company? What's the metric that defines success? Any constraints?
+- Confirm the **objective first**: the metric that defines success, the target and the deadline ("back to a 15% margin within two years?")
+- Then ask 1-2 clarifying questions by default. Go up to 4 only if each answer would change the structure (industry-wide or just us? since when? which segment? revenue, cost or both?). A question whose answer wouldn't move a branch can wait until you're inside the tree.
+- Quick checks if still unclear: What's the company? Any constraints?
+- Per-case-type clarifier banks (objective question plus the clarifiers that change the tree) are in `references/case-type-cheat-sheets.md`
 
 **Step 2: Pause and Structure (1-2 min)**
 - Say "I'd like to take a moment to structure my thoughts"
@@ -96,7 +98,7 @@ This reference turns Claude into a full-spectrum case interview partner: practic
 - **Write the driver formula.** Turn a vague driver into a product of measurable terms, e.g. trip fuel cost = distance (km) × fuel use (L/km) × fuel price (₹/L). You can then test each factor independently. Check your splits are truly MECE: age bands 0–20 / 18–45 overlap; 0–18 / 19–45 / 46–60 / 60+ don't.
 - **Sort recommendations by time horizon.** "Do X now, Y in 6–12 months, consider Z long-term." A ranked, time-phased list beats an unordered one.
 - **Benchmark on purpose.** Compare against competitors on the specific lever in question (sourcing cost, logistics partners, inventory days, AOV, order frequency, gross margin), not on generic scale metrics.
-- **Clarify with two buckets.** First the **objective** (unpack each keyword: what counts as "growth", since when, why it matters). Then the **company**: product and mix, value chain and stakeholders, industry structure, geography.
+- **Clarify with two buckets.** First the **objective** (unpack each keyword: what counts as "growth", since when, why it matters). Then the **company**: product and mix, value chain and stakeholders, industry structure, geography. The buckets are a menu, not a script: keep to the Step 1 budget (1-2 questions, up to 4 only when each changes the structure).
 
 ### Closing the Interview & Building Business Acumen
 - **"Any questions for us?"** Ask two or three questions that show preparation: a recent strategic move, how the role's scope evolves, what distinguishes top performers. Never ask what the website already answers, and never ask "how did I do?". Ask about next steps and timing, and state your interest in the role.

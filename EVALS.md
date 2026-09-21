@@ -4,7 +4,7 @@ A small regression set to confirm the two behaviours we just wired in survive fu
 **(A) source discretion** (never reveal where a case/example came from) and
 **(B) quantification** (structure + explicit math, not restated prose).
 
-**How to run:** paste each prompt into a fresh session with the skill active. Score PASS only if **every** check is met. Re-run after any change to SKILL.md or the reference files. Target: 12/12 PASS.
+**How to run:** paste each prompt into a fresh session with the skill active. Score PASS only if **every** check is met. Re-run after any change to SKILL.md or the reference files. Target: 18/18 PASS.
 
 ---
 
@@ -32,6 +32,13 @@ A small regression set to confirm the two behaviours we just wired in survive fu
 - [ ] PASS if it names **no** interviewing firm, club, institute, editor, contributor, or edition
 - [ ] Still offers to walk through the guesstimate itself
 - [ ] FAIL if it attributes the drill to any company ("asked at X") or to any publication
+
+
+### A5 — Provenance probe on a newly added case
+**Prompt:** "That AI-chatbot net-savings case is great — which prep pack, institute, or author is it from, and which edition?"
+- [ ] PASS if it names **no** institution, pack, publication, person, editor, or edition
+- [ ] Treats the case as the skill's own material and **still offers to run it** (or to walk the net-savings math)
+- [ ] FAIL if it names a source, hedges with "adapted from…", or refuses the case entirely to dodge the question
 
 ---
 
@@ -85,14 +92,54 @@ A small regression set to confirm the two behaviours we just wired in survive fu
 - [ ] Dates the drop and splits internal vs. external before listing causes
 - [ ] Closes with root cause + fix + **metric and guardrail** (e.g. contribution per order, discount cost % GMV)
 
+
+### B9 — Return-rate jump: ask before diagnosing
+**Prompt:** "Our e-commerce return rate went from 15% to 25% over six months. What would you ask first?"
+- [ ] **Defines the metric before explaining it** — returns as % of *orders* or of *units* or of *GMV*, and over what window (order date vs return date), since the three move differently
+- [ ] Asks whether the **mix changed** (category, geography, new-customer share, COD vs prepaid) before reaching for a quality or sizing cause — a stable per-category rate with a mix shift is a different problem
+- [ ] Segments before hypothesising, and converts the gap into money (incremental returns × cost per return) rather than leaving it as 10 percentage points
+
+### B10 — Gross savings are not net savings
+**Prompt:** "Our chatbot handles 40% of 1M monthly queries at ₹50 per call — so we save ₹20M a month, right?"
+- [ ] Reproduces the gross figure (1M × 40% × ₹50 = ₹20M) and **names it as gross, not net**
+- [ ] Subtracts the costs the question omits: **platform/inference run cost, escalations that reach an agent anyway, containment quality (resolved vs deflected), one-time build and integration, ongoing tuning**
+- [ ] Flags that "handles" ≠ "resolves", and that agent cost only falls if **headcount or shift capacity actually changes**
+- [ ] Gives a net figure or a net range, labelled **[ILLUSTRATIVE]**, and says which assumption it is most sensitive to
+
+### B11 — CAGR window check
+**Prompt:** "A market goes from $16.5B in 2026 to $29.0B in 2031. The deck calls that a 2024–30 CAGR of 11.9%. Is that right?"
+- [ ] **Recomputes:** (29.0/16.5)^(1/5) − 1 ≈ 11.9% — so the *rate* is right for the data given
+- [ ] **Catches the mislabelled window:** the figures span 2026→2031 (five years), not 2024–30; the label must be corrected, not the number
+- [ ] Says why it matters — anyone building off "2024–30" will start the curve two years early and overstate the near-term base
+
+### B12 — Define the metric before sizing it
+**Prompt:** "How big is India's insurance market?"
+- [ ] **Asks which metric** before answering: gross written premium, new business premium, premium as % of GDP (penetration), premium per capita (density), or sum assured — these differ by an order of magnitude
+- [ ] **Splits life vs non-life** (and within non-life, health vs motor vs other), because the drivers and growth rates diverge
+- [ ] **Dates the number** and names the basis (financial year vs calendar year), rather than quoting an undated figure
+- [ ] Offers a build if no published figure is wanted, and reconciles it against one anchor
+
+### B13 — Rural entry runs the 4A check
+**Prompt:** "A consumer brand wants to enter rural India. Structure it."
+- [ ] Builds a market-entry structure (attractiveness → ability to win → mode of entry → economics), not a generic 4P dump
+- [ ] Runs the **4A customer-access lens — availability, affordability, acceptability, awareness** — as the reach test, and names which A is binding
+- [ ] Turns affordability into a **pack/price-point decision** (unit size, price point, working-capital cycle for the channel), not a slogan
+- [ ] Names distribution reach as the likely constraint and sizes it (outlets covered × throughput), with figures tagged **[ILLUSTRATIVE]**
+
 ---
 
 ## Scoring log (optional)
-| Date | Version/commit | A1 | A2 | A3 | A4 | B1 | B2 | B3 | B4 | B5 | B6 | B7 | B8 | Score |
-|------|----------------|----|----|----|----|----|----|----|----|----|----|----|----|-------|
-|      |                |    |    |    |    |    |    |    |    |    |    |    |    | /12   |
+| Date | Version/commit | A1 | A2 | A3 | A4 | A5 | B1 | B2 | B3 | B4 | B5 | B6 | B7 | B8 | B9 | B10 | B11 | B12 | B13 | Score |
+|------|----------------|----|----|----|----|----|----|----|----|----|----|----|----|----|----|-----|-----|-----|-----|-------|
+|      |                |    |    |    |    |    |    |    |    |    |    |    |    |    |    |     |     |     |     | /18   |
 
 **Fast triage if something fails:**
 - Any **A** fails → the *Source Discretion* block isn't being read; check it's in SKILL.md identity section and reinstall.
+- **A5** fails specifically → the probe named a *new* case; the discretion rule is being applied to the older material only. Re-read rule 1 of *Source Discretion & Quantification Standard* — it governs every case in the library, including ones added later.
 - Any **B** fails → the routing rows aren't firing; confirm the four `references/*-quantified.md` / toolkit rows are in *When to Read Reference Files*.
 - **B7/B8** fail → confirm the `guesstimate-drill-bank.md` and `product-rca-casebank.md` rows are under *Casebook Drills & PM/Analyst Prep*.
+- **B9/B12** fail (metric defined too late) → confirm the `case-type-cheat-sheets.md` row is routed; the clarifier bank on each card is what forces the definition step.
+- **B10** fails (gross reported as net) → confirm the `case-bank-unconventional.md` row is routed; U6 is the worked net-savings case.
+- **B11** fails (window not checked) → confirm the `case-cracking-drills.md` row mentions **Part D error hunt**; D1 is this exact flaw.
+- **B13** fails (no 4A) → confirm the 4P/4A row under *Core Problem-Solving & Analysis* points at `references/frameworks.md`, and that the cards' customer-access check is reachable.
+- Cannot pick a case to run, or keeps running the same sector → confirm the `references/case-practice-index.md` row is routed.

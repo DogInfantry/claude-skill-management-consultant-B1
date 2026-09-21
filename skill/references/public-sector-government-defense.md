@@ -206,6 +206,13 @@
 
 **Go-to-Market:** Nearly impossible without prime contractor relationship; often enter as subcontractor to large primes (Lockheed Martin, Boeing, Raytheon, Northrop Grumman) and build credibility over 3–5 years
 
+**India defence — how it differs from US GovCon:**
+- **Tiered supply chain:** R&D and system design (the state defence R&D agency, start-up innovation challenges, private R&D) → Tier-1 primes and integrators (aircraft, ships, missiles) → Tier-2 sub-systems (radars, avionics, sensors, propulsion, electronic warfare) → Tier-3/4 components from thousands of MSMEs → MRO and life-cycle support.
+- **Indigenisation:** procurement categories favour equipment designed and made in India, with minimum indigenous-content thresholds and import-embargo lists (verify current thresholds). Indigenous content ratio is a core KPI, alongside production lead time, on-time delivery, field failure rate and contract win rate.
+- **Monopsony buyer:** a single ministry buys through long tender cycles, typically awarding to the lowest compliant bid after technical qualification. The winning lever is qualifying as a domestic Tier-1 or Tier-2 supplier with high indigenous content, not price alone. Supplier power is also real: critical minerals and semiconductors are largely imported, often from one neighbouring country.
+- **Error fixed:** a market growing from 31.8 to 38.7 [ILLUSTRATIVE units] over 2026–2030 compounds at about 5.0% a year (four compounding periods), not about 4% (which silently uses five). Count periods as end year − start year.
+- **Trap:** applying US set-aside logic, or consumer-market Five Forces, to a single-buyer tender market. See `references/india-sector-primers.md` (Defence manufacturing).
+
 ---
 
 ### Civilian Agencies
@@ -428,6 +435,8 @@
 - Medium-term outcome: Student literacy gains (measured by reading assessments)
 - Long-term outcome: 5-year graduation rate increases
 - Assumptions: Teachers have autonomy to change practice; literacy instruction is a bottleneck; coaching reinforces classroom practice
+
+**Worked India drill:** for a logic model applied to girls' school dropout, with cohort-flow math and cost per *additional* girl retained (not per beneficiary), see `references/india-guesstimates-and-cases.md` (Drill Q) and `references/case-bank-unconventional.md` (Part D).
 
 ---
 

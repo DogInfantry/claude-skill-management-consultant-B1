@@ -122,6 +122,74 @@ One caution worth flagging explicitly: a deal being EPS-accretive is not the sam
 
 ---
 
+## Deal Feasibility Gates: Can This Deal Actually Happen?
+
+Valuation and synergy work is wasted if the deal cannot be owned, financed, approved or separated. Run these gates in Stage II–III of the process, before building the synergy model. A deal fails if **any one** gate fails. A failed gate either kills the deal or forces a different structure (a minority stake, a JV, a commercial alliance, a spin-off).
+
+| Gate | The question | Quick test | If it fails |
+|---|---|---|---|
+| **1. Ownership and control caps** | Can this buyer legally own and control the target? | Sector foreign-ownership caps and "effective control" rules (airlines, telecom, defence, media, banking, insurance); national-security screening | Minority stake + commercial agreement (codeshare, joint business agreement, licensing), or organic entry |
+| **2. Financeability** | Can the price be funded? | Debt ÷ EBITDA against market norms (roughly 4–7× for leveraged buyers [ILLUSTRATIVE]); absolute debt size against the largest financings ever done; equity cheque against the largest funds' single-deal limits | Consortium, co-investment, seller financing, a smaller perimeter, or a strategic rather than a financial buyer |
+| **3. Competition and regulatory approval** | Will authorities clear it, and at what cost? | Combined share and concentration (HHI) in each overlapping market; sector regulator consent; timeline against the long-stop date | Remedies (divest routes, slots, brands, plants) that shrink the synergy case; reverse break fee; walk away |
+| **4. IP and ecosystem dependency (carve-outs)** | Does the business still work once separated? | Share of value that relies on assets staying with the seller: operating system or platform, IP, brand, shared plants, key customers, shared services | Long-term licences and TSAs priced into standalone EBITDA; if the dependency is two-way, the separation destroys value for both sides |
+| **5. The walk-away inequality** | Is there a price both sides accept? | Buyer's maximum price ≥ seller's minimum price (below) | No deal zone: stop, or change the structure |
+
+**The walk-away inequality:**
+
+```
+Buyer's max price  = standalone value to the buyer
+                     + synergies the buyer can actually capture (risk-weighted, after cost to achieve)
+                     (for a financial buyer: the LBO ceiling at its hurdle IRR)
+Seller's min price = value of keeping the asset (at the seller's own multiple / cost of capital)
+                     + dis-synergies the sale creates for the seller (stranded costs, lost ecosystem profit)
+                     + tax and separation costs
+
+Deal zone exists only if  Buyer's max ≥ Seller's min.  The price lands inside the zone; where
+depends on each side's alternatives (competing bidders, the seller's other options).
+```
+
+**Gate 1 in practice: an airline buying growth abroad.** An airline under-weighted in a fast-growing region screens three local carriers: a luxury incumbent with the best operating fit, an easy-to-buy mid-size carrier, and a low-cost disruptor in the fastest-growing segment. Before scoring fit, check the cap. Foreign holdings in airlines are commonly limited to 25% of voting rights in some large markets and to 49% plus "substantial ownership and effective control by nationals" in many others. At 49% without control, the buyer cannot integrate networks, fleets or overheads, so every cost synergy that needs integrated operations drops out. Revenue synergies have to come through a joint business agreement, which in turn may need antitrust immunity. The real choice is often a minority stake plus a commercial partnership, compared with organic entry, not "which target to acquire".
+
+**Gate 3 in practice: the concentration screen [ILLUSTRATIVE].** A market has five players with 30%, 25%, 20%, 15% and 10% shares, and the 30% and 20% players merge:
+
+```
+Pre-merger HHI  = 30² + 25² + 20² + 15² + 10²     = 2,250
+Post-merger HHI = 50² + 25² + 15² + 10²           = 3,450
+Change          = 2 × 30 × 20                      = 1,200
+```
+
+A post-merger HHI above ~1,800 with an increase above ~100 is a common presumption of harm. At a 1,200-point increase, expect a second-phase review and remedies. Price the remedies (divested routes, slots or plants) into the synergy case before bidding.
+
+**Gates 2, 4 and 5 worked together: a private-equity fund eyeing the smartphone division of a mega-cap technology group [ILLUSTRATIVE].**
+
+```
+Headline: segment revenue $200B × 25% operating margin = $50B   ← this is EBIT, not EBITDA
+Standalone EBITDA = $50B EBIT + $6B D&A − $4B standalone costs − $6B OS/IP licence fees
+                  = $46B
+
+Entry at 8× = $368B EV; 50% debt = $184B (4.0× EBITDA, fine as a ratio); equity $184B
+5-year plan: EBITDA +$4B → $50B; net debt paid down by $100B → $84B
+Exit at 8× = $400B → equity $316B → MOIC 1.72× → IRR ≈ 11.4%   vs a ~20% hurdle
+Price that earns 20% at a constant multiple: ≤ ~3.3× EBITDA ≈ $152B
+
+Scale: debt of $184B is more than 3× the largest leveraged buyouts ever done (~$50–60B of total EV).
+       Equity of $184B against a single-deal limit of ~15% of a ~$25B flagship fund
+       (≈ $3.75B per fund) needs ~49 fund-maximum cheques.
+Seller: the parent trades at ~20× EBITDA → it holds the division at ~$920B, before counting
+        the services profit that depends on the division's installed base.
+Walk-away inequality: buyer's max ≈ $152B  <<  seller's min ≈ $920B+  → no deal zone
+```
+
+**Error fixed:** "A 25% operating margin on $200B gives $50B of EBITDA" -> $50B is **EBIT**. Standalone EBITDA adds back D&A, then deducts standalone costs and the licence fees the division must now pay its former parent: **$46B**. (Operating margin is struck after D&A, and a carve-out loses the parent's shared services and IP for free.)
+
+**Error fixed:** "A 2% margin improvement on $200B adds $4B" -> true only for **2 percentage points** (25% → 27%). A 2% relative improvement (25% → 25.5%) adds **$1B**. (State which one you mean; a factor-of-four gap hides in the word "percent".)
+
+**Aha.** Feasibility gates are binary, and they come before value. The carve-out fails four ways at once. The debt and equity exceed anything the market has ever financed. The return misses the hurdle even at a ratio the lenders would accept. The division depends on the parent's operating system and IP. And the parent's services business depends on the division, so the seller's minimum price includes profit that no buyer can replace. When the dependency runs both ways, no price clears the inequality.
+
+**Trap.** Declaring a deal "highly attractive" on the strategic narrative, then discovering the cap, the financing ceiling or the remedy package after the synergy model is built. Run the five gates first, in one page, and let a failed gate redirect the question to structure: stake, alliance (see `references/ecosystem-alliance-strategy.md`), JV or spin-off. For the regulatory detail on an India nexus (CCI merger control, FEMA sectoral caps and pricing rules), see the next section.
+
+---
+
 ## Cross-Border M&A in India: CCI Merger Control and FEMA
 
 Any M&A transaction with an India nexus — a foreign acquirer buying an Indian target, an Indian company buying abroad, or two multinationals combining where either has meaningful India operations — runs through two independent regulatory tracks that close on different clocks and answer entirely different questions: competition clearance from the Competition Commission of India (CCI), which asks whether the deal is allowed to happen at all, and exchange-control compliance under the Foreign Exchange Management Act (FEMA), which governs how the consideration itself is allowed to move across the border. A term sheet or SPA that only builds conditions-precedent language for one of the two is a common and entirely avoidable source of a broken closing timeline.

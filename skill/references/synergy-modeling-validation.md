@@ -212,6 +212,129 @@ This bridge should be buildable in a single slide. If it requires more than one 
 
 ---
 
+## Synergy Flow-Through: From Gross Revenue Synergy to Value Against the Premium
+
+A revenue synergy is top line. A cost synergy is already profit. Adding the two at face value is the most common arithmetic error in deal cases and board papers, and it typically overstates value by 2–4×. Every revenue synergy has to pass through a margin, lose its dis-synergies, be phased and discounted, and only then be compared with the **premium** paid, not with the price.
+
+### The Flow-Through Template
+
+```
+  Gross revenue synergy (run-rate, per year)
+× Flow-through margin of the INCREMENTAL revenue (contribution, not average operating margin)
+= Revenue-synergy profit
+− Dis-synergies: revenue lost to attrition / cannibalisation / brand migration × its margin
++ Cost synergies (risk-adjusted run-rate; already profit)
+= Net run-rate profit synergy
+× Phasing (revenue arrives later than cost)
+− One-off integration costs, timed (rule of thumb 1.5–2.5× run-rate)
+× (1 − tax rate)
+= Synergy cash flows → NPV at the deal discount rate
+  compare with  PREMIUM PAID = price − standalone value of the target
+```
+
+**Choosing the flow-through margin.** Use the contribution margin of the *incremental* revenue. Extra passengers on flights that operate anyway, or extra licences on a platform already built, carry a high margin (often 60–80%). Revenue that needs new capacity, new stores or heavy incentives carries a margin close to the operating margin, or lower. State the margin and defend it.
+
+**Quick illustration: a full-service carrier absorbing a premium airline [ILLUSTRATIVE].** Combined revenue is $6B, and a 5% network uplift gives $300M. Costs are assumed at 75% of revenue, so the cost base is $4.5B, and 3% savings give $135M.
+
+**Error fixed:** "$300M + $135M = $435M of value a year" -> profit impact = $300M × flow-through + $135M. That is $75M + $135M = **$210M** at the 25% margin the cost assumption implies, and still only $330M at a generous 65% flow-through. (Revenue is top line; cost savings are already profit.) A second common slip is quoting "$180M of cost savings": that is 3% of the $6B *revenue*, not 3% of the $4.5B cost base. Also test the premise. Costs at 75% of revenue imply a 25% operating margin, which few airlines earn. At costs ≈ 97% of revenue, the same 3% saves ≈ $175M, so the assumption moves the answer materially.
+
+### Worked Example A: Premium Online Jeweller Acquires a Value-Tier Offline/Wholesale Jeweller
+
+**Setup.** A premium traditional-jewellery brand ($50M revenue, strong online, retail-led) has bought a value-for-money jeweller ($20M revenue, stores across tier-2 and tier-3 cities, wholesale-led, skilled diamond artisans). Proposed levers: sell the acquired brand online, launch a diamond line with the inherited artisans, push premium products through the acquired network, and save on supply chain. Both brands keep their identities.
+
+**Quantified spine [ILLUSTRATIVE], $M per year:**
+
+```
+Run-rate build                                   Revenue   Flow-through   Profit
+Acquired brand sold online (+10% on $20M)          2.0        15%          0.30
+Diamond line using inherited artisans              3.0        30%          0.90
+Premium range through acquired stores/wholesale    2.0        10%          0.20
+Gross revenue synergy → revenue-synergy profit     7.0                     1.40
+− Attrition: premium revenue lost to dilution/channel conflict
+                                                  −1.0        25%         −0.25
++ Cost: procurement on NON-METAL COGS (5% × $16.8M)                        +0.84
++ Cost: shared services (finance, IT, marketing)                           +0.60
+= Net run-rate profit synergy                                               2.59
+
+COGS logic: combined revenue $70M × 80% = $56M COGS; gold metal ≈ 70% ($39.2M) is
+priced at the market rate, so there is almost no leverage on it; savings come from the
+$16.8M of diamonds, making charges, hallmarking, packaging and logistics.
+
+Phasing                                      Yr 1     Yr 2     Yr 3+
+Revenue-synergy profit (25% / 60% / 100%)    0.35     0.84     1.40
+Attrition (full from Yr 1)                  −0.25    −0.25    −0.25
+Cost synergy (50% / 100% / 100%)             0.72     1.44     1.44
+One-off integration ($4.0M ≈ 1.5× run-rate) −2.80    −1.20     0
+Pre-tax cash flow                           −1.98     0.83     2.59 (flat perpetuity)
+
+NPV @12% = −1.77 + 0.66 + 17.21 = 16.10 pre-tax → × (1 − 25%) = 12.1
+Premium paid = price $30M − standalone value $20M = $10M  → value created ≈ +$2.1M
+Cost synergies alone (after attrition and all one-offs): NPV ≈ 4.4 < 10
+Break-even: the deal needs ≈73% of the modelled revenue-synergy profit
+```
+
+**Error fixed:** "$7.0M revenue synergy + $1.44M cost savings = $8.44M a year" -> **$2.59M** of profit a year (3.3× lower). Capitalised at 12%, the face-value figure ($70M) looks like seven times the premium, when the real after-tax NPV barely clears it. (Revenue synergies must pass through margin and lose attrition first.)
+
+**Aha.** The two businesses complement each other on channel, capability and price tier, so the case is revenue-led. But the premium is justified only if about three-quarters of the revenue-synergy profit arrives, against the 30–60% capture that completed deals typically achieve. The board should hear that before, not after, the integration budget is approved.
+
+**Trap.** Putting the premium brand name on an "exclusive collection" inside the value stores. That is exactly the dilution that creates the attrition line. Pushing premium products through a value wholesale channel invites channel conflict and price leakage. Expecting procurement savings on gold, which is priced at the market rate. Use a separately branded diamond range, sell premium online, and keep the two brand architectures apart.
+
+### Worked Example B: Food-Delivery Platform Cross-Selling an Acquired Event-Ticketing Business
+
+**Setup.** A food-delivery platform (~$1.2B revenue, 80M+ monthly active users, mostly urban young adults, contribution ~7% of order value, logistics-heavy costs) has bought an event-ticketing business (~$80M revenue, 25M users of whom 12M are active buyers, ~10% commission per ticket, marketing- and platform-heavy costs). The proposed thesis: in-app ticketing lifts ticketing transactions 30% ($80M → $104M), plus $10M of sponsorship through the acquirer's ad network, for "$34M of synergy".
+
+**Fix the units first.** The 10% is a **take rate** on gross ticket value, not a margin. If $80M is commission revenue, gross ticket value (GTV) is ≈ $800M. The acquirer's 7% is contribution as a share of *order value*, not of revenue. "30% more transactions = 30% more revenue" also assumes constant ticket value, a constant take rate and no discount funding.
+
+**Quantified spine [ILLUSTRATIVE], $M per year:**
+
+```
+Revenue synergy built from the funnel
+  80M MAU × 60% in cities with live-event supply          = 48M addressable users
+  × 5% steady-state adoption of in-app ticketing          = 2.4M new buyers
+  × 2 tickets/yr × $20 average ticket                     = $96M incremental GTV
+  × 10% take rate                                         = $9.6M revenue
+  − 25% who would have bought on the standalone app       = $7.2M net revenue
+  Sponsorship: $10M claimed × 60% (medium confidence)     = $6.0M
+
+Flow-through
+  Ticketing $7.2M × 50% (after payment costs and adoption incentives)   3.6
+  Sponsorship $6.0M × 70%                                               4.2
+  − Attrition: 3% of the $80M base lost in brand migration × 50%       −1.2
+  + Cost: 15% of ~$24M target marketing spend ($3.6M) + platform/payments $1.4M   +5.0
+  = Net run-rate profit synergy                                        11.6
+
+Phasing                                     Yr 1     Yr 2     Yr 3+
+Revenue-synergy profit (30% / 70% / 100%)   2.34     5.46     7.80
+Cost synergy (60% / 100% / 100%)            3.00     5.00     5.00
+Attrition                                  −1.20    −1.20    −1.20
+One-off ($18M ≈ 1.55× run-rate: app integration, migration, launch marketing)
+                                          −12.00    −6.00     0
+Pre-tax cash flow                          −7.86     3.26    11.60, growing 5%/yr
+
+NPV @14% = −6.90 + 2.51 + 99.18 = 94.8 pre-tax → × (1 − 25%) = 71.1
+Premium paid = price $240M − standalone value $160M (2× revenue) = $80M
+→ NPV $71M < premium $80M at 5% adoption: value-destroying as modelled
+Break-even adoption ≈ 6.8% (≈3.2M new buyers)
+The claimed 30% uplift ($24M revenue) needs $240M GTV = 6M new buyers
+  = 12.5% of addressable users → ask for the evidence before accepting it
+```
+
+**Error fixed:** "$24M uplift + $10M sponsorship = $34M of synergy" -> **$11.6M** of profit a year (the $34M overstates it 2.9×, or 3.4× if the $5M of cost savings is then added on top). (Commission revenue must pass through contribution margin, and the uplift must be built from user overlap, not asserted.)
+
+**Aha.** The asset buys an adjacent occasion ("going out": dinner plus an event) that shares the same users. The deal's value comes down to one testable number: the adoption rate. At 5% the premium is not earned. At ~6.8% it is. The integration plan should be built around proving that number in a pilot city before scaling spend.
+
+**Trap.** Presenting a gross revenue uplift as synergy value, capturing it all in year 1, and never comparing it with the price paid. A second trap is ignoring the delivery-format choice. Embedding ticketing in the food app gives free reach to 80M users but clutters a high-frequency utility app. A separate going-out app protects focus but has to win installs, which means lower adoption and higher acquisition cost. Model both formats before choosing.
+
+### What the Flow-Through Discipline Changes
+
+1. **Margin before addition.** Convert every revenue synergy to profit at the margin of the incremental revenue, and state that margin.
+2. **Dis-synergies before cost savings.** Attrition, cannibalisation and brand-migration churn come off the revenue side first.
+3. **Phase and discount.** Revenue synergies arrive 1–2 years after cost synergies. One-off costs land up front.
+4. **Compare with the premium, after tax.** Standalone value is already paid for. Only the premium must be earned by synergies.
+5. **Solve for the break-even driver.** Express the answer as "the deal needs X% revenue capture" or "Y% adoption" and test X or Y against evidence. That number is the headline, not the gross synergy.
+
+---
+
 ## Synergy Tracking Post-Close: Closing the Loop
 
 The synergy model is not a one-time document. It must become a living tracking tool through the integration period. The IMO is responsible for maintaining the synergy tracker (see `references/post-merger-integration.md`), but the consulting team is often responsible for designing it.

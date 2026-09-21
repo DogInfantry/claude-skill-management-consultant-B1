@@ -278,6 +278,164 @@ Three sub-patterns dominate market entry cases.
 
 ---
 
+## Archetype 7: People and Talent Funnel
+
+People cases look "soft" but crack on the same logic as a sales funnel: find the stage that leaks, split blended ratios into their separate failures, then price the leak against the cost of the fix.
+
+### Pattern 7A: Leaky Hiring Funnel ("Offers Made, Joiners Missing")
+
+**Signature:** Applications and interview pass rates look healthy, but "conversion has fallen": offers go out and too few people join. Management's instinct is to raise pay.
+
+**What's actually happening:** One blended conversion number hides two failures with different causes. **Declines** (the candidate says no) are driven by decision speed and the pay gap against rivals. **Back-outs** (the candidate accepts, then never turns up) are driven by a long offer-to-join gap and counter-offers. Employer brand and candidate experience act on every stage; they are cross-cutting drivers, not a separate stage.
+
+**Critical analyses:**
+1. Rebuild the funnel stage by stage (applicants → interviewed → offered → accepted → joined) and compute every ratio, not only end-to-end
+2. Split "not joining" into offer acceptance (accepted ÷ offers) and join ratio (joined ÷ accepted)
+3. Ask what *changed* when conversion fell: a rival's pay reset, an added interview round, longer notice periods in the talent pool
+4. Collect decline and back-out reasons (a short survey of every decliner) before recommending fixes
+5. Price the leak: cost of vacancy per working day, and interviewer hours burnt on every extra offer the leak forces
+
+**The number that cracks it:** with 40 offers → 22 accepted → 16 joined [ILLUSTRATIVE], acceptance is 55% and the join ratio 73%, so only 40% of offers become joiners. Lifting that to 85% acceptance × 90% join = 76.5% cuts the offers needed for 200 hires a year from 500 to about 261.
+
+**The "aha" insight:** Declines and back-outs need different fixes. Decision speed and targeted pay benchmarking fix declines; a shorter, actively managed join gap (notice-period buy-outs, pre-joining engagement, a named buddy) fixes back-outs. The leaky funnel also burns interviewer capacity, which is a cost the business feels directly.
+
+**Common failure modes:**
+- Reading joined ÷ offers as the "acceptance rate", so one blended number is treated as one problem
+- Assuming pay is the only lever
+- Cutting interview rounds without protecting hire quality (merge rounds rather than delete assessment content; track 90-day retention and first-year performance)
+
+**Probe questions to plant:**
+- "Of the people who didn't join, how many said no, and how many said yes and then didn't turn up?"
+- "What changed in the process or the market when conversion started falling?"
+
+---
+
+### Pattern 7B: Attrition Spike in One Pocket
+
+**Signature:** Attrition is far above peers, but only in one level, site or shift pattern. The rest of the organisation is fine.
+
+**What's actually happening:** A local and often cheap-to-fix condition (commute, shift roster, one manager, a rival's amenity) is pushing people out, and a recent trigger has turned a long-standing condition into a problem.
+
+**Critical analyses:**
+1. Pin the metric: annualised leavers ÷ average headcount, for the affected cohort only
+2. Segment who leaves (level, tenure, shift, commute distance, hired-from location), where they go, and why (exit-interview Pareto)
+3. Separate push factors (commute, shifts, manager, career path) from pull factors (rival pay, amenities)
+4. Find the trigger: what changed when the problem started
+5. Build the business case: excess leavers × cost per leaver (typically 50–200% of annual salary) against the annual cost of the fix, and compute the break-even reduction
+
+**The number that cracks it:** 120 junior engineers at 50% attrition against a 15% peer norm means 42 excess leavers a year [ILLUSTRATIVE]. At ₹7 lakh per leaver that excess costs ₹2.94 crore a year, while shuttles plus leased housing cost about ₹1.3 crore, so the fix breaks even at about 18.5 fewer leavers (attrition from 50% to about 35%).
+
+**The "aha" insight:** When attrition clusters in shift-working junior staff at a remote site, and nearby employers offer transport, the cause is a basic-needs gap rather than pay or careers. The business case closes the argument, because the fix only has to move attrition about 15 points to pay for itself.
+
+**Common failure modes:**
+- Explaining a three-year-old problem with a condition that has not changed (the site has always been remote) without finding the trigger
+- Recommending amenities without costing them against the attrition bill
+- Assuming pay is the cause without exit data
+
+**Probe questions to plant:**
+- "The plant has always been remote. Why did attrition jump three years ago?"
+- "How far would attrition have to fall for your fix to pay for itself?"
+
+Worked drills with full math: `references/case-bank-unconventional.md` (U1 hiring funnel, U2 attrition). Benchmarks: `references/functional-deep-dives.md` (Talent Acquisition Diagnostics; Talent Retention & Engagement).
+
+---
+
+## Archetype 8: Social-Sector Outcome
+
+### Pattern 8A: Outcome Gap in a Public Programme
+
+**Signature:** A government, foundation or NGO wants to move a social outcome (reduce girls' school dropout, raise take-up of a scheme, cut road deaths), usually with a fixed budget and a favoured intervention already in mind.
+
+**What's actually happening:** Losses cluster at a few points in the system, typically **transition points** where a person must change institution, travel further or pass a test. Meanwhile the favoured intervention is judged on beneficiaries reached (outputs), not on outcomes added over what would have happened anyway (the counterfactual).
+
+**Critical analyses:**
+1. Define the outcome metric precisely (e.g., girls enrolled in Grade 10 per 100 who enter Grade 1) and the counterfactual
+2. **Cohort flow:** follow 100 entrants through the system and locate where they leak
+3. MECE causes: supply (a school at the next level within reach, teachers, toilets), demand (household cost, household labour, social norms), access and safety (distance, transport, harassment), learning (foundational gaps that end in exam failure). Each cause sits in one branch only
+4. **Logic model:** inputs → activities → outputs → outcomes → impact, with the assumption at each link written down
+5. Rank interventions on **cost per additional outcome**, spreading durable assets across the cohorts they serve
+6. Pilot with a comparison group before scaling, and design for the implementing agency's delivery capacity
+
+**The number that cracks it:** in an illustrative cohort, 47.7 of every 100 girls are lost by Grade 10, and the two school-change transitions account for 28.0 of them (about 59%). Bicycles for all 8,600 Grade 9 entrants that lift the transition from 80% to 86% cost about ₹57,000 per *additional* girl enrolled, because 93% of recipients would have enrolled anyway; girls' toilets cost about ₹15,000 per additional girl once spread over a 10-year life [ILLUSTRATIVE].
+
+**The "aha" insight:** The unit of value is the additional outcome over the counterfactual, not the beneficiary. Most recipients of a universal handout would have reached the outcome anyway, so targeted or durable interventions at the leak points usually win.
+
+**Common failure modes:**
+- Counting outputs (bicycles delivered, camps held) as outcomes
+- Overlapping causes (distance listed under both supply and access)
+- Comparing interventions on cost per beneficiary instead of cost per additional outcome
+- Recommending a state-wide scale-up with no pilot, no comparison group and no delivery plan
+- Ignoring stakeholder constraints and the capacity of the last-mile implementing staff
+
+**Probe questions to plant:**
+- "Of the girls who received a bicycle, how many would have stayed in school anyway?"
+- "Across the twelve school years, where do most girls leave?"
+
+Worked material: `references/case-bank-unconventional.md` (Part D — Social Sector & Public Outcomes); `references/india-guesstimates-and-cases.md` (Drill Q, girls' school dropout); `references/public-sector-government-defense.md` (Logic Model / Theory of Change; Program Evaluation).
+
+---
+
+## Archetype 9: Technology / AI Business Case
+
+### Pattern 9A: "Should We Deploy This?" (Chatbot, Automation, Platform)
+
+**Signature:** The client wants to deploy a chatbot, an automation tool or a new platform, and the business case quotes a large gross saving: volume × automation rate × unit cost.
+
+**What's actually happening:** The gross figure overstates the value. Only fully contained work saves money; escalated work still incurs the technology cost on top of the human cost; the platform carries a fixed monthly cost; adoption ramps; and savings become cash only when capacity is actually released. Risks (wrong answers, security, regulation) are a design constraint, not an appendix.
+
+**Critical analyses:**
+1. Pin the primary objective (cost, experience or engagement), because it sets the success metric
+2. Net business case: volume × containment × (human unit cost − technology unit cost) − technology cost on escalated items − fixed platform cost
+3. Adoption ramp and one-off build cost → year-1 net and payback month
+4. Cash conversion: how many FTE or outsourced seats are released, and how (attrition without backfill, fewer vendor seats)
+5. Risk heat map (likelihood × severity) with guardrail metrics for the top risks
+6. Phased roll-out: lowest-risk, highest-volume use cases first
+
+**The number that cracks it:** 1 million queries a month × 40% handled × ₹50 = ₹24 crore a year *gross*. At 75% true containment, ₹5 per bot interaction and ₹30 lakh a month of fixed platform cost, the net run-rate is about ₹12 crore a year, half the gross, and year 1 delivers only about ₹7.6 crore before a ₹5 crore build because adoption ramps [ILLUSTRATIVE].
+
+**The "aha" insight:** The saving is net, not gross, and it is real only when capacity is released. The north-star metric is cost per *resolved* outcome at equal or better quality, protected by guardrail metrics (repeat-contact rate, audited wrong-answer rate, complaints, human-vs-bot satisfaction).
+
+**Common failure modes:**
+- Counting every touched transaction as a fully avoided cost
+- Ignoring the fixed platform cost and the ramp, so there is no payback month
+- An unranked risk list that omits hallucination and prompt injection
+- Optimising containment by trapping customers who need a human
+
+**Probe questions to plant:**
+- "Of the queries the bot touches, how many never reach a human within a week?"
+- "Which agent seats actually go away, and when?"
+
+Worked drill: `references/case-bank-unconventional.md` (U6). Cost structures and governance: `references/genai-enterprise-strategy.md` (ROI Modeling and Cost Structures; Governance and Risk Architecture).
+
+---
+
+## Sector Profit-Tree Mini-Library
+
+A generic "revenue − cost" tree wastes the first five minutes of a sector case. Start from the sector's own economic identity, find the one ratio that moved, and size it. All figures below are **[ILLUSTRATIVE]**.
+
+**Airport — aero vs non-aero, then the retail funnel.** Profit = aeronautical revenue (landing, aircraft parking, passenger-service and security fees, usually regulated) + non-aeronautical revenue (retail, F&B, advertising, car parking, real-estate leases, lounges) − opex. Retail revenue to the airport = departing passengers × store penetration (driven by **airside dwell time**, the minutes left after security) × spend per shopper × concession share. At 20M departing passengers × 40% penetration × ₹800 × 25% share, retail earns the airport ₹160 crore; if check-in and security queues cut dwell time enough to lose 5 points of penetration, the airport loses ₹20 crore. *Aha:* queues are a commercial problem, not only an operations problem. *Trap:* treating a retail decline as a merchandising problem, and never asking whether concessions pay a revenue share or a fixed rent with a minimum guarantee (under fixed rent, weaker shop sales do not hit airport revenue until the leases reset).
+
+**Bank — NII, fees, opex, provisions.** PBT = NII (average earning assets × NIM) + fees and commissions + treasury income − opex (cost-to-income ratio) − provisions (regulatory/specific + management overlay; together, credit cost × loans). On a ₹1 lakh crore book, every 10 basis points of NIM or credit cost moves PBT by ₹100 crore. *Aha:* split each line that moved into client-specific and industry-wide parts, and split provisions into regulatory and discretionary overlay. *Trap:* listing interest expense as a generic cost beside opex instead of netting it into NII. Full exemplar: `references/case-bank-interview-classics.md` (#16 Provision Squeeze).
+
+**Hospital — surgical vs medical, ARPOB.** Inpatient revenue = beds × occupancy × 365 × ARPOB (average revenue per occupied bed-day); split it into surgical (surgeries × revenue per surgery) and medical (admissions × average length of stay × revenue per bed-day), plus outpatient, pharmacy and diagnostics. A 300-bed hospital at 70% occupancy has 76,650 occupied bed-days; at ₹50,000 ARPOB that is about ₹383 crore, and each 5 points of occupancy is about ₹27 crore. *Aha:* a quality failure in one service (post-operative care) spreads by word of mouth into surgical volume and bed occupancy at the same time. Test the Indian-specific causes too: senior surgeons leaving, loss of insurer or government-scheme empanelment, a new competing hospital nearby. *Trap:* writing "cost per surgery" in a revenue tree.
+**Error fixed:** treating occupancy and length of stay as parallel revenue branches → occupancy already contains length of stay; use beds × occupancy × 365 × ARPOB, and let ALOS explain throughput (admissions = occupied bed-days ÷ ALOS).
+
+**Hotel — RevPAR, then revenue per capex rupee.** Room revenue = rooms × 365 × RevPAR, where RevPAR = ADR × occupancy; add F&B and events. For a location choice, rank cities on return per rupee of capex, not on revenue. A 200-room hotel at ₹10,000 ADR, using each city's *market* occupancy as the base:
+
+| City | Market occupancy | Room revenue | Capex | Revenue ÷ capex | Payback at 35% EBITDA margin |
+|---|---|---|---|---|---|
+| A (capital region, next to existing hotels) | 70% | ₹51.1 cr | ₹150 cr | 34% | 8.4 years |
+| B (western metro) | 65% | ₹47.5 cr | ₹100 cr | 47% | 6.0 years |
+| C (southern metro) | under 60% | ₹43.8 cr at most | ₹120 cr | 37% at most | 7.8 years or longer |
+
+City B wins on capital efficiency; City A also risks cannibalising the client's existing hotels. Before deciding, replace the common ₹10,000 ADR with each city's own luxury rate (compare RevPAR).
+**Error fixed:** giving the new hotel the *highest* occupancy in the city whose existing hotels fill the fewest rooms → low market occupancy signals oversupply or weak demand, not headroom; high market occupancy is what signals unmet demand.
+
+**Theatre / live venue — capacity first.** Revenue = seats × occupancy × shows × ticket price + ancillary (F&B, merchandise, sponsorship). Three 320-seat halls at 60% occupancy fill 192 seats a show; at a $14 ticket and 9 shows a week *across all three halls*, revenue is $24,192 a week, about $1.26M a year. Against a $20M year-1 target that is roughly 16× short; even at full use — 8 shows per hall, 24 a week, every seat sold — revenue is about $5.6M, still more than 3× short. Hitting $20M at $14 needs about 143 shows a week, or a ticket of about $83 at 24 shows a week on the same 60% occupancy. *Aha:* test the target against physical capacity before debating strategy; the show count is the first lever, and ancillary income cannot close a gap of 3.6–16× capacity. With $60M of capex against $1–6M of revenue, the case as structured points to no-go or a rescoped entry.
+**Error fixed:** multiplying by 3 halls when "9 shows a week" is already the total → that triple-counts capacity ($72,576 a week, $3.77M a year, instead of $24,192 and $1.26M).
+
+---
+
 ## Cross-Archetype Failure Modes (Coach These)
 
 These mistakes appear across case types and signal underdeveloped consulting instincts:

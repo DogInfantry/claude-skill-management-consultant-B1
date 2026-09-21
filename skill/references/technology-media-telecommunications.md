@@ -326,3 +326,13 @@ M&A success in TMT varies; cultural integration and retention of talent is often
 - Broadcast spectrum: Broadcast TV uses limited spectrum; digital media not spectrum-constrained. Structural shift in competitive dynamics.
 - Antitrust in media M&A: Cross-ownership limits and media consolidation rules vary by country.
 
+**India streaming (OTT) market entry — note:**
+- Profit = paying subscribers × (ARPU − variable cost per subscriber) − fixed costs. Variable cost covers per-subscriber licensing, delivery (CDN), payment and app-store fees, and the telco's revenue share on bundled subscribers; fixed cost covers content amortisation, technology and marketing. Size the market in subscribers, not rupees, before multiplying by ARPU.
+- **Pricing tiers:** a free or ad-supported tier for reach, a low-price mobile-only tier, and a full premium tier, with annual plans and free trials. Monthly ARPU is a small fraction of developed-market levels, so the price ladder matters more than the headline price.
+- **Telco bundling:** a large share of paid subscriptions arrives through telecom bundles. Bundled ARPU is lower after the telco's share, but acquisition cost is near zero and churn is lower.
+- **Regional content and live sports** are the main share drivers; regional-language originals cost far less per viewing hour than global tentpole titles.
+- **Regulation:** streaming content falls under a self-regulatory code with no pre-certification, plus age-rating and grievance-redress duties (verify current rules). This is lighter than "strict censorship", but content risk remains.
+- **Spine [ILLUSTRATIVE]:** 10M paying subscribers × (₹150 ARPU − ₹50 variable cost) × 12 = ₹1,200 crore contribution against ₹1,500 crore a year of content, technology and marketing, which is a ₹300 crore loss. Break-even needs ₹1,500 crore ÷ (₹100 × 12) = 12.5M paying subscribers.
+- **Error fixed:** "profit = market size (₹) × share × ARPU − fixed costs" → a rupee market size times ARPU double-counts value, and the formula drops variable content and distribution costs; use subscribers × (ARPU − variable cost per subscriber) − fixed costs.
+- **Aha:** in a low-ARPU market, the economics turn on content cost per subscriber and bundling, not on the headline subscriber count. Entry through a telco distribution partnership usually beats building reach alone.
+

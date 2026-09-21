@@ -97,6 +97,110 @@ So a −5pt blended margin can be entirely a MIX-of-immature-stores effect, not 
 **Aha.** Market growth ≠ your growth when the growth is in a **segment you don't serve**. The gap is often a **mix mismatch**, not an operational failure.
 **Trap.** Assuming any positive market growth should flow through proportionally; not segmenting *where* the growth actually occurred.
 
+### A11. Toy maker — revenue −20% in three years as play goes digital
+**Setup.** A toy maker selling in North America and Europe has lost 20% of revenue over three years while costs stayed flat. Traditional toys (dolls, action figures) are falling; the smaller educational line is growing slightly. Diagnose and fix.
+**Structure.** Flat costs ⇒ go to revenue = price × volume × **mix**. Split by product line first, then ask why the shrinking line shrinks: customer substitution (digital and mobile play), competitors' app-connected toys, channel shift (toy stores slowing, e-commerce growing). A stable operation plus category-wide substitution ⇒ an **external, category-level** problem.
+**Spine.**
+```
+Starting mix [ILLUSTRATIVE]: traditional 80, educational 20 (revenue index = 100)
+Educational +10% → 22. Total is now 80 → traditional = 80 − 22 = 58 → 58/80 = −27.5%
+For flat total revenue, educational must reach 100 − 58 = 42 → +110% on its base of 20
+Operating leverage, costs flat at 90 [ILLUSTRATIVE]: profit 100 − 90 = +10 → 80 − 90 = −10
+```
+**Aha.** The decline is in the category, not the company: a substitute (digital play) is draining the core line, and the growing line is far too small to refill it — it would have to more than double. The fix is to move the core toward where play is going (hybrid or app-connected toys, e-commerce-led bundles), not to defend the old line with promotion alone.
+**Trap.** Listing external causes without sizing how much of the 20% each line explains; missing that a 20% revenue fall on a flat cost base can turn a profit into a loss; recommending expansion into other continents with no market or right-to-win test.
+
+### A12. Tier-1 city airport — profit falling because queues eat shopping time
+**Setup.** A privately operated airport in a large metro has seen profit fall for two years despite heavy traffic. Costs are as expected, and aeronautical revenue (landing, passenger-service and security fees) is flat. The fall is in non-aeronautical revenue, specifically airside retail.
+**Structure.** Profit → revenue → **aeronautical vs non-aeronautical** (retail, F&B, advertising, parking, real-estate leases, lounges). Isolate retail, then decompose it along the passenger's time budget rather than by merchandising: departing passengers × **airside dwell time** → store penetration × spend per shopper → the airport's take (a revenue share, or a fixed rent with a minimum guarantee). Flat aeronautical revenue ⇒ passenger numbers are roughly flat, so the leak is **retail revenue per passenger**.
+**Spine.**
+```
+Airport retail take = departing pax × store penetration × spend per shopper × concession share
+Today [ILLUSTRATIVE]: 20M × 40% × ₹800 × 25% = ₹160 cr/yr
+Longer check-in and security queues cut airside dwell by ~10 min → penetration 40% → 35%
+Now: 20M × 35% × ₹800 × 25% = ₹140 cr/yr → −₹20 cr/yr (−12.5%)
+Test each fix: does its annual cost (extra lanes, peak staffing, self bag-drop) stay below ₹20 cr?
+```
+**Aha.** An operational bottleneck shows up as a commercial loss: retail revenue depends on the minutes passengers have left after security, so queue time is a revenue lever. Rank fixes by speed — peak-hour staffing and web check-in/bag-drop now, kiosks and biometric or automated security next, extra lanes last — and justify each against the retail revenue it restores. Check the concession contract too: under a revenue share the airport feels the fall at once; under a fixed rent with a minimum guarantee it feels it later, at renewal or through tenant distress.
+**Trap.** Treating the decline as a merchandising problem (layout, assortment, prices) when the binding constraint is the time passengers have airside; building a "post-store" branch (after-sales, grievances) for customers who are about to fly away.
+
+### A13. Food-preservative maker — share up, profit down, powerful buyers
+**Setup.** A maker of food-preservation chemicals has seen profit fall for three years. Its share rose from 30% to 40% in two years as competitors exited, while the whole industry shrank because consumers are moving to preservative-light food. Order volume is up, revenue per order is down, and costs are flat. Its concentrated food-manufacturer buyers, themselves under pressure, have renegotiated input prices down.
+**Structure.** Revenue = orders × revenue per order; then **market × share** to separate the market effect from the client's own position. Add a buyer-power lens (few large buyers, a commodity-like input, credible switching) to explain the price squeeze.
+**Spine.**
+```
+Market over 2 yrs [ILLUSTRATIVE]: volume −10%, price −22% → value 0.90 × 0.78 = 0.70 (−30%)
+Client volume = market volume × share ratio = 0.90 × 40/30 = 1.20 (+20% — "orders are up")
+Client revenue = 1.20 × 0.78 = 0.936 (−6.4%) despite +10 share points
+Flat costs of 85 on revenue of 100 [ILLUSTRATIVE]: profit 15 → 93.6 − 85 = 8.6 (−43%)
+```
+**Aha.** Gaining share in a shrinking market with concentrated buyers still loses money: the price effect beats the volume effect, and part of the share gain is mechanical (rivals exiting). The legitimate levers are to follow demand into clean-label or natural preservatives, sell on value (shelf-life extension, recall risk avoided) with contracts indexed to input costs, reduce dependence on a few buyers by widening end markets (after a right-to-win check), and take out cost or excess capacity.
+**Guardrail.** Never recommend coordinating prices with competitors ("work with rivals to raise prices"). That is a cartel and is illegal under competition law. Consolidation through acquisition is lawful, subject to merger control; agreeing prices with rivals is not. If a candidate proposes it, stop and correct it on the spot.
+**Trap.** Reading the share gain as a sign of health; proposing price coordination as the answer; leaving the "orders up, revenue down" paradox unreconciled.
+
+### A14. Fresh-produce processor — peak-season profit dip ("percent of what?")
+**Setup.** A leading seasonal-fruit processor (strawberries, mangoes; sells to retail and wholesale) has seen profit fall for three months in peak season; the industry is fine and revenue is steady. Two recent changes: a new bulk-pack format raised **processing cost 15%** while the format's **price rose 5%**, and a new inbound freight partner is **10% cheaper** but slower, and **spoilage has doubled**.
+**Structure.** Company-specific + steady revenue ⇒ cost side. Walk the value chain (sourcing → inbound logistics → processing and packing → distribution) and ask what changed. Then put every change on **one base, % of revenue**, before comparing.
+**Spine.**
+```
+Pack format: extra cost = 15% × (processing cost as % of price)
+  processing = 30% of price [ILLUSTRATIVE] → +4.5% of price vs +5% price → covered (+0.5 pt)
+  break-even share = 5/15 = 33%; the price rise falls short only if processing > 33% of price
+Freight = 5% of revenue [ILLUSTRATIVE] → a 10% saving = 0.5% of revenue
+Spoilage 3% → 6% of throughput → ~3% of revenue lost at selling value (~2.1% even at 70% cost value)
+  → the spoilage loss is 4–6× the freight saving → switch back or pay for faster transit
+Reconcile "revenue steady": +5% price × (1 − 3% lost saleable volume) = 1.05 × 0.97 ≈ 1.02
+```
+**Error fixed:** "processing cost +15% is not covered by a +5% price rise, so reprice by 15%" -> the required price rise is 15% × processing's share of price (4.5% at 30%), so the +5% already covers it whenever processing is 33% of price or less (the two percentages sit on different bases).
+**Aha.** The freight "saving" is the real profit leak: in a perishable business, a slower lane that doubles spoilage is a false economy. Compare the saving and the spoilage loss in the same currency before judging, then add quality checkpoints and demand forecasting.
+**Trap.** Comparing "+15% cost" with "+5% price" as if they shared a base; calling the pack-format price rise inadequate without knowing processing's share of price.
+
+### A15. Consumer-electronics maker — profit −12% after moving component sourcing (landed-cost trap)
+**Setup.** A phone, laptop and appliance maker with plants in three Asian countries has lost 12% of profit over 18 months; revenue is stable and the problem is company-specific. It moved component sourcing to a cheaper Southeast Asian country: **procurement cost −10%, logistics cost +15%**, transit times are longer, and after-sales (warranty) costs are up, mostly in phones, while unit sales are flat.
+**Structure.** Stable revenue ⇒ cost tree. Judge the sourcing move on **total landed cost plus cost of quality**: purchase price, freight, inventory in transit and safety stock, and warranty and returns. Contrast with A5: same sector, but A5 is a revenue story (a supply outage) and this is a cost-of-quality story.
+**Spine.**
+```
+Per 100 of revenue [ILLUSTRATIVE]: cost 90 (materials 54 = 60% of cost, logistics 5.4 = 6%), profit 10
+Procurement −10% → −5.4 ; logistics +15% → +0.81 → net −4.6 (a SAVING)
+Net cost rises only if logistics spend > 2/3 of procurement spend (0.15 × L > 0.10 × P)
+Profit −12% = −1.2 → other costs must have risen by 4.6 + 1.2 ≈ 5.8
+  Transit inventory: +3 weeks of materials = 54 × 3/52 ≈ 3.1 held × 20% carrying cost ≈ 0.6
+  Residual ≈ 5.2 → warranty and returns from weaker components (~8× the inventory effect)
+```
+**Error fixed:** "procurement −10% and logistics +15% means a net cost increase" -> weighted by spend it is a net saving of about 5% of cost (materials ≈60% of cost vs logistics ≈6%), so the profit fall must come from carrying cost and warranty (percentage changes on cost lines of very different size cannot simply be added).
+**Aha.** A sourcing saving can backfire through the cost of quality. Rank fixes by the size of each leak: supplier quality gates and supplier development first, freight renegotiation and forecasting second. Before blaming defects, rule out a growing installed base or a longer warranty tail as the source of extra service requests.
+**Trap.** Adding percentage changes across unequal cost lines; stopping at freight and missing the warranty leak.
+
+### A16. Electric-motor maker — below-peer profit after a 30–35% copper jump
+**Setup.** A diversified group's electric-motor business (three plants, manufacturing only; motors for heavy machinery 40%, engineering applications 40%, power plants 20%) has had below-industry-average profitability for 3–4 years. Revenue is flat and costs are up; the driver is copper winding wire, up 30–35%.
+**Structure.** A value-chain cost tree (R&D → procurement → production → storage and transport) finds the raw-material line. Then apply the logic check: **an industry-wide input shock cannot by itself explain being below the industry average.** Ask what peers do differently: hedging, contractual pass-through, copper-efficient design, scrap recovery.
+**Spine.**
+```
+Copper = 25% of COGS, COGS = 80% of revenue, EBIT margin 10%   [ILLUSTRATIVE]
+Copper +30–35% → COGS +7.5–8.75% → +6.0–7.0% of revenue
+Client (flat revenue = zero pass-through): margin 10% → 3.0–4.0%
+Peer passing 80% through price-variation clauses: absorbs 1.2–1.4 pts → margin 8.6–8.8%
+Gap vs peer ≈ 4.8–5.6 pts → explained by pass-through, not by copper itself
+```
+**Error fixed:** naming "candlesticks and charts" as the financial instruments for managing copper -> those are chart-reading methods; the hedging instruments are exchange-traded copper futures, forwards and options (plus fixed-price supply contracts), paired with price-variation clauses in customer contracts indexed to a published copper price.
+**Aha.** Flat revenue through a 30% input shock is the tell: the client passes nothing on. In the short term, write price-variation clauses into new orders, renegotiate open ones, and hedge the committed order book. In the longer term, pursue copper-efficient design and scrap recovery. Aluminium winding is a redesign, not a quick fix: at about 61% of copper's conductivity it needs about 1.6× the conductor cross-section, which makes motors larger and puts efficiency-class compliance at risk.
+**Trap.** Blaming the commodity for a gap versus peers; "buy copper when it is cheap" (market timing is not risk management); putting aluminium in the short term and hedging in the long term, when the realistic sequence is the reverse.
+
+### A17. Foreign footwear brand — six loss-making stores in Europe
+**Setup.** An Asian-made, mid-tier sports-shoe brand (average price €50) has run six company-owned stores in Europe for six years without reaching its profit goal: four mall stores and two flagships. Given: mall stores sell 1,000 pairs a day, flagships 4,000; annual cost is €225M. The interviewer then rules out every cost lever (manufacturing and labour already at the lowest cost, freight "not a concern", flagship rent needed for marketing), price changes, store closures and online.
+**Structure.** Build revenue from the store base, size the gap, sanity-check the inputs, then follow the levers the interviewer leaves open. With cost, price, footprint and channel blocked, what remains is **volume through product-market fit**.
+**Spine.**
+```
+Revenue = 365 × €50 × (4 × 1,000 + 2 × 4,000) = €219M ; cost €225M → loss €6M
+Gap = 6/219 = 2.7% of revenue
+  All costs fixed → +2.7% volume closes it
+  50% variable cost [ILLUSTRATIVE] → €25 contribution/pair → 240k extra pairs = +5.5% volume
+Sanity check: 1,000 pairs/day = ~€18M per mall store a year; 4,000/day = €73M per flagship
+  Typical footwear stores sell ~50–150 pairs/day (~€0.9–2.7M a year) → inputs are 10–50× high; say so, then proceed
+```
+**Aha.** Once every cost and channel door is closed, the answer is the product: European shoppers find the colours basic and the range narrow. The gap is small (roughly 3–6% more volume), so a localised range, tested first in the flagships where feedback is fastest, can close it. Judge the mall stores on profit per store, not revenue per store.
+**Trap.** Recommending levers already ruled out (sea freight, online); sea freight is also the wrong direction for a trend problem, because longer lead times raise fashion and inventory risk. Taking implausible throughput at face value; proposing to "market the basic colours to minimalists", which contradicts the diagnosis.
+
 ---
 
 ## Part B — Market Entry & New Product
@@ -144,6 +248,127 @@ Break-even units = investment ÷ contribution/unit  → is that share reachable 
 **Aha.** For a seasonal commodity, the real analysis is **break-even under demand variance and inventory risk**, not a point forecast — size a bad-winter downside and the carrying cost of overstock.
 **Trap.** Using average-winter demand as if it were certain; ignoring the newsvendor-style overstock/understock cost.
 
+### B7. Luxury-yacht builder — pick one of three countries (share rising every year)
+**Setup.** A multi-billion European luxury-yacht builder is losing profit at home: its domestic market shrank from €4B to €2.5B in five years and a new luxury-boat tax raised its costs. It will enter exactly one of three markets and wants more revenue *and* profit. Given: Market A €2B, growing 5%/yr, entry share 15% rising 5 points a year; Market B €3B, 10%/yr, 10% share rising 7 points; Market C (a distant Asian market) €2B, 10%/yr, 10% share rising 6 points.
+**Structure.** Quantitative screen (3-year revenue, then contribution net of entry cost) plus a qualitative screen (regulation and taxes, incumbent builders, skilled-labour and yard availability, distance to the service network), then entry mode (organic, JV, acquisition). Size the home decline as a rate first: it sets how urgent the move is.
+**Spine.**
+```
+Home market: (2.5/4)^(1/5) − 1 = −9.0%/yr
+Revenue_t = size × (1 + g)^(t−1) × (entry share + (t−1) × annual share gain)   [€B]
+A: 2 × 15% + 2.10 × 20% + 2.205 × 25% = 0.300 + 0.420 + 0.551 = 1.271
+B: 3 × 10% + 3.30 × 17% + 3.630 × 24% = 0.300 + 0.561 + 0.871 = 1.732
+C: 2 × 10% + 2.20 × 16% + 2.420 × 22% = 0.200 + 0.352 + 0.532 = 1.084
+Stress the share ramp (+2 pts/yr instead of +5–7): A 1.076, B 1.204, C 0.803 → B still leads
+Profit view [ILLUSTRATIVE]: 20% contribution; entry cost A 0.10, B 0.15, C 0.20
+  A 0.254 − 0.10 = 0.154 | B 0.346 − 0.15 = 0.196 | C 0.217 − 0.20 = 0.017
+```
+**Error fixed:** "revenue = market size × growth rate × share" (e.g. €3B × 10% × 17%) -> revenue = market size × (1 + g)^(t−1) × share in year t; growth compounds the market, it is not a multiplier on revenue (using g itself understates year-2 revenue by a factor of about 11).
+**Aha.** Compound market size and share separately, year by year, then test whether the ranking survives a more modest share ramp: here the largest, fastest-growing market wins on revenue even at +2 points a year. But the client's goal is profit, so finish on contribution after entry cost; distance and service-network cost can wipe out the distant market's revenue.
+**Trap.** Picking a winner on 3-year revenue when the stated problem is profit; accepting a 10–15% entry share rising 5–7 points a year without challenge (in yachts, two of these markets may host strong domestic builders); treating a country as the market when buyers are globally mobile ultra-wealthy owners who buy where marinas, crews and servicing are.
+
+### B8. Music company → live theatre — revenue target vs seating capacity
+**Setup.** A music company (US$250M revenue) plans to enter theatre: industry US$12B growing 5%; segments given as traditional theatre-goers 50% and tech-driven immersive 30%; core audience aged 25–45. It will invest US$60M (US$25M infrastructure, US$15M staff and first productions) and targets US$20M revenue in year 1, then +20% a year. Operations: 3 theatres of 320 seats, 60% occupancy, ticket ₹1,200 (≈US$14), **9 shows a week in total**. Licensing is US$3M in year 1, and compliance runs at 5% of operating cost.
+**Structure.** Market attractiveness → financial feasibility → operational feasibility → right to win → entry mode. Before any of that, run the **capacity check**: can seats × occupancy × shows × price reach the target at all?
+**Spine.**
+```
+Weekly = $14 × (320 × 60% = 192 filled seats) × 9 shows = $24,192 → × 52 = $1.26M/yr
+Target $20M ÷ $1.26M ≈ 16× current capacity
+At $14, $20M needs 20M / (14 × 192) ≈ 7,440 shows/yr ≈ 143 a week
+Full use of the halls (8 shows/week each, 24 total) at 100% occupancy: 14 × 320 × 24 × 52 = $5.59M → still 28% of target
+Price needed at 24 shows/week and 60% occupancy: 20M / (192 × 24 × 52) ≈ $83 a ticket (≈6× today)
+Capex check: $60M ÷ $1.26M ≈ 48 years to recover even at a 100% margin
+```
+**Error fixed:** "$14 × 320 × 60% × 9 shows × 3 theatres = $72,576 a week (≈$3.77M a year)" -> the 9 shows are already the total across all three halls, so multiplying by 3 counts capacity three times; the correct base is $24,192 a week (≈$1.26M a year). A second slip: the budget lines add to only $40M of the $60M (plus $3M licensing), and the segments add to 80%, not 100%; ask about the missing $20M and the missing 20% of the audience.
+**Aha.** The target is 16× what the halls can physically earn, and even a full house at eight shows a week per hall reaches only 28% of it. No merchandise line closes a gap that large. The levers, in order: run the halls harder (3 shows a week per hall is very low use), price for a premium immersive format, and, above all, earn from the music catalogue beyond the seats (catalogue-based musicals licensed to other venues, touring, recorded and streamed performances, cast albums). If none of these is credible, reset the target or do not enter; "proceed cautiously" is not an answer when the numbers say the plan cannot work.
+**Trap.** Multiplying by the number of theatres when the show count is already a total; treating merchandise and sponsorship as the fix for a gap several times capacity; recommending entry without comparing US$60M of capex with revenue of about US$1–6M a year.
+
+### B9. Luxury hotel chain — which city? (revenue per rupee of capex, and how to read occupancy)
+**Setup.** A luxury chain headquartered in a satellite city of the capital region (own hotels: 75% occupancy, ADR ₹10,000) wants profitable growth in one new city without diluting its luxury position. City A (the capital metro, next to HQ): 2M visitors a year, luxury market occupancy ≈70%, capex ₹150 cr. City B (a western metro): 1.2M, ≈65%, ₹100 cr. City C (a southern metro): 1.5M, below 60%, ₹120 cr. All grow 5–7% a year. Assume a 200-room hotel at ₹10,000 ADR.
+**Structure.** Market attractiveness (demand, growth, competitive intensity) → financial feasibility (RevPAR, revenue per rupee of capex, payback) → operational feasibility (oversight, talent, suppliers) → strategic fit (brand, cannibalisation of existing hotels).
+**Spine.**
+```
+Revenue = ADR × occupancy × rooms × 365 = 10,000 × occ × 200 × 365
+Occupancy anchored on the MARKET (A 70%, B 65%, C ~60%):
+  A ₹51.1 cr ÷ 150 = 34% | B ₹47.5 cr ÷ 100 = 47% | C ₹43.8 cr ÷ 120 = 36%
+Payback at 35% EBITDA margin [ILLUSTRATIVE]: A 8.4 yrs | B 6.0 yrs | C 7.8 yrs
+Capital-city rate premium, ADR ₹12,000 in A [ILLUSTRATIVE]: ₹61.3 cr ÷ 150 = 41% → B still leads
+Sanity check: capex per key = ₹100–150 cr ÷ 200 = ₹50–75 lakh; confirm this covers luxury-grade land and build in these metros
+```
+**Error fixed:** "City C's hotels fill under 60%, so it is under-penetrated: give our hotel 70% there, and only 60% in City A because A is competitive" (which yields ₹51.1 cr for C and ₹43.8 cr for A) -> high market occupancy signals unmet demand and low occupancy signals oversupply, so anchor each hotel on its market's occupancy, less a ramp-up discount. B still ranks first (≈47% revenue on capex), but C falls from about 43% to about 36%.
+**Aha.** Rank cities on return per rupee invested (revenue on capex, then payback), not on revenue, and read market occupancy the right way round. City A's high occupancy is a demand signal, but its capex, the capital's likely higher ADR, and the risk of cannibalising the chain's own nearby hotels must all be priced in before it is ruled out. The recommendation for City B then rests on the correct numbers, with a micro-market study (land cost, site, RevPAR of the luxury comparables) as the next step.
+**Trap.** Giving the highest occupancy to the city whose hotels fill the fewest rooms; using one ADR for three different cities; quoting revenue as if it were profit or payback; citing visitor counts that never enter the calculation.
+
+### B10. Voice telephone, 1876 — launch in a new country (a network-effect product)
+**Setup.** It is 1876. An inventor holds a fresh patent for a device that carries voice over a dedicated wire, has no commercial experience, and asks whether to launch in a large industrialised European country (about 30–35M people, roughly half urban). Goals: spread the technology and make a profit. Early users will be businesses and government offices. In that country the inland telegraph was recently nationalised into the state postal service.
+**Structure.** Market attractiveness (addressable establishments, not people) → feasibility (wiring and exchanges, distribution, regulation) → economics (price or lease, cost per line) → risks → go/no-go and launch sequence. Add the concept the product forces: **value per user rises with the number of users reachable in the same place**.
+**Spine.**
+```
+Urban population = 50% × 30–35M = 15–17.5M people
+Establishments at ~25 urban residents per business or office [ILLUSTRATIVE] = 600k–700k
+× 10–15% that can afford and benefit → ~60k–105k potential subscriber lines
+Network value ∝ reachable pairs = n(n−1)/2:
+  100 subscribers in one city → 4,950 pairs
+  the same 100 across 10 unconnected cities → 10 × 45 = 450 pairs (11× less value)
+```
+**Error fixed:** "10–15% of urban businesses and institutions, applied to the urban population, gives 1.5–2.6M telephones" -> convert people into establishments first (urban population ÷ people per establishment), then apply the 10–15%; the addressable base is tens of thousands of lines, not millions.
+**Aha.** A network product is nearly worthless until enough users in one place are connected, so launch **dense, not wide**: one city's business district, one exchange, with banks, the press and government offices as anchor subscribers. Lease the instruments and sell service by subscription rather than selling devices, which lowers the upfront cost and keeps control of the network. The incumbent is a **state telegraph monopoly**, and the law may be read to treat the telephone as a telegraph, so a licence or partnership with that authority is the entry gate; frame the product as complementary to the telegraph.
+**Trap.** Applying a percentage of businesses to a population count; concluding "enter" with no demand number, price or cost per line; treating private telegraph firms' lobbying as the barrier when the real gatekeeper is the state; spreading the first installations thinly across many cities.
+
+### B11. Dock-based autonomous e-bike — launch where the technology works, size the fleet on peak trips
+**Setup.** A maker of a stand-on, self-balancing electric bike wants a launch plan. The bike is dock-based and booked through an app, has a 2 km range, and drives itself between docks, but it cannot cope with open urban traffic, only mapped sites without sudden disruptions. Autonomy and electric drive are non-negotiable. First target: a residential management-school campus with about 800 students and 50 faculty and staff.
+**Structure.** (a) Where the product can work: the capability limit defines the market (gated townships, tech parks and SEZs, large corporate and academic campuses), and the buyer is the **campus owner (B2B)**, not the rider. (b) Operating model: sell the fleet, lease it, or run rides as a service; fleet and dock sizing; charging and rebalancing. (c) Economics and pricing: capex per site against the fee model, then marketing to builders and campus owners.
+**Spine.**
+```
+Riders: < 10% of 800 students ≈ 80 (staff: 1% of 50 = 0.5 → ignore)
+Trips: 80 × 4 a day = 320 ; peak hour 25% = 80 trips
+Short campus hops (~0.5 km) → ~4 trips per bike per hour → 80 / 4 = 20 bikes
++30% buffer for charging and one-way peak flows → ~26 bikes, at 4 docks (gate, hostel, academic block, mess)
+Economics [ILLUSTRATIVE]: 26 bikes × ₹1.5 lakh + 4 docks × ₹5 lakh = ₹59 lakh capex
+  Per-ride pricing at shared-cycle parity: 320 × ₹10 × 300 days = ₹9.6 lakh/yr → 6+ years to recover capex, before opex
+  B2B fee to recover capex in 3 years: ₹59 lakh / 3 / 26 / 12 ≈ ₹6,300 per bike per month (before opex)
+```
+**Error fixed:** "fewer than 10% of 800 students use it, so the campus needs 70 bikes" -> that is roughly one bike per user; size the fleet on peak concurrent trips ÷ trips per bike per hour, plus a buffer, which gives about 26 bikes. Over-sizing by about 2.7× nearly triples the capex the business case must carry.
+**Aha.** The technology limit is the segmentation: a bike that cannot handle open traffic belongs on closed, mapped campuses, and there the payer is the owner who buys an amenity (convenience, zero-emission branding, a premium township feature). Autonomy also removes the biggest operating cost of dock-based sharing, which is rebalancing, because the bikes return themselves. So price the B2B service on value to the owner, not at parity with shared bicycles; per-ride parity pricing never recovers the capex on a campus this size.
+**Trap.** Sizing the open urban last-mile market; sizing the fleet on users rather than peak trips; recommending "competitive pricing even at negative margins" without a cost or capex number; skipping the safety and liability check for autonomous vehicles moving among pedestrians.
+
+### B12. Undifferentiated antidepressant — launch alone, co-market, or license/sell?
+**Setup.** A diversified group's newly formed drug unit expects regulatory approval in two months for a tricyclic antidepressant. It has no sales force and no relationships with prescribers. Options: launch alone, co-market with a partner, or sell, license or swap the drug. The antidepressant market is $1.1B and growing faster than the population, but the tricyclic segment is expected to shrink and is crowded: the leader has ~10%, #2 ~4%, and about 100 generics each hold under 2%. A newer class with less sedation already holds 20% of the total market. Research rates the product equal to #2, below #1 and above generics, so there is no price premium. COGS is 20% of net sales; almost all other cost is SG&A. Psychiatrists decide whether such a drug succeeds.
+**Structure.** Revenue potential (segment, not total market) → the cost of reaching prescribers (the swing cost) → value each option on the same basis (NPV to the client) → choose, then name the partner profile. Access also matters: payers and formularies decide coverage for a drug with no clinical edge.
+**Spine.**
+```
+Pool: the newer class holds 20% of $1.1B → older classes ≤ $880M; tricyclic segment [ILLUSTRATIVE] $400M
+Our share 3% → $12M/yr net sales; gross margin 80% → $9.6M/yr
+Launch alone [ILLUSTRATIVE]: 60 reps × $150k fully loaded = $9M + launch marketing $3M = $12M → −$2.4M/yr
+  Break-even sales = $12M / 0.8 = $15M = 3.75% of the segment (top of the 2–4% range, in a shrinking segment)
+Co-market: partner adds us to its existing psychiatrist calls → faster ramp to 4% = $16M
+  $16M × 0.8 − $4M incremental cost = $8.8M, split 50/50 → $4.4M/yr to us
+License: 10% royalty (inside a typical 8–15% late-stage band) × $16M = $1.6M/yr + upfront; near-zero cost and risk
+PV factor, 5 years, sales −10%/yr, 10% discount = 3.17 → co-market ≈ $13.9M ; license ≈ $5.1M + upfront
+Sell: accept an offer above ≈ $14M; a buyer with a psychiatry sales force may pay more because its incremental cost is lowest
+```
+**Error fixed:** "our share will be 2–4%, lower than either branded product, on a $1.1B market, so $22–44M a year" -> #2 holds 4%, so the top of the range ties it rather than trailing it; and the share applies to the tricyclic segment (at most $880M, since the newer class holds 20%), not to the whole market, so revenue is much lower (about $12M at 3% of a $400M segment).
+**Aha.** For a commodity drug in a shrinking segment, value depends on how cheaply and quickly the client can reach prescribers. Building a sales force from zero cannot break even below about 3.75% share, so launching alone is out. Co-marketing with a non-competing partner that already calls on psychiatrists is the best option to keep the drug, but it must be compared in NPV terms with a license (lower value, almost no risk) and an outright sale (worth taking if the price beats about $14M). Argue the choice with those numbers, not with qualitative preference.
+**Trap.** Treating the $1.1B total market, or the newer class's 20%, as the client's pool; recommending co-marketing before valuing the license and sale options; forgetting payers and formularies, which can block access for a me-too drug whatever the prescribers think.
+
+### B13. Premium international school chain — grow when both core levers are ruled out
+**Setup.** A chain of 4 premium K-12 international schools (grades 1–12) in one metro region serves affluent families. Each grade has 5 sections of 40 students. The client wants growth but refuses both core levers: more intake (parents fear lower quality) and a fee rise (fear of bad press).
+**Structure.** Existing business (students × fee, plus ancillary revenue per student) vs new revenue pools (new grade bands, new programmes on idle assets, new cities). Once intake and fee are blocked, size each remaining pool against a growth target, then screen new cities.
+**Spine.**
+```
+Students = 40 × 5 × 12 = 2,400 per school × 4 schools = 9,600
+Revenue at ₹4 lakh/yr fee [ILLUSTRATIVE] = 9,600 × 4 lakh = ₹384 cr ; +10%/yr target = ₹38.4 cr
+Pools that avoid fee and class size [ILLUSTRATIVE]:
+  Ancillary (transport, meals, activities): 50% uptake × 9,600 × ₹40,000 = ₹19.2 cr
+  Pre-primary wing: 3 grades × 3 sections × 25 = 225/school × 4 = 900 × ₹3 lakh = ₹27 cr (fills over 2–3 years)
+  Weekend and holiday programmes: 300 learners × ₹30,000 × 4 campuses = ₹3.6 cr
+  Total ≈ ₹49.8 cr > ₹38.4 cr target
+New-city school at maturity: 2,400 × ₹4 lakh = ₹96 cr/yr (+25% on the base), but grades fill over 5–8 years
+City screen: affluent households × propensity to choose an international school × achievable share, minus premium-school competition
+```
+**Error fixed:** "40 × 5 × 12 = 2,400 students across the business" -> that is one school; the chain has 4 schools, so 9,600 students. Without a fee there is no revenue baseline, so ask for the fee (or assume one) before judging whether a new pool is material.
+**Aha.** When the client blocks the core levers, don't argue with the constraint; find revenue pools built on assets the client already has, which are the brand and a campus idle on evenings, weekends and holidays. Sizing them shows the ranking: ancillary services and a pre-primary wing move the number, while weekend certificates are small. New cities are the largest lever but the slowest. Deal structure is a gate: where K-12 schools must be run by not-for-profit trusts or societies (the norm in India), a JV or acquisition is often structured through a management or services company, and dividends to an investor are restricted.
+**Trap.** Pushing fee or intake after the client has ruled them out; listing adjacencies without sizing them; opening a school campus to adult learners without a child-safeguarding plan (separate hours, access control, background checks) and a test of brand dilution.
+
 ---
 
 ## Part C — Pricing & Commercial Structure
@@ -187,6 +412,41 @@ Targeting wins only if the premium uplift on the smaller qualified base beats th
 **Aha.** Outsource when the 3PL's **scale/utilisation advantage** beats in-house fully-loaded cost *and* distribution isn't a source of competitive advantage worth owning; keep in-house if control/service is a differentiator.
 **Trap.** Comparing 3PL price to in-house *cash* cost only, omitting depreciation, utilisation, and the strategic value of control.
 
+### C5. Convertible sofa-bed-workstation — R&D-recovery floor vs substitute-bundle ceiling
+**Setup.** A large steel maker is entering home furnishing with a modular sofa that converts into a single bed and includes a workstation (70% steel, 30% wood). It is a premium product for tier-1 cities, launched first in the capital region. Furniture retail is 20% organised; one organised player holds ~60% of organised retail, and only unorganised workshops build similar pieces to order. Unit cost ₹10,000; R&D ₹1 crore, to be recovered within 2 years (break-even is enough). Volume: 150 units in year 1, +10% in year 2. The leading competitor sells a metal bed at ₹20,000 and a sofa set at ₹25,000.
+**Structure.** Three lenses, each setting a different bound: **cost** (a floor per unit), **substitutes** (a ceiling: what the buyer would otherwise pay for the items this replaces), **value** (premium for space saved; willingness to pay by segment). Then separate the ex-factory price from the consumer price.
+**Spine.**
+```
+Units = 150 + 165 = 315
+Floor (ex-factory) = ₹10,000 + ₹1,00,00,000 / 315 = 10,000 + 31,746 = ₹41,746
+  At ₹40,000: contribution 30,000 × 315 = ₹94.5 lakh < ₹1 crore → misses break-even
+Ceiling = sofa 25,000 + bed 20,000 + desk 8,000 [ILLUSTRATIVE] = ₹53,000, + a premium for space saved
+Channel stack [ILLUSTRATIVE: dealer margin 25% of pre-tax retail, GST 18%; check the current rate]
+  Consumer price needed for a ₹41,746 floor via dealers = 41,746 / 0.75 × 1.18 ≈ ₹65,700 → above the ceiling
+  Selling direct (own showroom or online) = 41,746 × 1.18 ≈ ₹49,300 → inside the band
+```
+**Error fixed:** "₹1 crore ÷ 315 = ₹32,000, so the price is ₹42,000, and anything from ₹40,000 to ₹45,000 recovers R&D in 2 years" -> ₹1 crore ÷ 315 = ₹31,746, so the floor is ₹41,746, and ₹40,000 recovers only ₹94.5 lakh. Also, break-even means zero *profit*, not a zero contribution margin: each unit's ₹31,746 contribution is exactly what repays the R&D.
+**Aha.** For a convertible product, the reference price is the **combined price of the items it replaces** (bed + sofa + desk), plus a premium for the space it saves; that is the ceiling, and it is well above the single-item anchor. The R&D is sunk: it belongs in the go/no-go decision, not in the price. Once the channel stack is added, the 2-year recovery works only if the client sells direct or accepts a longer payback. 315 units is also tiny for a large steel maker, so the real prize is the B2B channel (hotels, serviced apartments, co-living, lounges), which should be sized before the consumer price is fixed.
+**Trap.** Letting sunk R&D set the price; quoting a band whose lower end sits below break-even; leaving the workstation out of the substitute bundle; ignoring cheaper made-to-order workshop versions that pull the anchor down; treating the 150-unit volume as independent of the price chosen.
+
+### C6. Scarce luxury lunar round trip — two seat classes, benchmarks, scarcity and auctions
+**Setup.** A client has a rocket that flies passengers to the moon and back in 24 hours: 10 seats (3 luxury, 7 standard), 48 hours of maintenance after each trip, and a stated plan of about 12 flights a year. Buyers are ultra-wealthy individuals, celebrities and CEOs, and demand far exceeds supply. Benchmarks: a suborbital hop at ~$450K and a multi-day private orbital or lunar mission at $50M+. Proposed prices: $20M luxury, $2M standard. (Companion to B5, which covers the cost-floor and value-ceiling logic for a first-of-kind vehicle.)
+**Structure.** Value to the customer (experience and status, not time saved) → reference points (the two benchmarks bracket the offer) → cost floor per seat → capacity and **demand absorption** (can the buyer pool fill the seats at these prices, every year?) → price-discovery mechanism (auction, waitlist, deposits) and seat-class tiering.
+**Spine.**
+```
+Cycle = 24 h flight + 48 h maintenance = 72 h → 8,760 / 72 ≈ 121 flights a year possible
+  12 flights a year implies a ~30-day cycle → ask which constraint binds (launch windows, range slots, crew)
+Revenue per flight = 3 × $20M + 7 × $2M = $74M (range 3 × 15–25 + 7 × 1.5–2.5 = $55.5–92.5M)
+  12 flights → $888M a year ; 121 flights → ~$9.0B, which demand cannot absorb
+Demand check at 12 flights: 36 luxury + 84 standard seats a year
+  vs ~2,800 dollar billionaires worldwide [ILLUSTRATIVE] → 36 luxury seats ≈ 1.3% of them every year
+Cost floor [ILLUSTRATIVE]: vehicle $1.5B over 10 yrs = $150M/yr ÷ 12 = $12.5M + $15M operating = $27.5M/flight ≈ $2.75M per seat
+Value check: 2 weeks saved × 336 h × $10K/h ≈ $3.4M → time value cannot justify $20M
+```
+**Error fixed:** "$20M luxury is half the $50M orbital benchmark" -> it is 40% ($25M would be half); and "a 72-hour cycle allows about 12 flights a year" -> it allows about 121, so 12 needs another binding constraint, which changes both the revenue ceiling and the scarcity argument.
+**Aha.** With a handful of seats and a thin pool of ultra-wealthy buyers, the right mechanism is **price discovery**: auction the first seats (first-seat auctions for private spaceflight have cleared far above list prices), then set list prices between the two benchmarks, with seat classes capturing the wide spread in willingness to pay. The binding constraint is demand, not the maintenance cycle: fly only as often as the buyer pool can absorb at the target price.
+**Trap.** Justifying the price by time saved; offering early-bird discounts when demand exceeds supply (use deposits and a waitlist instead); never checking seats × price against the number of buyers who can pay it; building a cost-based lens without computing a cost floor.
+
 ---
 
 ## Part D — Deals, Defense & Contract Economics
@@ -216,6 +476,59 @@ Switch is worth it only if the lower cost c' expands margin enough to beat expec
 **Structure.** A **win-win / vertical value** problem. The supplier can't just raise price (loses the contract). Grow the **joint pie**: raise throughput (footfall, non-fuel convenience sales, loyalty), cut shared costs (logistics, replenishment), or add higher-margin products — then split the upside so the operator is no worse off.
 **Aha.** When you can't take margin *from* a partner, you must **expand the shared value** and let them keep their profit — the analysis is joint-P&L, not a zero-sum price move.
 **Trap.** Proposing a price increase or margin grab that the partner would simply reject.
+
+### D4. Full-service airline — grow by acquisition: screen three Asian targets
+**Setup.** A profitable international airline (passenger and cargo) earns 60% of revenue in North America, 30% in Europe and 10% in Asia-Pacific, where it mainly flies tourists in from its home markets. It wants revenue growth through M&A and has three candidates. Target 1: an established full-service Asian carrier with 30% of the Asian market and the closest operating fit. Target 2: an emerging carrier linking Oceania and Eurasia, a strong cultural fit and the easiest to buy. Target 3: a low-cost carrier that won 20% of the Asian market in 3 years on select dense routes. All are profitable, and their revenue contributions today are similar. Asian air travel is rising with incomes, traffic is concentrated on a few very large markets, and low-cost travel is growing at 13% a year [ILLUSTRATIVE].
+**Structure.** (a) Is M&A the right route (vs organic growth, codeshares, alliances)? (b) Screen targets on one grid: strategic fit, **segment growth**, network complementarity, synergies (revenue and cost), price, integration risk and **feasibility** (foreign-ownership rules, competition approval). (c) Value test: standalone value + PV of synergies − price paid.
+**Spine.**
+```
+Is Asia really under-penetrated? Share = client revenue ÷ regional market, not the revenue mix
+  Revenue $10B [ILLUSTRATIVE]: North America $6B of a $150B market = 4% ; Asia-Pacific $1B of $80B = 1.25%
+Growth at constant share over 5 years:
+  low-cost segment 1.13^5 = 1.84× ; full-service at 5%/yr [ILLUSTRATIVE] 1.05^5 = 1.28×
+  → equal revenue today, Target 3 ≈ 1.44× Target 1 by year 5
+Price [ILLUSTRATIVE]: both earn $300M EBITDA; Target 1 at 7× = $2.1B ; Target 3 at 10× = $3.0B
+Ownership gate: with a 49% foreign-ownership cap, the most the client can buy is a minority stake (49% of $3.0B ≈ $1.47B) without control
+```
+**Error fixed:** "assume the client's market shares follow its 60/30/10 revenue split" -> revenue mix is not market share; share in each region is the client's revenue there divided by that region's market, and three shares in three separate markets cannot form a 60/30/10 split. Also, "the lean carrier costs less to acquire" is backwards when it is the fastest grower: growth usually commands a higher multiple.
+**Aha.** With similar revenue today, pick the target that buys exposure to the fastest-growing segment and fills gaps in the network without overlapping it: a market trend can overturn the answer that operating fit alone suggests (Target 1). But the choice holds only if the value test and the feasibility gate pass: a fast grower costs more, full-service parents often struggle to run low-cost subsidiaries (keep the brand, cost base and labour agreements separate), and foreign-ownership caps on airlines in many Asian markets may limit the deal to a minority stake, JV or alliance. Test the cargo network too; it was left out.
+**Trap.** Naming a winner before any analysis; choosing on operating overlap without asking where the market is growing; justifying a revenue-growth objective with acquisition cost; skipping the ownership rules that can make full control impossible.
+
+### D5. PE buy-side commercial due diligence — organised second-hand furniture re-commerce
+**Setup.** A PE firm focused on home and consumer durables wants a commercial due diligence (CDD) structure for a target that buys used furniture from households (C2B), refurbishes it and sells mainly to businesses (B2B). The target is the #3 organised player with ~23% of organised volume. Hold period 4–5 years. The market is expected to grow ~10% a year.
+**Structure.** Market (size the **flow** of used furniture, split it MECE by channel, growth drivers, and the formalisation trend) → Target (business model and unit economics per piece: buy-in price, refurbishment, logistics, resale; benchmarking against the #1 and #2; an analogue market where organised re-commerce has already scaled) → Deal (entry valuation, returns, exit routes).
+**Spine.**
+```
+Flow, not stock: pieces leaving first owners each year = pieces in use ÷ average first-ownership period
+  900M pieces in use ÷ 9 years = 100M a year [ILLUSTRATIVE]
+Second-hand trade = 100M × 40% resold (the rest is scrapped, kept or gifted) = 40M
+MECE split: peer-to-peer 60% | unorganised dealers 30% | organised platforms 10% → 4M organised units
+Target = 23% × 4M = 0.92M units × ₹5,000 average ticket = ₹460 cr revenue
+Top 3 ≥ 3 × 23% = 69% of organised volume (#1 and #2 are each at least 23%) → a concentrated niche
+Exit year: trade +5%/yr → 40 × 1.05^5 = 51M ; organised share 10% → 16% → 8.2M units (2.0×, ≈15%/yr)
+  of which trade growth 1.28× and formalisation 1.6× → the thesis is formalisation
+Returns [ILLUSTRATIVE, unlevered, constant 1.5× revenue multiple]: ₹690 cr in → ₹1,410 cr out → 2.0× MOIC ≈ 15% IRR
+```
+**Error fixed:** "second-hand pool × 30% traded commercially × (1 − 90% peer-to-peer) = organised" (100M → 30M → 3M) -> peer-to-peer trade is by definition not commercial, so the two filters overlap; split the trade MECE by channel first. If 90% of all second-hand trade is peer-to-peer, organised volume is 10% of 100M = 10M, 3.3× larger. A second slip: dividing a user count by a replacement cycle gives replacements per user, not pieces of furniture, and a 3-year cycle is a phone-like number; furniture changes hands closer to once a decade.
+**Aha.** The organised pool is a thin slice of the second-hand market, so the investment case is the **shift to organised trade**, not the size of the whole used-furniture market. That shift drives more of the growth than the market itself. At a constant share and multiple the deal returns only about 15%, so the thesis must show how the target gains share (sourcing reach, refurbishment cost, B2B contracts) or earns a higher exit multiple. Name the exit routes by buyer type: a larger financial sponsor, a strategic buyer (an e-commerce marketplace, a furniture maker or retailer, a global re-commerce player), or an IPO.
+**Trap.** Sizing new furniture instead of second-hand; treating the whole second-hand pool as addressable; overlapping funnel filters; skipping valuation and returns in a PE case; choosing an analogue market because of a loose resemblance rather than a similar market structure.
+
+### D6. Healthy-snacks maker — choose an acquisition target to enter a new country
+**Setup.** A profitable healthy-snacks maker ($5B revenue, 7% margin, 4 SKUs, B2B and B2C through retail and e-commerce; its industry grows 10% a year) wants more revenue and profit over 5 years. Organic levers in the home market: units through bundles, subscriptions, loyalty programmes, new SKUs and sampling (price is assumed hard to raise in a competitive category, which should be tested). It will enter a Western European country by acquiring one of three companies: A ($0.5B revenue, growing 15%), B ($0.7B, 12%), C ($0.8B, 14%).
+**Structure.** Hard fit (price, margins, synergies), soft fit (culture, strategy, organisation), technical fit (timeline, operational feasibility) → rank on **value created per dollar paid**, not on revenue. Early on, before the data room, gather evidence from public filings, commercial company databases, expert and former-employee calls, trade conferences, employee reviews and industry reports.
+**Spine.**
+```
+Client year 5: $5B × 1.10^5 = $8.05B
+Targets year 5: A 0.5 × 1.15^5 = $1.01B | B 0.7 × 1.12^5 = $1.23B | C 0.8 × 1.14^5 = $1.54B
+  = 12.5% | 15.3% | 19.1% of client revenue ; increments A +0.51 | B +0.53 | C +0.74 ($B)
+Margins and prices [ILLUSTRATIVE]: A 15%, $1.2B | B 10%, $1.0B | C 8%, $1.6B
+  Year-5 EBITDA: A 0.151 | B 0.123 | C 0.123 ($B)
+  Price ÷ year-5 EBITDA: A 7.9× | B 8.1× | C 13.0× → the revenue ranking reverses
+Growth above the market: A's 15% vs a 10% market → relative share × (1.15/1.10)^5 = 1.25 in 5 years; test whether it lasts
+```
+**Error fixed:** "the company's market share is $5B", grown at the industry rate and called both "the future market size" and "the company's revenue" -> share is a percentage, not dollars; the $5B is the client's revenue, so $8.05B is its projected revenue, not the market. Minor: C is 19.1% of that, not 19.2% (1.540 ÷ 8.053).
+**Aha.** Ranking targets on projected revenue mostly rewards the largest starting base. The comparison that decides is value created per dollar paid: standalone value + synergies − price − integration cost, with margin in the picture (a target earning more than the client's 7% raises group margin, which serves the profit goal). On the illustrative numbers, A is cheapest per dollar of year-5 EBITDA and C the dearest, the opposite of the revenue ranking.
+**Trap.** Picking the largest projected revenue with no price, margin or fit; confusing market share with revenue; laying out a hard/soft/technical fit framework and then deciding on revenue alone; holding 12–15% growth for 5 years in a 10% market without asking where the share gains come from.
 
 ---
 
@@ -265,4 +578,10 @@ New ≈ 120 + 48 + 20 + 20 = 208x  → ~47% cut, mostly from resizing the base a
 - **Market-entry** spine and pitfalls (Part B): `case-types.md`, `case-pattern-library.md` Archetype 2, and `guesstimates-and-frameworks-quantified.md` Part B.
 - **Newsvendor / seasonal inventory** (D1, B6): `quantitative-toolkit.md`.
 - **Make-vs-buy / TCO** (C4): `functional-deep-dives.md`, `operations` references.
+- **Percentage-base and weighting slips** (A13–A16, B7 compounding, B8 capacity triple-count, D5 overlapping funnel filters): drill them in `case-cracking-drills.md` Part A (case math) and Part D (error hunt).
+- **Market entry and launch** (B7–B13): `case-type-cheat-sheets.md` Card 2 (Market Entry), Card 3 (New Product Launch) and Card 6 (Growth, for B13); city and country selection (B7, B9) also maps to `case-pattern-library.md` Pattern 2A; hotel RevPAR context in `india-sector-primers.md`.
+- **Capacity-vs-target checks** (B8, B11, C6): compute what the physical asset can earn or carry before debating strategy; the same move as A9's fixed-venue logic.
+- **Launch-alone vs partner vs license/sell** (B12): value each option as NPV; late-stage royalty benchmarks are in `healthcare-life-sciences.md`.
+- **Pricing bounds** (C5, C6): cost floor, substitute-bundle or benchmark ceiling, then value and price discovery — `case-type-cheat-sheets.md` Card 4, `pricing-strategy.md`, and B5 for first-of-kind vehicles.
+- **Target screening and PE CDD** (D4–D6): `case-type-cheat-sheets.md` Card 5 (M&A / Investment), `case-pattern-library.md` Patterns 4A (synergy sizing) and 4B (PE / CDD thesis), and `due-diligence-deep-dive.md`.
 - Tag any figure you add as **[ILLUSTRATIVE]**, show the math, and sanity-check magnitude before presenting.

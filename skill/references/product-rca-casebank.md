@@ -1,6 +1,6 @@
-# Product Root-Cause Casebank — The Metric-Drop Protocol + 7 Worked Diagnoses
+# Product Root-Cause Casebank — The Metric-Drop Protocol + 8 Worked Diagnoses
 
-"Metric X dropped Y% — why?" is the most common product/analyst interview prompt and the most common real-world fire drill. This file gives a **repeatable 5-gate protocol** and **seven worked cases**. Each case is chosen to teach a different root-cause archetype: a promotion change, a payment-policy change, a UI plus incentive change, an environmental handover failure, a partner outage, a multi-cause slow decline, and a rights or content loss.
+"Metric X dropped Y% — why?" is the most common product/analyst interview prompt and the most common real-world fire drill. This file gives a **repeatable 5-gate protocol** and **eight worked cases**. Each case is chosen to teach a different root-cause archetype: a promotion change, a payment-policy change, a UI plus incentive change, an environmental handover failure, a partner outage, a multi-cause slow decline, a rights or content loss, and a segment-level adoption decay.
 
 Companion to `references/india-pm-cases.md`, which holds the generic internal/external/measurement tree, and `references/product-management-toolkit.md`, which covers the AARRR/HEART metric frameworks. For experiment readouts after a fix, see `references/stats-and-capital-budgeting-primer.md`.
 
@@ -196,6 +196,42 @@ That localises the drop to **seat selection → payment**. The interviewer then 
 
 **Trap.** Recommending a UX overhaul for a problem that begins before the user sees any UX.
 
+## Case 8 — Internet-banking usage collapse among older customers (segment adoption decay)
+
+**Prompt.** A large national bank launched an internet-banking platform six months ago. Adoption was "97%" at launch and has "fallen to 50%". Find the reasons and raise sustained digital usage.
+
+**Gates 1–4.**
+- *Real?* The problem is client-specific: competitors report stable or rising digital usage. Before anything else, reconcile the headline with the segment table (below). The table gives 95.7% → 60.4%, not 97% → 50%, so ask which number the bank reports.
+- *Define:* "97% adoption" within six months is only plausible as *registered or activated* customers. The metric that fell is usage = monthly active users ÷ registered users. Pin that definition first.
+- *Segment:* by age band, weighting each band's drop by its share of customers. About 60% of customers are over 50.
+- *Date:* ask whether usage decayed steadily from launch (users never formed a habit, or failed at login) or stepped down after a release (new password rules, an extra login factor). A step points to that release; the facts here show no step, so treat it as decay and still check the release log.
+
+```
+Age band   Share   Launch → now    Weighted launch   Weighted now   Contribution to the drop
+18–35      20%     98% → 90%           19.6              18.0          0.20 × 8  =  1.6 pts
+36–50      20%     95% → 78%           19.0              15.6          0.20 × 17 =  3.4 pts
+50–65      35%     96% → 55%           33.6              19.25         0.35 × 41 = 14.35 pts
+65+        25%     94% → 30%           23.5               7.5          0.25 × 64 = 16.0 pts
+Total                                  95.7%             60.35%                   35.35 pts
+Over-50s (60% of customers) = 14.35 + 16.0 = 30.35 of 35.35 pts ≈ 86% of the decline
+```
+
+**Gate 5.** Internal: competitors are stable, so this is not a market-wide shift away from digital banking. Complaint mix: login too complex 40%, forgotten password or locked account 18%, fear of online fraud 30%, difficult navigation 12%. The only onboarding is a login-instructions SMS.
+
+**Mechanism.** Access friction (40% + 18% = **58%** of complaints) plus fear (30%) hit a base that is mostly older and branch-habituated, with no one to help them past the first failed login. Launch-time curiosity got them registered; friction and fear stopped them coming back. The 36–50 band also lost 17 points, so friction is a platform-wide problem that age amplifies, not a "seniors only" problem.
+
+**Aha.** Weight before you diagnose. A 64-point fall in the 65+ band looks dramatic, but the diagnosis rests on share × change: the over-50s own about 86% of the decline. This is a **retention and enablement** problem, not a missing feature or weak acquisition. Sizing the prize: lifting both over-50 bands to the 36–50 level (78%) adds 0.35 × 23 + 0.25 × 48 ≈ 20 points, taking overall usage from about 60% to about 80%.
+
+**Fix and metrics.**
+- *Immediate:* a self-service unlock and reset flow via OTP; branch staff set up and test the login with every older customer who visits; real-time transaction alerts switched on by default.
+- *Permanent:* biometric or device-bound login that removes the password; an elder-friendly mode (larger fonts, fewer steps per transaction, simpler navigation); a published fraud-protection guarantee plus safe-banking awareness; a guided first-30-days onboarding journey and in-branch digital-literacy sessions.
+- **Watch:** monthly active ÷ registered by age band; login success rate; lockouts per 1,000 login attempts; 30-day retention of newly onboarded over-50 customers.
+- **Guardrail:** unauthorised-transaction losses and fraud complaints (simpler login must not weaken security), plus branch and call-centre volumes. The cost-to-serve case (each transaction moved from a branch to digital is far cheaper) becomes cash only if branch or call-centre capacity is actually released.
+
+**Error fixed:** taking the headline "97% → 50%" at face value → the share-weighted table gives 95.7% → 60.35%, a 35-point drop rather than 47 (the headline and the table do not reconcile, so the first question is which usage definition each one uses).
+
+**Trap.** Jumping to new features or a marketing push; reading each band's drop without weighting it by the band's size; ignoring the 17-point fall in the 36–50 band; and treating complaint shares as prevalence. They are shares of *complainants*, not of all users.
+
 ---
 
 ## Archetype cheat sheet
@@ -209,3 +245,4 @@ That localises the drop to **seat selection → payment**. The interviewer then 
 | Starts at app open, event-timed | Content/rights/seasonality | "What did users come for, and do we still have it?" |
 | Input metric down, outputs up | Efficiency, not a problem | "Are trips, earnings and churn affected?" |
 | Ratio metric moved | Numerator vs. denominator | "Is it the value or the count that moved, and gross or net?" |
+| Decay since launch, one demographic, competitors stable | Segment adoption friction (access, trust, no onboarding) | "Weighted by segment size, who owns the drop, and where do they fail: login, trust or navigation?" |

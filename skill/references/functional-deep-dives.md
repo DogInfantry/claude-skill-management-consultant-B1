@@ -251,6 +251,8 @@ HR consulting covers three layers:
 | Cost per hire | Varies widely; $5K-$30K for professional roles |
 | Quality of hire (1-year performance rating) | Track and optimize toward sources with highest quality |
 
+**Hiring-funnel template.** Applicants → screened → interviewed → offered → accepted → joined. Report two ratios separately rather than one blend: **offer acceptance** = accepted ÷ offers (declines are driven by pay gap, decision speed and employer brand) and **join ratio** = joined ÷ accepted (back-outs are driven by the offer-to-join gap and counter-offers). Offers needed = hiring plan ÷ (acceptance × join ratio); interview load = offers needed × interviews per offer. Price the leak with cost of vacancy per working day ≈ value of the role (e.g., 2× CTC) ÷ 240 working days. Example [ILLUSTRATIVE]: 55% acceptance × 73% join ratio = 40% offer-to-join, so 200 hires need 500 offers; at 85% × 90% = 76.5%, they need about 261. Worked drills: `references/case-bank-unconventional.md` (U1, U2).
+
 ### Talent Retention & Engagement
 
 **The Great Retention Question**: Why do people leave? The most common reasons:

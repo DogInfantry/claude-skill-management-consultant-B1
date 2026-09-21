@@ -1,6 +1,6 @@
 # MBB Management Consultant AI Skill and Plugin for LLMs
 
-> **The most comprehensive open-source consulting intelligence layer for any LLM.** A structured, hypothesis-driven consulting knowledge base — works with Claude, Codex, Gemini, GitHub Copilot, Cursor, Ollama, and any other AI assistant. Built for MBA students, case interview candidates, business professionals, and anyone who needs to think at McKinsey / Bain / BCG level.
+> **The most comprehensive open-source consulting intelligence layer for any LLM.** A structured, hypothesis-driven consulting knowledge base that works with Claude, Codex, Gemini, GitHub Copilot, Cursor, Ollama, and any other AI assistant. Built for MBA students, case interview candidates, business professionals, and anyone who needs to think at McKinsey / Bain / BCG level.
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Works with any LLM](https://img.shields.io/badge/Works%20with-Any%20LLM-blueviolet)](#install)
@@ -11,33 +11,33 @@
 
 ---
 
-**TL;DR:** Install this skill and your AI assistant — Claude, Codex, Gemini, Copilot, Ollama, or any other LLM — works like an MBB-grade management consultant, coaching you through case interviews, applying strategy frameworks, sizing markets, and turning messy business problems into board-ready answers. 135 reference modules distilled from public consulting knowledge. Free and open-source; contributions welcome.
+**TL;DR:** Install this skill and your AI assistant (Claude, Codex, Gemini, Copilot, Ollama, or any other LLM) works like an MBB-grade management consultant, coaching you through case interviews, applying strategy frameworks, sizing markets, and turning messy business problems into board-ready answers. 138 reference modules distilled from public consulting knowledge. Free and open-source; contributions welcome.
 
 ---
 
 ## Install
 
-**Claude Code — one command:**
+**Claude Code, one command:**
 
 ```
 /plugin marketplace add DogInfantry/claude-skill-management-consultant-B1
 /plugin install management-consultant
 ```
 
-Works in any other AI agent too — **Codex, GitHub Copilot, Gemini, Cursor, and Ollama** auto-load the skill from `AGENTS.md` / `GEMINI.md` / `.github/copilot-instructions.md` / `Modelfile`, and any LLM can use it by attaching `skill/SKILL.md`. Full walkthrough and manual setup: [Quick Start](#quick-start) · [INSTALL.md](./INSTALL.md).
+Works in any other AI agent too: **Codex, GitHub Copilot, Gemini, Cursor, and Ollama** auto-load the skill from `AGENTS.md` / `GEMINI.md` / `.github/copilot-instructions.md` / `Modelfile`, and any LLM can use it by attaching `skill/SKILL.md`. Full walkthrough and manual setup: [Quick Start](#quick-start) · [INSTALL.md](./INSTALL.md).
 
 ---
 
 ## What Is This?
 
-The **MBB Management Consultant AI Skill** is a structured knowledge system that installs into your AI assistant — Claude, Codex, Gemini, GitHub Copilot, Ollama, and more — giving it the cognitive architecture of a senior strategy consultant. It is not a simple prompt — it is 135 reference modules, organized around 5 knowledge pillars, covering every dimension of consulting work from MECE issue trees and Pyramid Principle communication to M&A due diligence, GenAI enterprise strategy, and case interview coaching.
+The **MBB Management Consultant AI Skill** is a structured knowledge system that installs into your AI assistant (Claude, Codex, Gemini, GitHub Copilot, Ollama, and more), giving it the cognitive architecture of a senior strategy consultant. It is not a simple prompt; it is 138 reference modules, organized around 5 knowledge pillars, covering every dimension of consulting work from MECE issue trees and Pyramid Principle communication to M&A due diligence, GenAI enterprise strategy, and case interview coaching.
 
 Unlike generic AI prompts, this skill:
-- Applies **hypothesis-driven thinking** — forms a point of view before gathering data
+- Applies **hypothesis-driven thinking**: forms a point of view before gathering data
 - Structures every problem **MECE** (Mutually Exclusive, Collectively Exhaustive)
 - Leads every output with the **governing thought** (Pyramid Principle)
-- Draws from **10+ industry reference files** and 135 deep-knowledge modules
-- Follows the **MBB operating model** — Frame → Structure → Analyse → Synthesise → Deliver
+- Draws from **10+ industry reference files** and 138 deep-knowledge modules
+- Follows the **MBB operating model**: Frame → Structure → Analyse → Synthesise → Deliver
 
 **Compatible with:** Claude (Code, Free, Pro, Teams), OpenAI Codex, Google Gemini, GitHub Copilot, Cursor, Ollama (local models), and any other LLM you can paste context into.
 
@@ -53,24 +53,24 @@ flowchart LR
     D --> E["4. Synthesise"]
     E --> F["5. Deliver"]
 
-    B -.->|reads| G[("135 Reference Files")]
+    B -.->|reads| G[("138 Reference Files")]
     C -.-> G
     D -.-> G
     E -.-> G
     F -.->|"Board-ready output"| H["✅ Client Value"]
 ```
 
-> **Frame → Structure → Analyse → Synthesise → Deliver.** Every problem flows through the same consulting operating system, drawing from 5 knowledge pillars and 135 reference modules.
+> **Frame → Structure → Analyse → Synthesise → Deliver.** Every problem flows through the same consulting operating system, drawing from 5 knowledge pillars and 138 reference modules.
 
 ---
 
 ## Knowledge Architecture
 
-The 135 reference files are organized across five knowledge pillars:
+The 138 reference files are organized across five knowledge pillars:
 
 ```mermaid
 mindmap
-  root((135 Reference Modules))
+  root((138 Reference Modules))
     Problem-Solving
       MECE Issue Trees
       Hypothesis Trees
@@ -119,9 +119,9 @@ mindmap
 
 ## What This Is
 
-This repository contains a consulting knowledge base for AI assistants — [Claude](https://claude.ai), OpenAI Codex, Google Gemini, GitHub Copilot, Ollama, and any other LLM. When installed, it gives the assistant a structured senior-consultant workflow, built around MBB-style problem-solving and communication patterns built by distilling publicly available MBB frameworks, case prep resources, and consulting methodology into a single knowledge base.
+This repository contains a consulting knowledge base for AI assistants: [Claude](https://claude.ai), OpenAI Codex, Google Gemini, GitHub Copilot, Ollama, and any other LLM. When installed, it gives the assistant a structured senior-consultant workflow, built around MBB-style problem-solving and communication patterns built by distilling publicly available MBB frameworks, case prep resources, and consulting methodology into a single knowledge base.
 
-This is not a simple prompt. It is a structured knowledge system with 135 reference files covering every dimension of consulting work, from MECE issue trees and Pyramid Principle communication to due diligence, post-merger integration, GenAI enterprise strategy, and case interview coaching.
+This is not a simple prompt. It is a structured knowledge system with 138 reference files covering every dimension of consulting work, from MECE issue trees and Pyramid Principle communication to due diligence, post-merger integration, GenAI enterprise strategy, and case interview coaching.
 
 **It is completely free.**
 
@@ -129,7 +129,7 @@ This is not a simple prompt. It is a structured knowledge system with 135 refere
 
 ## The Core Problem-Solving System
 
-Every consulting engagement — and every case interview — runs on the same two tools. This skill makes your AI assistant fluent in both.
+Every consulting engagement, and every case interview, runs on the same two tools. This skill makes your AI assistant fluent in both.
 
 ### MECE Issue Trees: Diagnosing Any Business Problem
 
@@ -165,7 +165,7 @@ flowchart TD
 
 ### The Pyramid Principle: Structuring Every Output
 
-Every deliverable — memo, deck, verbal update, email — follows the Pyramid Principle (Barbara Minto, McKinsey). Lead with the answer. Support with structured reasoning. Evidence comes last.
+Every deliverable (memo, deck, verbal update, email) follows the Pyramid Principle (Barbara Minto, McKinsey). Lead with the answer. Support with structured reasoning. Evidence comes last.
 
 ```mermaid
 flowchart TD
@@ -202,7 +202,7 @@ This project contains **no proprietary, confidential, or insider material** from
 - ❌ No content obtained through employment at or breach of agreement with any firm
 - ❌ No leaked internal documents of any kind
 
-Use of terms like "McKinsey-style" or "MBB" throughout this repo is purely descriptive — referring to a publicly understood standard of consulting practice, not a claim of affiliation or endorsement by any firm.
+Use of terms like "McKinsey-style" or "MBB" throughout this repo is purely descriptive, referring to a publicly understood standard of consulting practice, not a claim of affiliation or endorsement by any firm.
 
 If you are a current or former consultant and wish to contribute, please ensure any additions follow these same standards: public sources only, no client data, no confidential firm IP.
 
@@ -232,7 +232,7 @@ management-consultant-claude-skill/
 │
 └── skill/
     ├── SKILL.md                 <- The main skill definition (install this)
-    └── references/              <- 135 deep-knowledge reference files
+    └── references/              <- 138 deep-knowledge reference files
         ├── frameworks.md
         ├── case-interview.md
         ├── guesstimation.md
@@ -317,12 +317,12 @@ Once installed, Claude can assist you with:
 ## Quick Start
 
 ### 1. Get an AI assistant
-You need access to a capable LLM. [Claude](https://claude.ai) gives the smoothest experience (one-command plugin install below), but the skill also works with OpenAI Codex, Google Gemini, GitHub Copilot, Cursor, Ollama, and any other LLM — see [INSTALL.md](./INSTALL.md). Free tiers work; paid tiers help for heavy use.
+You need access to a capable LLM. [Claude](https://claude.ai) gives the smoothest experience (one-command plugin install below), but the skill also works with OpenAI Codex, Google Gemini, GitHub Copilot, Cursor, Ollama, and any other LLM; see [INSTALL.md](./INSTALL.md). Free tiers work; paid tiers help for heavy use.
 
 ### 2. Install the Skill
 See **[INSTALL.md](./INSTALL.md)** for the full setup guide. Two ways to install:
 
-**Option A — as a Claude Code plugin (recommended, one command):**
+**Option A: as a Claude Code plugin (recommended, one command):**
 
 ```
 /plugin marketplace add DogInfantry/claude-skill-management-consultant-B1
@@ -331,7 +331,7 @@ See **[INSTALL.md](./INSTALL.md)** for the full setup guide. Two ways to install
 
 Installs the whole skill in seconds and picks up updates when you run `/plugin marketplace update`.
 
-**Option B — as a plain skill (manual copy):**
+**Option B: as a plain skill (manual copy):**
 
 1. Download `skill/SKILL.md` and the entire `skill/references/` folder
 2. Follow the Cowork/Claude Code installation steps in `INSTALL.md`
@@ -370,8 +370,21 @@ This skill is built for active practice, not just passive reading.
 - Sanity-check your market sizing assumptions and financial math
 - Sharpen your slide action titles and executive narrative
 
+**Case practice suite (start with the index):**
+
+| File | Use it for |
+|------|------------|
+| [`case-practice-index.md`](./skill/references/case-practice-index.md) | Every case and drill indexed by sector, case type and difficulty, plus a four-week practice ladder. Start here. |
+| [`case-type-cheat-sheets.md`](./skill/references/case-type-cheat-sheets.md) | One-page cards for profitability, market entry, new product, pricing, M&A and growth cases |
+| [`practice-cases-quantified.md`](./skill/references/practice-cases-quantified.md) | 19 worked cases: issue tree, math shown, recommendation, coaching notes |
+| [`case-bank-worked.md`](./skill/references/case-bank-worked.md) | 47 compact drills across profitability, entry, pricing, deals and operations |
+| [`case-bank-unconventional.md`](./skill/references/case-bank-unconventional.md) | Prompts no standard framework fits (hiring funnel, OEE, chatbot savings, and more) |
+| [`guesstimate-drill-bank.md`](./skill/references/guesstimate-drill-bank.md) | 35 guesstimates by method, each with a sanity anchor |
+| [`case-cracking-drills.md`](./skill/references/case-cracking-drills.md) | Fast math, exhibit reading, 90-second structures, error hunts |
+| [`product-rca-casebank.md`](./skill/references/product-rca-casebank.md) / [`product-sense-casebank.md`](./skill/references/product-sense-casebank.md) | PM and analyst rounds: metric-drop root cause, product design, experiments |
+
 **For self-study and groundwork:**
-- Work through the 3 case studies in [CASE-STUDIES.md](./CASE-STUDIES.md) before attempting live cases
+- Work through the 5 case studies in [CASE-STUDIES.md](./CASE-STUDIES.md) before attempting live cases
 - Use [FRAMEWORKS.md](./FRAMEWORKS.md) as your active reference, not just a read-once guide
 - Build the habit of structuring every problem MECE before answering
 
@@ -420,31 +433,32 @@ See **[FRAMEWORKS.md](./FRAMEWORKS.md)** for the complete reference. Highlights:
 
 ## Case Studies
 
-See **[CASE-STUDIES.md](./CASE-STUDIES.md)** for 3 fully worked cases. Each includes: full interviewer prompt → candidate structure → key analyses → final recommendation.
+See **[CASE-STUDIES.md](./CASE-STUDIES.md)** for 5 fully worked cases. Each includes: full interviewer prompt → candidate structure → key analyses → final recommendation.
 
 | Case | Type | Setup | What You'll Practice |
 |------|------|-------|----------------------|
 | **The Falling Star** | Profitability | $800M specialty beverage company, margins declining 3 years running | Issue tree, cost/revenue disaggregation, root cause identification |
 | **New Frontier** | Market Entry | European athletic apparel brand evaluating US expansion | Market sizing, 3C's, entry mode selection, go/no-go recommendation |
 | **The Big Question** | Market Sizing | PE fund sizing the US pet insurance market for acquisition due diligence | Bottom-up sizing, TAM/SAM/SOM, assumption stress-testing |
+| **The Compounder's Dilemma** | Capital Allocation (real engagement) | Listed hospital group balancing bed expansion, digital burn and shareholder returns | SCQA, trilemma framing, board-ready recommendation |
+| **The Leverage Ceiling** | PE / LBO | Mid-market fund testing an 8.0x buyout against a 25% IRR, 3.0x MOIC hurdle | Returns math, value-creation levers, price and leverage limits |
 
-*A PE / LBO case is in progress — see [Issue #6](https://github.com/DogInfantry/claude-skill-management-consultant-B1/issues/6) if you'd like to contribute it.*
 
 ---
 
 ## Frequently Asked Questions
 
 **Q: Do I need a paid subscription, or a specific LLM, to use this?**
-No on both. It's model-agnostic — Claude, Codex, Gemini, Copilot, Ollama, or any other LLM. Free tiers (e.g. [claude.ai](https://claude.ai)) work; paid tiers help for heavy use (longer conversations, more context). Ollama runs fully local and free.
+No on both. It's model-agnostic: Claude, Codex, Gemini, Copilot, Ollama, or any other LLM. Free tiers (e.g. [claude.ai](https://claude.ai)) work; paid tiers help for heavy use (longer conversations, more context). Ollama runs fully local and free.
 
 **Q: Is this an official McKinsey, Bain, or BCG product?**
-No. This is an independent, open-source project. "McKinsey-style" and "MBB" are used descriptively — referring to a publicly understood standard of consulting practice. There is no affiliation with or endorsement from any firm.
+No. This is an independent, open-source project. "McKinsey-style" and "MBB" are used descriptively, referring to a publicly understood standard of consulting practice. There is no affiliation with or endorsement from any firm.
 
 **Q: What makes this different from just prompting an LLM to "think like a consultant"?**
-A prompt gives the model a behavioral instruction. This skill gives it a 135-file knowledge system — including specific frameworks, case interview formats, industry metrics, and analytical tools — that it actively references during problem-solving. The depth and consistency of output is qualitatively different.
+A prompt gives the model a behavioral instruction. This skill gives it a 138-file knowledge system (specific frameworks, case interview formats, industry metrics, and analytical tools) that it actively references during problem-solving. The depth and consistency of output is qualitatively different.
 
 **Q: Can I use this for real client work?**
-Yes. The skill is designed for real problem-solving, not just practice. Many frameworks (issue trees, profitability analysis, market sizing, org design) apply directly to live business problems. That said, always exercise professional judgment — the AI's output is a thinking tool, not professional advice.
+Yes. The skill is designed for real problem-solving, not just practice. Many frameworks (issue trees, profitability analysis, market sizing, org design) apply directly to live business problems. That said, always exercise professional judgment: the AI's output is a thinking tool, not professional advice.
 
 **Q: How do I contribute a new reference file or case study?**
 See [CONTRIBUTING.md](./CONTRIBUTING.md). The bar is: public sources only, MECE structure, and real analytical depth. You don't need to be ex-MBB. Industry experience, finance background, and ops knowledge are all valuable.
@@ -459,7 +473,7 @@ Yes. The Apache 2.0 license explicitly permits this. Attribution is required. Se
 
 ## Contributing
 
-This is a living knowledge base — the more industries, benchmarks, and cases it covers, the more useful it becomes for everyone.
+This is a living knowledge base: the more industries, benchmarks, and cases it covers, the more useful it becomes for everyone.
 
 **See [CONTRIBUTING.md](./CONTRIBUTING.md)** for the full guide: file structure, quality bar, and how to submit a PR.
 
@@ -467,7 +481,6 @@ This is a living knowledge base — the more industries, benchmarks, and cases i
 - [Add reference file: Cybersecurity Consulting](https://github.com/DogInfantry/claude-skill-management-consultant-B1/issues/3)
 - [Add reference file: Education & EdTech](https://github.com/DogInfantry/claude-skill-management-consultant-B1/issues/4)
 - [Update benchmarks: genai-enterprise-strategy.md](https://github.com/DogInfantry/claude-skill-management-consultant-B1/issues/5)
-- [Add case study: PE / LBO case](https://github.com/DogInfantry/claude-skill-management-consultant-B1/issues/6)
 - [Add reference file: Semiconductor & Hardware](https://github.com/DogInfantry/claude-skill-management-consultant-B1/issues/7)
 
 You don't need to be ex-MBB to contribute. If you've worked in any industry, finance role, or ops team, you have something concrete to add.
@@ -478,9 +491,9 @@ You don't need to be ex-MBB to contribute. If you've worked in any industry, fin
 
 This skill is free and always will be. If it helped you land an interview, ace a case, or think more clearly about a hard problem, here are a few ways to give back:
 
-- ⭐ **[Star the repo](https://github.com/DogInfantry/claude-skill-management-consultant-B1)** — helps others find it
-- 💖 **[Sponsor on GitHub](https://github.com/sponsors/DogInfantry)** — directly support ongoing development
-- ☕ **Buy me a coffee** — [ko-fi.com/doginfantry](https://ko-fi.com/doginfantry) *(set this up at ko-fi.com if you haven't yet)*
+- ⭐ **[Star the repo](https://github.com/DogInfantry/claude-skill-management-consultant-B1)**: helps others find it
+- 💖 **[Sponsor on GitHub](https://github.com/sponsors/DogInfantry)**: directly support ongoing development
+- ☕ **Buy me a coffee**: [ko-fi.com/doginfantry](https://ko-fi.com/doginfantry)
 - 🔁 **Share it** with someone preparing for consulting interviews or working through a strategy problem
 - 🛠️ **[Contribute](./CONTRIBUTING.md)** a case study, framework, or industry reference file
 
