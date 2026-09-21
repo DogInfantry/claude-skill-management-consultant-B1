@@ -42,6 +42,58 @@ Profit Decline
         └── One-time costs?
 ```
 
+### Driver Split: Internal vs External, Plus a One-Off Bucket
+The standard tree tells you *where* profit went. Splitting every revenue driver into **internal** (inside management's control) and **external** (market, regulation, competitors) tells you *whether the client can fix it*, which is what the recommendation depends on. It also answers the clarifier "industry-wide or just us?" driver by driver instead of once for the whole case.
+
+```
+Profit = Revenue − Cost
+├── Revenue = Σ (Price × Volume) across the product mix
+│   ├── Volume (units sold)
+│   │   ├── Internal: the 4A access lens (Awareness, Accessibility, Availability, Affordability)
+│   │   └── External: economic cycle, regulation, competitor moves, industry trends, geography
+│   ├── Price per unit
+│   │   ├── Internal: pass-through of our own cost increases, discount policy, transfer pricing
+│   │   └── External: price wars, regulated channel margins, price caps, customer sentiment, supply–demand balance
+│   └── Mix: shift towards lower-margin products, channels or regions
+└── Cost
+    ├── Fixed: depreciation, salaries, rent, insurance
+    ├── Variable: raw material, fuel, freight, packaging, sales commissions
+    ├── Semi-variable: utilities, maintenance (a fixed base plus a usage-driven part)
+    └── One-off / non-operating: write-offs, impairments, restructuring charges, litigation settlements
+```
+
+- **Normalise before you diagnose.** Strip the one-off bucket first. [ILLUSTRATIVE] Margin falls from 12% to 7% on revenue of Rs 1,000 crore, and the year includes a Rs 30 crore inventory write-off. Normalised profit = 70 + 30 = Rs 100 crore, a 10% margin. The one-off explains 3pp of the 5pp drop; only **2pp** is operating decline, and that is the part the tree has to explain.
+- **Transfer pricing moves profit between group entities; it does not create it.** It changes one segment's reported margin but not the consolidated total, so confirm which P&L the question is about before you chase it.
+- The 4A lens and where it sits in each case type are in `references/case-type-cheat-sheets.md` ("The 4A customer-access lens"). Card 1 there is the one-page profitability version of this playbook.
+- **Error fixed:** filing "standard costs" under one-off costs → standard costing is a budgeting and inventory-valuation method, and variances from standard are operating costs that belong in the fixed or variable buckets (only genuinely non-recurring items go in the one-off bucket).
+- **Trap:** reading a reported margin drop as operating decline without checking the one-off bucket. Recommending cost cuts against a write-off is the classic wasted recommendation.
+
+### Cost Checklist: Value-Chain Lens and P&L-Line Lens
+When the fixed/variable split is not MECE (utilities and maintenance straddle it), or the question is *where* costs sit, walk the value chain end to end. When the data arrives as a P&L, use the line-item lens. Pick one per branch; don't mix them in the same level of the tree.
+
+**Value-chain lens (7 stages)**
+
+| Stage | Cost lines to check | Typical lever |
+|---|---|---|
+| **Planning** | Forecasting error (excess stock, expediting), technology and equipment plan, capex phasing | Better forecasting, phased capex |
+| **Raw material / procurement** | Price per unit, contract terms, supplier concentration, specifications | Bulk contracts, alternative suppliers, specification changes |
+| **Processing** | Machine uptime, labour productivity, capacity utilisation, yield and scrap, packaging | Utilisation, automation, scrap reduction, pack redesign |
+| **Storage** | Warehousing footprint, holding cost, obsolescence | Fewer, better-placed warehouses; lower safety stock |
+| **Transportation** | Inbound and outbound logistics, network design, mode (road, rail, sea), load factor | Network redesign, mode shift, fuller loads |
+| **Distribution / sales** | Channel margins, sales-force cost and productivity, go-to-market model, marketing technology, training | Channel mix, sales-force productivity |
+| **Customer service** | Returns, warranty replacements, annual maintenance contracts, spares | Quality fixes upstream, spares pricing |
+
+**P&L-line lens**
+- **Cost of goods sold (COGS)** = opening inventory + purchases − closing inventory. [ILLUSTRATIVE] Opening stock Rs 20 crore, purchases Rs 100 crore, closing stock Rs 30 crore → COGS = **Rs 90 crore**. The Rs 10 crore gap between purchases and COGS is a stock build (30 − 20), which is a working-capital problem, not a margin problem.
+- **SG&A:** selling, general and administrative costs, i.e. everything not directly tied to producing the goods or service.
+- **R&D:** developing and testing new products.
+- **Marketing:** promotion spend. It usually sits inside SG&A; break it out only if SG&A is then defined to exclude it.
+- **Interest, tax and other:** below the operating line. They are financing and tax questions, not operating ones.
+
+- **Error fixed:** treating purchases as the cost of sales ("cost = Rs 100 crore") → COGS = 20 + 100 − 30 = Rs 90 crore (the extra Rs 10 crore went into inventory; calling it cost overstates the margin problem and hides the cash tied up in stock).
+- **Error fixed:** listing marketing as its own line *and* inside SG&A → count it once (the double count inflates overheads and sends the diagnosis to the wrong branch).
+- **Trap:** counting the cost of finance twice, once under Planning and again under Interest. Also, an inventory-valuation change (FIFO to weighted average) moves reported COGS but not cash cost; LIFO is not permitted under IFRS or Ind AS.
+
 ### Key Questions
 - Is this a company-specific problem or an industry-wide trend?
 - When did the decline start? What changed?
@@ -164,6 +216,49 @@ M&A Evaluation
     ├── Synergy capture timeline
     └── Integration governance
 ```
+
+### Choosing the Lens: Deal Lifecycle vs Environment
+Two structures cover M&A cases. Pick by what the case centres on.
+
+**Deal-lifecycle lens.** Use it when the case is about screening, diligence, integration or exit.
+```
+Overall deal
+├── Transaction
+│   ├── Internal need analysis: why acquire; quantify the goal (revenue, capability, share)
+│   ├── Target screening: market understanding, target performance, shortlist
+│   ├── Valuation: standalone value, synergy PV, walk-away price (run alongside diligence)
+│   ├── Due diligence: financial, commercial, operational, legal; management; lessons from past deals
+│   └── Deal execution: price and structure (cash vs stock, earn-outs), funding, timeline
+└── Beyond the transaction
+    ├── Post-deal integration: set-up and consolidation, governance, technology, operating model
+    └── Exit (financial buyers only): stake sale to a strategic, secondary sale to another fund, listing
+```
+
+**Environment lens.** Use it when M&A is one option inside a bigger question (a growth or entry case where "acquire" competes with "build" or "partner").
+- **Acquirer:** financial position, growth, capabilities, management, culture.
+- **Target:** the same attributes, tested for quality and sustainability.
+- **Market:** size, growth, profitability, competition.
+- **Synergies:** revenue, cost and financial; business overlap is where they come from.
+- **Risk:** integration risk, regulatory limits, key-talent retention.
+- Cross-cutting considerations: deal rationale, financing, structure.
+
+**Combine them.** Use the environment lens for the go/no-go, then open the lifecycle branch the interviewer steers you towards. `references/case-type-cheat-sheets.md` (Card 5) has the one-page version with the clarifier bank.
+
+### The Walk-Away Inequality
+The deal creates value only if:
+
+`Standalone value + PV(synergies) − Integration cost > Price paid`
+
+The left-hand side is the **walk-away price**, a ceiling, not a bid. [ILLUSTRATIVE, Rs crore] Standalone value 1,000. Run-rate synergies of 60 a year, capitalised at 10%, are worth 600 at run rate, but they arrive after a two-year ramp, so PV = 600 / 1.1² ≈ **496**. Integration cost 100.
+- Walk-away price ≈ 1,000 + 496 − 100 ≈ **1,400** (1,396).
+- A bid of 1,200 keeps about **196** of value for the acquirer. A bid of 1,400 hands every synergy rupee to the seller.
+- **Error fixed:** adding run-rate synergies undiscounted (1,000 + 600 − 100 = 1,500) → discount for time-to-capture: 1,000 + 496 − 100 ≈ 1,400 (counting synergies as if captured on day 1 overstates the ceiling by about 100).
+- **Trap:** recommending the deal without price guidance. Always close with the walk-away price and a target bid below it.
+
+### Exit Strategy: A Branch for Financial Buyers Only
+A strategic buyer holds the asset and values synergies. A financial buyer values the return, so the exit is a full branch of the tree: route (stake sale to a strategic, secondary sale to another fund, listing), timing, and exit value = exit EBITDA × exit multiple. Don't assume the multiple expands.
+- [ILLUSTRATIVE] In at Rs 1,000 crore, out at Rs 2,000 crore after 5 years: money multiple 2.0×, IRR = 2^(1/5) − 1 ≈ **14.9%**. Against a 20% hurdle the deal fails. Clearing it needs 1.2⁵ ≈ 2.49×, i.e. an exit near Rs 2,490 crore.
+- **Error fixed:** "2× over 5 years is 20% a year" (100% ÷ 5) → the compound IRR is 14.9% (a simple average ignores compounding and overstates the return).
 
 ### Key Questions
 - What's the strategic rationale beyond "it's a good company"?

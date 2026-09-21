@@ -44,6 +44,13 @@ Biotech companies operating pre-revenue or early-stage face fundamentally differ
 
 Peak sales potential estimates range from $100M for niche orphan indications to $10B+ for major indications (diabetes, cardiovascular, oncology). These estimates derive from addressable patient population, assumed market penetration rates, average selling price assumptions, and competitive dynamics. A compound in Phase II with peak sales potential of $2B, 35% probability of success through NDA, and 12-year remaining patent life might carry an NPV of $300-500M depending on discount rate and risk adjustment methodology.
 
+**India Pharmaceuticals — how the domestic market differs:**
+- **Branded generics, not patents.** Most domestic sales are competing brands of off-patent molecules, so substitution is brand-to-brand. Demand is built through medical-representative detailing to doctors and moves through a super-stockist → stockist → retailer chain; representative productivity and prescription growth are the commercial KPIs.
+- **Essential-medicine price controls.** Drugs on the national essential-medicines list carry ceiling prices, and annual increases on other drugs are capped (verify current rules). Inclusion in the controlled list, not patent expiry, is the domestic margin swing factor. [ILLUSTRATIVE] a ceiling that cuts a brand's price by 20% at a 60% gross margin removes a third of its gross profit per pack (60 → 40 on a base of 100).
+- **Manufacturing-quality compliance.** Revised GMP standards open audit gaps for smaller plants; batch-failure rates and inspection observations from domestic and export-market regulators decide who keeps export access.
+- **Export-led generics.** Global patent cliffs are the growth opportunity (first-to-file, complex generics, biosimilars), while dependence on one neighbouring country for key starting materials and intermediates is the main supply risk.
+- **Trap:** carrying US patent-cliff or drug-price-negotiation logic straight into the domestic Indian market. See `references/india-sector-primers.md` (Pharmaceuticals).
+
 ### Payer (Health Insurance) Economics
 
 Health insurance companies operate under a distinct economic model anchored by the Medical Loss Ratio (MLR) requirement, which mandates that insurers spend minimum percentages of premium revenue on medical costs rather than administrative expenses or profits.

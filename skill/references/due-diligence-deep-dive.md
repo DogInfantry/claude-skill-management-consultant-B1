@@ -430,6 +430,8 @@ Worked end-to-end with real figures and regulatory outcomes in `case-studies/gov
 
 ## 8. Vendor Due Diligence (VDD)
 
+> **Terminology note:** "Vendor due diligence" has two meanings. This section covers the *supplier-risk* meaning: assessing the third-party suppliers a target (or the combined business) depends on. In M&A deal usage, VDD more often means *sell-side* due diligence: work the **seller** commissions on its own business before a sale. That meaning is covered in §8.5. When a client says "VDD", confirm which one they mean before scoping.
+
 ### Vendor Risk Assessment
 
 **Financial Health:**
@@ -465,6 +467,117 @@ Worked end-to-end with real figures and regulatory outcomes in `case-studies/gov
 - Escalation process: Issues tracked; resolution SLAs
 - Regular business reviews: Quarterly/annual check-ins
 - Diversity audits: Are vendors maintaining commitment to diversity/inclusion?
+
+---
+
+## 8.5 Sell-Side (Vendor) Due Diligence: The Seller's View
+
+### Definition & How It Differs From §8
+
+Sell-side due diligence is diligence the **seller** commissions on the business it plans to sell, before bidders arrive. Independent advisers produce a report (always financial, and often commercial, tax, and separation/operational) that goes to every shortlisted bidder. The winning buyer usually receives reliance on it. §8 asks "can we depend on this supplier?". Sell-side DD asks "what will a buyer find, what is the business worth on a standalone basis, and which structure gets the seller the most value with the most certainty?"
+
+It is most valuable for **carve-outs** (a division or regional unit with no standalone accounts), sponsor exits, and regulation-driven or distressed disposals where the seller must control the story.
+
+### Why Sellers Commission It
+
+1. **No late price chips.** Issues the seller finds and discloses early are priced once. Issues a bidder finds in exclusivity become renegotiation leverage.
+2. **A faster, more competitive process.** Several bidders read one report instead of each running a full 8–12 week DD. That supports tighter bid deadlines and a shorter exclusivity period.
+3. **Standalone numbers where none exist.** A carve-out's P&L is built from allocations. Only a carve-out quality-of-earnings review turns them into an EBITDA a buyer can finance.
+4. **It informs the decision to sell at all.** The work decides the sale perimeter, whether to sell 100% or part, and what the seller must fix first.
+5. **Cleaner SPA and insurance.** Disclosed items narrow warranty claims, and warranty-and-indemnity insurers underwrite against the report (see `references/spa-deal-terms-benchmarking.md`).
+
+### Scope by Workstream
+
+| Workstream | Seller's question | Key output |
+|---|---|---|
+| Financial (carve-out QoE) | What is the unit's EBITDA as a standalone business? | Adjusted standalone EBITDA; normalised working capital; debt-like items |
+| Commercial | Why should a buyer believe the plan, given what has changed? | Market outlook; pipeline and bookings; client concentration and contract terms |
+| Separation / operational | What does the unit take from the parent, and what does it cost to replace? | Entanglement map; standalone cost; TSA menu; separation budget and timeline |
+| Tax & structure | Share sale, asset sale, or hive-down into a new entity? | Structure options; transfer taxes; tax exposures that travel |
+| Legal & regulatory | What blocks or delays transfer? | Change-of-control clauses in top contracts; licences; approvals; employee-transfer rules |
+| People | Who must move for the business to work? | Transfer population; key-person list (account managers, delivery and tech leads); retention plan |
+
+### The Carve-Out Lens: Four Numbers the Seller Must Own
+
+- **Entanglement map.** List every shared item: IT systems (ERP, CRM, client databases, identity, network), finance (billing, collections, close), HR and payroll, procurement contracts, shared sites, brand and IP, and **people** who serve both the unit and the parent. Each unresolved entanglement becomes a buyer price chip or a condition precedent.
+- **Standalone cost.** The unit's P&L carries allocated charges, not market replacement costs. Rebuild each shared service at the cost a standalone owner would pay. Buyers typically find standalone costs 15–25% above the deal-model assumption (`references/post-merger-integration.md`, Carve-Outs and TSAs), so the seller should show the adjustment first, on its own terms.
+- **TSA offer.** The seller offers a menu of transition services (typically 12–24 months per service, priced at cost plus about 10–15%) so bidders can operate on Day 1. A well-scoped TSA menu widens the buyer universe to bidders without local infrastructure. Its cost to the seller is management capacity and a service commitment it must deliver.
+- **Stranded costs.** These are parent overheads that were charged to the unit and stay behind after the sale: corporate functions, licences, and shared-site costs. They are the **seller's** problem. Unless the parent removes them, they cut the parent's remaining margin, so the disposal case must net them off.
+
+### Partial-Sale Structures
+
+| Structure | When it fits | What the seller gives up |
+|---|---|---|
+| 100% sale | Clean strategic exit; the unit has no role in the future portfolio | All upside; usually a TSA commitment |
+| Majority sale, retain a minority (e.g., 49%) | The problem is tied to the **owner** (for example, localisation rules that bind foreign-controlled firms), the buyer wants continuity, or the price today reflects depressed earnings | Control; the retained stake is worth less per share (minority and illiquidity discount) |
+| Minority sale, keep control | The seller needs capital or a local partner but still needs the asset | Some upside; governance rights to the investor |
+| Staged exit (put/call options) | Price gap between the parties; the seller wants a later exit at a recovered value | Certainty on the second tranche |
+| Joint venture with a local partner | A licence, market access or relationships only the partner holds | Shared control; deadlock risk (see `references/ecosystem-alliance-strategy.md`) |
+
+**Governance kit for a retained minority:** board seats in proportion to the stake, reserved matters (budget, new debt, related-party transactions, change of business), tag-along rights, a right of first refusal, a put option at fair value after a lock-up, a brand or technology licence on arm's-length terms, and a clear non-compete perimeter.
+
+**The structural test comes before the price.** Confirm what the regulation actually keys on. If it binds on *control*, a local-majority owner removes the constraint and the retained 49% shares in the recovery. If it binds on *any* foreign shareholding, or on staff nationality, a change of owner fixes nothing. Any owner, including the seller, would then have to localise leadership, and a bidder's "recovery" premium is not credible.
+
+### Buyer Universe
+
+| Buyer type | Why they pay | Stake appetite | Watch-outs |
+|---|---|---|---|
+| Local or regional IT/services player or conglomerate | The ownership constraint does not bind; gains capacity and a client book | Majority or 100% | Financing certainty; may lack global delivery and need a long services agreement |
+| Global strategic peer | Client book and talent; cost synergies | 100% | Faces the same foreign-ownership constraint, so prices depressed earnings; antitrust overlap |
+| Financial sponsor | Carve-out discount; margin repair; later sale to a local strategic buyer | Majority, often with seller rollover | Needs clean standalone financials, a TSA and a management team; leverage against falling bookings |
+| Anchor clients | Secure delivery capacity (build-operate-transfer) | Specific delivery centres only | Partial perimeter; leaves the remainder less saleable |
+| Management with a local financial backer | Continuity; knows the business | Majority | Depth of funding |
+
+Score each bid on **value to the seller × certainty of closing × fit**, where fit means technology compatibility (lower transfer cost), people continuity, and how much TSA the bidder needs. Never rank bids on headline cash.
+
+### Worked Example: An IT-Services Major Divesting a Regulation-Hit Regional Unit
+
+**Setup.** A global IT-services firm headquartered in India wants to sell an overseas regional unit: offices in three countries, ~20,000 employees, and delivery infrastructure that transfers easily. New local rules make outsourcing contracts hard to win and restrict foreign staff in onshore leadership roles, so new bookings have dried up. The unit is still profitable, generates cash, and carries little debt. Several bidders are offering for different majority stakes. The unit shares IT, finance and HR with the parent and relies on a small group of key account managers and technical leads.
+
+**Structure.** (1) Why sell, and is the problem the market or the owner? (2) The perimeter and standalone financials. (3) Sale options and bid comparison. (4) Separation and execution: critical systems, TSA, people transfer, and stakeholder communication.
+
+**Quantified spine [ILLUSTRATIVE]:**
+
+```
+Standalone base
+  Revenue ≈ 20,000 staff × $35K           = $700M
+  Reported EBITDA (15%)                   = $105M
+  Shared services: allocated $20M; standalone replacement +25% = $25M  → −$5M
+  Standalone EBITDA                       = $100M
+  Equity value today at 8× (net debt ≈ 0) = $800M
+  Value if a local owner removes the constraint (bookings restart) = $1,000M
+
+Value to seller ($M)                       Bid A: 100% to a     Bid B: 51% to a local-led
+                                           global strategic     buyer; seller keeps 49%
+  Cash for stake sold                            800                520  (implies ≈$1,020M for 100%)
+  Retained stake: 49% × $1,000M × (1 − 20% minority discount)     0     392
+  TSA / services margin  (A: $3.3M × 1.5 yrs; B: $2.7M × 3 yrs)   +5     +8
+  One-off separation cost borne by seller       −25                −20
+  Stranded parent overhead ($8M/yr × 1.5 yrs; halved under B)     −12     −6
+  Value to seller                                768                894
+
+Certainty weighting (fallback if the deal fails: hold value ≈ $700M)
+  A: 95% × 768 + 5% × 700  = 764.6
+  B: 80% × 894 + 20% × 700 = 855.2
+
+Break-even for B: 520 + 0.392 × X + 8 − 20 − 6 = 768  →  X ≈ $679M
+  B still wins even if the unit is worth ~15% LESS than today's $800M under the new owner.
+```
+
+**Error fixed:** "Bid A pays $800M and Bid B only $520M, so take Bid A" -> compare **value to the seller**: $768M for A vs $894M for B, or $765M vs $855M after weighting for certainty. (The headline ignores the retained stake, the TSA income, separation cost and stranded costs.)
+
+**Execution checklist.** Treat finance and billing systems as Day-1 critical, not "non-critical internal accounting", because the unit must invoice and close its books from Day 1. Map the transfer of ~20,000 employees under local labour law early, since automatic-transfer and consultation rules set the timeline. Sign retention agreements with the key account managers **before** announcement, and line up client consents and contract novations for the top accounts. Communicate the sale to clients, employees and regulators in the same week.
+
+**Aha.** Here the regulation binds the *owner*, not the business, so the buyer the rule does not bind values the unit most. A majority sale that keeps 49% lets the seller share in that higher value. The structure is worth more than the last dollar of headline price.
+
+**Trap.** Pricing a full exit off today's depressed earnings. Ignoring the entanglement (shared IT, HR and finance, plus key account managers) that drives TSA scope, separation cost and buyer risk. Assuming a 49% stake escapes the rule without checking what the rule actually keys on.
+
+### Typical Sell-Side DD Work Plan (6–10 weeks, before the process launches)
+
+1. **Weeks 1–2:** Confirm the exit rationale and perimeter; build the entanglement map; open the carve-out QoE.
+2. **Weeks 3–5:** Standalone cost build; TSA menu and pricing; stranded-cost plan for the parent; legal and regulatory review of what the rule keys on.
+3. **Weeks 5–8:** Commercial outlook and bookings evidence; structure options (100% vs majority vs staged); buyer-universe mapping and scoring grid.
+4. **Weeks 8–10:** Finalise the report and data room; draft the separation plan and people-transfer plan; set the bid instructions so every bid can be converted to value to the seller.
 
 ---
 
@@ -654,3 +767,4 @@ Historical data from advisor engagements:
 8. **Vendor DD extends beyond deal close:** Ongoing contract management and monitoring reduce operational surprises.
 9. **Parallel workstreams compress timeline:** 10–12 week due diligence cycles standard for $100M–$500M deals.
 10. **Integration planning starts in due diligence:** Best acquirers use DD to inform post-close 100-day plans and synergy realization.
+11. **Sell-side DD is structuring work, not just disclosure:** Own the standalone cost, TSA menu and stranded-cost numbers before bidders do, and compare bids on value to the seller × certainty, never on headline cash (§8.5).

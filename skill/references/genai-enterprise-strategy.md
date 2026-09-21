@@ -118,6 +118,8 @@ The cost baseline for GenAI applications in production (April 2026):
 
 For a typical enterprise application (100 transactions per day, medium complexity), annual cost of ownership: $50K (model API) + $100K (infrastructure) + $150K (engineering time) = $300K. This needs to generate $600K+ in value annually to clear a 2x ROI threshold. If your application generates $400K in value, the investment doesn't make sense regardless of how compelling the pilot looked.
 
+**Template: customer-service chatbot net savings.** Monthly net saving = queries × handled share × [containment × (human cost − bot cost) − (1 − containment) × bot cost] − fixed platform cost. "Handled" means the bot touched the query; "contained" means the customer did not reach a human within 7 days. With 1M queries a month, 40% handled, 75% containment, ₹50 per human-served query, ₹5 per bot interaction and ₹30 lakh a month of fixed cost [ILLUSTRATIVE], the gross pitch of ₹2 crore a month becomes a net ₹1.0 crore, and break-even needs only about 9% of queries handled. Model the adoption ramp (10% → 25% → 40% handled over the first year): year-1 net is about ₹7.6 crore before the build cost, and it becomes cash only when agent seats are actually released. Guardrail metrics: repeat-contact rate within 7 days, audited wrong-answer rate on regulated intents, complaints per 10,000 chats, bot vs human CSAT, and zero authentication failures. North-star: cost per *resolved* query at equal or better CSAT. Worked drill: `references/case-bank-unconventional.md` (U6).
+
 ## Implementation Roadmap and Organizational Structure
 
 The winning implementation roadmap for enterprise GenAI has three phases with explicit exit criteria and governance gates.

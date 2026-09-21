@@ -178,6 +178,14 @@ Common IT integration failure modes: (1) Data quality issues: customer master da
 
 IT integration budgets are typically large. A typical IT integration budget for a $3B transaction might be $50-150M, depending on system complexity. This budget covers software licenses, implementation consulting, infrastructure upgrades, training, and contingency. The budget is often underestimated because organizations assume they can run two systems in parallel for cheaper than they can. In reality, parallel operation of core systems is expensive because you need to maintain, staff, and troubleshoot both.
 
+**Single-plant acquisition: IT/OT checklist.** Buying one plant out of another company is a carve-out, not a merger of two IT estates. The site rarely has standalone IT, and the plant-floor OT (operational technology) carries the risk. Sequence the work as stabilise → secure → integrate:
+- **Pre-close:** inventory every office-IT system (ERP, email, identity, network, finance) and OT system (PLCs, SCADA, MES, historians, lab and quality systems, lot traceability) with a retain / migrate / retire decision; scope the seller's TSA services, price and exit criteria; run a cyber assessment (patch levels, remote-access vendors, flat networks); confirm whether the site has any IT staff of its own.
+- **Day 1:** the line runs, people can log in, orders and invoices flow, and recall and traceability work.
+- **Day 100:** segment the plant network from corporate IT *before* connecting them; single sign-on; plan the ERP/MES cutover.
+- **Year 1:** cut over in a planned shutdown with a parallel run; exit the TSA; retire duplicate applications; keep the site's OT engineers.
+
+Downtime dominates the value at stake [ILLUSTRATIVE]: a ₹600 crore plant with a 30% contribution margin running 8,000 hours a year loses ₹2.25 lakh of contribution per hour, so a botched 72-hour cutover costs ₹1.62 crore, more than two years of a ₹72 lakh a year IT-headcount saving. Worked drill: `references/case-bank-unconventional.md` (U4).
+
 ---
 
 ## Clean Room Protocols: Legal Guardrails

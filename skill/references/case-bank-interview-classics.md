@@ -36,6 +36,7 @@ A working menu of interview-classic prompts, organised by case type with an indu
 | Bank Co. — Midwest retail-bank profit decline | FS | Interviewer-led | ●● |
 | Sueño Mattress — mattress-maker margin loss | Consumer products | KPMG-style | ● |
 | Race to the Bottom — airline profitability under fare war | Airlines | Candidate-led | ●● |
+| Provision Squeeze — Indian private bank: fees down, provisions up | FS / Banking | Interviewer-led | ●●● |
 
 ### Growth / Revenue
 | Case | Industry | Style | Diff |
@@ -56,6 +57,8 @@ A working menu of interview-classic prompts, organised by case type with an indu
 | Lola Lo's Zoo — invest in a new attraction? | Entertainment | — | ●●● |
 | Apache Helicopter — make-or-invest in a defence line? | Industrial / Defence | — | ●●● |
 | Smart Radiators — acquire a smart-home maker? | Consumer electronics | Candidate-led | ●● |
+| Stuck-in-the-Middle Airline — PE buy-and-fix of a mid-cost Indian carrier | Airlines | Interviewer-led | ●●● |
+| Premium Brand Sunset — full-service carrier absorbs a premium JV airline | Airlines | Interviewer-led | ●● |
 
 ### Pricing / Revenue Management
 | Case | Industry | Style | Diff |
@@ -77,7 +80,7 @@ A working menu of interview-classic prompts, organised by case type with an indu
 
 ## Worked Exemplars
 
-Fourteen fully cracked cases spanning every type above. Format: **Prompt** (what the candidate hears) → **Clarify** (the 2–3 questions that actually matter) → **Structure** (the tailored tree) → **Spine** (the quantified/logical crack) → **Aha** (the insight that closes it) → **Trap** (what sinks most candidates). Numbers are **[ILLUSTRATIVE]**.
+Seventeen fully cracked cases spanning every type above. Format: **Prompt** (what the candidate hears) → **Clarify** (the 2–3 questions that actually matter) → **Structure** (the tailored tree) → **Spine** (the quantified/logical crack) → **Aha** (the insight that closes it) → **Trap** (what sinks most candidates). Numbers are **[ILLUSTRATIVE]**.
 
 ### 1. Army Hotel — Market Entry (Hospitality, McKinsey-style, ●●)
 **Prompt.** A private-equity firm can win a concession to build and run hotels on military bases, serving families visiting enlisted personnel. Should they take it?
@@ -190,6 +193,79 @@ Fourteen fully cracked cases spanning every type above. Format: **Prompt** (what
 **Spine.** Bottom-up annual visitors = addressable population (within X-hour drive) × % who visit/year × our share + inbound tourists. Revenue/visitor = ticket + ancillary. Test payback of the build capex against attendance; novelty concepts risk a **decay curve** after year one.
 **Aha.** Size **bottom-up from the catchment**, and for a novelty attraction, explicitly model **attendance decay** — year-one crowds don't annuitise.
 **Trap.** Top-down "1% of the country" sizing, and assuming flat attendance for a novelty product.
+
+### 15. Stuck-in-the-Middle Airline — PE Acquisition & Turnaround (Airlines, interviewer-led, ●●●)
+**Prompt.** A private-equity fund wants to buy a mid-cost Indian airline, positioned between the dominant low-cost carrier and the full-service incumbents. The plan is to fix its profitability and exit in 5–7 years. Should the fund do it, and at what price?
+**Clarify.** Is the fund foreign or domestic, and does it want control? How much primary capital will the turnaround need? What is the return bar (20%+ IRR is typical for a turnaround)? Is the fleet owned or leased, and how old is it?
+**Structure.** Four gates in sequence. (1) **Can we own it?** Foreign investment in a domestic airline above 49% needs government approval, and substantial ownership and effective control must stay with Indian nationals (verify current rules). A foreign fund therefore needs a domestic partner or a minority structure. (2) **Can a middle carrier earn its cost of capital?** Use `(RASK − CASK) × ASK`, with CASK benchmarked against the low-cost leader and RASK against the full-service carriers. (3) **What is it worth?** Use lease-adjusted EV/EBITDAR, a DCF with an India risk premium, and precedent deals. (4) **Returns and risk.** Trace entry price → EBITDAR fix → exit multiple → IRR, then stress the result for fuel and fare wars. The exit is an IPO or a strategic sale.
+**Spine.** [ILLUSTRATIVE] 30 bn ASKs a year:
+```
+Today      RASK ₹4.40 − CASK ₹4.60 (fuel 1.80 · rent + D&A 0.80 · other 2.00) = −₹0.20 per ASK
+           Revenue ₹13,200 cr · EBIT −₹600 cr · EBITDAR = −600 + 2,400 = ₹1,800 cr
+Fix (Y5)   RASK +₹0.20 (ancillaries, revenue management)             +₹600 cr
+           other CASK −₹0.15 (utilisation, fleet simplification)      +₹450 cr
+           EBITDAR ₹2,850 cr · EBIT +₹450 cr (capacity held flat)
+Price      7.0× EBITDAR = EV ₹12,600 cr − lease liabilities ₹7,500 − net debt ₹1,200
+           = equity ₹3,900 cr, + ₹1,000 cr primary to fund the loss years = ₹4,900 cr cheque
+Exit (Y5)  6.5× × 2,850 = EV ₹18,525 cr − 7,500 − 1,200 (held flat) = equity ₹9,825 cr
+           → 2.0× MOIC ≈ 15% IRR: below the hurdle
+Walk-away  20% IRR needs 1.2^5 = 2.49× → cheque ≤ ₹3,950 cr → EV ≤ ₹11,650 cr ≈ 6.5× EBITDAR
+Fuel       +10% jet fuel = +₹540 cr of cost ≈ 30% of today's EBITDAR
+```
+Half a turn of EBITDAR (₹900 cr) is nearly a quarter of the ₹3,900 cr equity price. Once leases count as debt, the equity is a thin slice, so the **entry price** moves the IRR more than any operating lever does.
+**Error fixed:** valuing the carrier on P/E, or on EV/EBITDA with leases ignored → use lease-adjusted EV/EBITDAR (a loss-making airline has no meaningful P/E, and applying 7.0× while forgetting ₹7,500 cr of lease liabilities puts the equity at ₹11,400 cr, nearly 3× the true ₹3,900 cr).
+**Error fixed:** "renegotiate fuel contracts" as a headline cost lever → treat fuel as a risk to hedge where possible, not a lever (jet fuel is priced by state oil-marketing companies and carries heavy state taxes). Put the fix in utilisation, fleet simplification and ancillaries.
+**Aha.** The investment case must explain how a stuck-in-the-middle carrier can match the low-cost leader's costs or the full-service carriers' yields; mid-market Indian airlines have repeatedly failed. The deal is won on **entry price and a credible CASK fix**, not on traffic growth.
+**Trap.** Letting India's passenger growth stand in for the investment case, and calling it a "strong opportunity" without a single returns calculation.
+
+### 16. Provision Squeeze — Profitability (Indian private bank, interviewer-led, ●●●)
+**Prompt.** A private bank with pan-India operations, strongest in the south and west, has seen profit fall for 3–4 quarters, more than its peers. Find the root causes and fix them.
+**Clarify.** Is the problem bank-wide or in particular branches? (Bank-wide.) Are peers down too? (Yes, by about 15% [ILLUSTRATIVE], less than the client.) Which lines moved? Interest income is on plan, so ask about interest expense, fees, opex and provisions.
+**Structure.** Use the bank's own P&L, not a generic revenue-minus-cost tree:
+```
+PBT = NII (interest income − interest expense)            ← avg earning assets × NIM
+    + other income: fees & commissions (transaction, advisory, third-party distribution), treasury
+    − opex                                                 ← cost-to-income ratio
+    − provisions: regulatory / specific (NPAs, standard-asset minimums)
+                  + management overlay (expected defaults) ← credit cost
+```
+Then split every line that moved into **client-specific** and **industry-wide** parts. That split explains why the client fell further than peers.
+**Spine.** [ILLUSTRATIVE] ₹ crore, last year → this year:
+```
+NII            9,000 → 9,450    +450   interest income on plan, interest expense in line; NIM held
+Other income   4,000 → 3,400    −600   distribution commissions 1,500 → 900; other fees flat
+Opex           6,000 → 5,850    +150
+Provisions     2,000 → 3,400  −1,400   regulatory 1,800 → 2,000; management overlay 200 → 1,400
+PBT            5,000 → 3,600  −1,400   (−28%)
+```
+Provisions alone equal the whole net fall, but peers raised overlays too, because the industry expected defaults to rise. Without the fee leak the client's PBT would be ₹4,200 cr, down 16% and in line with peers. The **extra 12 points are the ₹600 cr fee drop**. That drop is even across products and coincides with the cross-sell force moving from 100% in-house to 50% outsourced. Check that the timing matches, then walk the sales funnel for the outsourced half: leads per branch, conversion, ticket size and persistency. Distribution income is mostly trail commission on AUM, so first rule out a market-wide fall in AUM or premiums and a regulatory cut in commission rates. Either would also have hit peers.
+**Error fixed:** listing interest expense as a generic cost next to opex → net it against interest income first to get NII (deposit costs move with the rate cycle, and a separate interest-expense line hides margin compression).
+**Error fixed:** "provisions rose, so the regulator must have raised the requirement" → split provisions into regulatory and management overlay (here ₹1,200 cr of the ₹1,400 cr rise is a discretionary overlay; the regulatory part rose only ₹200 cr).
+**Aha.** When interest income is on plan, the profit fall lies in **fees** (distribution execution) and **provisions** (management's call on expected defaults), and only the fee leak is client-specific. Fix the cross-sell engine: train and certify the outsourced agents and set sales protocols. Watch mis-selling complaints and persistency, because outsourced distribution raises conduct risk. Track credit cost, slippage and provision coverage against peers.
+**Trap.** "Fixing" profit by provisioning less. An overlay should be released only when the expected losses fail to appear; cutting it to hit a number is earnings management. Diversifying the loan book is a long-term risk fix, not a quick profit lever. The move to expected-credit-loss provisioning will change the split between regulatory provisions and overlays, so verify its timing.
+
+### 17. Premium Brand Sunset — M&A Synergies & Integration (Airlines, interviewer-led, ●●)
+**Prompt.** A large full-service carrier is absorbing a premium full-service airline that it runs as a joint venture with a foreign partner. The merged airline will fly only under the acquirer's brand. How big are the synergies, and how can the integration avoid losing the premium customers?
+**Clarify.** How big is each airline? [ILLUSTRATIVE] The acquirer has ~$5B revenue, ~220 aircraft and ~6,000 weekly flights, with a strong international network but inconsistent service. The target has ~$1B revenue, ~50 aircraft and ~2,300 weekly flights, and is known for service. Where do they overlap? (Domestic routes overlap; the target holds the premium customers and the acquirer the international reach.) One brand or two? (One.) What does the JV partner receive? (A minority stake in the merged airline, so it shares the synergy value.)
+**Structure.** `Net synergy = cost synergies + revenue synergies × flow-through − dis-synergies (attrition) − one-off integration cost, phased`. Then build the integration plan (backend first, customer-facing later) and set the risks and KPIs.
+**Spine.** [ILLUSTRATIVE]
+```
+Revenue synergy  5% × $6.0B combined revenue                              = $300M top line
+                 × 40% flow-through (extra passengers on flights that fly
+                   anyway, less distribution, catering, airport charges)  = $120M profit
+Cost synergy     3% × cost base; thin-margin carriers: costs ≈ revenue ≈ $6.0B = $180M
+Dis-synergy      premium attrition: 5% of the target's $1B at 60% flow-through = −$30M
+Run-rate         120 + 180 − 30                                           ≈ $270M a year
+One-off cost     ~1.5× run-rate                                           ≈ $405M
+Year 1           50% of cost + 20% of revenue synergy − full attrition
+                 = 90 + 24 − 30 = $84M, less $405M one-off                ≈ −$320M
+Utilisation      6,000 ÷ 220 ≈ 27 vs 2,300 ÷ 50 = 46 departures per aircraft per week
+```
+The utilisation gap mostly reflects a long-haul widebody fleet against a domestic narrowbody one. Compare **block hours per aircraft by fleet type** before claiming a utilisation synergy.
+**Error fixed:** adding the revenue uplift to the cost savings ($300M + $135M = "$435M of value") → convert revenue at its flow-through first (revenue is top line, savings are bottom line; net of attrition the total is ≈ $270M here).
+**Error fixed:** assuming costs are 75% of revenue ($4.5B base, $135M savings) → that implies a 25% operating margin, which no full-service carrier earns; on a near-break-even cost base of ~$6.0B the same 3% is ~$180M. State which base you used; quoting $135M in the maths and $180M in the synthesis shows the number was never anchored.
+**Aha.** Retiring the premium brand turns the target's best customers into the **largest dis-synergy**. Integrate the backend first (network, fleet, scheduling, then the loyalty-programme merger). Keep a distinct premium product and service standard on key routes, and subtract expected attrition from the revenue synergy. Track premium-cabin load factor, yield and retention of top-tier loyalty members, not just overall load factor.
+**Trap.** Presenting one "$435M" headline that adds top line to bottom line and ignores one-off costs, attrition and phasing. In fact the first-year P&L impact is negative.
 
 ---
 

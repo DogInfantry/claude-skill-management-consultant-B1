@@ -1,6 +1,6 @@
 # Case Facilitation & Scoring — Run a Case, Grade It, Coach It
 
-How to **run** a case as the interviewer, **score** it on a consistent rubric, and **coach** the gap — plus a deliberate-practice loop and case-log template for getting better over repetitions. This is the operational layer that turns the case banks (`case-bank-interview-classics.md`, `case-bank-worked.md`, `practice-cases-quantified.md`) into live, gradeable practice. Distilled from public MBA casebook "how to give a case" and evaluation sections into native form.
+How to **run** a case as the interviewer, **score** it on a consistent rubric, and **coach** the gap — plus a deliberate-practice loop and case-log template for getting better over repetitions. This is the operational layer that turns the case banks (`case-bank-interview-classics.md`, `case-bank-worked.md`, `practice-cases-quantified.md`) into live, gradeable practice. Pair it with `case-practice-index.md` to choose what to run next (every case and drill by sector, type and difficulty) and with `case-type-cheat-sheets.md` for the card the candidate should have been holding.
 
 Use it when: acting as an interviewer/coach, scoring a candidate (or yourself), running a mock, or building a structured practice plan. When the user asks Claude to "run me through a case" or "score my structure," this is the operating manual.
 
@@ -126,3 +126,38 @@ Keep a running log — it turns scattered practice into a visible skill curve an
 | — | Army Hotel / market entry / hospitality | candidate-led | — | 3 | 3 | 2 | 3 | 3 | Synthesis → answer-first reps |
 
 **Review cadence:** every 5–8 cases, scan the log for the lowest recurring dimension and the least-practised case type, and aim the next block there. The goal isn't a perfect score every time — it's no 1s, rising quant/structure/synthesis, and full type coverage before the real thing.
+
+---
+
+## Case debrief card
+
+The log row scores a case; the debrief card captures *what the case taught*. Fill one page within ten minutes of finishing, while the tree and the numbers are still fresh. Re-reading ten cards before an interview day revises more than re-reading ten full cases, because each card holds the structure, the number that cracked the case and the lesson.
+
+```
+CASE DEBRIEF CARD
+Problem area   type + one-line question (e.g. profitability: "why is margin falling?")
+Timeline       since when; sudden or gradual; the deadline for the fix
+Case facts     the 3–5 facts that mattered (with numbers), not everything you were told
+Approach tree  the L1/L2 structure you used; mark the branch where the answer sat
+Conclusion     answer first, in one sentence, with the quantified driver
+Recs: short    actions for the next 0–6 months, each with a sized impact
+Recs: long     structural moves for 1–3 years
+What went well one or two behaviours to repeat (tie them to rubric dimensions)
+Could be better one or two specific fixes, each turned into a drill for the next rep
+```
+
+**Filled example** [ILLUSTRATIVE]
+
+| Field | Entry |
+|---|---|
+| **Problem area** | Profitability: a mid-sized packaged-snacks maker's EBITDA margin fell from 14% to 9% over two years on revenue of about Rs 800 crore. |
+| **Timeline** | Gradual over two years. The board wants a plan in one quarter. |
+| **Case facts** | Company-specific: peers held margin. Volume flat. Modern-trade share of sales doubled, carrying deeper promotional discounts. Edible-oil input costs up about 20%, not passed through. |
+| **Approach tree** | Profit → revenue (price, volume, mix) vs cost (fixed, variable, one-off). The answer sat in *price → internal → discount policy* and *variable cost → raw material*. |
+| **Conclusion** | Margin fell 5pp: **3pp** from modern-trade discounting and **2pp** from unrecovered input costs (3 + 2 = 5). |
+| **Recs: short** | Cap modern-trade promotional depth and move to a scheme that pays on sell-out. Winning back 2pp of the 3pp is worth about Rs 16 crore a year (2% × 800). |
+| **Recs: long** | Index-linked supply contracts for the key input; a price-pack architecture that passes cost through by adjusting pack size. |
+| **What went well** | Asked "industry-wide or just us?" first, which removed the external branch early (structure). Stated the answer before the supporting detail (synthesis). |
+| **Could be better** | Took four minutes on the margin bridge (quant): drill ten margin bridges. Missed the one-off check until prompted: add "normalise one-offs" to the opening checklist. |
+
+**Coaching use:** the "Could be better" row feeds step 4 of the deliberate-practice loop, and the "Approach tree" row is the one to rebuild from memory before the next case of the same type. `references/case-type-cheat-sheets.md` has the starting structures per case type.
