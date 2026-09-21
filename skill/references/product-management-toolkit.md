@@ -55,6 +55,84 @@ Distilled, generic structure of non-tech / PM / analyst hiring rounds (company-a
 
 ---
 
+## Part D — Extensions: case types, metric hierarchy, lifecycle metrics, roadmaps
+
+**The PM case universe (know which one you're in).**
+
+| Type | Typical prompt | Worked examples |
+|---|---|---|
+| Design | "Design X for Y" | `product-sense-casebank.md` |
+| Favourite product | "What's your favourite product and why?" | `product-sense-casebank.md` |
+| Go-to-market | "How would you launch X to Y?" | `product-sense-casebank.md` |
+| Market entry | "Should X enter Y?" | `product-sense-casebank.md` |
+| Pricing | "How would you price X?" | `pricing-strategy.md` |
+| Metric definition | "How would you measure X?" | `product-sense-casebank.md` |
+| Metric drop / RCA | "DAU fell X% in 2 weeks" | `product-rca-casebank.md` |
+| Technical | "How does the internet work?" / "Design a photo-sharing app" | — |
+| Market trend | "What's the next big bet?" | — |
+| Guesstimate | "Estimate the market for X" | `guesstimate-drill-bank.md` |
+
+**Good metrics are the 3 A's:** *actionable* (they change a decision), *accessible* (the team can see and understand them) and *auditable* (the definition and data can be checked).
+
+**The metric hierarchy.**
+- **Focus metric (North Star).** One number tied to the business goal, e.g. weekly active users who complete the core action.
+- **Level-1 drivers** move it directly, e.g. 7-day retention.
+- **Level-2 diagnostics** explain the L1 drivers, e.g. session length or onboarding completion.
+- Diagnose top-down; improve bottom-up.
+
+**Metric families.**
+- **Reach:** users touched in the period.
+- **Activation:** time to first value.
+- **Active usage:** DAU/WAU.
+- **Engagement:** depth per session.
+- **Retention:** D30 or cohort curves.
+
+**Metrics by lifecycle stage.** The stage decides which number matters.
+
+| Stage | Strategic intent | Metrics that matter |
+|---|---|---|
+| Introduction | Prove value | Activation rate, time to first value, early retention (D7), qualitative feedback |
+| Growth | Acquire efficiently | Acquisition by channel, CAC, referral rate, retention cohorts, LTV/CAC |
+| Maturity | Monetise and defend share | ARPU, margin, churn, NPS, share vs. rivals, price realisation |
+| Decline | Harvest or reinvent | Contribution margin, cost-to-serve, migration to the successor product |
+
+**Kano, complete.** The model has five categories:
+- Must-be (basic)
+- Performance
+- Excitement (delighter)
+- Indifferent: users don't care, so cut it.
+- Reverse: some users actively dislike it, so make it optional.
+
+Delighters **decay into must-haves** over time, so re-survey periodically.
+
+**MoSCoW trade-offs.**
+- *Strengths:* simple, controls scope creep, aligns stakeholders.
+- *Weaknesses:* category boundaries blur, "Must" inflates under pressure, and it is rigid for continuous delivery. Re-prioritise every cycle or pair it with RICE.
+
+**Scrum in one line ("3-3-5-5").**
+- 3 roles: product owner, scrum master, developers.
+- 3 artifacts: product backlog, sprint backlog, increment.
+- 5 events: sprint, planning, daily scrum, review, retrospective.
+- 5 values: commitment, courage, focus, openness, respect.
+
+See `product-thinking-digital.md` for delivery at programme scale.
+
+**Glossary deltas.**
+- **MVP:** the smallest release that maximises *validated learning* per unit of effort.
+- **A/B test:** a controlled comparison of variants on real behaviour. For the statistics, see `stats-and-capital-budgeting-primer.md`.
+- **Go-to-market is product-led or sales-led.**
+  - *Product-led:* the product itself acquires, converts and expands users (freemium, self-serve).
+  - *Sales-led:* marketing generates leads and sales converts them (typical of enterprise and B2B).
+
+**Roadmapping in three components.**
+1. **Research:** user problems, market and competition, available funding and capacity.
+2. **Strategic planning:** a priority hierarchy (themes → epics → features), the MVP cut, a resourced development plan.
+3. **Organisational coordination:** align sales, support, services and marketing on the go-to-market.
+
+A roadmap communicates **vision and sequence**, not a delivery-date contract. Keep near-term items specific and far-term items thematic.
+
+---
+
 ## Usage rules for Claude
 1. When running a teardown, **force prioritisation** (Steps 5–6) — penalise unranked problem dumps.
 2. Match the framework to the prompt type; don't apply more than one scaffold at once.

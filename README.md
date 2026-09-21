@@ -11,7 +11,7 @@
 
 ---
 
-**TL;DR:** Install this skill and your AI assistant — Claude, Codex, Gemini, Copilot, Ollama, or any other LLM — works like an MBB-grade management consultant, coaching you through case interviews, applying strategy frameworks, sizing markets, and turning messy business problems into board-ready answers. 131 reference modules distilled from public consulting knowledge. Free and open-source; contributions welcome.
+**TL;DR:** Install this skill and your AI assistant — Claude, Codex, Gemini, Copilot, Ollama, or any other LLM — works like an MBB-grade management consultant, coaching you through case interviews, applying strategy frameworks, sizing markets, and turning messy business problems into board-ready answers. 135 reference modules distilled from public consulting knowledge. Free and open-source; contributions welcome.
 
 ---
 
@@ -30,13 +30,13 @@ Works in any other AI agent too — **Codex, GitHub Copilot, Gemini, Cursor, and
 
 ## What Is This?
 
-The **MBB Management Consultant AI Skill** is a structured knowledge system that installs into your AI assistant — Claude, Codex, Gemini, GitHub Copilot, Ollama, and more — giving it the cognitive architecture of a senior strategy consultant. It is not a simple prompt — it is 131 reference modules, organized around 5 knowledge pillars, covering every dimension of consulting work from MECE issue trees and Pyramid Principle communication to M&A due diligence, GenAI enterprise strategy, and case interview coaching.
+The **MBB Management Consultant AI Skill** is a structured knowledge system that installs into your AI assistant — Claude, Codex, Gemini, GitHub Copilot, Ollama, and more — giving it the cognitive architecture of a senior strategy consultant. It is not a simple prompt — it is 135 reference modules, organized around 5 knowledge pillars, covering every dimension of consulting work from MECE issue trees and Pyramid Principle communication to M&A due diligence, GenAI enterprise strategy, and case interview coaching.
 
 Unlike generic AI prompts, this skill:
 - Applies **hypothesis-driven thinking** — forms a point of view before gathering data
 - Structures every problem **MECE** (Mutually Exclusive, Collectively Exhaustive)
 - Leads every output with the **governing thought** (Pyramid Principle)
-- Draws from **10+ industry reference files** and 131 deep-knowledge modules
+- Draws from **10+ industry reference files** and 135 deep-knowledge modules
 - Follows the **MBB operating model** — Frame → Structure → Analyse → Synthesise → Deliver
 
 **Compatible with:** Claude (Code, Free, Pro, Teams), OpenAI Codex, Google Gemini, GitHub Copilot, Cursor, Ollama (local models), and any other LLM you can paste context into.
@@ -53,24 +53,24 @@ flowchart LR
     D --> E["4. Synthesise"]
     E --> F["5. Deliver"]
 
-    B -.->|reads| G[("131 Reference Files")]
+    B -.->|reads| G[("135 Reference Files")]
     C -.-> G
     D -.-> G
     E -.-> G
     F -.->|"Board-ready output"| H["✅ Client Value"]
 ```
 
-> **Frame → Structure → Analyse → Synthesise → Deliver.** Every problem flows through the same consulting operating system, drawing from 5 knowledge pillars and 131 reference modules.
+> **Frame → Structure → Analyse → Synthesise → Deliver.** Every problem flows through the same consulting operating system, drawing from 5 knowledge pillars and 135 reference modules.
 
 ---
 
 ## Knowledge Architecture
 
-The 131 reference files are organized across five knowledge pillars:
+The 135 reference files are organized across five knowledge pillars:
 
 ```mermaid
 mindmap
-  root((131 Reference Modules))
+  root((135 Reference Modules))
     Problem-Solving
       MECE Issue Trees
       Hypothesis Trees
@@ -121,7 +121,7 @@ mindmap
 
 This repository contains a consulting knowledge base for AI assistants — [Claude](https://claude.ai), OpenAI Codex, Google Gemini, GitHub Copilot, Ollama, and any other LLM. When installed, it gives the assistant a structured senior-consultant workflow, built around MBB-style problem-solving and communication patterns built by distilling publicly available MBB frameworks, case prep resources, and consulting methodology into a single knowledge base.
 
-This is not a simple prompt. It is a structured knowledge system with 131 reference files covering every dimension of consulting work, from MECE issue trees and Pyramid Principle communication to due diligence, post-merger integration, GenAI enterprise strategy, and case interview coaching.
+This is not a simple prompt. It is a structured knowledge system with 135 reference files covering every dimension of consulting work, from MECE issue trees and Pyramid Principle communication to due diligence, post-merger integration, GenAI enterprise strategy, and case interview coaching.
 
 **It is completely free.**
 
@@ -232,7 +232,7 @@ management-consultant-claude-skill/
 │
 └── skill/
     ├── SKILL.md                 <- The main skill definition (install this)
-    └── references/              <- 131 deep-knowledge reference files
+    └── references/              <- 135 deep-knowledge reference files
         ├── frameworks.md
         ├── case-interview.md
         ├── guesstimation.md
@@ -244,7 +244,7 @@ management-consultant-claude-skill/
         ├── genai-enterprise-strategy.md
         ├── post-merger-integration.md
         ├── corporate-restructuring-financial-distress.md
-        └── ... 120+ more
+        └── ... 130+ more
 ```
 
 ---
@@ -441,7 +441,7 @@ No on both. It's model-agnostic — Claude, Codex, Gemini, Copilot, Ollama, or a
 No. This is an independent, open-source project. "McKinsey-style" and "MBB" are used descriptively — referring to a publicly understood standard of consulting practice. There is no affiliation with or endorsement from any firm.
 
 **Q: What makes this different from just prompting an LLM to "think like a consultant"?**
-A prompt gives the model a behavioral instruction. This skill gives it a 131-file knowledge system — including specific frameworks, case interview formats, industry metrics, and analytical tools — that it actively references during problem-solving. The depth and consistency of output is qualitatively different.
+A prompt gives the model a behavioral instruction. This skill gives it a 135-file knowledge system — including specific frameworks, case interview formats, industry metrics, and analytical tools — that it actively references during problem-solving. The depth and consistency of output is qualitatively different.
 
 **Q: Can I use this for real client work?**
 Yes. The skill is designed for real problem-solving, not just practice. Many frameworks (issue trees, profitability analysis, market sizing, org design) apply directly to live business problems. That said, always exercise professional judgment — the AI's output is a thinking tool, not professional advice.
