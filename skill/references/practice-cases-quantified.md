@@ -232,8 +232,192 @@ Expand **only if** demand growth is real and elastic to the added supply **and**
 
 ---
 
+## Case 7 — Packaged Snacks: Sizing a New-State Expansion
+**Archetype:** Market sizing to set production capacity → sizing that must carry a *cost-to-serve* rider, not just a demand number.
+
+**Problem statement.** A B2C potato-chips maker already supplies most of a large country and wants to enter one more state. It needs to estimate the addressable market in that state to set production levels for the new plant/line. Premium vs. economy positioning, shelf life, and retail mix (supermarkets vs. small kirana outlets) are open.
+
+### Opening structure (issue tree)
+```
+New-state production level
+├── Demand size (units/yr)
+│   ├── Population of state → snacking-age % → chip-eating %
+│   ├── Consumption frequency (packs/person/yr) by segment
+│   └── Our realistic share (competition, distribution ramp)  ← not 100%
+├── Service level required (the rider most candidates skip)
+│   ├── Shelf life → replenishment cadence → safety stock
+│   ├── Retail mix: many small outlets = more drops, smaller lots
+│   └── Fill-rate target (stockout tolerance) → capacity buffer
+└── Supply decision
+    └── Production = f(demand × target service level), not demand alone
+```
+
+### The quantified spine
+Size demand top-down, then **gross it up for service level** — the insight is that a low-shelf-life snack sold through thousands of tiny outlets needs capacity *above* mean demand to hit fill rates.
+
+```
+State population              = 30M            [ILLUSTRATIVE]
+Snacking-age reachable (60%)  = 18M
+Chip-eating penetration (40%) = 7.2M consumers
+Frequency                     = 24 packs/person/yr  (2/month)
+Latent demand                 = 7.2M × 24     = 173M packs/yr
+Realistic share yr 1 (25%)    = 43M packs/yr   ← distribution ramps, incumbents hold shelf
+Service-level gross-up (+15%) = ~50M packs/yr of capacity
+  (short shelf life + fragmented kirana channel → higher safety stock & drop frequency)
+```
+
+**Diagnosis:** the "answer" is not the market number — it is **production ≈ 50M packs/yr of installed capacity**, because a perishable, high-frequency, small-lot product forces you to design for service level, not average demand. Candidates who stop at 173M (latent) or even 43M (share) miss the operational point of the question.
+
+### Recommendation
+Set capacity to serve realistic year-1 share **plus** a service-level buffer sized to shelf life and channel fragmentation; phase capacity as distribution deepens rather than building for latent demand on day one.
+
+### Coaching notes
+- **What good looks like:** anchors share below 100%, then explicitly converts demand → capacity via service level; ties the buffer to shelf life and retail structure.
+- **Red flags:** presenting latent market as the production number; ignoring stockouts, shelf life, and drop-size economics; assuming instant full distribution.
+
+---
+
+## Case 8 — Legacy Foam-Mattress Brand: EBITDA Turnaround After a National Tax Reform
+**Archetype:** Margin improvement on a mature brand **+** a structural shift (formalisation of an informal sector) that is both threat and lever.
+
+**Problem statement.** A decades-old foam-mattress and sleep-products brand — a household name competing against a large *unorganised* (informal, often untaxed) segment — has seen EBITDA stall. A national goods-and-services tax has just been rolled out, which advantages organised players and squeezes informal ones. Recommend how to lift EBITDA, and how digital tools could pull the unorganised segment "up to par" (a channel-conversion opportunity for the brand).
+
+### Opening structure (issue tree)
+```
+EBITDA improvement
+├── Revenue up
+│   ├── Price/mix: premiumise, bundle sleep ecosystem (pillows, frames)
+│   ├── Convert informal demand now disadvantaged by the tax → organised (our) supply
+│   └── Channel: e-commerce + own-brand stores vs. dealer margin leakage
+└── Cost down
+    ├── Input (foam/chemical) procurement & should-cost
+    ├── Manufacturing footprint & freight-to-weight (bulky product)
+    └── Working capital (dealer credit, inventory of a bulky SKU)
+
+Formalisation lever (the tax-reform "aha")
+└── Digitise the informal tier: GST-compliant billing, credit access,
+    supply-chain onboarding → migrate their demand into the taxed, branded channel
+```
+
+### The quantified spine
+Frame the tax reform as a **demand-migration** opportunity and size it against the margin bridge:
+
+```
+Assume category demand in region      = 10M mattresses/yr   [ILLUSTRATIVE]
+Unorganised share pre-reform (60%)    = 6.0M units
+Post-reform cost disadvantage to informal players narrows their price edge
+→ Capturable migration (say 10 pts)   = 0.6M units up for grabs
+Our realistic capture (1/3)           = 0.2M incremental units
+Contribution/unit                     = Rs 1,500
+Incremental contribution              = 0.2M × 1,500 = Rs 300M ≈ EBITDA uplift lever
+Compare vs. a pure cost programme (e.g., 200 bps on Rs X revenue) to prioritise.
+```
+
+**Diagnosis:** the tax reform is not background colour — it is the **highest-leverage growth vector**, because it structurally erodes the informal segment's price advantage. Digitisation (compliant billing, financing, supplier onboarding) is the mechanism that converts that macro shift into captured, branded, taxed revenue. Pair it with a disciplined cost bridge so EBITDA moves from both sides.
+
+### Recommendation
+Run two workstreams in parallel: (1) a **demand-migration play** — use digital tooling to formalise and absorb informal-segment demand the tax now disadvantages; (2) a **margin bridge** — premiumise mix and attack input/freight cost on a bulky, freight-sensitive SKU. Sequence quick pricing/mix wins first; stage the formalisation play as distribution and financing partnerships mature.
+
+### Coaching notes
+- **What good looks like:** treats the regulatory shift as a lever, not context; quantifies the migration opportunity; keeps a two-sided (revenue + cost) EBITDA bridge; remembers freight/working-capital drag of a bulky product.
+- **Red flags:** generic "cut costs / do more marketing"; ignoring the tax reform's competitive effect; hand-waving "go digital" without a demand-conversion mechanism; unable to follow the finance trail (e.g., a DuPont/EBITDA-bridge follow-up).
+
+---
+
+## Case 9 — Boutique Gym: Enter One City, Then Scale Nationally
+**Archetype:** Market entry gated on an *underserved segment*, followed by a scale-up / decentralisation design question.
+
+**Problem statement.** A client wants to open a gym in a large metro, then scale nationally if it works. The target locality already has three gyms across low and high price points; the local gender split is ~70:30 female, and none of the incumbents cater to women. Evaluate the entry and recommend how to scale.
+
+### Opening structure (issue tree)
+```
+Enter? (this locality)
+├── Demand: catchment × fitness-intent % × willingness-to-pay
+├── Gap: incumbents ignore the 70% female majority  ← the wedge
+└── Unit economics: memberships × price − (rent + trainers + equipment)
+
+Scale nationally?
+├── What to standardise vs. localise (the female-focused concept = the IP)
+├── Decentralisation model: company-owned vs. franchise vs. hybrid
+│   └── trade-off: pace of scale-up  ×  standardised experience  ×  capital
+└── Replicability: is the "underserved segment" gap present in target cities?
+```
+
+### The quantified spine
+Prove the wedge with a simple contribution model, then choose the scale model on an explicit trade-off, not a gut call.
+
+```
+Catchment adults              = 100,000         [ILLUSTRATIVE]
+Female share (70%)            = 70,000
+Fitness-intent, underserved (8%) = 5,600 prospects
+Capture yr 1 (10%)           = 560 members
+ARPU                         = Rs 2,000/month → Rs 24,000/yr
+Revenue                      = 560 × 24,000 = Rs 13.4M/yr
+Contribution after rent+staff+kit (say 30%) = ~Rs 4M/yr per club  → payback test
+```
+
+Scale-model trade-off (score, don't hand-wave):
+
+| Model | Pace of scale-up | Standardised experience | Capital intensity |
+|---|---|---|---|
+| Company-owned | Slow | High | High |
+| Franchise | Fast | Lower | Low |
+| Hybrid (own flagships, franchise fill-in) | Medium | Medium-high | Medium |
+
+**Diagnosis:** entry is attractive **because of a specific demand gap** (an underserved female majority), not generic "fitness is growing." The scale question is really a **standardisation-vs-speed trade-off**: the female-focused concept is the IP, so protect experience while you scale — a hybrid (owned flagships to hold the brand standard, franchised units for reach) usually dominates.
+
+### Recommendation
+Enter, positioned explicitly for the underserved segment; validate unit economics in the flagship; scale via a **hybrid** model — company-owned flagships to protect the concept, franchising to accelerate reach — and only in cities where the same segment gap exists.
+
+### Coaching notes
+- **What good looks like:** finds the segment wedge instead of sizing the whole gym market; builds a per-club contribution model; picks a scale model on an explicit 3-way trade-off.
+- **Red flags:** "the fitness market is big, so enter"; recommending national franchising before the flagship proves out; standardising away the very concept that differentiates.
+
+---
+
+## Case 10 — Commoditised Confectionery: Volume Drop Hiding in the Last Metre of Distribution
+**Archetype:** Profitability/volume decline where the answer is **not** demand or price — it's a physical distribution-push failure. The teaching case for *isolate along the value chain before you theorise about customers*.
+
+**Problem statement.** A confectionery maker selling a low-value commodity toffee (sub-rupee price point) through third-party distributors into large, medium, and mostly small retailers (paan/kiosk shops, ~60% of volume) faces a ~20% volume decline over 2–3 months. Market size is flat; the product is a commodity. Find the cause.
+
+### Opening structure (issue tree) — the Evolved move
+Don't jump from "profit down" to a Customer/Competition/Company scan. **Isolate along the value chain first**, then ask *what changed*:
+
+```
+Volume decline (price flat, market flat)
+├── Production issue?      can we make/ship as before?  → no change
+├── Distribution PUSH?     do distributors/retailers stock & present it?  ← isolate here
+│   ├── margins to trade vs. competitors → unchanged
+│   ├── reaching paan shops? → YES, still arriving
+│   └── reaching the customer FROM the paan shop? → NO  ← the break
+└── Customer PULL?         has demand/preference changed?  → no (commodity, flat market)
+```
+
+### The quantified spine
+Locate the 80% before theorising: which channel carries the drop?
+
+```
+Channel mix:  large 10% | medium 30% | small (paan) 60%
+Observed:     the entire volume decline sits in the paan-shop channel (~60% of volume)
+→ 80/20 says: analyse the small-retail last metre first, ignore the rest for now
+Root cause:   distributor switched to jars with NARROWER NECKS
+              → shopkeeper can't fish out toffees easily
+              → fewer handed to customers → volume falls, though stock still "arrives"
+```
+
+**Diagnosis:** a commodity with flat price and flat market almost never has a customer-preference story. The decline is a **distribution-push mechanics failure in the last metre** — a packaging change (narrow-neck jars) throttled the retailer's ability to dispense. You only reach it by isolating Production → Distribution-push → Customer-pull and asking *what changed*, instead of benchmarking product attributes customers don't care about.
+
+### Recommendation
+Revert/redesign the jar for easy single-unit dispensing at the counter; audit any recent packaging/logistics changes as the first suspect whenever a commoditised, well-distributed product loses volume with no price or market shift.
+
+### Coaching notes
+- **What good looks like:** rules out production, tests distribution-push before customer-pull, uses channel mix (80/20) to focus on paan shops, asks "what *changed*" rather than "what *exists*."
+- **Red flags:** benchmarking taste/price/packaging aesthetics on a commodity where customers are indifferent; trial-and-error guessing instead of MECE segmentation of the last metre; missing that "product arrives at the shop" ≠ "product reaches the customer."
+
+---
+
 ## How Claude should use this file
 1. **As interviewer:** pick a case, reveal data only when the candidate asks for the right node, grade against the coaching notes.
 2. **As coach:** compare a candidate's structure to the issue tree, push toward the quantified spine.
-3. **On a real problem:** pattern-match (BP device = influencer-economics in a channel; drone = cost-floor-vs-value-ceiling; pharma = idiosyncratic decline vs growing market; PE = returns-math discipline).
+3. **On a real problem:** pattern-match (BP device = influencer-economics in a channel; drone = cost-floor-vs-value-ceiling; pharma = idiosyncratic decline vs growing market; PE = returns-math discipline; packaged snacks = demand→capacity via service level; foam-mattress = regulatory shift as demand-migration lever; gym = underserved-segment wedge + standardise-vs-speed; confectionery = value-chain isolation to the last metre).
 4. Tag any number you add as **[ILLUSTRATIVE]**; show the math explicitly; sanity-check order of magnitude.

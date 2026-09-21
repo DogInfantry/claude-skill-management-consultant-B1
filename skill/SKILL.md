@@ -145,9 +145,37 @@ For engagement scoping and commercial work, read `references/commercial-contract
 - Risk allocation and limitation of liability
 - Procurement navigation
 
+## The Strategy Operating System
+
+Beyond one-off frameworks, you carry a single reusable engagement backbone — six stages that run in the same order every time, so the analysis compounds from one stage into the next:
+
+**Diagnose → Map → Choose → Execute → Govern → Communicate.**
+
+| Stage | What you do | Plays |
+|-------|-------------|-------|
+| Diagnose | Frame the real problem, baseline the situation, audit the load-bearing assumptions | Problem-Framing, Situation Assessment, Assumption Audit |
+| Map | Map the market and value chain, read the rivals, segment customers, locate the profit | Market Mapping, Competitive Intelligence, Customer Segmentation, Profit Pool Analysis |
+| Choose | Generate distinct options, price, build the case, prune the portfolio | Strategic Option Generation, Pricing Strategy, Business Case, Portfolio Review |
+| Execute | Design the operating model, prioritise the backlog, sequence the roadmap | Operating Model Design, Initiative Prioritisation, Transformation Roadmap |
+| Govern | Run the risks, war-game the plan, build the KPI scorecard | Risk Mitigation, War-Gaming, KPI Architecture |
+| Communicate | Align stakeholders, build the narrative, write the decision memo | Stakeholder Alignment, Narrative Builder, Decision Memo |
+
+Twenty-one modular plays sit on this spine — each with the framework behind it, the moment to reach for it, the outputs to produce, a move to push the thinking one level deeper, and the failure mode to avoid. **Run the full cycle** when the decision earns it (a market entry, a turnaround, a bet-the-quarter investment), pausing at each stage to feed learning forward. **Pull a single play off the shelf** when that is all the problem needs. Read `references/strategy-operating-system.md` for the full backbone, all 21 plays with their cross-links into the deeper library, and paste-ready versions.
+
 ## When to Read Reference Files
 
 The reference files contain deep knowledge for specific situations. Read them when you need them:
+
+### Strategy Operating System (Diagnose → Map → Choose → Execute → Govern → Communicate)
+| Situation | Read |
+|-----------|------|
+| Running a full six-stage engagement backbone on a big decision (market entry, turnaround, major investment) | `references/strategy-operating-system.md` |
+| Reframing a vague brief into one decision-oriented question; MECE situation assessment; auditing load-bearing assumptions | `references/strategy-operating-system.md` |
+| Mapping a market/value chain, predicting competitor moves, JTBD segmentation, or profit-pool migration | `references/strategy-operating-system.md` |
+| Generating genuinely distinct strategic options, value-based pricing architecture, a CFO-proof business case, or a 9-box/Three-Horizons portfolio review | `references/strategy-operating-system.md` |
+| Turning a choice into an operating model, a prioritised initiative shortlist, or a phased roadmap with a concrete first 90 days | `references/strategy-operating-system.md` |
+| Building a risk register with mitigations + contingencies, war-gaming against an adversarial rival, or a north-star KPI tree | `references/strategy-operating-system.md` |
+| Stakeholder power/interest alignment, a Pyramid Principle narrative, or a one-page decision memo with hostile Q&A | `references/strategy-operating-system.md` |
 
 ### Core Problem-Solving & Analysis
 | Situation | Read |
@@ -207,7 +235,8 @@ The reference files contain deep knowledge for specific situations. Read them wh
 | Situation | Read |
 |-----------|------|
 | Running or coaching a practice case; want a worked, quantified case with issue tree + math + coaching notes | `references/practice-cases-quantified.md` |
-| Guesstimate/market-sizing with explicit step-by-step math; framework issue trees (profitability, market entry, growth, pricing, M&A, PE) | `references/guesstimates-and-frameworks-quantified.md` |
+| Want breadth — a wide, sector-diverse bank of compact case drills (setup → structure → quantified spine → aha → trap) across profitability, market entry, pricing, deals, org/ops, and abstract/creative cases | `references/case-bank-worked.md` |
+| Guesstimate/market-sizing with explicit step-by-step math (ratio, supply-side capacity, network/route, growth+replacement, stock×replenishment, two-method reconcile); framework issue trees (profitability, market entry, growth, pricing, M&A, PE) | `references/guesstimates-and-frameworks-quantified.md` |
 | Interview-flavoured case bank — a curated practice menu (case universe by type) plus 14 fully worked interview classics (market entry, profitability, M&A, growth, pricing, ops, non-traditional) with vivid names + firm-style tags | `references/case-bank-interview-classics.md` |
 | Drilling the three case reflexes — fast case math (rounding, distributive, Rule of 72, margin bridges), exhibit/chart reading (6-step protocol + chart-type cheat sheet), and structuring drills with 90-second framework scaffolds | `references/case-cracking-drills.md` |
 | Running or coaching a mock — interviewer formats, end-to-end facilitation, the 5-dimension 1–4 scoring rubric, common-mistakes catalogue, deliberate-practice loop, and a case-log template | `references/case-facilitation-and-scoring.md` |
